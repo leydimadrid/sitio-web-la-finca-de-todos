@@ -1,3 +1,110 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+
+html {
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.bienvenidos{
+  background-color: rgba(47, 82, 160, 0.10);
+  background-image: url("assets/images/fondo-inicio-2.svg");
+  
+}
+
+
+.botonDonar, .botonLaFinca {
+  background-color: #E60064;
+}
+
+.botonDonar:hover, .botonLaFinca:hover {
+  background-color: #fc036f;
+}
+/*<---------Animación Slider--------->*/
+.slider {
+  width: 60%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider ul {
+  display: flex;
+  animation: cambio 20s infinite normal ease-in-out ;
+  width: 600%;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes cambio {
+  0%{margin-left: 0;}
+  25%{margin-left: -0%;}
+
+  30%{margin-left: -100%;}
+  40%{margin-left: -100%;}
+
+  45%{margin-left: -200%;}
+  55%{margin-left: -200%;}
+
+  60%{margin-left: -300%;}
+  70%{margin-left: -300%;}
+
+  75%{margin-left: -400%;}
+  85%{margin-left: -400%;}
+
+  90%{margin-left: -500%;}
+  100%{margin-left: -500%;}
+
+}
+
+/*<---------Animación Slider--------->*/
+
+.linea-fucsia {
+  height: 4px;
+  width: 50px;
+  background-color: #E60064;
+}
+
+.linea-verde {
+  height: 4px;
+  width: 50px;
+  background-color: #52AE32;
+}
+
+
+.parrafo-nuestra-mision {
+  margin: 0% 20% 0% 20%;
+}
+
+.equipo {
+  margin: 5% 10% 0% 10%;
+}
+
+.nuestraMision{
+  background-image: url("assets/images/fondo-nuestra-mision.svg");
+
+}
+
+.fondoFinca3d  {
+  background-image: url("assets/images/fondo-finca3d.svg");
+
+}
+
+.fondoAccesibilidad {
+  background-image: url("assets/images/fondo-accesibilidad.svg");
+
+}
+
+.cardSostenibilidad {
+  background-color: rgba(47, 82, 160, 0.10);
+}

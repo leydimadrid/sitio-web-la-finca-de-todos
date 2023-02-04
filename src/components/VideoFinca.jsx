@@ -1,0 +1,13 @@
+import videofinca from "../assets/videos/video-finca-3d.mp4";
+
+export const VideoFinca = () => {
+  return (
+    <section className="md:px-40 px-5 md:mt-10 mt-10">
+    <div className="flex justify-center md:mb-4 mb-10 shadow-md">    
+    <video controls muted autoPlay loop md:width="75%">
+          <source src={videofinca} />
+        </video>
+    </div>
+    </section>
+  );
+};
