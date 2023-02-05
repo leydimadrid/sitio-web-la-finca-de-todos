@@ -7,7 +7,7 @@ export const BotonDonar = () => {
       className="botonDonar text-white font-semibold hover:text-white py-2 px-4 border-2 rounded-xl inline-flex items-center ml-4 drop-shadow-lg"
     >
       <svg
-        className="mr-2 stroke-2 fill-white hover:fill-white "
+        className="mr-2 stroke-2 fill-white hover:fill-white"
         xmlns="http://www.w3.org/2000/svg"
         id="Outline"
         viewBox="0 0 24 24"
