@@ -1,6 +1,6 @@
-import { Accesibilidad } from "./Accesibilidad";
+import { Accesibilidad } from "../components/Accesibilidad";
 import { accesibilidad } from "../database/accesibilidad";
-import { PrincipiosSostenibilidad } from "./PrincipiosSostenibilidad";
+import { PrincipiosSostenibilidad } from "../components/PrincipiosSostenibilidad";
 import { principiosSostenibilidad } from "../database/principiosSostenibilidad";
 import { VideoFinca } from "../components/VideoFinca";
 
@@ -50,7 +50,7 @@ export const LaFinca = () => {
           <PrincipiosSostenibilidad
             key={item.id}
             imagen={item.imagen}
-            titulo={item.titulo}
+            parrafo={item.parrafo}
             alt={item.alt}
           />
         ))}

@@ -71,14 +71,20 @@ html {
 
 .linea-fucsia {
   height: 4px;
-  width: 50px;
+  width: 60px;
   background-color: #E60064;
 }
 
 .linea-verde {
   height: 4px;
-  width: 50px;
+  width: 60px;
   background-color: #52AE32;
+}
+
+.linea-azul{
+  height: 4px;
+  width: 60px;
+  background-color: #2F52A0;
 }
 
 

@@ -1,6 +1,6 @@
 
 
-export const PrincipiosSostenibilidad = ({ imagen, titulo, alt }) => {
+export const PrincipiosSostenibilidad = ({ imagen, parrafo, alt }) => {
   return (
     <section className="mt-6 max-w-sm p-4">
       <div className="bg-white">
@@ -9,7 +9,7 @@ export const PrincipiosSostenibilidad = ({ imagen, titulo, alt }) => {
       <img className="rounded-full shadow-lg" src={imagen} alt={alt}/>
       </div>
       <div className="px-4 py-2 text-center">
-        <h1 className="font-bold text-lg text-gray-800 leading-normal">{titulo}</h1>
+        <h1 className="font-bold text-lg text-gray-800 leading-normal">{parrafo}</h1>
       </div>
     </div>
     </div>
