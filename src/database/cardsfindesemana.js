@@ -37,7 +37,7 @@ export const cardsfindesemana = [
     {
       id: 6,
       imagen: "actividades-animales.jpg",
-      titulo: "Animales en la Granja",
+      titulo: "Animales en la granja",
       alt: "Animales en la Granja",
     },
 

@@ -110,3 +110,11 @@ html {
 .cardSostenibilidad, .fondoCardsActividades  {
   background-color: rgba(47, 83, 160, 0.082);
 }
+
+ .fondoFinDeSemana {
+  background-image: url("assets/images/fondo-fin-de-semana.svg");
+}
+
+.fondoSostenibilidad {
+  background-image: url("assets/images/fondo-sostenibilidad.svg");
+}

@@ -36,7 +36,7 @@ export const LaFinca = () => {
       </div>
       </section>
       </section>
-      <section>
+      <section className="fondoSostenibilidad md:bg-cover bg-auto bg-no-repeat">
       <div className="flex justify-center">
         <h1 className=" flex flex-col md:max-w-xl max-w-sm font-bold md:text-xl text-xl text-center mt-10 text-gray-800">
         Objetivos de Desarrollo Sostenible
