@@ -48,18 +48,13 @@ export const Equipo = () => {
               {" "}
               Docente para niños de primaria con retrasos de aprendizaje.
             </li>
-            <h1 className="mb-2 md:text-xl text-lg  font-semibold tracking-tight text-gray-800">
-              Diplomas
-            </h1>
-            <ul className="ml-4 list-disc font-normal md:text-xl text-base text-gray-800">
-              <li className="mb-2">
+            <li className="mb-2">
                 Licenciatura en ciencias de la comunicación de la Universidad de
                 Illinois en Urbana-Champaign.
               </li>
               <li>
                 Licenciatura en derecho de la Universidad de Wisconsin-Madison.
               </li>
-            </ul>
           </ul>
         </div>
       </div>

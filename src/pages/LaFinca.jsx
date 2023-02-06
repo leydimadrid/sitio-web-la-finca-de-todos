@@ -1,5 +1,4 @@
 import { Accesibilidad } from "./Accesibilidad";
-import videoFinca3d from "../assets/videos/video-finca-3d.mp4";
 import { accesibilidad } from "../database/accesibilidad";
 import { PrincipiosSostenibilidad } from "./PrincipiosSostenibilidad";
 import { principiosSostenibilidad } from "../database/principiosSostenibilidad";
@@ -8,7 +7,7 @@ import { VideoFinca } from "../components/VideoFinca";
 export const LaFinca = () => {
   return (
     <div>
-      <section id="lafinca" className="fondoFinca3d md:bg-auto bg-auto bg-no-repeat">
+      <section id="lafinca" className="fondoFinca3d md:bg-contain bg-auto bg-no-repeat">
         <div className="flex justify-center">
           <h1 className="md:max-w-lg max-w-sm font-bold md:text-2xl text-xl text-center md:pt-36 pt-28 text-gray-800">
             Modelo 3D de la finca y sus edificaciones
@@ -19,13 +18,13 @@ export const LaFinca = () => {
       </section>
       <section className="fondoAccesibilidad md:bg-cover bg-contain bg-no-repeat">
       <div className="flex justify-center">
-        <h1 className="md:max-w-sm max-w-xs font-bold md:text-2xl text-xl text-center md:mt-14 text-gray-800">
+        <h1 className="md:max-w-sm max-w-xs font-bold md:text-2xl text-xl text-center md:mt-14 mt-6 text-gray-800">
           Consideraciones de accesibilidad
         </h1>
       </div>
       <hr className="linea-fucsia mx-auto mt-2"></hr>
-      <section className="md:px-40 px-5 md:py-6">
-      <div className="cardsAccesibilidad mx-auto flex flex-wrap">
+      <section className="md:py-6">
+      <div className="flex flex-wrap place-content-center">
         {accesibilidad.map((item) => (
           <Accesibilidad
             key={item.id}
@@ -45,8 +44,8 @@ export const LaFinca = () => {
         </h1>
       </div>
       <hr className="linea-fucsia mx-auto mt-2"></hr>
-      <section className="md:px-40 px-5 md:py-6">
-      <div className="cardsAccesibilidad mx-auto flex flex-wrap md:mb-4 mb-10">
+      <section className="md:py-6">
+      <div className="flex flex-wrap md:mb-4 mb-10 place-content-center">
         {principiosSostenibilidad.map((item) => (
           <PrincipiosSostenibilidad
             key={item.id}

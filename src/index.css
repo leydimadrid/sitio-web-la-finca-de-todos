@@ -10,7 +10,7 @@ html {
   }
 
 .bienvenidos{
-  background-color: rgba(47, 82, 160, 0.10);
+  background-color: rgba(47, 83, 160, 0.082);
   background-image: url("assets/images/fondo-inicio-2.svg");
   
 }
@@ -91,6 +91,7 @@ html {
 }
 
 .nuestraMision{
+  background-color: rgba(47, 83, 160, 0.082);
   background-image: url("assets/images/fondo-nuestra-mision.svg");
 
 }
@@ -101,10 +102,11 @@ html {
 }
 
 .fondoAccesibilidad {
+  background-color: rgba(47, 83, 160, 0.082);
   background-image: url("assets/images/fondo-accesibilidad.svg");
 
 }
 
-.cardSostenibilidad {
-  background-color: rgba(47, 82, 160, 0.10);
+.cardSostenibilidad, .fondoCardsActividades  {
+  background-color: rgba(47, 83, 160, 0.082);
 }

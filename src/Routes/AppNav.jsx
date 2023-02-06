@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { Inicio } from "../pages/Inicio";
 import { Nosotros } from "../pages/Nosotros";
 import { LaFinca } from "../pages/LaFinca";
-import { Accesibilidad } from "../pages/Accesibilidad";
+import { FinDeSemana } from "../pages/FinDeSemana";
 
 export const AppNav = () => {
 
@@ -11,6 +11,7 @@ export const AppNav = () => {
         <Route path="/*" element={<Inicio/>} />
         <Route path="/nosotros" element={<Nosotros/>} />
         <Route path="/lafinca" element={<LaFinca/>} />
+        <Route path="/findesemana" element={<FinDeSemana/>} />
       </Routes>
 
   )
