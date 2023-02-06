@@ -9,7 +9,7 @@ export const PrincipiosSostenibilidad = ({ imagen, parrafo, alt }) => {
       <img className="rounded-full shadow-lg" src={imagen} alt={alt}/>
       </div>
       <div className="px-4 py-2 text-center">
-        <h1 className="font-bold text-lg text-gray-800 leading-normal">{parrafo}</h1>
+        <p className="font-bold text-lg text-gray-800 leading-normal">{parrafo}</p>
       </div>
     </div>
     </div>

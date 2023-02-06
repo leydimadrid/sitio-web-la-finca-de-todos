@@ -5,7 +5,7 @@ import iconotelefono from "../assets/images/icono-telefono.svg";
 import iconoinstagram from "../assets/images/icono-instagram.svg";
 import iconofacebook from "../assets/images/icono-facebook.svg";
 import iconoemail from "../assets/images/icono-email.svg";
-import { Infografia } from "../components/Infografia";
+import { InfografiaDiscapacidad } from "../components/InfografiaDiscapacidad";
 
 export const Nosotros = () => {
   return (
@@ -28,7 +28,7 @@ export const Nosotros = () => {
         </div>
         <Slider />
       </section>
-      <Infografia/>
+      <InfografiaDiscapacidad/>
       <div className="text-center pt-10 md:text-2xl text-xl">
         <BotonDonar/>
       </div>

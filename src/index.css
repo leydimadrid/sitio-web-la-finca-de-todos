@@ -124,3 +124,8 @@ html {
 .fondoSostenibilidad {
   background-image: url("assets/images/fondo-sostenibilidad.svg");
 }
+
+.fondoTalleres {
+  background-color: #f9f9f9;
+  background-image: url("assets/images/fondo-categoria-talleres.svg");
+}

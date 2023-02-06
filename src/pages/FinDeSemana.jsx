@@ -13,7 +13,7 @@ export const FinDeSemana = () => {
           </div>
           <hr className="linea-fucsia mx-auto mt-2"></hr>
         </section>
-        <section className="md:py-6 mt-4 md:mb-4 mb-10">
+        <section className="md:py-6 px-2 mt-4 md:mb-4 mb-10">
           <div className="flex flex-wrap place-content-center">
             {cardsfindesemana.map((item) => (
               <CardsFinDeSemana

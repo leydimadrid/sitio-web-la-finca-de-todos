@@ -1,12 +1,13 @@
 import { CardsTalleres } from "../components/CardsTalleres";
+import { InfografiaPasaDia } from "../components/InfografiaPasaDia";
 import { cardstalleres } from "../database/cardstalleres";
 
 export const TalleresPedagogicos = () => {
   return (
-    <>
+    <div>
       <section className="bg-white">
         <div>
-          <h1 className="font-bold md:text-2xl text-xl text-center md:pt-36 text-gray-800">
+          <h1 className="font-bold md:text-2xl text-xl text-center md:pt-36 pt-24 text-gray-800">
             Idea/Misión
           </h1>
           <hr className="linea-fucsia mx-auto mt-2"></hr>
@@ -25,14 +26,14 @@ export const TalleresPedagogicos = () => {
           </p>{" "}
         </div>
       </section>
-      <section className="bg-white">
+      <section className="fondoTalleres md:bg-cover bg-cover bg-no-repeat">
         <div>
-          <h1 className="font-bold md:text-2xl text-xl text-center md:pt-36 text-gray-800">
+          <h1 className="font-bold md:text-2xl text-xl text-center pt-10 text-gray-800">
           Categorías de talleres
           </h1>
           <hr className="linea-azul mx-auto mt-2"></hr>
         </div>
-        <section className="md:py-6 mt-4 md:mb-4 mb-10">
+        <section className="md:py-6 px-4 mt-4 md:mb-4 mb-10">
           <div className="flex flex-wrap place-content-center">
             {cardstalleres.map((item) => (
               <CardsTalleres
@@ -46,6 +47,7 @@ export const TalleresPedagogicos = () => {
           </div>
         </section>
       </section>
-    </>
+      <InfografiaPasaDia/>
+    </div>
   );
 };
