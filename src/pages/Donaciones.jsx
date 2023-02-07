@@ -1,5 +1,5 @@
 import imagenDonaciones from "../assets/images/imagen-donaciones.jpg";
-import { BotonDonar } from "../components/BotonDonar";
+import { BotonAhora } from "../components/BotonAhora";
 
 export const Donaciones = () => {
   return (
@@ -21,7 +21,7 @@ export const Donaciones = () => {
             La Fundación La Finca de Todos es una Entidad sin Ánimo de Lucro,
             número de registro XXXX.
             <div className="text-center pt-10 md:text-2xl text-xl">
-              <BotonDonar />
+              <BotonAhora />
             </div>
           </p>
         </div>
