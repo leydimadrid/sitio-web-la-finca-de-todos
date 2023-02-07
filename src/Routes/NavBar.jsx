@@ -29,7 +29,7 @@ export const NavBar = () => {
             <Link to="/talleres">Talleres pedagógicos</Link>
             </li>
           <li className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800">
-            <Link to="/Ubicacion">Ubicación</Link>
+            <Link to="/ubicacion">Ubicación</Link>
           </li>
           <li className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800">
             <Link to="/Contacto">Contacto</Link>

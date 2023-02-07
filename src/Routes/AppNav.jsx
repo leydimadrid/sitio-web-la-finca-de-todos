@@ -4,6 +4,7 @@ import { Nosotros } from "../pages/Nosotros";
 import { LaFinca } from "../pages/LaFinca";
 import { FinDeSemana } from "../pages/FinDeSemana";
 import { TalleresPedagogicos } from "../pages/TalleresPedagogicos";
+import { Ubicacion } from "../pages/Ubicacion";
 
 export const AppNav = () => {
 
@@ -14,6 +15,7 @@ export const AppNav = () => {
         <Route path="/lafinca" element={<LaFinca/>} />
         <Route path="/findesemana" element={<FinDeSemana/>} />
         <Route path="/talleres" element={<TalleresPedagogicos/>} />
+        <Route path="/ubicacion" element={<Ubicacion/>} />
       </Routes>
 
   )

@@ -126,6 +126,13 @@ html {
 }
 
 .fondoTalleres {
-  background-color: #f9f9f9;
   background-image: url("assets/images/fondo-categoria-talleres.svg");
+}
+
+.fondoAsistirTalleres {
+  background-image: url("assets/images/fondo-asistir-talleres.svg");
+}
+
+.fondoUbicacion {
+  background-image: url("assets/images/fondo-ubicacion.svg");
 }
