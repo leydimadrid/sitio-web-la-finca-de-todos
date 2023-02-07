@@ -69,6 +69,17 @@ export const InfografiaDiscapacidad = () => {
           </p>
         </div>
       </section>
+      <section className="md:flex flex-col justify-center">
+        <div className="flex justify-center">
+          <h1 className="bg-blue-900 py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 px-3 md:mx-0 mx-auto mb-4">
+            ¿CUÁNTOS SOMOS?
+          </h1> </div>
+          <div>
+          <p className="max-w-sm md:text-xl text-base mb-4 mx-auto">
+          Población de Colombia <span className="font-bold">51.5 millones</span>  de personas. 
+          </p>
+        </div>
+      </section>
     </section>
   );
 };
