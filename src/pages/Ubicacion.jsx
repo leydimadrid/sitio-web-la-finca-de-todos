@@ -17,7 +17,7 @@ export const Ubicacion = () => {
         </div>
         <div className="md:m-1">
           {" "}
-          <img className="p-4" src={imagenUbicacion} />
+          <img className="p-4" src={imagenUbicacion} alt="Hombre en silla de ruedas, subiendo a un carro accesible"/>
         </div>
       </div>
     </section>

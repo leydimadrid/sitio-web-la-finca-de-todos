@@ -7,7 +7,7 @@ export const Donaciones = () => {
       <div className="md:flex flex-row items-center justify-center pt-20">
         <div className="md:m-1">
           {" "}
-          <img className="p-4" src={imagenDonaciones} />
+          <img className="p-4" src={imagenDonaciones} alt="Niña con Síndrome de Down sonriendo" />
         </div>
         <div className="max-w-xl md:p-6 p-8">
           <p className="text-gray-800 md:text-xl text-base text-center">

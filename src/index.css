@@ -16,7 +16,7 @@ html {
 }
 
 
-.botonDonar, .botonLaFinca {
+.botonDonar, .botonLaFinca, .FondoFucsiaInfografia, .FondoFucsiaTalleres {
   background-color: #E60064;
 }
 
@@ -87,6 +87,10 @@ html {
   background-color: #2F52A0;
 }
 
+.linea-amarilla{
+  background-color: #F39200;
+}
+
 
 .parrafo-nuestra-mision {
   margin: 0% 20% 0% 20%;
@@ -137,6 +141,7 @@ html {
   background-image: url("assets/images/fondo-ubicacion.svg");
 }
 
-.colorTextoDonaciones {
+.colorTextoDonaciones{
   color:#E60064;
 }
+

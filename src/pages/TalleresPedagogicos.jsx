@@ -52,7 +52,7 @@ export const TalleresPedagogicos = () => {
       <InfografiaPasaDia />
       <section className="fondoAsistirTalleres md:bg-cover bg-auto bg-no-repeat">
         <div className="flex justify-center pt-10">
-          <h1 className="bg-pink-600 py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-96 px-3">
+          <h1 className="FondoFucsiaTalleres py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-96 px-3">
             ¿Cómo asistir a los talleres?
           </h1>
         </div>
