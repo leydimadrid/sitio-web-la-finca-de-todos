@@ -136,3 +136,7 @@ html {
 .fondoUbicacion {
   background-image: url("assets/images/fondo-ubicacion.svg");
 }
+
+.colorTextoDonaciones {
+  color:#E60064;
+}

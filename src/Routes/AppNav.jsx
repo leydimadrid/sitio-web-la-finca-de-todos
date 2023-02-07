@@ -5,6 +5,7 @@ import { LaFinca } from "../pages/LaFinca";
 import { FinDeSemana } from "../pages/FinDeSemana";
 import { TalleresPedagogicos } from "../pages/TalleresPedagogicos";
 import { Ubicacion } from "../pages/Ubicacion";
+import { Donaciones } from "../pages/Donaciones";
 
 export const AppNav = () => {
 
@@ -16,6 +17,7 @@ export const AppNav = () => {
         <Route path="/findesemana" element={<FinDeSemana/>} />
         <Route path="/talleres" element={<TalleresPedagogicos/>} />
         <Route path="/ubicacion" element={<Ubicacion/>} />
+        <Route path="/donaciones" element={<Donaciones/>} />
       </Routes>
 
   )
