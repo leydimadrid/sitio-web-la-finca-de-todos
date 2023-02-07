@@ -4,6 +4,7 @@ import lineaDiscontinua2Izquierda from "../assets/images/linea-discontinua-2-izq
 import lineaDiscontinua2Derecha from "../assets/images/linea-discontinua-2-derecha.svg";
 import lineaDerechoDiscapacidad from "../assets/images/linea-derecho-discapacidad.svg";
 import lineaDiscontinuaLarga from "../assets/images/linea-discontinua-larga.svg";
+import lineaDiscontinua3 from "../assets/images/linea-discontinua3.svg";
 import vector1 from "../assets/images/vector1-discapacidad.svg";
 import vector2 from "../assets/images/vector2-discapacidad.svg";
 import vector3 from "../assets/images/vector-3-discapacidad.svg";
@@ -183,30 +184,60 @@ export const InfografiaDiscapacidad = () => {
           </div>
           <div className="mt-8 mb-8">
             <img src={lineaDiscontinuaLarga} alt="Lineas discontinuas" />
-            <p className="md:max-w-xs max-w-sm md:text-xl text-base text-center  md:mx-0 mx-auto text-gray-800">
-              En{" "}
-              <span className="text-blue-900 md:text-xl text-lg font-bold ">
-                Cali{" "}
-              </span>
-              se registraron{" "}
-              <span className="text-blue-900 md:text-xl text-lg font-bold ">
-                55,454{" "}
-              </span> personas con discapacidad.
-            </p>
-            <p className="md:max-w-xs max-w-sm md:text-xl text-base text-center mt-4 md:mx-0 mx-auto text-gray-800">
-              En{" "}
-              <span className="text-pink-600 md:text-xl text-lg font-bold ">
-                Valle del Cauca{" "}
-              </span>
-              se registraron{" "}
-              <span className="text-pink-600 md:text-xl text-lg font-bold">
-              49,423{" "}
-              </span> personas con discapacidad.
-            </p>
+            <div className="md:pl-60">
+              <p className="md:max-w-xs max-w-sm md:text-xl text-base text-center  md:mx-0 mx-auto text-gray-800">
+                En{" "}
+                <span className="text-blue-900 md:text-xl text-lg font-bold ">
+                  Cali{" "}
+                </span>
+                se registraron{" "}
+                <span className="text-blue-900 md:text-xl text-lg font-bold ">
+                  55,454{" "}
+                </span>{" "}
+                personas con discapacidad.
+              </p>
+              <p className="md:max-w-xs max-w-sm md:text-xl text-base text-center mt-4 md:mx-0 mx-auto text-gray-800">
+                En{" "}
+                <span className="text-pink-600 md:text-xl text-lg font-bold ">
+                  Valle del Cauca{" "}
+                </span>
+                se registraron{" "}
+                <span className="text-pink-600 md:text-xl text-lg font-bold">
+                  49,423{" "}
+                </span>{" "}
+                personas con discapacidad.
+              </p>
+              <img
+                className="mx-auto mt-4"
+                src={lineaDiscontinua3}
+                alt="Lineas discontinuas"
+              />
+            </div>
           </div>
         </div>
       </section>
       {/* Final dónde estamos */}
+
+      {/* Inicio cómo estamos */}
+      <section>
+        <div>
+          <h1 className="bg-blue-900 py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 px-3 md:mx-0 mx-auto mb-4">
+            ¿CÓMO ESTAMOS?
+          </h1>
+          <p className="max-w-xl md:text-xl text-base mb-4 text-gray-800 text-right">
+            <span className="font-bold">“</span>Al interactuar con diversas
+            barreras incluyendo las actitudinales, las personas con
+            discapacidades pueden sentirse impedidos de la {" "}
+            <span className="font-bold">participación plena</span> plena y{" "}
+            <span className="font-bold">efectiva</span> en la{" "}
+            <span className="font-bold">sociedad</span>, en{" "}
+            <span className="font-bold">igualdad</span> de
+            <span className="font-bold">condiciones</span> con las{" "}
+            <span className="font-bold">demás”.</span>
+          </p>{" "}
+        </div>
+      </section>
+      {/* Final cómo estamos */}
     </section>
   );
 };
