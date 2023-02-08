@@ -56,10 +56,10 @@ export const InfografiaDiscapacidad = () => {
               <span className="font-semibold">retos adicionales</span> que
               enfrentar.
             </p>
-            <p className="md:text-xl max-w-xs text-base mb-4 mx-auto text-gray-800">
+            <p className="md:text-xl max-w-xs text-base mb-4 mx-auto text-gray-800 md:mx-0">
               Podemos tener una discapacidad:
             </p>
-            <div className="flex mx-auto max-w-xs">
+            <div className="flex mx-auto md:mx-0 max-w-xs">
               <ul className="ml-4 list-disc md:text-xl text-base text-gray-800 px-4">
                 <li>Auditiva</li>
                 <li>Intelectual</li>
@@ -230,7 +230,7 @@ export const InfografiaDiscapacidad = () => {
               <div className="mt-8">
                 <img
                   src={vector3}
-                  alt="Personas con diferentes discapacidades"
+                  alt="Mapa de Colombia"
                 />
               </div>
             </div>
@@ -349,8 +349,8 @@ export const InfografiaDiscapacidad = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-8 px-8">
-              <img src={vector4} alt="Personas con diferentes discapacidades" />
+            <div className="mt-8 px-10">
+              <img src={vector4} alt="Escaleras, señalización y libro en braille para personas con discapacid" />
             </div>
             {/* Linea discontinua oculta para MD */}
             <div className="w-3/5 mx-auto md:hidden flex justify-center mt-4">
@@ -392,7 +392,7 @@ export const InfografiaDiscapacidad = () => {
               <img src={vector5} alt="Personas con diferentes discapacidades" />
             </div>
             <div className="flex justify-end">
-              <div className="max-w-2xl mt-4 mr-10 ">
+              <div className="max-w-2xl mt-4 mr-10 mb-10">
                 <p className="md:text-xl text-base text-gray-800 ml-10 text-right">
                   <span className="text-blue-900 font-bold">
                     La Finca de Todos{" "}
