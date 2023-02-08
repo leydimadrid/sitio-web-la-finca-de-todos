@@ -1,15 +1,14 @@
-<svg width="559" height="133" viewBox="0 0 559 133" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="397" height="133" viewBox="0 0 397 133" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_557_1072)">
-<path d="M552.39 127.74V124.74" stroke="#3C3C3B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M552.39 118.99V6.87012" stroke="#3C3C3B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5.75 5.75"/>
-<path d="M552.39 4V1H549.39" stroke="#3C3C3B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M543.4 1H7" stroke="#3C3C3B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5.99 5.99"/>
-<path d="M4 1H1" stroke="#3C3C3B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M546.32 126.93H558.47L552.39 133L546.32 126.93Z" fill="#3C3C3B"/>
+<path d="M390.39 127.74V124.74" stroke="#3C3C3B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M390.39 118.99V6.87012" stroke="#3C3C3B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5.75 5.75"/>
+<path d="M390.39 4V1H387.39" stroke="#3C3C3B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M381 1.00003L1 1" stroke="#3C3C3B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5.99 5.99"/>
+<path d="M384.32 126.93H396.47L390.39 133L384.32 126.93Z" fill="#3C3C3B"/>
 </g>
 <defs>
 <clipPath id="clip0_557_1072">
-<rect width="558.47" height="133" fill="white"/>
+<rect width="397" height="133" fill="white"/>
 </clipPath>
 </defs>
 </svg>

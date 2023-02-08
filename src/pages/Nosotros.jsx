@@ -10,7 +10,7 @@ import { InfografiaDiscapacidad } from "../components/InfografiaDiscapacidad";
 export const Nosotros = () => {
   return (
     <>
-      <section className="nuestraMision md:bg-contain bg-auto bg-no-repeat">
+      <section className="nuestraMision md:bg-contain bg-auto bg-no-repeat pt-24">
         <div>
           <h1 className="font-bold md:text-2xl text-xl text-center md:pt-36 text-gray-800">
             Nuestra Misión
