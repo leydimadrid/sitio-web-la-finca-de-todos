@@ -211,7 +211,7 @@ export const InfografiaDiscapacidad = () => {
         {/* Inicio dónde estamos */}
         <section>
           <div className="flex flex-col items-center md:flex-row">
-            <div className="md:ml-10 mt-10">
+            <div className="md:ml-10 mt-4 md:mt-0">
               <h1 className="FondoFucsiaInfografia py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 px-3 md:mx-0 mx-auto mb-4">
                 ¿DÓNDE ESTAMOS?
               </h1>
@@ -237,7 +237,7 @@ export const InfografiaDiscapacidad = () => {
             </div>
             {/* Linea discontinua oculta para MD */}
             <div>
-              <div className="md:flex hidden">
+              <div className="md:flex hidden pt-20">
                 <img src={lineaDiscontinuaLarga} alt="Lineas discontinuas" />
               </div>
               <div className="md:pl-40 mt-4">
@@ -308,24 +308,55 @@ export const InfografiaDiscapacidad = () => {
               </p>{" "}
             </div>
           </div>
-          <div className="bg-pink-100 flex flex-col md:flex-row">
-            <div>
-              <h1 className="text-pink-600 font-bold md:text-2xl text-xl">
+          <div className="flex flex-col md:flex-row bg-slate-400">
+            <div className="mt-4 mr-4">
+              <h1 className="text-pink-600 font-bold md:text-2xl text-xl ml-10">
                 Enfrentamos
               </h1>
-              <p className="md:text-xl text-base">Varios retos al salir de casa</p>
-              <ul className="list disc max-w-xl md:text-xl text-base mb-4 text-gray-800">
+              <p className="md:text-xl text-base text-gray-800 ml-10">
+                varios retos al salir de casa
+              </p>
+              <ul className="list-disc md:text-xl text-base text-gray-800 px-4 max-w-xl ml-10 mt-4">
                 <li>
-                  Calles o aceras irregulares, barreras arquitectónicas que
-                  imposibilitan nuestro acceso a espacios públicos o privados.
+                  Calles o aceras irregulares, barreras arquitectónicas que{" "}
+                  <span className="font-bold">
+                    imposibilitan nuestro acceso a espacios públicos o privados.
+                  </span>
                 </li>
-                
-                <li>Falta de Tecnología Inclusiva como braille, lectores de pantalla y señales auditivas. </li>{" "}
-                <li>Miradas o preguntas que disminuyen nuestra confianza para salir y explorar nuestro propio entorno .</li>
-              </ul>{" "}
+                <li>
+                  <span className="font-bold">
+                    Falta de Tecnología Inclusiva
+                  </span>{" "}
+                  como braille, lectores de pantalla y señales auditivas.
+                </li>
+                <li>
+                  <span className="font-bold">Miradas o preguntas </span>que
+                  disminuyen nuestra confianza para salir y explorar nuestro
+                  propio entorno .
+                </li>
+              </ul>
+              <div className="flex md:justify-center justify-end mt-8">
+                <div className=" md:w-2/5 w-2/4 mx-auto md:mx-0 md:mr-40">
+                  <img src={lineaDiscontinua} alt="Lineas discontinuas" />
+                </div>
+              </div>
             </div>
             <div className="mt-8">
               <img src={vector4} alt="Personas con diferentes discapacidades" />
+            </div>
+          </div>
+          <div className="bg-pink-100 flex flex-col md:flex-row">
+            <div className="max-w-xl">
+          <p className="md:text-xl text-base text-gray-800 ml-10">
+            El Ministerio de la Igualdad se formó en el 2023 para mitigar los
+            desequilibrios sociales y la inequidad. La vice presidenta Francia
+            Márquez dijo que mi igualdad será “un mecanismo para avanzar en la
+            reducción efectiva de las brechas de desigualdad e inequidad en
+            Colombia”.
+          </p>
+          </div>
+          <div className="md:flex hidden mt-16">
+              <img src={lineaDiscontinuaLarga2} alt="Lineas discontinuas" />
             </div>
           </div>
         </section>
