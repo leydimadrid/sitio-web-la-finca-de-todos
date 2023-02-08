@@ -11,11 +11,13 @@ import vector1 from "../assets/images/vector1-discapacidad.svg";
 import vector2 from "../assets/images/vector2-discapacidad.svg";
 import vector3 from "../assets/images/vector-3-discapacidad.svg";
 import vector4 from "../assets/images/vector-4-discapacidad.svg";
+import vector5 from "../assets/images/vector-5-discapacidad.svg";
 
 export const InfografiaDiscapacidad = () => {
   return (
-    <section className="flex justify-center">
-      <div className="bg-gray-200 md:w-3/5">
+    <section className="fondoInfografiaDiscapacidad  md:bg-auto bg-cover">
+    <div className="flex justify-center">
+      <div className="md:w-3/5">
         {/* Inicio Título infografía */}
         <div className="p-4">
           <h1 className="font-bold md:text-6xl text-3xl text-center md:pt-36 text-blue-900">
@@ -30,7 +32,7 @@ export const InfografiaDiscapacidad = () => {
           <p className="text-gray-800 font-normal md:text-xl text-base max-w-4xl text-justify">
             Colombia forma parte de la Convención de Naciones Unidas sobre los
             Derechos de las Personas con Discapacidad desde el{" "}
-            <span className="font-bold">2011 </span>para promover su plena
+            <span className="font-semibold">2011 </span>para promover su plena
             participación en todos los ámbitos de la vida.
           </p>
         </div>
@@ -49,9 +51,9 @@ export const InfografiaDiscapacidad = () => {
               ¿QUIÉNES SOMOS?
             </h1>
             <p className="max-w-md md:text-xl text-base mb-4 mx-auto text-gray-800">
-              Somos <span className="font-bold">igual</span> a los demás{" "}
-              <span className="font-bold">Colombianos</span> con unos{" "}
-              <span className="font-bold">retos adicionales</span> que
+              Somos <span className="font-semibold">igual</span> a los demás{" "}
+              <span className="font-semibold">Colombianos</span> con unos{" "}
+              <span className="font-semibold">retos adicionales</span> que
               enfrentar.
             </p>
             <p className="md:text-xl max-w-xs text-base mb-4 mx-auto text-gray-800">
@@ -85,7 +87,7 @@ export const InfografiaDiscapacidad = () => {
             </div>
             <div>
               <p className="md:max-w-md max-w-sm md:text-xl text-base md:mx-0 mx-auto text-gray-800">
-                <span className="text-blue-900 md:text-5xl text-4xl font-bold ">
+                <span className="text-blue-900 md:text-5xl text-4xl font-semibold ">
                   15%{" "}
                 </span>
                 de las personas registradas manifestó ser víctima del conflicto
@@ -116,7 +118,8 @@ export const InfografiaDiscapacidad = () => {
             <div className="max-w-sm md:max-w-sm md:mx-0 mx-auto md:text-left text-center">
               <p className="md:text-xl text-base mb-4 text-gray-800">
                 Población de Colombia{" "}
-                <span className="font-bold">51.5 millones</span> de personas.
+                <span className="font-semibold">51.5 millones</span> de
+                personas.
               </p>
               <div className="md:px-0 mt-8">
                 <img
@@ -142,7 +145,7 @@ export const InfografiaDiscapacidad = () => {
                   23%{" "}
                 </span>
                 de las personas con discapacidades son menores de{" "}
-                <span className="font-bold">27 años.</span>
+                <span className="font-semibold">27 años.</span>
               </p>
             </div>
             <div className="md:flex justify-center mb-8 mx-4 hidden">
@@ -187,7 +190,7 @@ export const InfografiaDiscapacidad = () => {
           <div className="flex justify-center mt-4">
             <p className="md:max-w-sm max-w-sm md:text-xl text-base text-center text-gray-800">
               Por falta de datos se estima que las{" "}
-              <span className="font-bold">personas con discapacidad</span>{" "}
+              <span className="font-semibold">personas con discapacidad</span>{" "}
               superan el{" "}
               <span className="text-pink-600 md:text-2xl text-base font-bold">
                 {" "}
@@ -215,11 +218,11 @@ export const InfografiaDiscapacidad = () => {
               <h1 className="FondoFucsiaInfografia py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 px-3 md:mx-0 mx-auto mb-4">
                 ¿DÓNDE ESTAMOS?
               </h1>
-              <div className="max-w-sm md:text-xl mx-auto md:mx-0">
-                <p className="text-base mb-4 text-gray-800">
+              <div className="max-w-md md:text-xl mx-auto md:mx-0">
+                <p className="md:text-xl text-base mb-4 text-gray-800">
                   Las entidades territoriales con mayor número de personas con
                   discapacidad son{" "}
-                  <span className="font-bold">
+                  <span className="font-semibold">
                     Bogotá, Antioquia, Huila, Santander y Cali.
                   </span>
                 </p>{" "}
@@ -289,26 +292,31 @@ export const InfografiaDiscapacidad = () => {
             <div className="md:flex hidden mt-16">
               <img src={lineaDiscontinuaLarga2} alt="Lineas discontinuas" />
             </div>
-            <div className="mt-10">
+            <div className="mt-10 ml-6">
               <div className="flex justify-end">
                 <h1 className="bg-blue-900 py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 px-3 md:mx-0 mx-auto mb-4">
                   ¿CÓMO ESTAMOS?
                 </h1>
               </div>
-              <p className="max-w-xl md:text-xl text-base mb-4 text-gray-800 text-right">
-                <span className="font-bold">“</span>Al interactuar con diversas
-                barreras incluyendo las actitudinales, las personas con
+              <p className="max-w-xl md:text-xl text-base mb-4 text-gray-800 md:text-right">
+                <span className="font-semibold">“</span>Al interactuar con
+                diversas barreras incluyendo las actitudinales, las personas con
                 discapacidades pueden sentirse impedidos de la{" "}
-                <span className="font-bold">participación plena</span> plena y{" "}
-                <span className="font-bold">efectiva</span> en la{" "}
-                <span className="font-bold">sociedad</span>, en{" "}
-                <span className="font-bold">igualdad</span> de
-                <span className="font-bold">condiciones</span> con las{" "}
-                <span className="font-bold">demás”.</span>
+                <span className="font-semibold">participación plena</span> plena
+                y <span className="font-semibold">efectiva</span> en la{" "}
+                <span className="font-semibold">sociedad</span>, en{" "}
+                <span className="font-semibold">igualdad</span> de
+                <span className="font-semibold">condiciones</span> con las{" "}
+                <span className="font-semibold">demás”.</span>
               </p>{" "}
             </div>
           </div>
-          <div className="flex flex-col md:flex-row bg-slate-400">
+          {/* Linea discontinua oculta para MD */}
+          <div className="w-3/5 mx-auto md:hidden flex justify-center">
+            <img src={lineaDerechoDiscapacidad} alt="Lineas discontinuas" />
+          </div>
+          {/* Linea discontinua oculta para MD */}
+          <div className="flex flex-col md:flex-row">
             <div className="mt-4 mr-4">
               <h1 className="text-pink-600 font-bold md:text-2xl text-xl ml-10">
                 Enfrentamos
@@ -319,49 +327,144 @@ export const InfografiaDiscapacidad = () => {
               <ul className="list-disc md:text-xl text-base text-gray-800 px-4 max-w-xl ml-10 mt-4">
                 <li>
                   Calles o aceras irregulares, barreras arquitectónicas que{" "}
-                  <span className="font-bold">
+                  <span className="font-semibold">
                     imposibilitan nuestro acceso a espacios públicos o privados.
                   </span>
                 </li>
                 <li>
-                  <span className="font-bold">
+                  <span className="font-semibold">
                     Falta de Tecnología Inclusiva
                   </span>{" "}
                   como braille, lectores de pantalla y señales auditivas.
                 </li>
                 <li>
-                  <span className="font-bold">Miradas o preguntas </span>que
+                  <span className="font-semibold">Miradas o preguntas </span>que
                   disminuyen nuestra confianza para salir y explorar nuestro
                   propio entorno .
                 </li>
               </ul>
-              <div className="flex md:justify-center justify-end mt-8">
-                <div className=" md:w-2/5 w-2/4 mx-auto md:mx-0 md:mr-40">
+              <div className="flex md:justify-center mt-8">
+                <div className=" md:w-2/5 w-2/4 mx-auto md:mx-0 md:flex hidden">
                   <img src={lineaDiscontinua} alt="Lineas discontinuas" />
                 </div>
               </div>
             </div>
-            <div className="mt-8">
+            <div className="mt-8 px-8">
               <img src={vector4} alt="Personas con diferentes discapacidades" />
             </div>
+            {/* Linea discontinua oculta para MD */}
+            <div className="w-3/5 mx-auto md:hidden flex justify-center mt-4">
+              <img src={lineaDerechoDiscapacidad} alt="Lineas discontinuas" />
+            </div>
+            {/* Linea discontinua oculta para MD */}
           </div>
-          <div className="bg-pink-100 flex flex-col md:flex-row">
-            <div className="max-w-xl">
-          <p className="md:text-xl text-base text-gray-800 ml-10">
-            El Ministerio de la Igualdad se formó en el 2023 para mitigar los
-            desequilibrios sociales y la inequidad. La vice presidenta Francia
-            Márquez dijo que mi igualdad será “un mecanismo para avanzar en la
-            reducción efectiva de las brechas de desigualdad e inequidad en
-            Colombia”.
-          </p>
+          <div className=" flex flex-col md:flex-row">
+            <div className="max-w-xl mt-4 mr-10">
+              <p className="md:text-xl text-base text-gray-800 ml-10">
+                El{" "}
+                <span className="font-semibold">Ministerio de la Igualdad</span>{" "}
+                se formó en el{" "}
+                <span className="text-blue-900 font-bold">2023</span> para
+                mitigar los{" "}
+                <span className="font-semibold">desequilibrios sociales</span> y
+                la <span className="font-semibold">inequidad.</span> La vice
+                presidenta{" "}
+                <span className="font-semibold">Francia Márquez</span> dijo que{" "}
+                <span className="font-semibold">mi igualdad</span> será{" "}
+                <span className="font-semibold">
+                  “un mecanismo para avanzar en la reducción efectiva de las
+                  brechas de desigualdad e inequidad en Colombia”.
+                </span>
+              </p>
+            </div>
+            {/* Linea discontinua oculta para MD */}
+            <div className="w-3/5 mx-auto md:hidden flex justify-center mt-4">
+              <img src={lineaDerechoDiscapacidad} alt="Lineas discontinuas" />
+            </div>
+            {/* Linea discontinua oculta para MD */}
+            <div className="md:flex hidden mt-16">
+              <img src={lineaDiscontinuaLarga} alt="Lineas discontinuas" />
+            </div>
           </div>
-          <div className="md:flex hidden mt-16">
-              <img src={lineaDiscontinuaLarga2} alt="Lineas discontinuas" />
+
+          <div className="flex flex-col">
+            <div className="mt-8 px-8 flex justify-end mr-4">
+              <img src={vector5} alt="Personas con diferentes discapacidades" />
+            </div>
+            <div className="flex justify-end">
+              <div className="max-w-2xl mt-4 mr-10 ">
+                <p className="md:text-xl text-base text-gray-800 ml-10 text-right">
+                  <span className="text-blue-900 font-bold">
+                    La Finca de Todos{" "}
+                  </span>{" "}
+                  forma parte de este llamado a la acción para la inclusión de
+                  todas las personas en nuestra sociedad y crear la
+                  accesibilidad para llegar a esa meta.
+                </p>
+              </div>
             </div>
           </div>
         </section>
         {/* Final cómo estamos */}
+        {/* Footer de la infografia */}
+        <section>
+          <div className="bg-blue-900 md:p-4 md:flex hidden">
+            <ul className="text-white text-xs  md:max-w-6xl max-w-xs">
+              <li>Fuentes:</li>
+              <li>
+                <a
+                  href="https://www.funcionpublica.gov.co/en/web/inclusion-publica/categor%C3%ADas-de-discapacidad"
+                  target="_blank"
+                >
+                  https://www.funcionpublica.gov.co/en/web/inclusion-publica/categor%C3%ADas-de-discapacidad
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.funcionpublica.gov.co/en/web/inclusion-publica/qu%C3%A9-es-discapacidad-"
+                  target="_blank"
+                >
+                  https://www.funcionpublica.gov.co/en/web/inclusion-publica/qu%C3%A9-es-discapacidad-
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.freepik.es/vector-gratis/dia-internacional-plano-personas-discapacidad_10623554.htm#query=discapacidad&from_query=discacidad&position=1&from_view=search&track=sph"
+                  target="_blank"
+                >
+                  https://www.freepik.es/vector-gratis/dia-internacional-plano-personas-discapacidad_10623554.htm#query=discapacidad&from_query=discacidad&position=1&from_view=search&track=sph
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.freepik.es/vector-gratis/conjunto-iconos-planos-discapacitados-discapacitados_3910281.htm#query=discapacidad%20baille&position=20&from_view=search&track=ais"
+                  target="_blank"
+                >
+                  https://www.freepik.es/vector-gratis/conjunto-iconos-planos-discapacitados-discapacitados_3910281.htm#query=discapacidad%20baille&position=20&from_view=search&track=ais
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.freepik.es/vector-gratis/dia-internacional-personas-discapacidad_10753024.htm#query=personas%20con%20discapacidadad&position=26&from_view=search&track=ais"
+                  target="_blank"
+                >
+                  https://www.freepik.es/vector-gratis/dia-internacional-personas-discapacidad_10753024.htm#query=personas%20con%20discapacidadad&position=26&from_view=search&track=ais
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.freepik.es/vector-gratis/ilustracion-personas-discapacidad-dibujadas-mano_31751907.htm#query=personas%20con%20discapacidadad&position=0&from_view=search&track=ais"
+                  target="_blank"
+                >
+                  https://www.freepik.es/vector-gratis/ilustracion-personas-discapacidad-dibujadas-mano_31751907.htm#query=personas%20con%20discapacidadad&position=0&from_view=search&track=ais
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        {/* Footer de la infografia */}
       </div>
+    </div>
     </section>
   );
 };

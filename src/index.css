@@ -141,6 +141,10 @@ html {
   background-image: url("assets/images/fondo-ubicacion.svg");
 }
 
+.fondoInfografiaDiscapacidad {
+  background-image: url("assets/images/fondo-infografia-discapacidad.svg");
+}
+
 .colorTextoDonaciones{
   color:#E60064;
 }
