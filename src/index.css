@@ -1,26 +1,27 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
-
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
 
 html {
-    height: auto;
-    font-family: 'Montserrat', sans-serif;
-  }
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+}
 
-.bienvenidos{
+.bienvenidos {
   background-color: rgba(47, 83, 160, 0.082);
   background-image: url("assets/images/fondo-inicio-2.svg");
-  
 }
 
-
-.botonDonar, .botonLaFinca, .FondoFucsiaInfografia, .FondoFucsiaTalleres {
-  background-color: #E60064;
+.botonDonar,
+.botonLaFinca,
+.FondoFucsiaInfografia,
+.FondoFucsiaTalleres {
+  background-color: #e60064;
 }
 
-.botonDonar:hover, .botonLaFinca:hover {
+.botonDonar:hover,
+.botonLaFinca:hover {
   background-color: #fc036f;
 }
 /*<---------Animación Slider--------->*/
@@ -30,7 +31,7 @@ html {
 
 .slider ul {
   display: flex;
-  animation: cambio 20s infinite normal ease-in-out ;
+  animation: cambio 20s infinite normal ease-in-out;
   width: 600%;
 }
 
@@ -45,24 +46,47 @@ html {
 }
 
 @keyframes cambio {
-  0%{margin-left: 0;}
-  25%{margin-left: -0%;}
+  0% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -0%;
+  }
 
-  30%{margin-left: -100%;}
-  40%{margin-left: -100%;}
+  30% {
+    margin-left: -100%;
+  }
+  40% {
+    margin-left: -100%;
+  }
 
-  45%{margin-left: -200%;}
-  55%{margin-left: -200%;}
+  45% {
+    margin-left: -200%;
+  }
+  55% {
+    margin-left: -200%;
+  }
 
-  60%{margin-left: -300%;}
-  70%{margin-left: -300%;}
+  60% {
+    margin-left: -300%;
+  }
+  70% {
+    margin-left: -300%;
+  }
 
-  75%{margin-left: -400%;}
-  85%{margin-left: -400%;}
+  75% {
+    margin-left: -400%;
+  }
+  85% {
+    margin-left: -400%;
+  }
 
-  90%{margin-left: -500%;}
-  100%{margin-left: -500%;}
-
+  90% {
+    margin-left: -500%;
+  }
+  100% {
+    margin-left: -500%;
+  }
 }
 
 /*<---------Animación Slider--------->*/
@@ -70,25 +94,24 @@ html {
 .linea-fucsia {
   height: 4px;
   width: 60px;
-  background-color: #E60064;
+  background-color: #e60064;
 }
 
 .linea-verde {
   height: 4px;
   width: 60px;
-  background-color: #52AE32;
+  background-color: #52ae32;
 }
 
-.linea-azul{
+.linea-azul {
   height: 4px;
   width: 60px;
-  background-color: #2F52A0;
+  background-color: #2f52a0;
 }
 
-.linea-amarilla{
-  background-color: #F39200;
+.linea-amarilla {
+  background-color: #f39200;
 }
-
 
 .parrafo-nuestra-mision {
   margin: 0% 20% 0% 20%;
@@ -98,28 +121,26 @@ html {
   margin: 5% 10% 0% 10%;
 }
 
-.nuestraMision{
+.nuestraMision {
   background-color: rgba(47, 83, 160, 0.082);
   background-image: url("assets/images/fondo-nuestra-mision.svg");
-
 }
 
-.fondoFinca3d  {
+.fondoFinca3d {
   background-image: url("assets/images/fondo-finca3d.svg");
-
 }
 
 .fondoAccesibilidad {
   background-color: rgba(47, 83, 160, 0.082);
   background-image: url("assets/images/fondo-accesibilidad.svg");
-
 }
 
-.cardSostenibilidad, .fondoCardsActividades  {
+.cardSostenibilidad,
+.fondoCardsActividades {
   background-color: rgba(47, 83, 160, 0.082);
 }
 
- .fondoFinDeSemana {
+.fondoFinDeSemana {
   background-image: url("assets/images/fondo-fin-de-semana.svg");
 }
 
@@ -143,6 +164,6 @@ html {
   background-image: url("assets/images/fondo-infografia-discapacidad.svg");
 }
 
-.colorTextoDonaciones{
-  color:#E60064;
+.colorTextoDonaciones {
+  color: #e60064;
 }
