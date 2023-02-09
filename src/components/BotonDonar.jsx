@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export const BotonDonar = () => {
   return (
+    <div>
     <Link
-      onClick={() => setOpen(!open)}
       to="/donaciones"
       className="botonDonar text-white font-semibold hover:text-white py-2 px-4 border-2 rounded-xl inline-flex items-center ml-4 drop-shadow-lg"
     >
@@ -19,5 +19,6 @@ export const BotonDonar = () => {
       </svg>
       Quiero donar
     </Link>
+    </div>
   );
 };
