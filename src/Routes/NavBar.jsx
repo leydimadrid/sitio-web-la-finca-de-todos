@@ -13,32 +13,54 @@ export const NavBar = () => {
             open ? "top-20 " : "top-[-490px]"
           }`}
         >
-          <li className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800">
+          <li
+            onClick={() => setOpen(!open)}
+            className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
+          >
             <Link to="/inicio">Inicio</Link>
           </li>
-          <li className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800">
+          <li
+            onClick={() => setOpen(!open)}
+            className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
+          >
             <Link to="/nosotros">Nosotros</Link>
           </li>
-          <li className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800">
+          <li
+            onClick={() => setOpen(!open)}
+            className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
+          >
             <Link to="/lafinca">La Finca</Link>
           </li>
-          <li className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800">
+          <li
+            onClick={() => setOpen(!open)}
+            className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
+          >
             <Link to="/findesemana">Fin de semana</Link>
-            </li>
-            <li className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800">
+          </li>
+          <li
+            onClick={() => setOpen(!open)}
+            className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
+          >
             <Link to="/talleres">Talleres pedagógicos</Link>
-            </li>
-          <li className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800">
+          </li>
+          <li
+            onClick={() => setOpen(!open)}
+            className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
+          >
             <Link to="/ubicacion">Ubicación</Link>
           </li>
-          <li className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800">
+          <li
+            onClick={() => setOpen(!open)}
+            className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
+          >
             <Link to="/Contacto">Contacto</Link>
           </li>
           <BotonDonar />
         </ul>
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden">
+          className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
+        >
           <ion-icon name={open ? "close" : "menu"}></ion-icon>
         </div>
       </nav>

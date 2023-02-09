@@ -5,7 +5,7 @@ export const BotonLaFinca = () => {
     <div>
       <Link
         to="/lafinca"
-        className="botonLaFinca md:text-xl text-base font-semibold text-white hover:text-white py-2 px-4 rounded-xl inline-flex items-center drop-shadow-lg"
+        className="botonLaFinca md:text-xl text-base font-semibold text-white hover:text-white py-2 px-4 rounded-xl inline-flex items-center shadow-lg"
       >
         Quiero saber más de la finca{" "}
       </Link>
