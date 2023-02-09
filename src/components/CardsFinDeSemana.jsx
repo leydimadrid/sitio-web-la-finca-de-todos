@@ -1,9 +1,15 @@
 export const CardsFinDeSemana = ({imagen, titulo, alt}) => {
+  const handleClick = () => {
+    
+  };
+
+
   return (
     <section className="p-4">
       <div className="bg-white">
-      <div className="fondoCardsActividades flex items-center rounded-lg shadow-lg md:max-w-xl">
-      <img
+      <div  className="fondoCardsActividades flex items-center rounded-lg shadow-lg md:max-w-xl">
+      <img 
+      onClick={handleClick}
           className="md:w-64 w-60 md:rounded-l-lg rounded-l-lg"
           src={imagen}
           alt={alt}

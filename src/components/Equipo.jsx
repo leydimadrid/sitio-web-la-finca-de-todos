@@ -2,8 +2,10 @@ import equipo1 from "../assets/images/equipo1.jpg";
 import equipo2 from "../assets/images/equipo2.jpg";
 
 export const Equipo = () => {
+
   return (
     <section className="equipo">
+        <div id="contenedor">
       <div className="equipo flex flex-col items-center md:flex-row md:max-w-6xl md:text-xl text-base">
         <img
           className="object-cover w-full h-auto md:h-auto md:w-auto rounded-md md:mr-14 shadow-md"
@@ -14,7 +16,7 @@ export const Equipo = () => {
           <h1 className="mb-2 md:text-2xl text-xl font-bold tracking-tight text-gray-800">
             Lissette Ortegon
           </h1>
-          <ul className="ml-4 list-disc font-normal md:text-xl text-base text-gray-800">
+          <ul  className="ml-4 list-disc font-normal md:text-xl text-base text-gray-800">
             <li className="mb-2">
               {" "}
               Creadora del Proyecto 
@@ -57,6 +59,7 @@ export const Equipo = () => {
               </li>
           </ul>
         </div>
+      </div>
       </div>
     </section>
   );
