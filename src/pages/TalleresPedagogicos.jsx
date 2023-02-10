@@ -9,7 +9,7 @@ export const TalleresPedagogicos = () => {
     <div>
       <section className="bg-white">
         <div>
-          <h1 className="font-bold md:text-2xl text-xl text-center md:pt-36 pt-24 text-gray-800">
+          <h1 className="font-bold md:text-2xl text-xl text-center md:pt-28 pt-4 text-gray-800">
             Idea/Misión
           </h1>
           <hr className="linea-fucsia mx-auto mt-2"></hr>
@@ -52,7 +52,7 @@ export const TalleresPedagogicos = () => {
       <InfografiaPasaDia />
       <section className="fondoAsistirTalleres md:bg-cover bg-auto bg-no-repeat">
         <div className="flex justify-center pt-10">
-          <h1 className="FondoFucsiaTalleres py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-96 px-3">
+          <h1 className="FondoFucsiaTalleres py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center md:w-96 px-3">
             ¿Cómo asistir a los talleres?
           </h1>
         </div>

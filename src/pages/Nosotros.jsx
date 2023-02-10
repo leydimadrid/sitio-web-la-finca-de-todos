@@ -6,12 +6,12 @@ import iconoinstagram from "../assets/images/icono-instagram.svg";
 import iconofacebook from "../assets/images/icono-facebook.svg";
 import iconoemail from "../assets/images/icono-email.svg";
 import { InfografiaDiscapacidad } from "../components/InfografiaDiscapacidad";
-import FontSizeChanger from 'react-font-size-changer';
+// import FontSizeChanger from 'react-font-size-changer';
 
 export const Nosotros = () => {
   return (
     <>
-    <div className="fixed">
+    {/* <div className="fixed">
     <FontSizeChanger
           targets={['#contenedor .titulo']}
           onChange={(element, newValue, oldValue) => {
@@ -34,11 +34,11 @@ export const Nosotros = () => {
             buttonsMargin: 10
           }}          
         />
-        </div>
+        </div> */}
         <div id="contenedor">
       <section className="nuestraMision md:bg-contain bg-auto bg-no-repeat pt-24">
           <div>
-          <h1 className="titulo font-bold md:text-2xl text-xl text-center md:pt-36 text-gray-800">
+          <h1 className="titulo font-bold md:text-2xl text-xl text-center md:pt-30 text-gray-800">
             Nuestra Misión
           </h1>
           <hr className="linea-fucsia mx-auto mt-2"></hr>

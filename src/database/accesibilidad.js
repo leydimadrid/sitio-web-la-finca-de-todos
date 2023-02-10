@@ -23,7 +23,7 @@ export const accesibilidad = [
       {
         id: 4,
         imagen: "senalizacion-clara.jpg",
-        titulo: "Señalización de alto contrastey loza podotáctil",
+        titulo: "Señalización de alto contraste y loza podotáctil",
         alt: "Imagen señalizacion"
       }, 
 

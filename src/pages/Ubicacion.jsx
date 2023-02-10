@@ -3,7 +3,7 @@ import imagenUbicacion from "../assets/images/imagen-ubicacion.jpg";
 export const Ubicacion = () => {
   return (
     <section className="fondoUbicacion md:bg-cover bg-cover bg-no-repeat">
-      <div className="md:flex flex-row items-center justify-center pt-20">
+      <div className="md:flex flex-row items-center justify-center md:pt-20">
         <div className="max-w-xl md:p-6 p-8 md:mr-28">
           <p className="text-gray-800 md:text-xl text-base text-center">
             Si necesitas transporte accesible <span className="font-bold block text-blue-900">¡Te recogemos! </span> 

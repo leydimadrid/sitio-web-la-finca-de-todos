@@ -9,7 +9,7 @@ export const LaFinca = () => {
     <div>
       <section id="lafinca" className="fondoFinca3d md:bg-contain bg-auto bg-no-repeat">
         <div className="flex justify-center">
-          <h1 className="md:max-w-lg max-w-sm font-bold md:text-2xl text-xl text-center md:pt-36 pt-28 text-gray-800">
+          <h1 className="md:max-w-lg max-w-sm font-bold md:text-2xl text-xl text-center md:pt-24 pt-4 text-gray-800">
             Modelo 3D de la finca y sus edificaciones
           </h1>
         </div>

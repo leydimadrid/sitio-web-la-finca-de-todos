@@ -4,7 +4,7 @@ import { BotonAhora } from "../components/BotonAhora";
 export const Donaciones = () => {
   return (
     <section className="fondoUbicacion md:bg-cover bg-cover bg-no-repeat">
-      <div className="md:flex flex-row items-center justify-center pt-20">
+      <div className="md:flex flex-row items-center justify-center md:pt-20">
         <div className="md:m-1">
           {" "}
           <img className="p-4" src={imagenDonaciones} alt="Niña con Síndrome de Down sonriendo" />

@@ -19,7 +19,7 @@ export const InfografiaDiscapacidad = () => {
       <div className="flex justify-center">
         <div className="md:w-3/5">
           {/* Inicio Título infografía */}
-          <div className="p-4">
+          <div className="p-4"> 
             <h1 className="font-bold md:text-6xl text-3xl text-center md:pt-36 text-blue-900">
               DISCAPACIDAD EN COLOMBIA
             </h1>
@@ -50,7 +50,7 @@ export const InfografiaDiscapacidad = () => {
               <h1 className="FondoFucsiaInfografia py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 px-3 md:mx-0 mx-auto mb-4">
                 ¿QUIÉNES SOMOS?
               </h1>
-              <p className="max-w-md md:text-xl text-base mb-4 mx-auto text-gray-800">
+              <p className="max-w-md md:text-xl text-base mb-4 mx-auto text-gray-800 md:text-left text-center">
                 Somos <span className="font-semibold">igual</span> a los demás{" "}
                 <span className="font-semibold">Colombianos</span> con unos{" "}
                 <span className="font-semibold">retos adicionales</span> que
@@ -89,7 +89,7 @@ export const InfografiaDiscapacidad = () => {
                 </div>
               </div>
               <div>
-                <p className="md:max-w-md max-w-sm md:text-xl text-base md:mx-0 mx-auto text-gray-800">
+                <p className="md:max-w-md max-w-sm md:text-xl text-base md:mx-0 mx-auto text-gray-800 md:text-left text-center">
                   <span className="text-blue-900 md:text-5xl text-4xl font-semibold ">
                     15%{" "}
                   </span>
@@ -304,12 +304,12 @@ export const InfografiaDiscapacidad = () => {
                     ¿CÓMO ESTAMOS?
                   </h1>
                 </div>
-                <p className="max-w-xl md:text-xl text-base mb-4 text-gray-800 md:text-right">
+                <p className="max-w-xl md:text-xl text-base mb-4 text-gray-800 md:text-right text-center">
                   <span className="font-semibold">“</span>Al interactuar con
                   diversas barreras incluyendo las actitudinales, las personas
                   con discapacidades pueden sentirse impedidos de la{" "}
                   <span className="font-semibold">participación plena</span>{" "}
-                  plena y <span className="font-semibold">efectiva</span> en la{" "}
+                  y <span className="font-semibold">efectiva</span> en la{" "}
                   <span className="font-semibold">sociedad</span>, en{" "}
                   <span className="font-semibold">igualdad</span> de{" "}
                   <span className="font-semibold">condiciones</span> con las{" "}
@@ -325,13 +325,13 @@ export const InfografiaDiscapacidad = () => {
             <div className="flex flex-col md:flex-row">
               <div
                 className="mt-4 mr-4">
-                <h1 className="text-pink-600 font-bold md:text-2xl text-xl ml-10">
+                <h1 className="text-pink-600 font-bold md:text-2xl text-xl md:ml-10 md:text-left text-center">
                   Enfrentamos
                 </h1>
-                <p className="md:text-xl text-base text-gray-800 ml-10 ">
+                <p className="md:text-xl text-base text-gray-800 md:ml-10 md:text-left text-center ">
                   varios retos al salir de casa
                 </p>
-                <ul className="list-disc md:text-xl text-base text-gray-800 px-4 max-w-xl ml-10 mt-4">
+                <ul className="list-disc md:text-xl text-base text-gray-800 px-4 max-w-xl ml-10 mt-4 ">
                   <li>
                     Calles o aceras irregulares, barreras arquitectónicas que{" "}
                     <span className="font-semibold">
@@ -370,8 +370,8 @@ export const InfografiaDiscapacidad = () => {
               {/* Linea discontinua oculta para MD */}
             </div>
             <div className=" flex flex-col md:flex-row">
-              <div className="max-w-xl mt-4 mr-10">
-                <p className="md:text-xl text-base text-gray-800 ml-10">
+              <div className="max-w-2xl mt-4 mr-10">
+                <p className="md:text-xl text-base text-gray-800 ml-10 md:text-left text-center">
                   El{" "}
                   <span className="font-semibold">
                     Ministerio de la Igualdad
@@ -383,7 +383,7 @@ export const InfografiaDiscapacidad = () => {
                   y la <span className="font-semibold">inequidad.</span> La vice
                   presidenta{" "}
                   <span className="font-semibold">Francia Márquez</span> dijo
-                  que <span className="font-semibold">mi igualdad</span> será{" "}
+                  que el{" "}<span className="font-semibold">Ministerio de la igualdad</span> será{" "}
                   <span className="font-semibold">
                     “un mecanismo para avanzar en la reducción efectiva de las
                     brechas de desigualdad e inequidad en Colombia”.
@@ -408,8 +408,8 @@ export const InfografiaDiscapacidad = () => {
                 />
               </div>
               <div className="flex justify-end">
-                <div className="max-w-2xl mt-4 mr-10 mb-10">
-                  <p className="md:text-xl text-base text-gray-800 ml-10 text-right">
+                <div className="max-w-2xl mt-4 mr-10 mb-8">
+                  <p className="md:text-xl text-base text-gray-800 ml-10 md:text-right text-center ">
                     <span className="text-blue-900 font-bold">
                       La Finca de Todos{" "}
                     </span>{" "}
