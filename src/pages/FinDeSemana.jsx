@@ -27,7 +27,7 @@ export const FinDeSemana = () => {
           </div>
         </section>
         </div>
-
+              
       </section>
     </>
   );

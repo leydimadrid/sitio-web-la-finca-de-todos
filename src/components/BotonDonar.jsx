@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const BotonDonar = () => {
   return (
-    <div>
+    <div className="video">
     <Link
       to="/donaciones"
       className="botonDonar text-white font-semibold hover:text-white py-2 px-4 border-2 rounded-xl inline-flex items-center ml-4 drop-shadow-lg"

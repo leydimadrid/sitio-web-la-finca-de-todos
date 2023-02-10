@@ -81,7 +81,7 @@ export const TalleresPedagogicos = () => {
           </div>
           <div>
             {" "}
-            <img className="p-4" src={asistirTalleres} />
+            <img className="p-4" src={asistirTalleres} alt="Personas reunidas en un huerto" />
           </div>
         </div>
         <div className="flex justify-center pt-10">

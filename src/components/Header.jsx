@@ -1,5 +1,6 @@
 import Logo from "../assets/images/logo.svg";
 import { NavBar } from "../Routes/NavBar";
+import { VideoInicio } from "./VideoInicio";
 
 export const Header = () => {
   return (

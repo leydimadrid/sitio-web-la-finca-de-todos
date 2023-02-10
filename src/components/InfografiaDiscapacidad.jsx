@@ -360,7 +360,7 @@ export const InfografiaDiscapacidad = () => {
               <div className="mt-8 px-10">
                 <img
                   src={vector4}
-                  alt="Escaleras, señalización y libro en braille para personas con discapacid"
+                  alt="Escaleras, señalización y libro en braille para personas con discapacidad"
                 />
               </div>
               {/* Linea discontinua oculta para MD */}

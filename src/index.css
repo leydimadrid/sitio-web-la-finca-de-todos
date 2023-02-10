@@ -3,9 +3,20 @@
 @import "tailwindcss/utilities";
 @import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
 
+
+header {
+  z-index: 1000;
+}
+
 html {
   height: auto;
   font-family: "Montserrat", sans-serif;
+}
+
+.video {
+  z-index: -0;
+
+
 }
 
 .bienvenidos {

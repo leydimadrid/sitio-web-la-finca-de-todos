@@ -9,8 +9,8 @@ export const NavBar = () => {
     <>
       <nav>
         <ul
-          className={`bg-white py-4 px-4 md:p-0 md:flex md:items-center md:text-lg w-full absolute md:static font-medium text-base md:pb-0 left-0  md:w-auto md:z-auto z-[1] md:pl-0 ${
-            open ? "top-20 " : "top-[-490px]"
+          className={`bg-white py-4 px-4 md:p-0 md:flex md:items-center md:text-lg w-full absolute md:static font-medium text-base md:pb-0 left-0  md:w-auto md:pl-0 ${
+            open ? "top-20" : "top-[-490px]"
           }`}
         >
           <li
