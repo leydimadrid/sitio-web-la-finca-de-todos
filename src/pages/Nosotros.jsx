@@ -34,7 +34,7 @@ export const Nosotros = () => {
             buttonsMargin: 10
           }}          
         />
-        </div> */}
+        </div>  */}
         <div id="contenedor">
       <section className="nuestraMision md:bg-contain bg-auto bg-no-repeat pt-24">
           <div>
