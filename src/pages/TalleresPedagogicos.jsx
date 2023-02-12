@@ -14,16 +14,18 @@ export const TalleresPedagogicos = () => {
           </h1>
           <hr className="linea-fucsia mx-auto mt-2"></hr>
         </div>
-        <div className="parrafo-nuestra-mision my-auto pt-6 md:pb-10 pb-6 md:text-xl text-base font-medium">
-          <p className="text-gray-800 text-justify">
-            Aquí en la Finca de todos, ¡La diversión y la educación van mano a
+        <div className="flex justify-center my-auto pt-6 md:pb-10 pb-6 px-4 md:text-xl text-base font-medium">
+          <p className="text-gray-800 md:text-justify text-center max-w-5xl">
+            Aquí en <span className="text-blue-900 font-semibold">
+                La Finca de Todos
+              </span>, ¡La diversión y la educación van mano a
             mano!. Nuestros talleres han sido cuidadosamente planificados por
             docentes con años de experiencia y ayudarán a todos los estudiantes,
             con o sin discapacidad, a desarrollar las habilidades necesarias
             para convertirse en adultos saludables con conciencia. Aprender
             explorando en medio de la naturaleza despertará nuevas conexiones en
             sus cerebros, habilidades motrices y sensoriales mientras reforzamos
-            conceptos del ingenio, la autoestima, la responsabilidad social, y
+            conceptos del ingenio, la autoestima, la responsabilidad social y
             la cooperación.
           </p>{" "}
         </div>
@@ -52,28 +54,28 @@ export const TalleresPedagogicos = () => {
       <InfografiaPasaDia />
       <section className="fondoAsistirTalleres md:bg-cover bg-auto bg-no-repeat">
         <div className="flex justify-center pt-10">
-          <h1 className="FondoFucsiaTalleres py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center md:w-96 px-3">
+          <h1 className="FondoFucsiaTalleres py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center md:w-96 mx-3">
             ¿Cómo asistir a los talleres?
           </h1>
         </div>
         <div className="md:pt-14 md:flex flex-row items-center justify-center">
-          <div className="max-w-xl md:p-6 p-8 md:mr-28">
-            <h1 className="font-bold md:text-2xl text-lg text-center mb-4">
+          <div className="md:max-w-2xl max-w-sm md:p-6 p-8 md:mr-28">
+            <h1 className="font-bold md:text-2xl text-lg text-left mb-4">
               Para colegios y escuelas
             </h1>
-            <p className="text-justify text-gray-800 md:text-xl text-base">
+            <p className=" text-gray-800 md:text-xl text-base">
               Cuéntanos sobre el currículum de tus clases y podemos integrarlo a
               nuestros talleres para enriquecer los conceptos que están
               aprendiendo tus estudiantes. Nuestra misión es ofrecer un día de
               esparcimiento y aprendizaje, tanto a los estudiantes como a los
               docentes que nos visiten.
             </p>
-            <h1 className="font-bold md:text-2xl text-lg pt-6 text-center mb-4">
+            <h1 className="font-bold md:text-2xl text-lg pt-6 text-left mb-4">
               Para particulares
             </h1>
-            <p className="text-justify text-gray-800 md:text-xl text-base">
+            <p className=" text-gray-800 md:text-xl text-base">
               De martes a viernes contamos con programación interactiva y
-              educacional,  a la cual estás cordialmente invitado. Contáctenos
+              educacional, a la cual estás cordialmente invitado. Contáctenos
               para programar tu próxima experiencia. Estamos dispuestos para
               hacer modificaciones y ajustes de acuerdo con las necesidades de
               nuestros visitantes.

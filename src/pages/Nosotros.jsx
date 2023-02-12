@@ -11,7 +11,7 @@ import { InfografiaDiscapacidad } from "../components/InfografiaDiscapacidad";
 export const Nosotros = () => {
   return (
     <>
-    {/* <div className="fixed">
+      {/* <div className="fixed">
     <FontSizeChanger
           targets={['#contenedor .titulo']}
           onChange={(element, newValue, oldValue) => {
@@ -35,48 +35,55 @@ export const Nosotros = () => {
           }}          
         />
         </div>  */}
-        <div id="contenedor">
-      <section className="nuestraMision md:bg-contain bg-auto bg-no-repeat pt-24">
+      <div id="contenedor">
+        <section className="nuestraMision md:bg-contain bg-auto bg-no-repeat pt-24">
           <div>
-          <h1 className="titulo font-bold md:text-2xl text-xl text-center md:pt-30 text-gray-800">
-            Nuestra Misión
-          </h1>
-          <hr className="linea-fucsia mx-auto mt-2"></hr>
+            <h1 className="titulo font-bold md:text-2xl text-xl text-center md:pt-30 text-gray-800">
+              Nuestra Misión
+            </h1>
+            <hr className="linea-fucsia mx-auto mt-2"></hr>
+          </div>
+          <div className="flex justify-center my-auto pt-6 pb-6 px-4 md:text-xl text-base font-medium">
+            <p className="titulo text-gray-800 md:text-justify text-center max-w-5xl">
+              <span className="text-blue-900 font-semibold">
+                La Finca de Todos{" "}
+              </span>{" "}
+              es una oportunidad para vivir en un mundo equitativo y divertido,
+              donde nadie queda afuera. Hacen falta espacios campestres que sean
+              completamente accesibles a todos los ciudadanos.{" "}
+              <p>
+                En{" "}
+                <span className="text-blue-900 font-semibold">
+                  La Finca de Todos{" "}
+                </span>{" "}
+                no hay preocupaciones ni escaleras, aquí todos entramos por la
+                puerta principal.{" "}
+              </p>
+            </p>{" "}
+          </div>
+          <p className="text-center font-semibold md:text-xl text-base text-blue-900 ">¡Te esperamos!</p>
+          <Slider />
+        </section>
+        <div className="titulo">
+          <InfografiaDiscapacidad />
         </div>
-        <div className="parrafo-nuestra-mision my-auto pt-6 md:pb-10 pb-6 md:text-xl text-base font-medium">
-          <p className="titulo text-gray-800 text-justify">
-            La Finca de Todos es una oportunidad para vivir en un mundo
-            equitativo y divertido, donde nadie queda afuera. Hacen falta
-            espacios campestres que sean completamente accesibles a todos los
-            ciudadanos. En La Finca de Todos no hay preocupaciones ni escaleras,
-            aquí todos entramos por la puerta principal ¡Te esperamos!.
-          </p>{" "}
+        <div className="titulo text-center pt-10 md:text-2xl text-xl">
+          <BotonDonar />
         </div>
-        <Slider />
-      </section>
-      <div className="titulo">
-      <InfografiaDiscapacidad/>
-      </div>
-      <div className="titulo text-center pt-10 md:text-2xl text-xl">
-        <BotonDonar/>
-      </div>
-      <section>
-        <div>
-          <h1 className="font-bold md:text-2xl text-xl text-center mt-12 text-gray-800">
-            Equipo
-          </h1>
-          <hr className="linea-fucsia mx-auto mt-2"></hr>
+        <section>
+          <div>
+            <h1 className="font-bold md:text-2xl text-xl text-center mt-12 text-gray-800">
+              Equipo
+            </h1>
+            <hr className="linea-fucsia mx-auto mt-2"></hr>
+          </div>
+        </section>
+        <div className="titulo">
+          <Equipo />
         </div>
-      </section>
-      <div className="titulo">
-      <Equipo />
-      </div>
       </div>
       <div className="flex justify-center p-4 md:mt-10">
-        <a
-          href=""
-          target="_blank"
-        >
+        <a href="" target="_blank">
           <img
             className="m-2 md:w-auto w-8 h-8"
             src={iconotelefono}
@@ -94,10 +101,7 @@ export const Nosotros = () => {
           />
         </a>
 
-        <a
-          href=""
-          target="_blank"
-        >
+        <a href="" target="_blank">
           <img
             className="m-2 md:w-auto w-8 h-8"
             src={iconofacebook}
@@ -105,10 +109,7 @@ export const Nosotros = () => {
           />
         </a>
 
-        <a
-          href=""
-          target="_blank"
-        >
+        <a href="" target="_blank">
           <img
             className="m-2 md:w-auto w-8 h-8"
             src={iconoemail}
