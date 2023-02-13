@@ -12,6 +12,7 @@ import FontSizeChanger from 'react-font-size-changer';
 export const Nosotros = () => {
   return (
     <>
+    {/* Inicio Modificador de texto  */}
     <div className="flex justify-end">
       <div className="fixed md:m-4 lg:m-4 m-2">
         <FontSizeChanger
@@ -59,6 +60,7 @@ export const Nosotros = () => {
         />
       </div>
     </div>
+     {/* Fin Modificador de texto */}
       <div id="contenedor">
         <section className="nuestraMision md:bg-contain bg-auto bg-no-repeat md:pt-24 pt-16">
           <div>
@@ -83,7 +85,7 @@ export const Nosotros = () => {
                 puerta principal.{" "}
             </p>{" "}
           </div>
-          <p className="text-center font-semibold md:text-xl text-base text-blue-900 ">¡Te esperamos!</p>
+          <p className="titulo text-center font-semibold md:text-xl text-base text-blue-900 ">¡Te esperamos!</p>
           <Slider />
         </section>
         <div className="titulo">
@@ -103,7 +105,6 @@ export const Nosotros = () => {
         <div className="titulo">
           <Equipo />
         </div>
-      </div>
       <div className="flex justify-center p-4 md:mt-10">
         <a href="" target="_blank">
           <img
@@ -139,6 +140,7 @@ export const Nosotros = () => {
           />
         </a>
       </div>
+    </div>
     </>
   );
 };

@@ -7,7 +7,7 @@ function App() {
     <div className="App mt-20">
       <Header />
       <AppNav />
-      <Footer />
+      <Footer/>
     </div>
   );
 }
