@@ -27,7 +27,6 @@ export const FinDeSemana = () => {
             ))}
           </div>
         </section>
-        <CardsLenguaDeSeñas/>
         </div>
               
       </section>

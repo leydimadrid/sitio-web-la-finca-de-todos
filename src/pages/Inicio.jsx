@@ -1,5 +1,4 @@
 import { BotonLaFinca } from "../components/BotonLaFinca";
-import { Header } from "../components/Header";
 import { VideoInicio } from "../components/VideoInicio";
 
 

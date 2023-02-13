@@ -18,7 +18,6 @@ export const CardsLenguaDeSeñas = () => {
         </video>
     </div>
         
-      </div>
     </section>
   );
 };

@@ -6,35 +6,59 @@ import iconoinstagram from "../assets/images/icono-instagram.svg";
 import iconofacebook from "../assets/images/icono-facebook.svg";
 import iconoemail from "../assets/images/icono-email.svg";
 import { InfografiaDiscapacidad } from "../components/InfografiaDiscapacidad";
-// import FontSizeChanger from 'react-font-size-changer';
+import FontSizeChanger from 'react-font-size-changer';
+
 
 export const Nosotros = () => {
   return (
     <>
-      {/* <div className="fixed">
-    <FontSizeChanger
-          targets={['#contenedor .titulo']}
+    <div className="flex justify-end">
+      <div className="fixed md:m-4 lg:m-4 m-2">
+        <FontSizeChanger
+          targets={["#contenedor .titulo"]}
           onChange={(element, newValue, oldValue) => {
             console.log(element, newValue, oldValue);
           }}
           options={{
             stepSize: 2,
-            range: 3
+            range: 3,
           }}
           customButtons={{
-            up: <span style={{'fontSize': '36px'}}>A</span>,
-            down: <span style={{'fontSize': '20px'}}>A</span>,
+            up: (
+              <span
+                style={{
+                  fontSize: "22px",
+                  color: "white",
+                  fontFamily: "sans-serif",
+                }}
+              >
+                A<sup className="font-semibold">+</sup>
+              </span>
+            ),
+            down: (
+              <span
+                style={{
+                  fontSize: "22px",
+                  color: "white",
+                  fontFamily: "sans-serif",
+                }}
+              >
+                A<sup className="font-semibold">-</sup>
+              </span>
+            ),
             style: {
-              backgroundColor: 'pink',
-              color: 'white',
-              WebkitBoxSizing: 'border-box',
-              WebkitBorderRadius: '60px',
-              width: '60px',
+              backgroundColor: "#E60064",
+              color: "white",
+              WebkitBoxSizing: "border-box",
+              WebkitBorderRadius: "60px",
+              border: "none",
+              width: "40px",
             },
-            buttonsMargin: 10
-          }}          
+            buttonsMargin: 10,
+          }}
         />
-        </div>  */}
+      </div>
+    </div>
       <div id="contenedor">
         <section className="nuestraMision md:bg-contain bg-auto bg-no-repeat md:pt-24 pt-16">
           <div>
@@ -51,14 +75,12 @@ export const Nosotros = () => {
               es una oportunidad para vivir en un mundo equitativo y divertido,
               donde nadie queda afuera. Hacen falta espacios campestres que sean
               completamente accesibles a todos los ciudadanos.{" "}
-              <p>
-                En{" "}
+              En{" "}
                 <span className="text-blue-900 font-semibold">
                   La Finca de Todos{" "}
                 </span>{" "}
                 no hay preocupaciones ni escaleras, aquí todos entramos por la
                 puerta principal.{" "}
-              </p>
             </p>{" "}
           </div>
           <p className="text-center font-semibold md:text-xl text-base text-blue-900 ">¡Te esperamos!</p>

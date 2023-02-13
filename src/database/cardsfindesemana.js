@@ -58,7 +58,7 @@ export const cardsfindesemana = [
     {
       id: 9,
       imagen: "actividades-pared-climbing.jpg",
-      titulo: "Pared de Climbing",
+      titulo: "Parque adaptado y muro de escalar",
       alt: "Pared de Climbing",
     },
 
