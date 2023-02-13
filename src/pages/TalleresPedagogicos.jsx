@@ -54,12 +54,12 @@ export const TalleresPedagogicos = () => {
       <InfografiaPasaDia />
       <section className="fondoAsistirTalleres md:bg-cover bg-auto bg-no-repeat">
         <div className="flex justify-center pt-10">
-          <h1 className="FondoFucsiaTalleres py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center md:w-96 mx-3">
+          <h1 className="FondoFucsiaTalleres py-4 px-2 md:text-2xl text-xl font-bold text-white rounded-lg text-center md:w-96 mx-3">
             ¿Cómo asistir a los talleres?
           </h1>
         </div>
         <div className="md:pt-14 md:flex flex-row items-center justify-center">
-          <div className="md:max-w-2xl max-w-sm md:p-6 p-8 md:mr-28">
+          <div className="md:max-w-2xl max-w-sm md:p-6 p-8 md:mr-28 lg:mr-1">
             <h1 className="font-bold md:text-2xl text-lg text-left mb-4">
               Para colegios y escuelas
             </h1>

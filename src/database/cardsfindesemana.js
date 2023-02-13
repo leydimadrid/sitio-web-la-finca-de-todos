@@ -23,8 +23,8 @@ export const cardsfindesemana = [
     {
       id: 4,
       imagen: "actividades-cuentos.jpg",
-      titulo: "Hora de cuentos en lengua de señas Colombiano",
-      alt: "Hora de cuentos en Lengua de señas Colombiano",
+      titulo: "Simulador de vuelo",
+      alt: "Simulador de vuelo",
     },
 
     {

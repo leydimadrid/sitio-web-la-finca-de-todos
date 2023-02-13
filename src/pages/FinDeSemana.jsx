@@ -1,5 +1,6 @@
 import { cardsfindesemana } from "../database/cardsfindesemana";
 import { CardsFinDeSemana } from "../components/CardsFinDeSemana";
+import { CardsLenguaDeSeñas } from "../components/CardsLenguaDeSeñas";
 
 export const FinDeSemana = () => {
   return (
@@ -26,6 +27,7 @@ export const FinDeSemana = () => {
             ))}
           </div>
         </section>
+        <CardsLenguaDeSeñas/>
         </div>
               
       </section>

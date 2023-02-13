@@ -36,14 +36,14 @@ export const Nosotros = () => {
         />
         </div>  */}
       <div id="contenedor">
-        <section className="nuestraMision md:bg-contain bg-auto bg-no-repeat pt-24">
+        <section className="nuestraMision md:bg-contain bg-auto bg-no-repeat md:pt-24 pt-16">
           <div>
             <h1 className="titulo font-bold md:text-2xl text-xl text-center md:pt-30 text-gray-800">
               Nuestra Misión
             </h1>
             <hr className="linea-fucsia mx-auto mt-2"></hr>
           </div>
-          <div className="flex justify-center my-auto pt-6 pb-6 px-4 md:text-xl text-base font-medium">
+          <div className="flex justify-center my-auto pt-6 mb-2 px-4 md:text-xl text-base font-medium">
             <p className="titulo text-gray-800 md:text-justify text-center max-w-5xl">
               <span className="text-blue-900 font-semibold">
                 La Finca de Todos{" "}

@@ -9,49 +9,49 @@ export const NavBar = () => {
     <>
       <nav>
         <ul
-          className={`bg-white py-4 px-4 md:p-0 md:flex md:items-center md:text-lg w-full absolute md:static font-medium text-base md:pb-0 left-0  md:w-auto md:pl-0 ${
+          className={`bg-white py-4 px-4 md:p-0 md:flex md:items-center md:text-xs sm:text-sm lg:text-lg w-full absolute md:static font-medium md:pb-0 left-0  md:w-auto md:pl-0 ${
             open ? "top-20" : "top-[-490px]"
           }`}
         >
           <li
             onClick={() => setOpen(!open)}
-            className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
+            className=" md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
           >
             <Link to="/inicio">Inicio</Link>
           </li>
           <li
             onClick={() => setOpen(!open)}
-            className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
+            className="md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
           >
             <Link to="/nosotros">Nosotros</Link>
           </li>
           <li
             onClick={() => setOpen(!open)}
-            className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
+            className="md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
           >
             <Link to="/lafinca">La Finca</Link>
           </li>
           <li
             onClick={() => setOpen(!open)}
-            className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
+            className=" md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
           >
             <Link to="/findesemana">Fin de semana</Link>
           </li>
           <li
             onClick={() => setOpen(!open)}
-            className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
+            className="md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
           >
             <Link to="/talleres">Talleres pedagógicos</Link>
           </li>
           <li
             onClick={() => setOpen(!open)}
-            className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
+            className="md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
           >
             <Link to="/ubicacion">Ubicación</Link>
           </li>
           <li
             onClick={() => setOpen(!open)}
-            className="md:ml-2 md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
+            className="md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-4 rounded text-gray-800"
           >
             <Link to="/Contacto">Contacto</Link>
           </li>
