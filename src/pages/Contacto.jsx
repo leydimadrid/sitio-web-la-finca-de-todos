@@ -6,16 +6,16 @@ import iconoemail from "../assets/images/icono-email.svg";
 
 export const Contacto = () => {
   return (
-    <section className="fondoCardsActividades">
-      <div className="flex flex-col md:flex-row lg:flex-row">
-        <div>
+    <section>
+      <div className="flex flex-col md:flex-row lg:flex-row lg:space-x-56 md:space-x-56">
+        <div className="my-6">
           <img src={imagenContacto} />
         </div>
 
-        <div className="md:w-2/6 lg:w-2/6 w-96 bg-white rounded-xl shadow-lg p-8">
+        <div className="md:w-2/6 lg:w-2/6 w-full bg-gray-100 rounded-xl shadow-lg p-8 my-6">
           <h1 className="text-blue-900 font-bold text-2xl text-center">Comunícate con nosotros</h1>
           <div className="mt-8 flex justify-center">
-          <form className="w-full max-w-lg flex flex-col space-y-4">
+          <form className="w-full flex flex-col space-y-4">
             <div>
               <label htmlFor="" className="text-gray-700 text-sm font-bold">Nombre</label>
             </div>
