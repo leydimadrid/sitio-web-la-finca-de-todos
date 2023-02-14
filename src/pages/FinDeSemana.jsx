@@ -59,7 +59,7 @@ export const FinDeSemana = () => {
         <div id="contenedor">
           <section>
             <div className="flex justify-center">
-              <h1 className="titulo font-bold max-w-lg md:text-2xl text-xl text-center md:pt-28 pt-4 text-gray-800">
+              <h1 className="titulo font-bold max-w-lg md:text-2xl text-xl text-center md:pt-28 pt-4 text-gray-800 leading-relaxed">
                 Actividades fin de semana
               </h1>
             </div>

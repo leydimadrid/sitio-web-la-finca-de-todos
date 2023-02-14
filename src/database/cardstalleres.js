@@ -54,7 +54,7 @@ export const cardstalleres = [
 
   {
     id: 7,
-    imagen: "sin-imagen.jpg",
+    imagen: "talleres-sostenibilidad.jpg",
     titulo: "La sostenibilidad",
     parrafo: "Is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry's standard dummy.",
     alt: "Personas realizando actividad física",

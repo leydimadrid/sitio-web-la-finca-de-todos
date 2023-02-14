@@ -29,7 +29,7 @@ export const InfografiaDiscapacidad = () => {
 
           {/* Inicio Texto inicial */}
           <div className="flex justify-center px-4 ">
-            <p className="text-gray-800 font-normal md:text-xl text-base max-w-4xl text-justify">
+            <p className="text-gray-800 font-normal md:text-xl text-base max-w-4xl text-justify leading-relaxed">
               Colombia forma parte de la Convención de Naciones Unidas sobre los
               Derechos de las Personas con Discapacidad desde el{" "}
               <span className="font-semibold">2011 </span>para promover su plena
@@ -50,24 +50,24 @@ export const InfografiaDiscapacidad = () => {
               <h1 className="FondoFucsiaInfografia py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 px-3 md:mx-0 mx-auto mb-4">
                 ¿QUIÉNES SOMOS?
               </h1>
-              <p className="max-w-md md:text-xl text-base mb-4 mx-auto text-gray-800 md:text-left text-center">
-                Somos <span className="font-semibold">igual</span> a los demás{" "}
-                <span className="font-semibold">Colombianos</span> con unos{" "}
-                <span className="font-semibold">retos adicionales</span> que
+              <p className="max-w-md md:text-xl text-base mb-4 mx-auto text-gray-800 md:text-left text-center leading-relaxed">
+                Somos <span className="font-semibold leading-relaxed">igual</span> a los demás{" "}
+                <span className="font-semibold leading-relaxed">Colombianos</span> con unos{" "}
+                <span className="font-semibold leading-relaxed ">retos adicionales</span> que
                 enfrentar.
               </p>
-              <p className="md:text-xl max-w-sm text-base mb-4 mx-auto text-gray-800 md:mx-0 md:text-left text-center">
+              <p className="md:text-xl max-w-sm text-base mb-4 mx-auto text-gray-800 md:mx-0 md:text-left text-center leading-relaxed">
                 Podemos tener una discapacidad:
               </p>
               <div className="flex justify-center md:mx-0 max-w-sm">
-                <ul className="ml-4 list-disc md:text-xl text-base text-gray-800 px-4">
+                <ul className="ml-4 list-disc md:text-xl text-base text-gray-800 px-4 leading-relaxed">
                   <li>Auditiva</li>
                   <li>Intelectual</li>
                   <li>Sordoceguera</li>
                   <li>Múltiple</li>
                 </ul>
 
-                <ul className="ml-4 list-disc md:text-xl text-base text-gray-800 px-4">
+                <ul className="ml-4 list-disc md:text-xl text-base text-gray-800 px-4 leading-relaxed">
                   <li>Física</li>
                   <li>Visual</li>
                   <li>Psicosocial</li>
@@ -89,11 +89,11 @@ export const InfografiaDiscapacidad = () => {
                 </div>
               </div>
               <div>
-                <p className="md:max-w-md max-w-sm md:text-xl text-base md:mx-0 mx-auto text-gray-800 md:text-left text-center">
-                  <span className="text-blue-900 md:text-5xl text-4xl font-semibold ">
+                <p className="md:max-w-md max-w-sm md:text-xl text-base md:mx-0 mx-auto text-gray-800 md:text-left text-center leading-relaxed">
+                  <span className="text-blue-900 md:text-5xl text-4xl font-semibold leading-relaxed ">
                     15%{" "}
                   </span>
-                  de las personas registradas manifestó ser <span className="font-semibold">víctima del
+                  de las personas registradas manifestó ser <span className="font-semibold leading-relaxed">víctima del
                   conflicto armado.</span>
                 </p>
               </div>
@@ -122,9 +122,9 @@ export const InfografiaDiscapacidad = () => {
                 />
               </div>
               <div className="max-w-sm md:max-w-sm md:mx-0 mx-auto md:text-left text-center">
-                <p className="md:text-xl text-base mb-4 text-gray-800">
+                <p className="md:text-xl text-base mb-4 text-gray-800 leading-relaxed">
                   Población de Colombia{" "}
-                  <span className="font-semibold">51.5 millones</span> de
+                  <span className="font-semibold leading-relaxed">51.5 millones</span> de
                   personas.
                 </p>
                 <div className="md:px-0 mt-8">
@@ -149,12 +149,12 @@ export const InfografiaDiscapacidad = () => {
             </div>
             <div className="md:flex flex-row justify-center mt-8">
               <div className="flex justify-center">
-                <p className="md:max-w-sm max-w-sm md:text-xl text-base text-center mr-0 md:mr-32 text-gray-800">
-                  <span className="text-pink-600 md:text-5xl text-4xl font-bold block">
+                <p className="md:max-w-sm max-w-sm md:text-xl text-base text-center mr-0 md:mr-32 text-gray-800 leading-relaxed">
+                  <span className="text-pink-600 md:text-5xl text-4xl font-bold block leading-relaxed">
                     23%{" "}
                   </span>
                   de las personas con discapacidades son menores de{" "}
-                  <span className="font-semibold">27 años.</span>
+                  <span className="font-semibold leading-relaxed">27 años.</span>
                 </p>
               </div>
               <div className="md:flex justify-center mb-8 mx-4 hidden">
@@ -166,24 +166,24 @@ export const InfografiaDiscapacidad = () => {
               </div>
               {/* Linea discontinua oculta para MD */}
               <div className="flex justify-center">
-                <p className="md:max-w-md max-w-sm md:text-xl text-base ml-0 md:ml-32 text-center text-gray-800">
-                  <span className="text-blue-900 md:text-xl text-lg font-bold ">
+                <p className="md:max-w-md max-w-sm md:text-xl text-base ml-0 md:ml-32 text-center text-gray-800 leading-relaxed">
+                  <span className="text-blue-900 md:text-xl text-lg font-bold leading-relaxed">
                     3.134.037{" "}
                   </span>
                   personas con dificultades para realizar actividades básicas
                   diarias
-                  <p className="md:max-w-md max-w-sm md:text-xl text-base md:mx-0 mx-auto mt-4">
-                    <span className=" text-blue-900 md:text-2xl text-xl font-bold">
+                  <p className="md:max-w-md max-w-sm md:text-xl text-base md:mx-0 mx-auto mt-4 leading-relaxed">
+                    <span className=" text-blue-900 md:text-2xl text-xl font-bold leading-relaxed">
                       {" "}
                       “{" "}
                     </span>{" "}
                     Un{" "}
-                    <span className=" text-blue-900 md:text-2xl text-xl font-bold">
+                    <span className=" text-blue-900 md:text-2xl text-xl font-bold leading-relaxed">
                       {" "}
                       7.1%{" "}
                     </span>{" "}
                     de la población del país.{" "}
-                    <span className=" text-blue-900 md:text-2xl text-xl font-bold">
+                    <span className=" text-blue-900 md:text-2xl text-xl font-bold leading-relaxed">
                       {" "}
                       ”{" "}
                     </span>
@@ -197,16 +197,16 @@ export const InfografiaDiscapacidad = () => {
             </div>
             {/* Linea discontinua oculta para MD */}
             <div className="flex justify-center mt-4">
-              <p className="md:max-w-sm max-w-sm md:text-xl text-base text-center text-gray-800">
+              <p className="md:max-w-sm max-w-sm md:text-xl text-base text-center text-gray-800 leading-relaxed">
                 Por falta de datos se estima que las{" "}
-                <span className="font-semibold">personas con discapacidad</span>{" "}
+                <span className="font-semibold leading-relaxed">personas con discapacidad</span>{" "}
                 superan el{" "}
-                <span className="text-pink-600 md:text-2xl text-base font-bold">
+                <span className="text-pink-600 md:text-2xl text-base font-bold leading-relaxed">
                   {" "}
                   15%
                 </span>{" "}
                 de la población cerca de{" "}
-                <span className=" text-blue-900 md:text-xl text-base font-bold block">
+                <span className=" text-blue-900 md:text-xl text-base font-bold block leading-relaxed">
                   7.2 millones Colombianos.
                 </span>
               </p>
@@ -228,10 +228,10 @@ export const InfografiaDiscapacidad = () => {
                   ¿DÓNDE ESTAMOS?
                 </h1>
                 <div className="max-w-xl md:text-xl mx-auto md:mx-0 p-2">
-                  <p className="md:text-xl text-base mb-4 text-gray-800 md:text-left text-center">
+                  <p className="md:text-xl text-base mb-4 text-gray-800 md:text-left text-center leading-relaxed">
                     Las entidades territoriales con mayor número de personas con
                     discapacidad son{" "}
-                    <span className="font-semibold">
+                    <span className="font-semibold leading-relaxed">
                       Bogotá, Antioquia, Huila, Santander y Cali.
                     </span>
                   </p>{" "}
@@ -250,24 +250,24 @@ export const InfografiaDiscapacidad = () => {
                   <img src={lineaDiscontinuaLarga} alt="Lineas discontinuas" />
                 </div>
                 <div className="md:pl-40 mt-4">
-                  <p className="md:max-w-sm max-w-sm md:text-xl text-base text-center  md:mx-0 mx-auto text-gray-800">
+                  <p className="md:max-w-sm max-w-sm md:text-xl text-base text-center  md:mx-0 mx-auto text-gray-800 leading-relaxed">
                     En{" "}
-                    <span className="text-blue-900 md:text-xl text-lg font-bold ">
+                    <span className="text-blue-900 md:text-xl text-lg font-bold leading-relaxed">
                       Cali{" "}
                     </span>
                     se registraron{" "}
-                    <span className="text-blue-900 md:text-xl text-lg font-bold ">
+                    <span className="text-blue-900 md:text-xl text-lg font-bold leading-relaxed">
                       55,454{" "}
                     </span>{" "}
                     personas con discapacidad.
                   </p>
-                  <p className="md:max-w-sm max-w-sm md:text-xl text-base text-center mt-4 md:mx-0 mx-auto text-gray-800">
+                  <p className="md:max-w-sm max-w-sm md:text-xl text-base text-center mt-4 md:mx-0 mx-auto text-gray-800 leading-relaxed">
                     En{" "}
-                    <span className="text-pink-600 md:text-xl text-lg font-bold ">
+                    <span className="text-pink-600 md:text-xl text-lg font-bold leading-relaxed">
                       Valle del Cauca{" "}
                     </span>
                     se registraron{" "}
-                    <span className="text-pink-600 md:text-xl text-lg font-bold">
+                    <span className="text-pink-600 md:text-xl text-lg font-bold leading-relaxed">
                       49,423{" "}
                     </span>{" "}
                     personas con discapacidad.
@@ -304,16 +304,16 @@ export const InfografiaDiscapacidad = () => {
                     ¿CÓMO ESTAMOS?
                   </h1>
                 </div>
-                <p className="max-w-xl md:text-xl text-base mb-4 text-gray-800 md:text-right text-center">
-                  <span className="font-semibold">“</span>Al interactuar con
+                <p className="max-w-xl md:text-xl text-base mb-4 text-gray-800 md:text-right text-center leading-relaxed">
+                  <span className="font-semibold leading-relaxed">“</span>Al interactuar con
                   diversas barreras incluyendo las actitudinales, las personas
                   con discapacidades pueden sentirse impedidos de la{" "}
-                  <span className="font-semibold">participación plena</span>{" "}
-                  y <span className="font-semibold">efectiva</span> en la{" "}
-                  <span className="font-semibold">sociedad</span>, en{" "}
-                  <span className="font-semibold">igualdad</span> de{" "}
-                  <span className="font-semibold">condiciones</span> con las{" "}
-                  <span className="font-semibold">demás”.</span>
+                  <span className="font-semibold leading-relaxed" >participación plena</span>{" "}
+                  y <span className="font-semibold leading-relaxed">efectiva</span> en la{" "}
+                  <span className="font-semiboldleading-relaxed">sociedad</span>, en{" "}
+                  <span className="font-semibold leading-relaxed">igualdad</span> de{" "}
+                  <span className="font-semibold leading-relaxed">condiciones</span> con las{" "}
+                  <span className="font-semibold leading-relaxed">demás”.</span>
                 </p>{" "}
               </div>
             </div>
@@ -325,27 +325,27 @@ export const InfografiaDiscapacidad = () => {
             <div className="flex flex-col md:flex-row">
               <div
                 className="mt-4 mr-4">
-                <h1 className="text-pink-600 font-bold md:text-2xl text-xl md:ml-10 md:text-left text-center">
+                <h1 className="text-pink-600 font-bold md:text-2xl text-xl md:ml-10 md:text-left text-center leading-relaxed">
                   Enfrentamos
                 </h1>
-                <p className="md:text-xl text-base text-gray-800 md:ml-10 md:text-left text-center ">
+                <p className="md:text-xl text-base text-gray-800 md:ml-10 md:text-left text-center leading-relaxed ">
                   varios retos al salir de casa
                 </p>
-                <ul className="list-disc md:text-xl text-base text-gray-800 px-4 max-w-xl ml-10 mt-4 ">
-                  <li>
+                <ul className="list-disc md:text-xl text-base text-gray-800 px-4 max-w-xl ml-10 mt-4 leading-relaxed">
+                  <li className="leading-relaxed">
                     Calles o aceras irregulares, barreras arquitectónicas que{" "}
                     <span className="font-semibold">
                       imposibilitan nuestro acceso a espacios públicos o
                       privados.
                     </span>
                   </li>
-                  <li>
+                  <li className="leading-relaxed">
                     <span className="font-semibold">
                       Falta de tecnología inclusiva
                     </span>{" "}
                     como braille, lectores de pantalla y señales auditivas.
                   </li>
-                  <li>
+                  <li className="leading-relaxed">
                     <span className="font-semibold">Miradas o preguntas </span>
                     que disminuyen nuestra confianza para salir y explorar
                     nuestro propio entorno .
@@ -371,20 +371,20 @@ export const InfografiaDiscapacidad = () => {
             </div>
             <div className=" flex flex-col md:flex-row">
               <div className="max-w-2xl mt-4 mr-10">
-                <p className="md:text-xl text-base text-gray-800 ml-10 md:text-left text-center">
+                <p className="md:text-xl text-base text-gray-800 ml-10 md:text-left text-center leading-relaxed">
                   El{" "}
-                  <span className="font-semibold">
+                  <span className="font-semibold leading-relaxed">
                     Ministerio de la Igualdad
                   </span>{" "}
                   se formó en el{" "}
-                  <span className="text-blue-900 font-bold">2023</span> para
+                  <span className="text-blue-900 font-bold leading-relaxed">2023</span> para
                   mitigar los{" "}
-                  <span className="font-semibold">desequilibrios sociales</span>{" "}
-                  y la <span className="font-semibold">inequidad.</span> La vice
+                  <span className="font-semibold leading-relaxed">desequilibrios sociales</span>{" "}
+                  y la <span className="font-semibold leading-relaxed">inequidad.</span> La vice
                   presidenta{" "}
-                  <span className="font-semibold">Francia Márquez</span> dijo
-                  que el{" "}<span className="font-semibold">Ministerio de la igualdad</span> será{" "}
-                  <span className="font-semibold">
+                  <span className="font-semibold leading-relaxed">Francia Márquez</span> dijo
+                  que el{" "}<span className="font-semibold leading-relaxed">Ministerio de la igualdad</span> será{" "}
+                  <span className="font-semibold leading-relaxed">
                     “un mecanismo para avanzar en la reducción efectiva de las
                     brechas de desigualdad e inequidad en Colombia”.
                   </span>
@@ -409,8 +409,8 @@ export const InfografiaDiscapacidad = () => {
               </div>
               <div className="flex justify-end">
                 <div className="max-w-2xl mt-4 mr-10 mb-8">
-                  <p className="md:text-xl text-base text-gray-800 ml-10 md:text-right text-center ">
-                    <span className="text-blue-900 font-bold">
+                  <p className="md:text-xl text-base text-gray-800 ml-10 md:text-right text-center leading-relaxed ">
+                    <span className="text-blue-900 font-bold leading-relaxed">
                       La Finca de Todos{" "}
                     </span>{" "}
                     forma parte de este llamado a la acción para la inclusión de
@@ -425,7 +425,7 @@ export const InfografiaDiscapacidad = () => {
           {/* Footer de la infografia */}
           <section>
             <div className="bg-blue-900 md:p-3 md:flex hidden">
-              <ul className="text-white text-xs md:max-w-6xl max-w-xs">
+              <ul className="text-white text-xs md:max-w-6xl max-w-xs leading-relaxed">
                 <li>Fuentes:</li>
                 <li>
                   <a

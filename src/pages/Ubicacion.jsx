@@ -57,19 +57,19 @@ export const Ubicacion = () => {
     <section id="contenedor" className="fondoUbicacion md:bg-cover bg-cover bg-no-repeat">
       <div className="md:flex flex-row items-center justify-center md:pt-20">
         <div className="max-w-xl md:p-6 p-8 md:mr-28 lg:mr-1">
-          <p className="titulo text-gray-800 md:text-xl text-base text-center">
+          <p className="titulo text-gray-800 md:text-xl text-base text-center leading-relaxed">
             Si necesitas transporte accesible{" "}
-            <span className="titulo font-bold block text-blue-900">
+            <span className="titulo font-bold block text-blue-900 leading-relaxed">
               ¡Te recogemos! 
             </span>
           </p>
-          <p className="titulo text-center text-gray-800 md:text-xl text-base mt-6">
-            <span className="titulo font-bold block text-gray-800">
+          <p className="titulo text-center text-gray-800 md:text-xl text-base mt-6 leading-relaxed">
+            <span className="titulo font-bold block text-gray-800 leading-relaxed">
               Sábado y Domingo
             </span>{" "}
             Paradas gratuitas en buseta accesible.
           </p>
-          <p className="titulo text-gray-800 font-bold md:text-xl text-base text-center mt-6">
+          <p className="titulo text-gray-800 font-bold md:text-xl text-base text-center mt-6 leading-relaxed">
             Las paradas serán decididas en un futuro. 
           </p>
         </div>
@@ -82,8 +82,8 @@ export const Ubicacion = () => {
           />
         </div>
       </div>
-      <p className="titulo text-gray-800 font-semibold md:text-xl text-base text-center mt-6">
-        Aún estamos buscando el lugar perfecto para <span className="titulo text-blue-900 font-semibold">
+      <p className="titulo text-gray-800 font-semibold md:text-xl text-base text-center mt-6 leading-relaxed">
+        Aún estamos buscando el lugar perfecto para <span className="titulo text-blue-900 font-semibold leading-relaxed">
                 La Finca de Todos{" "}
               </span>{" "}
       </p>

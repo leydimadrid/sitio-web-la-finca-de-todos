@@ -60,7 +60,7 @@ export const Inicio = () => {
           BIENVENIDOS
         </h1>
         <div className="my-auto mx-auto pt-6 md:pb-10 pb-6 text-center md:text-xl text-base font-medium text-gray-800">
-          <p className="titulo">
+          <p className="titulo leading-relaxed">
             Is simply dummy text of the
             <span className="titulo block">printing and typesetting.</span>
             <span className="titulo block">Lorem Ipsum has been the </span>

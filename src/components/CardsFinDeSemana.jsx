@@ -15,7 +15,7 @@ export const CardsFinDeSemana = ({imagen, titulo, alt}) => {
           alt={alt}
         />
         <div className="items-center p-4 leading-normal md:w-64 w-40 text-center">
-          <h5 className="mb-2 md:text-xl text-base font-bold tracking-tight text-gray-800">
+          <h5 className="mb-2 md:text-xl text-base font-bold tracking-tight text-gray-800 leading-relaxed">
             {titulo}
           </h5>
         </div>

@@ -60,18 +60,18 @@ export const Donaciones = () => {
           {" "}
           <img className="p-4" src={imagenDonaciones} alt="Niña con Síndrome de Down sonriendo" />
         </div>
-        <div className="max-w-xl md:p-6 p-8">
-          <p className="titulo text-gray-800 md:text-xl text-base text-center">
+        <div className="max-w-xl md:p-6 p-8 font-medium">
+          <p className="titulo text-gray-800 md:text-xl text-base text-center leading-relaxed">
             Tu apoyo es indispensable para crear el mundo de igualdad en el que
             queremos vivir.{" "}
-            <span className="titulo colorTextoDonaciones font-bold block">
+            <span className="titulo colorTextoDonaciones font-bold block leading-relaxed">
               ¡Gracias por tu donación! 
             </span>
           </p>
-          <p className="titulo text-center text-gray-800 md:text-xl text-base mt-6">
+          <p className="titulo text-center text-gray-800 md:text-xl text-base mt-6 leading-relaxed">
             La Fundación La Finca de Todos es una Entidad sin Ánimo de Lucro,
             número de registro XXXX.
-            <div className="titulo text-center pt-10 md:text-2xl text-xl">
+            <div className="titulo text-center pt-10 md:text-2xl text-xl leading-relaxed">
               <BotonAhora />
             </div>
           </p>

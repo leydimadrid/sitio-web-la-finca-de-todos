@@ -70,7 +70,7 @@ export const Nosotros = () => {
             <hr className="linea-fucsia mx-auto mt-2"></hr>
           </div>
           <div className="flex justify-center my-auto pt-6 mb-2 px-4 md:text-xl text-base font-medium">
-            <p className="titulo text-gray-800 md:text-justify text-center max-w-5xl">
+            <p className="titulo text-gray-800 md:text-justify text-center max-w-5xl leading-relaxed">
               <span className="text-blue-900">
                 La Finca de Todos{" "}
               </span>{" "}

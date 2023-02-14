@@ -22,7 +22,7 @@ export const cardsfindesemana = [
 
     {
       id: 4,
-      imagen: "actividades-cuentos.jpg",
+      imagen: "actividades-simulador.jpg",
       titulo: "Simulador de vuelo",
       alt: "Simulador de vuelo",
     },
