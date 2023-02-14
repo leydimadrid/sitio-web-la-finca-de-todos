@@ -71,21 +71,21 @@ export const Nosotros = () => {
           </div>
           <div className="flex justify-center my-auto pt-6 mb-2 px-4 md:text-xl text-base font-medium">
             <p className="titulo text-gray-800 md:text-justify text-center max-w-5xl">
-              <span className="text-blue-900 font-semibold">
+              <span className="text-blue-900">
                 La Finca de Todos{" "}
               </span>{" "}
               es una oportunidad para vivir en un mundo equitativo y divertido,
               donde nadie queda afuera. Hacen falta espacios campestres que sean
               completamente accesibles a todos los ciudadanos.{" "}
               En{" "}
-                <span className="text-blue-900 font-semibold">
+                <span className="text-blue-900">
                   La Finca de Todos{" "}
                 </span>{" "}
                 no hay preocupaciones ni escaleras, aquí todos entramos por la
                 puerta principal.{" "}
             </p>{" "}
           </div>
-          <p className="titulo text-center font-semibold md:text-xl text-base text-blue-900 ">¡Te esperamos!</p>
+          <p className="titulo text-center font-semibold md:text-2xl text-xl text-blue-900 ">¡Te esperamos!</p>
           <Slider />
         </section>
         <div className="titulo">

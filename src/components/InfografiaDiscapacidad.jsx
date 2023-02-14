@@ -59,7 +59,7 @@ export const InfografiaDiscapacidad = () => {
               <p className="md:text-xl max-w-sm text-base mb-4 mx-auto text-gray-800 md:mx-0 md:text-left text-center">
                 Podemos tener una discapacidad:
               </p>
-              <div className="flex mx-auto md:mx-0 max-w-xs">
+              <div className="flex justify-center md:mx-0 max-w-sm">
                 <ul className="ml-4 list-disc md:text-xl text-base text-gray-800 px-4">
                   <li>Auditiva</li>
                   <li>Intelectual</li>

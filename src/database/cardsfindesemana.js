@@ -29,9 +29,9 @@ export const cardsfindesemana = [
 
     {
       id: 5,
-      imagen: "actividades-caminos-arboles.jpg",
-      titulo: "Caminos entre los árboles",
-      alt: "Caminos entre los árboles",
+      imagen: "actividades-camino-sensorial.jpg",
+      titulo: "Camino y jardín sensorial",
+      alt: "Camino y jardín sensorial",
     },
 
     {
