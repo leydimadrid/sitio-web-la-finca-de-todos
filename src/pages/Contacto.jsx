@@ -57,14 +57,14 @@ export const Contacto = () => {
       </div>
     </div>
      {/* Fin Modificador de texto */}
-      <div id="contenedor" className="flex flex-col md:flex-row lg:flex-row lg:space-x-40 md:space-x-40 items-center">
-        <div className="my-6">
+      <div id="contenedor" className="flex flex-col md:flex-row lg:flex-row lg:space-x-40 sm:space-x-0 xl:space-x-2 2xl:space-x-20 items-center">
+        <div className="md:my-6 lg:my-6">
           <img src={imagenContacto} />
         </div>
         <div className="md:w-2/6 lg:w-2/6 w-full h-2/6 p-8">
           <h1 className="titulo text-blue-900 font-bold md:text-2xl lg:text-2xl text-xl text-center leading-relaxed">Comunícate con nosotros</h1>
           <div className="mt-8 flex justify-center">
-          <form className="w-full flex flex-col space-y-4">
+          <form className="w-full flex flex-col space-y-3">
             <div>
               <label htmlFor="" className="titulo text-gray-700 md:text-md lg:text-md text-sm font-bold leading-relaxed">Nombre</label>
             </div>

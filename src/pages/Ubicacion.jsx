@@ -86,7 +86,7 @@ export const Ubicacion = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col md:flex-row lg:flex-row md:pl-48 lg:pl-48 md:space-x-64 lg:space-x-64 m-4">
+        <div className="flex flex-col md:flex-row lg:flex-row md:pl-48 lg:pl-48 md:space-x-64 xl:space-x-20 lg:space-x-64 m-4">
           <div className="shadow-lg">
             {" "}
             <img
