@@ -4,6 +4,7 @@ import iconoinstagram from "../assets/images/icono-instagram.svg";
 import iconofacebook from "../assets/images/icono-facebook.svg";
 import iconoemail from "../assets/images/icono-email.svg";
 import FontSizeChanger from 'react-font-size-changer';
+import { Formulario } from "../components/Formulario";
 
 export const Contacto = () => {
   return (
@@ -63,31 +64,7 @@ export const Contacto = () => {
         </div>
         <div className="md:w-2/6 lg:w-2/6 w-full h-2/6 p-8">
           <h1 className="titulo text-blue-900 font-bold md:text-2xl lg:text-2xl text-xl text-center leading-relaxed">Comunícate con nosotros</h1>
-          <div className="mt-8 flex justify-center">
-          <form className="w-full flex flex-col space-y-3">
-            <div>
-              <label htmlFor="" className="titulo text-gray-700 md:text-md lg:text-md text-sm font-bold leading-relaxed">Nombre</label>
-            </div>
-            <div>
-              <input type="text" placeholder="Ingrese su nombre" className="titulo leading-relaxed w-full ring-2 ring-gray-300 rounded-md outline-none focus:ring-2 focus:ring-blue-600 py-2 px-4" />
-            </div>
-
-            <div>
-              <label htmlFor="" className="titulo text-gray-700 md:text-md lg:text-md text-sm font-bold leading-relaxed">Email</label>
-            </div>
-            <div className="mt-2">
-              <input type="email" placeholder="Ingrese su email" className="titulo leading-relaxed w-full ring-2 ring-gray-300 rounded-md outline-none focus:ring-2 focus:ring-blue-600 py-2 px-4" />
-            </div>
-
-            <div>
-              <label htmlFor="" className="titulo leading-relaxed text-gray-700 md:text-md lg:text-md text-sm font-bold">Mensaje</label>
-            </div>
-            <div className="mt-2">
-              <textarea className="titulo leading-relaxed w-full ring-2 ring-gray-300 rounded-md outline-none focus:ring-2 focus:ring-blue-600 py-2 px-4" />
-            </div>
-            <button className="titulo leading-relaxed inline-block px-6 py-4 bg-blue-900 text-white font-semibold rounded-lg text-sm uppercase">Enviar mensaje</button>
-          </form>
-          </div>
+          <Formulario/>
           <div className="flex justify-center p-4 md:mt-10">
             <a href="" target="_blank">
               <img
