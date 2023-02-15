@@ -46,7 +46,7 @@ export const ActividadSembrados = () => {
               </p>
             </div>
             <img
-              className="lg:w-96 w-64 lg:rounded-l-lg rounded-b-lg"
+              className="lg:w-96 w-64 lg:rounded-r-lg rounded-b-lg"
               src={imagen2}
               alt="Cualquiercosa"
             />
