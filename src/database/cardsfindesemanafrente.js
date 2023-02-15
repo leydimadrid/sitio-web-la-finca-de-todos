@@ -1,4 +1,4 @@
-export const cardsfindesemana = [
+export const cardsfindesemanafrente = [
     {
       id: 1,
       imagen: "actividades-mariposario.jpg",
@@ -57,7 +57,7 @@ export const cardsfindesemana = [
 
     {
       id: 9,
-      imagen: "actividades-pared-climbing.jpg",
+      imagen: "actividades-muro-de-escalar.jpg",
       titulo: "Parque adaptado y muro de escalar",
       alt: "Pared de Climbing",
     },

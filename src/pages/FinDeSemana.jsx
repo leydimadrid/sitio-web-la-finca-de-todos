@@ -1,9 +1,19 @@
-import { cardsfindesemana } from "../database/cardsfindesemana";
+import { cardsfindesemanafrente } from "../database/cardsfindesemanafrente";
+import { cardsfindesemanaposterior } from "../database/cardsfindesemanaposterior";
 import { CardsFinDeSemana } from "../components/CardsFinDeSemana";
 import { CardsLenguaDeSeñas } from "../components/CardsLenguaDeSeñas";
 import FontSizeChanger from "react-font-size-changer";
+import ReactCardFlip from 'react-card-flip';
+import { useState } from "react";
+import { CardsFinDeSemanaPosterior } from "../components/CardsFinDeSemanaPosterior";
 
 export const FinDeSemana = () => {
+  const [isFlipped, setIsFlipped] = useState(false)
+
+  const handleClick = () => {
+    setIsFlipped(!isFlipped)
+  }
+
   return (
     <>
       {/* Inicio Modificador de texto  */}
@@ -65,9 +75,10 @@ export const FinDeSemana = () => {
             </div>
             <hr className="linea-fucsia mx-auto mt-2"></hr>
           </section>
+          <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
           <section className="md:py-6 px-2 mt-4 flex justify-center">
-            <div className="titulo flex flex-wrap md:max-w-6xl  lg:max-w-6xl sm:max-w-2xl justify-center">
-              {cardsfindesemana.map((item) => (
+            <div  onClick={handleClick} className="titulo flex flex-wrap lg:max-w-full justify-center cursor-pointer">
+              {cardsfindesemanafrente.map((item) => (
                 <CardsFinDeSemana
                   key={item.id}
                   imagen={item.imagen}
@@ -77,6 +88,23 @@ export const FinDeSemana = () => {
               ))}
             </div>
           </section>
+          
+        
+
+          <section className="md:py-6 px-2 mt-4 flex justify-center">
+            <div  onClick={handleClick} className="titulo flex flex-wrap lg:max-w-full justify-center cursor-pointer">
+              {cardsfindesemanaposterior.map((item) => (
+                <CardsFinDeSemanaPosterior
+                  key={item.id}
+                  imagen={item.imagen}
+                  parrafo={item.parrafo}
+                  alt={item.alt}
+                />
+              ))}
+            </div>
+          </section>
+      </ReactCardFlip>
+          
           <div className="titulo">
             <CardsLenguaDeSeñas />
           </div>
