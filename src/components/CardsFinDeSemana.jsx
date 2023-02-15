@@ -1,10 +1,9 @@
 export const CardsFinDeSemana = ({imagen, titulo, alt}) => {
 
-
   return (
     <section className="p-4">
       <div className="bg-white">
-      <div  className="fondoCardsActividades flex items-center rounded-lg shadow-lg lg:max-w-4xl ">
+      <div className="fondoCardsActividades flex items-center rounded-lg shadow-lg lg:max-w-4xl ">
       <img 
           className="lg:w-96 w-52 md:rounded-l-lg rounded-l-lg"
           src={imagen}
@@ -18,5 +17,9 @@ export const CardsFinDeSemana = ({imagen, titulo, alt}) => {
       </div>
       </div>
     </section>
+
+
+
+  
   );
 };

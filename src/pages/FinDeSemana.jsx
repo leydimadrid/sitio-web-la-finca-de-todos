@@ -1,19 +1,17 @@
-import { cardsfindesemanafrente } from "../database/cardsfindesemanafrente";
-import { cardsfindesemanaposterior } from "../database/cardsfindesemanaposterior";
-import { CardsFinDeSemana } from "../components/CardsFinDeSemana";
 import { CardsLenguaDeSeñas } from "../components/CardsLenguaDeSeñas";
 import FontSizeChanger from "react-font-size-changer";
-import ReactCardFlip from 'react-card-flip';
-import { useState } from "react";
-import { CardsFinDeSemanaPosterior } from "../components/CardsFinDeSemanaPosterior";
+import { ActividadMariposario } from "../components/ActividadMariposario";
+import { ActividadSembrados } from "../components/ActividadSembrados";
+import { ActividadInvernadero } from "../components/ActividadInvernadero";
+import { ActividadSimulador } from "../components/ActividadSimulador";
+import { ActividadCaminoYJardin } from "../components/ActividadCaminoYJardin";
+import { ActividadAnimales } from "../components/ActividadAnimales";
+import { ActividadJardinZen } from "../components/ActividadJardinZen";
+import { ActividadCasaSostenible } from "../components/ActividadCasaSostenible";
+import { ActividadMuroEscalar } from "../components/ActividadMuroEscalar";
+import { ActividadCafeteria } from "../components/ActividadCafeteria";
 
 export const FinDeSemana = () => {
-  const [isFlipped, setIsFlipped] = useState(false)
-
-  const handleClick = () => {
-    setIsFlipped(!isFlipped)
-  }
-
   return (
     <>
       {/* Inicio Modificador de texto  */}
@@ -75,36 +73,20 @@ export const FinDeSemana = () => {
             </div>
             <hr className="linea-fucsia mx-auto mt-2"></hr>
           </section>
-          <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-          <section className="md:py-6 px-2 mt-4 flex justify-center">
-            <div  onClick={handleClick} className="titulo flex flex-wrap lg:max-w-full justify-center cursor-pointer">
-              {cardsfindesemanafrente.map((item) => (
-                <CardsFinDeSemana
-                  key={item.id}
-                  imagen={item.imagen}
-                  titulo={item.titulo}
-                  alt={item.alt}
-                />
-              ))}
+           <section className="md:py-6 px-2 mt-4 flex justify-center">
+            <div className="titulo flex flex-wrap lg:max-w-full justify-center cursor-pointer">
+              <ActividadMariposario/>
+              <ActividadSembrados/>
+              <ActividadInvernadero/>
+              <ActividadSimulador/>
+              <ActividadCaminoYJardin/>
+              <ActividadAnimales/>
+              <ActividadJardinZen/>
+              <ActividadCasaSostenible/>
+              <ActividadMuroEscalar/>
+              <ActividadCafeteria/>
             </div>
           </section>
-          
-        
-
-          <section className="md:py-6 px-2 mt-4 flex justify-center">
-            <div  onClick={handleClick} className="titulo flex flex-wrap lg:max-w-full justify-center cursor-pointer">
-              {cardsfindesemanaposterior.map((item) => (
-                <CardsFinDeSemanaPosterior
-                  key={item.id}
-                  imagen={item.imagen}
-                  parrafo={item.parrafo}
-                  alt={item.alt}
-                />
-              ))}
-            </div>
-          </section>
-      </ReactCardFlip>
-          
           <div className="titulo">
             <CardsLenguaDeSeñas />
           </div>
