@@ -17,6 +17,10 @@ export const Formulario = () => {
     .then(response=> console.log(response))
     .catch(error => console.log(error))
 
+    // if(response.status === 200) {
+    //     console.log('Mensaje enviado')
+    // }
+
     if ([nombre, email, mensaje].includes("")) {
       setError(true);
       return;
