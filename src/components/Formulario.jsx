@@ -35,9 +35,11 @@ export const Formulario = () => {
         console.log(response);
         if (response.status === 200) {
           Swal.fire({
-            position: "top-end",
+            position: "item-center",
             icon: "success",
+            color: "gray",
             title: "Mensaje enviado con éxito 😀",
+            font: "Montserrat",
             showConfirmButton: false,
             timer: 1500,
           });
@@ -111,7 +113,9 @@ export const Formulario = () => {
           className="titulo leading-relaxed inline-block px-6 py-4 bg-blue-900 text-white font-semibold rounded-lg text-sm uppercase"
           value="Enviar mensaje"
         />
+        <div className="titulo">
         {error && <Error />}
+        </div>
       </form>
     </div>
   );

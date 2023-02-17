@@ -147,9 +147,9 @@ export const InfografiaDiscapacidad = () => {
                 <img src={lineaDiscontinua2Derecha} alt="Lineas discontinuas" />
               </div>
             </div>
-            <div className="md:flex flex-row justify-center mt-8">
+            <div className="md:flex flex-row justify-center mt-8 lg:space-x-48 md:lg:space-x-48">
             <div className="flex justify-center">
-                <p className="md:max-w-md max-w-sm md:text-xl text-base ml-0 md:ml-32 text-center text-gray-800 leading-relaxed">
+                <p className="md:max-w-md max-w-sm md:text-xl text-base text-center text-gray-800 leading-relaxed">
                   <span className="text-blue-900 md:text-xl text-lg font-bold leading-relaxed">
                     3.134.037{" "}
                   </span>
@@ -182,7 +182,7 @@ export const InfografiaDiscapacidad = () => {
               </div>
               {/* Linea discontinua oculta para MD */}
               <div className="flex justify-center">
-                <p className="md:max-w-sm max-w-sm md:text-xl text-base text-center mr-0 md:mr-32 text-gray-800 leading-relaxed">
+                <p className="md:max-w-sm max-w-sm md:text-xl text-base text-center text-gray-800 leading-relaxed">
                   <span className="text-pink-600 md:text-5xl text-4xl font-bold block leading-relaxed">
                     23%{" "}
                   </span>

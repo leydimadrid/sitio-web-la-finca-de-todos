@@ -1,7 +1,7 @@
 import { BotonDonar } from "../components/BotonDonar";
 import { Equipo } from "../components/Equipo";
 import { Slider } from "../components/Slider";
-import iconotelefono from "../assets/images/icono-telefono.svg";
+import iconowhatsapp from "../assets/images/icono-whatsapp.svg";
 import iconoinstagram from "../assets/images/icono-instagram.svg";
 import iconofacebook from "../assets/images/icono-facebook.svg";
 import iconoemail from "../assets/images/icono-email.svg";
@@ -106,11 +106,11 @@ export const Nosotros = () => {
           <Equipo />
         </div>
       <div className="flex justify-center p-4 md:mt-10">
-        <a href="" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=3153410641&text=%C2%A1Hola!%20La%20Finca%20De%20Todos%20" target="_blank">
           <img
             className="m-2 md:w-auto w-8 h-8"
-            src={iconotelefono}
-            alt="Icono telefono"
+            src={iconowhatsapp}
+            alt="Icono whatsapp"
           />
         </a>
         <a
@@ -132,7 +132,7 @@ export const Nosotros = () => {
           />
         </a>
 
-        <a href="" target="_blank">
+        <a href="mailto:finca.todos@gmail.com" target="_blank">
           <img
             className="m-2 md:w-auto w-8 h-8"
             src={iconoemail}
