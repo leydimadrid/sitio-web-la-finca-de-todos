@@ -58,7 +58,7 @@ export const Contacto = () => {
       </div>
     </div>
      {/* Fin Modificador de texto */}
-      <div id="contenedor" className="flex flex-col md:flex-row lg:flex-row lg:space-x-40 sm:space-x-0 xl:space-x-2 2xl:space-x-20 items-center">
+      <div id="contenedor" className="flex flex-col md:flex-row lg:flex-row items-center">
         <div className="md:my-6 lg:my-6">
           <img src={imagenContacto} />
         </div>

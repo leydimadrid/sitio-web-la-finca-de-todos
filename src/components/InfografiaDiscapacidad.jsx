@@ -127,7 +127,7 @@ export const InfografiaDiscapacidad = () => {
                   <span className="font-semibold leading-relaxed">51.5 millones</span> de
                   personas.
                 </p>
-                <div className="md:px-0 ">
+                <div className="md:px-0">
                   <img
                     src={vector2}
                     alt="Personas con diferentes discapacidades"
@@ -331,7 +331,7 @@ export const InfografiaDiscapacidad = () => {
                 <p className="md:text-xl lg:text-lg text-base text-gray-800 md:text-left text-center leading-relaxed ">
                   varios retos al salir de casa
                 </p>
-                <ul className="list-disc md:text-xl lg:text-lg text-base text-gray-800 px-4 max-w-xl mt-4 leading-relaxed">
+                <ul className="list-disc md:text-xl lg:text-lg text-base text-gray-800 px-10 max-w-xl mt-4 leading-relaxed sm:px-10">
                   <li className="leading-relaxed">
                     Calles o aceras irregulares, barreras arquitectónicas que{" "}
                     <span className="font-semibold">
