@@ -8,7 +8,7 @@ export const Ubicacion = () => {
     <div>
       {/* Inicio Modificador de texto  */}
       <div className="flex justify-end">
-        <div className="fixed md:m-4 lg:m-4 m-2">
+        <div className="fixed md:m-4 lg:m-4 m-2 z-10">
           <FontSizeChanger
             targets={["#contenedor .titulo"]}
             onChange={(element, newValue, oldValue) => {
