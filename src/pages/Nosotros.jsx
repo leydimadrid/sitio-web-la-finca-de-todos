@@ -69,8 +69,8 @@ export const Nosotros = () => {
             </h1>
             <hr className="linea-fucsia mx-auto mt-2"></hr>
           </div>
-          <div className="flex justify-center my-auto pt-6 mb-2 px-4 md:text-xl text-base font-medium">
-            <p className="titulo text-gray-800 md:text-justify text-center max-w-5xl leading-relaxed">
+          <div className="flex justify-center my-auto pt-6 mb-2 px-4 md:text-xl lg:text-lg text-base font-medium">
+            <p className="titulo text-gray-800 md:text-justify text-center md:max-w-5xl lg:max-w-3xl leading-relaxed">
               <span className="text-blue-900">
                 La Finca de Todos{" "}
               </span>{" "}
@@ -85,7 +85,7 @@ export const Nosotros = () => {
                 puerta principal.{" "}
             </p>{" "}
           </div>
-          <p className="titulo text-center font-semibold md:text-2xl text-xl text-blue-900 ">¡Te esperamos!</p>
+          <p className="titulo text-center font-semibold md:text-xl text-xl text-blue-900 ">¡Te esperamos!</p>
           <Slider />
         </section>
         <div className="titulo">
