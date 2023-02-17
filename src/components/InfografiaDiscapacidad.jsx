@@ -148,24 +148,7 @@ export const InfografiaDiscapacidad = () => {
               </div>
             </div>
             <div className="md:flex flex-row justify-center mt-8">
-              <div className="flex justify-center">
-                <p className="md:max-w-sm max-w-sm md:text-xl text-base text-center mr-0 md:mr-32 text-gray-800 leading-relaxed">
-                  <span className="text-pink-600 md:text-5xl text-4xl font-bold block leading-relaxed">
-                    23%{" "}
-                  </span>
-                  de las personas con discapacidades son menores de{" "}
-                  <span className="font-semibold leading-relaxed">27 años.</span>
-                </p>
-              </div>
-              <div className="md:flex justify-center mb-8 mx-4 hidden">
-                <img src={lineaDerechoDiscapacidad} alt="Lineas discontinuas" />
-              </div>
-              {/* Linea discontinua oculta para MD */}
-              <div className="w-3/5 mx-auto md:hidden flex mt-8 justify-center">
-                <img src={lineaDerechoDiscapacidad} alt="Lineas discontinuas" />
-              </div>
-              {/* Linea discontinua oculta para MD */}
-              <div className="flex justify-center">
+            <div className="flex justify-center">
                 <p className="md:max-w-md max-w-sm md:text-xl text-base ml-0 md:ml-32 text-center text-gray-800 leading-relaxed">
                   <span className="text-blue-900 md:text-xl text-lg font-bold leading-relaxed">
                     3.134.037{" "}
@@ -188,6 +171,23 @@ export const InfografiaDiscapacidad = () => {
                       ”{" "}
                     </span>
                   </p>
+                </p>
+              </div>
+              <div className="md:flex justify-center mb-8 mx-4 hidden">
+                <img src={lineaDerechoDiscapacidad} alt="Lineas discontinuas" />
+              </div>
+              {/* Linea discontinua oculta para MD */}
+              <div className="w-3/5 mx-auto md:hidden flex mt-8 justify-center">
+                <img src={lineaDerechoDiscapacidad} alt="Lineas discontinuas" />
+              </div>
+              {/* Linea discontinua oculta para MD */}
+              <div className="flex justify-center">
+                <p className="md:max-w-sm max-w-sm md:text-xl text-base text-center mr-0 md:mr-32 text-gray-800 leading-relaxed">
+                  <span className="text-pink-600 md:text-5xl text-4xl font-bold block leading-relaxed">
+                    23%{" "}
+                  </span>
+                  de las personas con discapacidades son menores de{" "}
+                  <span className="font-semibold leading-relaxed">27 años.</span>
                 </p>
               </div>
             </div>

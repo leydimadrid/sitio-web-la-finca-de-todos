@@ -1,36 +1,50 @@
 import { useState } from "react";
-import emailjs from "@emailjs/browser"
+import emailjs from "@emailjs/browser";
 import Error from "./Error";
-
+import Swal from "sweetalert2";
 
 export const Formulario = () => {
   const [error, setError] = useState(false);
 
   const [nombre, setNombre] = useState("");
-  const [email, setEmail] = useState("");
+  const [contacto, setContacto] = useState("");
   const [mensaje, setMensaje] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_35mx0t7', 'template_y63tqvl', e.target, 'hOByMRfajx3LnyXzm')
-    .then(response=> console.log(response))
-    .catch(error => console.log(error))
-
-    // if(response.status === 200) {
-    //     console.log('Mensaje enviado')
-    // }
-
-    if ([nombre, email, mensaje].includes("")) {
+    if ([nombre, contacto, mensaje].includes("")) {
       setError(true);
       return;
     }
 
     setNombre("");
-    setEmail("");
+    setContacto("");
     setMensaje("");
 
     setError(false);
+
+    emailjs
+      .sendForm(
+        "service_35mx0t7",
+        "template_y63tqvl",
+        e.target,
+        "hOByMRfajx3LnyXzm"
+      )
+      .then((response) => {
+        console.log(response);
+        if (response.status === 200) {
+          Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Mensaje enviado con éxito 😀",
+            showConfirmButton: false,
+            timer: 1500,
+          });
+        }
+      })
+      .catch((error) => console.log(error));
+
   };
 
   return (
@@ -61,18 +75,17 @@ export const Formulario = () => {
             htmlFor=""
             className="titulo text-gray-700 md:text-md lg:text-md text-sm font-bold leading-relaxed"
           >
-            Email
+            Medio de contacto
           </label>
         </div>
         <div className="mt-2">
           <input
-            id="email"
-            type="email"
-            name="email_usuario"
+            id="contacto"
+            name="contacto_usuario"
             placeholder="Ingrese su email"
             className="titulo leading-relaxed w-full ring-2 ring-gray-300 rounded-md outline-none focus:ring-2 focus:ring-blue-600 py-2 px-4"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            value={contacto}
+            onChange={(e) => setContacto(e.target.value)}
           />
         </div>
 
@@ -93,7 +106,11 @@ export const Formulario = () => {
             onChange={(e) => setMensaje(e.target.value)}
           />
         </div>
-        <input type="submit" className="titulo leading-relaxed inline-block px-6 py-4 bg-blue-900 text-white font-semibold rounded-lg text-sm uppercase" value="Enviar mensaje"/>
+        <input
+          type="submit"
+          className="titulo leading-relaxed inline-block px-6 py-4 bg-blue-900 text-white font-semibold rounded-lg text-sm uppercase"
+          value="Enviar mensaje"
+        />
         {error && <Error />}
       </form>
     </div>
