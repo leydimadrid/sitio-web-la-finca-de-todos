@@ -39,7 +39,7 @@ export const ActividadCafeteria = () => {
             >
               <div className="items-center p-4 leading-normal md:w-96 w-64 text-center">
                 <p className="mb-2 font-normal md:text-xl text-base tracking-tight text-gray-800 leading-relaxed text-left">
-                  Visita nuestra cafetería y prueba una variedad de delicias
+                  Prueba una variedad de delicias
                   preparadas por artesanos locales y aquí mismo en La Finca de
                   Todos. Fresco y hecho con amor, todos los ingredientes fueron
                   cosechados por manos Colombianas.

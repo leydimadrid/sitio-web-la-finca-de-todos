@@ -42,8 +42,7 @@ export const ActividadJardinZen = () => {
                   Un lugar para meditar, sentir calma y recargar la energía
                   positiva en un espacio tranquilo y accesible. Diseñado a base
                   de los principios zen y la cultura japonesa, este espacio
-                  favorece la serenidad y la meditación. Contemplemos la belleza
-                  que nos brinda la simplicidad.
+                  favorece la serenidad y la meditación.
                 </p>
               </div>
               <img

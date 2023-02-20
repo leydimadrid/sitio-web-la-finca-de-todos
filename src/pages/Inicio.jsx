@@ -59,12 +59,11 @@ export const Inicio = () => {
         <h1 className="titulo md:text-4xl text-3xl text-center text-blue-900 font-bold tracking-wide">
           BIENVENIDOS
         </h1>
-        <div className="my-auto mx-auto pt-6 md:pb-10 pb-6 text-center md:text-xl text-base font-medium text-gray-800">
+        <div className="max-w-md my-auto mx-auto pt-6 md:pb-10 pb-6 text-center md:text-xl text-base font-medium text-gray-800">
           <p className="titulo leading-relaxed">
-            Is simply dummy text of the
-            <span className="titulo block">printing and typesetting.</span>
-            <span className="titulo block">Lorem Ipsum has been the </span>
-            <span className="titulo block">industry's standard dummy.</span>
+            ¡Este mundo es para disfrutarlo al máximo! Te invitamos a <span className="text-blue-900">
+                La Finca de Todos{" "}
+              </span>, un lugar hecho para todos.
           </p>
         </div>
         <div className="titulo text-center md:pb-20 pb-10">

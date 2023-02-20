@@ -15,12 +15,12 @@ import vector5 from "../assets/images/vector-5-discapacidad.svg";
 
 export const InfografiaDiscapacidad = () => {
   return (
-    <section className="fondoInfografiaDiscapacidad  md:bg-auto bg-cover">
+    <section className="fondoInfografiaDiscapacidad  md:bg-cover bg-cover">
       <div className="flex justify-center">
         <div className="md:w-4/5">
           {/* Inicio Título infografía */}
-          <div className="p-4"> 
-            <h1 className="font-bold md:text-6xl text-3xl text-center md:pt-36 text-blue-900">
+          <div className="p-4">
+            <h1 className="font-bold md:text-6xl text-3xl text-center md:pt-24 text-blue-900">
               DISCAPACIDAD EN COLOMBIA
             </h1>
             <hr className="linea-amarilla h-1 md:w-3/5 md:mx-auto mx-auto mt-2"></hr>
@@ -51,10 +51,17 @@ export const InfografiaDiscapacidad = () => {
                 ¿QUIÉNES SOMOS?
               </h1>
               <p className="max-w-md md:text-xl lg:text-lg text-base mb-4 mx-auto text-gray-800 md:text-left text-center leading-relaxed p-2">
-                Somos <span className="font-semibold leading-relaxed">igual</span> a los demás{" "}
-                <span className="font-semibold leading-relaxed">Colombianos</span> con unos{" "}
-                <span className="font-semibold leading-relaxed ">retos adicionales</span> que
-                enfrentar.
+                Somos{" "}
+                <span className="font-semibold leading-relaxed">igual</span> a
+                los demás{" "}
+                <span className="font-semibold leading-relaxed">
+                  Colombianos
+                </span>{" "}
+                con unos{" "}
+                <span className="font-semibold leading-relaxed ">
+                  retos adicionales
+                </span>{" "}
+                que enfrentar.
               </p>
               <p className="md:text-xl lg:text-lg  max-w-sm text-base mb-4 mx-auto text-gray-800 md:mx-0 md:text-left text-center leading-relaxed">
                 Podemos tener una discapacidad:
@@ -90,11 +97,13 @@ export const InfografiaDiscapacidad = () => {
               </div>
               <div>
                 <p className="md:max-w-md max-w-sm md:text-xl lg:text-lg  text-base md:mx-0 mx-auto text-gray-800 md:text-left text-center leading-relaxed p-2">
-                  <span className="text-blue-900 md:text-5xl lg:text-2xl text-4xl font-semibold leading-relaxed ">
+                  <span className="text-blue-900 md:text-5xl lg:text-4xl text-4xl font-semibold leading-relaxed ">
                     15%{" "}
                   </span>
-                  de las personas registradas manifestó ser <span className="font-semibold leading-relaxed">víctima del
-                  conflicto armado.</span>
+                  de las personas registradas manifestó ser{" "}
+                  <span className="font-semibold leading-relaxed">
+                    víctima del conflicto armado.
+                  </span>
                 </p>
               </div>
 
@@ -121,14 +130,19 @@ export const InfografiaDiscapacidad = () => {
                   alt="Lineas discontinuas"
                 />
               </div>
-              <div className="max-w-sm md:max-w-sm md:mx-0 mx-auto md:text-left text-center">
+              <div className="md:mx-0 mx-auto text-center">
                 <p className="md:text-xl lg:text-lg  text-base mb-4 text-gray-800 leading-relaxed">
-                  Población de Colombia{" "}
-                  <span className="font-semibold leading-relaxed">51.5 millones</span> de
-                  personas.
+                  Población de Colombia:{" "}
+                  <span className="block ">
+                    <span className="font-semibold leading-relaxed">
+                      51.5 millones
+                    </span>{" "}
+                    de personas
+                  </span>
                 </p>
-                <div className="md:px-0">
+                <div className="md:px-0 flex justify-center">
                   <img
+                  className="w-80"
                     src={vector2}
                     alt="Personas con diferentes discapacidades"
                   />
@@ -148,7 +162,7 @@ export const InfografiaDiscapacidad = () => {
               </div>
             </div>
             <div className="md:flex flex-row justify-center mt-4 md:space-x-64 ">
-            <div className="flex justify-center">
+              <div className="flex justify-center">
                 <p className="md:max-w-xl lg:max-w-md max-w-sm md:text-xl lg:text-lg text-base text-center text-gray-800 leading-relaxed">
                   <span className="text-blue-900 md:text-xl text-lg font-bold leading-relaxed">
                     3.134.037{" "}
@@ -156,19 +170,22 @@ export const InfografiaDiscapacidad = () => {
                   personas con dificultades para realizar actividades básicas
                   diarias
                   <p className="md:max-w-md max-w-sm md:text-xl lg:text-lg text-base md:mx-0 mx-auto mt-4 leading-relaxed">
-                    <span className=" text-blue-900 md:text-2xl text-xl font-bold leading-relaxed">
-                      {" "}
+                    <span className=" text-blue-900 md:text-xl text-xl font-bold leading-relaxed">
                       “{" "}
                     </span>{" "}
                     Un{" "}
-                    <span className=" text-blue-900 md:text-xl text-xl font-bold leading-relaxed">
+                    <span className=" text-blue-900 md:text-2xl text-2xl font-bold leading-relaxed">
                       {" "}
                       7.1%{" "}
                     </span>{" "}
-                    de la población del país.{" "}
-                    <span className=" text-blue-900 md:text-2xl text-xl font-bold leading-relaxed">
+                    de la población del país{" "}
+                    <span className=" text-blue-900 md:text-xl text-xl font-bold leading-relaxed">
                       {" "}
-                      ”{" "}
+                      ”
+                    </span>
+                    :
+                    <span className="block">
+                      Se considera que vive con una discapacidad
                     </span>
                   </p>
                 </p>
@@ -180,11 +197,13 @@ export const InfografiaDiscapacidad = () => {
               {/* Linea discontinua oculta para MD */}
               <div className="flex justify-center">
                 <p className="md:max-w-xl lg:max-w-sm max-w-sm md:text-xl lg:text-lg text-base text-center text-gray-800 leading-relaxed">
-                  <span className="text-pink-600 md:text-2xl text-4xl font-bold block leading-relaxed">
+                  <span className="text-pink-600 md:text-4xl text-4xl font-bold block leading-relaxed">
                     23%{" "}
                   </span>
                   de las personas con discapacidades son menores de{" "}
-                  <span className="font-semibold leading-relaxed">27 años.</span>
+                  <span className="font-semibold leading-relaxed">
+                    27 años.
+                  </span>
                 </p>
               </div>
             </div>
@@ -194,14 +213,16 @@ export const InfografiaDiscapacidad = () => {
             </div>
             {/* Linea discontinua oculta para MD */}
             <div className="md:flex justify-center mb-8 mx-4 hidden">
-                <img  src={lineaDerechoDiscapacidad} alt="Lineas discontinuas" />
-              </div>
+              <img src={lineaDerechoDiscapacidad} alt="Lineas discontinuas" />
+            </div>
             <div className="flex justify-center mt-4">
               <p className="md:max-w-sm max-w-sm md:text-xl lg:text-lg text-base text-center text-gray-800 leading-relaxed p-2">
                 Por falta de datos se estima que las{" "}
-                <span className="font-semibold leading-relaxed">personas con discapacidad</span>{" "}
+                <span className="font-semibold leading-relaxed">
+                  personas con discapacidad
+                </span>{" "}
                 superan el{" "}
-                <span className="text-pink-600 md:text-2xl text-base font-bold leading-relaxed">
+                <span className="text-pink-600 md:text-3xl text-base font-bold leading-relaxed">
                   {" "}
                   15%
                 </span>{" "}
@@ -222,13 +243,13 @@ export const InfografiaDiscapacidad = () => {
 
           {/* Inicio dónde estamos */}
           <section>
-            <div className="flex flex-col mt-4 md:flex-row">
+            <div className="flex flex-col justify-center mt-4 md:flex-row">
               <div className="md:ml-10 md:mt-0">
                 <h1 className="FondoFucsiaInfografia py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 px-3 md:mx-0 mx-auto mb-4">
                   ¿DÓNDE ESTAMOS?
                 </h1>
-                <div className="max-w-xl md:text-xl lg:text-lg  mx-auto md:mx-0 p-2">
-                  <p className="md:text-xl lg:text-lg  text-base mb-4 text-gray-800 md:text-left text-center leading-relaxed">
+                <div className="max-w-xl md:text-xl lg:text-lg  mx-auto md:mx-0">
+                  <p className="md:text-xl lg:text-lg text-base mb-4 text-gray-800 md:text-left text-center leading-relaxed p-8 md:p-0 lg:p-0">
                     Las entidades territoriales con mayor número de personas con
                     discapacidad son{" "}
                     <span className="font-semibold leading-relaxed">
@@ -236,8 +257,8 @@ export const InfografiaDiscapacidad = () => {
                     </span>
                   </p>{" "}
                 </div>
-                <div className="mt-8 p-4">
-                  <img  src={vector3} alt="Mapa de Colombia" />
+                <div className="mt-8">
+                  <img src={vector3} alt="Mapa de Colombia" />
                 </div>
               </div>
               {/* Linea discontinua oculta para MD */}
@@ -305,14 +326,28 @@ export const InfografiaDiscapacidad = () => {
                   </h1>
                 </div>
                 <p className="max-w-xl md:text-xl lg:text-lg text-base mb-4 text-gray-800 md:text-right text-center leading-relaxed">
-                  <span className="font-semibold leading-relaxed">“</span>Al interactuar con
-                  diversas barreras incluyendo las actitudinales, las personas
-                  con discapacidades pueden sentirse impedidos de la{" "}
-                  <span className="font-semibold leading-relaxed" >participación plena</span>{" "}
-                  y <span className="font-semibold leading-relaxed">efectiva</span> en la{" "}
-                  <span className="font-semiboldleading-relaxed">sociedad</span>, en{" "}
-                  <span className="font-semibold leading-relaxed">igualdad</span> de{" "}
-                  <span className="font-semibold leading-relaxed">condiciones</span> con las{" "}
+                  <span className="font-semibold leading-relaxed">“</span>Al
+                  interactuar con diversas barreras incluyendo las
+                  actitudinales, las personas con discapacidades pueden sentirse
+                  impedidos de la{" "}
+                  <span className="font-semibold leading-relaxed">
+                    participación plena
+                  </span>{" "}
+                  y{" "}
+                  <span className="font-semibold leading-relaxed">
+                    efectiva
+                  </span>{" "}
+                  en la{" "}
+                  <span className="font-semiboldleading-relaxed">sociedad</span>
+                  , en{" "}
+                  <span className="font-semibold leading-relaxed">
+                    igualdad
+                  </span>{" "}
+                  de{" "}
+                  <span className="font-semibold leading-relaxed">
+                    condiciones
+                  </span>{" "}
+                  con las{" "}
                   <span className="font-semibold leading-relaxed">demás”.</span>
                 </p>{" "}
               </div>
@@ -323,8 +358,7 @@ export const InfografiaDiscapacidad = () => {
             </div>
             {/* Linea discontinua oculta para MD */}
             <div className="flex flex-col md:flex-row">
-              <div
-                className="mt-4 mr-4">
+              <div className="mt-4 mr-4">
                 <h1 className="text-pink-600 font-bold md:text-2xl lg:text-xl text-xl md:text-left text-center leading-relaxed">
                   Enfrentamos
                 </h1>
@@ -377,13 +411,26 @@ export const InfografiaDiscapacidad = () => {
                     Ministerio de la Igualdad
                   </span>{" "}
                   se formó en el{" "}
-                  <span className="text-blue-900 font-bold leading-relaxed">2023</span> para
-                  mitigar los{" "}
-                  <span className="font-semibold leading-relaxed">desequilibrios sociales</span>{" "}
-                  y la <span className="font-semibold leading-relaxed">inequidad.</span> La vice
-                  presidenta{" "}
-                  <span className="font-semibold leading-relaxed">Francia Márquez</span> dijo
-                  que el{" "}<span className="font-semibold leading-relaxed">Ministerio de la igualdad</span> será{" "}
+                  <span className="text-blue-900 font-bold leading-relaxed">
+                    2023
+                  </span>{" "}
+                  para mitigar los{" "}
+                  <span className="font-semibold leading-relaxed">
+                    desequilibrios sociales
+                  </span>{" "}
+                  y la{" "}
+                  <span className="font-semibold leading-relaxed">
+                    inequidad.
+                  </span>{" "}
+                  La vice presidenta{" "}
+                  <span className="font-semibold leading-relaxed">
+                    Francia Márquez
+                  </span>{" "}
+                  dijo que el{" "}
+                  <span className="font-semibold leading-relaxed">
+                    Ministerio de la igualdad
+                  </span>{" "}
+                  será{" "}
                   <span className="font-semibold leading-relaxed">
                     “un mecanismo para avanzar en la reducción efectiva de las
                     brechas de desigualdad e inequidad en Colombia”.
