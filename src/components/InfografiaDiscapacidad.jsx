@@ -357,7 +357,7 @@ export const InfografiaDiscapacidad = () => {
               <img src={lineaDerechoDiscapacidad} alt="Lineas discontinuas" />
             </div>
             {/* Linea discontinua oculta para MD */}
-            <div className="flex flex-col md:flex-row">
+            <div className="flex flex-col justify-center md:flex-row">
               <div className="mt-4 mr-4">
                 <h1 className="text-pink-600 font-bold md:text-2xl lg:text-xl text-xl md:text-left text-center leading-relaxed">
                   Enfrentamos
