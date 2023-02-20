@@ -55,7 +55,7 @@ export const Inicio = () => {
       </div>
       {/* Fin Modificador de texto */}
       <VideoInicio />
-      <section id="contenedor">
+      <section id="contenedor" className="mt-20">
         <h1 className="titulo md:text-4xl text-3xl text-center text-blue-900 font-bold tracking-wide">
           BIENVENIDOS
         </h1>

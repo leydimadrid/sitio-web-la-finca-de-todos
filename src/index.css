@@ -43,7 +43,7 @@ html {
 .slider ul {
   display: flex;
   animation: cambio 20s infinite normal ease-in-out;
-  width: 600%;
+  width: 700%;
 }
 
 .slider li {
@@ -60,43 +60,50 @@ html {
   0% {
     margin-left: 0;
   }
-  25% {
+  10% {
     margin-left: -0%;
   }
 
-  30% {
+  15% {
     margin-left: -100%;
   }
-  40% {
+  25% {
     margin-left: -100%;
+  }
+
+  30% {
+    margin-left: -200%;
+  }
+  40% {
+    margin-left: -200%;
   }
 
   45% {
-    margin-left: -200%;
+    margin-left: -300%;
   }
   55% {
-    margin-left: -200%;
+    margin-left: -300%;
   }
 
   60% {
-    margin-left: -300%;
+    margin-left: -400%;
   }
   70% {
-    margin-left: -300%;
+    margin-left: -400%;
   }
 
   75% {
-    margin-left: -400%;
+    margin-left: -500%;
   }
   85% {
-    margin-left: -400%;
+    margin-left: -500%;
   }
 
   90% {
-    margin-left: -500%;
+    margin-left: -600%;
   }
   100% {
-    margin-left: -500%;
+    margin-left: -600%;
   }
 }
 
@@ -114,8 +121,14 @@ html {
   background-color: #52ae32;
 }
 
-.linea-azul {
+.linea-azul-titulo {
+  height: 4px;
+  width: 60px;
   background-color: #2f52a0;
+}
+
+.linea-azul {
+    background-color: #2f52a0;
 }
 
 .linea-amarilla {

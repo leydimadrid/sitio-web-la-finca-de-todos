@@ -124,7 +124,7 @@ export const Nosotros = () => {
           />
         </a>
 
-        <a href="" target="_blank">
+        <a href="https://www.facebook.com/profile.php?id=100089133646096" target="_blank">
           <img
             className="m-2 md:w-auto w-8 h-8"
             src={iconofacebook}

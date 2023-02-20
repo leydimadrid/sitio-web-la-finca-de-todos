@@ -30,6 +30,7 @@ export const ActividadSimulador = () => {
             </div>
           </div>
         </div>
+        <p className="mt-1 md:text-base lg:text-base text-xs">Foto de House of Wheels, Menash Cohen</p>
       </section>
       <section className="p-4">
         <div className="bg-white lg:max-w-3xl">
@@ -39,7 +40,10 @@ export const ActividadSimulador = () => {
           >
             <div className="items-center p-4 leading-normal md:w-96 w-64 text-center">
               <p className="mb-2 font-normal md:text-xl text-base tracking-tight text-gray-800 leading-relaxed text-left">
-                Falta texto
+                Una cabina adaptable que permite el uso accesible de "Microsoft
+                Flight Simulator", una herramienta utilizada por pilotos reales
+                y entusiastas de la aviación para experimentar volar alrededor
+                del mundo.
               </p>
             </div>
             <img
@@ -49,6 +53,7 @@ export const ActividadSimulador = () => {
             />
           </div>
         </div>
+        <p className="mt-1 md:text-base lg:text-base text-xs">Foto de House of Wheels, Menash Cohen</p>
       </section>
     </ReactCardFlip>
   );

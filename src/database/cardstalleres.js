@@ -64,7 +64,7 @@ export const cardstalleres = [
     id: 8,
     imagen: "talleres-impacto-cultural.jpg",
     titulo: "Impacto cultural",
-    parrafo: "Es importante que los jóvenes entiendan la historia de nuestro país para reconocer como los pueblos indígenas y afrocolombianos contribuyeron al desarrollo de Colombia como patria multicultural. A través de las actividades como el baile y la música fomentamos el aprecio a nuestra cultura.",
+    parrafo: "Conozcamos más sobre las contribuciones de las tribus indígenas y los pueblos afrocolombianos en el desarrollo de nuestra patria multicultural.",
     alt: "Hombre y mujer bailando cultura Colombiana",
   },
 ];

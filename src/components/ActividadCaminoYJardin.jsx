@@ -41,7 +41,7 @@ export const ActividadCaminoYJardin = () => {
                 <p className="mb-2 font-normal md:text-xl text-base tracking-tight text-gray-800 leading-relaxed text-left">
                   Siente con tus manos o tus pies las texturas del campo, huele
                   la esencia de las hierbas aromáticas y explora un espacio
-                  lleno de sorpresas para tus cinco sentidos.
+                  lleno de sorpresas para tus sentidos.
                 </p>
               </div>
               <img

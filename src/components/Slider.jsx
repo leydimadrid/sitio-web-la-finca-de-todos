@@ -4,6 +4,7 @@ import img3 from "../assets/images/img3.jpg";
 import img4 from "../assets/images/img4.jpg";
 import img5 from "../assets/images/img5.jpg";
 import img6 from "../assets/images/img6.jpg";
+import img7 from "../assets/images/img7.jpg";
 
 export const Slider = () => {
   return (
@@ -12,7 +13,7 @@ export const Slider = () => {
           <ul>
             <li>
               {" "}
-              <img src={img1} alt="" />
+              <img src={img1} alt="Niña" />
             </li>
             <li>
               {" "}
@@ -33,6 +34,10 @@ export const Slider = () => {
             <li>
               {" "}
               <img src={img6} alt="" />
+            </li>
+            <li>
+              {" "}
+              <img src={img7} alt="" />
             </li>
           </ul>
         </div>

@@ -39,10 +39,7 @@ export const ActividadMariposario = () => {
           >
             <div className="items-center p-4 leading-normal md:w-96 w-64 text-center">
               <p className="mb-2 font-normal md:text-xl text-base tracking-tight text-gray-800 leading-relaxed text-left">
-                Observa un espectáculo de colores en nuestro mariposario, un
-                espacio accesible dedicado a la cría y conservación de
-                mariposas. Ven y aprende más de la gran variedad de especies
-                presentes en nuestro hermoso Valle del Cauca.
+              Observa un espectáculo de colores en un espacio accesible dedicado a la cría y conservación de mariposas. 
               </p>
             </div>
             <img
