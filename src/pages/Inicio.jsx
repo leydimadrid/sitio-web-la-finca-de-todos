@@ -60,7 +60,7 @@ export const Inicio = () => {
           BIENVENIDOS
         </h1>
         <div className="max-w-md my-auto mx-auto pt-6 md:pb-10 pb-6 text-center md:text-xl text-base font-medium text-gray-800">
-          <p className="titulo leading-relaxed">
+          <p className="titulo leading-relaxed md:px-0 lg:px-0 px-4">
             ¡Este mundo es para disfrutarlo al máximo! Te invitamos a <span className="text-blue-900">
                 La Finca de Todos{" "}
               </span>, un lugar hecho para todos.
