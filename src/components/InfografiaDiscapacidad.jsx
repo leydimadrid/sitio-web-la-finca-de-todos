@@ -257,7 +257,7 @@ export const InfografiaDiscapacidad = () => {
                     </span>
                   </p>{" "}
                 </div>
-                <div className="mt-8">
+                <div className="mt-8 px-6 md:px-0 lg:px-0">
                   <img src={vector3} alt="Mapa de Colombia" />
                 </div>
               </div>
