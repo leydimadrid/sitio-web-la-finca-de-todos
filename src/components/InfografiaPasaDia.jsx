@@ -10,6 +10,8 @@ import vectorDescanso from "../assets/images/vector-descanso-infografia-pasa-dia
 import vectorCasaAccesible from "../assets/images/vector-casa-accesible-infografia-pasa-dia.svg";
 import vectorReciclaje from "../assets/images/vector-reciclaje-infografia-pasa-dia.svg";
 import vectorArteReciclaje from "../assets/images/vector-arte-reciclaje-infografia-pasa-dia.svg";
+import vectorSalida from "../assets/images/vector-salida-infografia-pasa-dia.svg";
+import vectorRelojSalida from "../assets/images/vector-reloj-salida-infografia-pasa-dia.svg";
 
 export const InfografiaPasaDia = () => {
   return (
@@ -333,6 +335,32 @@ export const InfografiaPasaDia = () => {
       </section>
       <hr className="linea-discontinua w-full md:w-3/4 lg:w-3/4 mt-2"></hr>
       {/* Final sección casa accesible, reciclaje y arte con reciclaje*/}
+
+      {/* Inicio Sección salida */}
+      <section className="flex md:flex-row lg:flex-row flex-col justify-end md:mt-24 lg:mt-24 mt-10">
+        <div className="basis-2/5 grid place-content-center content-end py-2">
+          <img
+            src={vectorSalida}
+            alt="Vector de una niña y un señor en un bus escolar"
+            className="my-2 md:w-auto lg:w-auto w-56"
+          />
+        </div>
+        <div className="basis-2/5 grid place-items-center">
+          <div className="w-auto grid place-content-start">
+            <h1 className="FondoFucsiaInfografia py-2 md:text-2xl text-xl font-bold text-white rounded-xl text-center px-3 md:mx-0 mx-auto mb-4 mt-4">
+              SALIDA
+            </h1>
+            <div className="basis-2/5 grid place-content-center content-end py-2">
+              <img
+                src={vectorRelojSalida}
+                alt="Reloj indicando las 3:30pm"
+                className="mt-2 md:w-auto lg:w-auto w-64"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Final sección salida */}
     </section>
   );
 };
