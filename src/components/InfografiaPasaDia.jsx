@@ -272,7 +272,7 @@ export const InfografiaPasaDia = () => {
 
       {/* Inicio Sección casa accesible, reciclaje y arte con reciclaje */}
       <section className="flex md:flex-row lg:flex-row flex-col justify-center md:mt-24 lg:mt-24 mt-10">
-        <div className="basis-2/5 grid place-items-center">
+        <div className="basis-1/3 grid place-items-center">
           <div className="w-auto grid place-content-start">
             <div className="grid place-content-center">
               <img src={tiempoActividades} alt="Reloj" />
@@ -283,7 +283,7 @@ export const InfografiaPasaDia = () => {
             <h1 className="FondoFucsiaInfografia py-2 md:text-2xl text-xl font-bold text-white rounded-xl text-center px-3 md:mx-0 mx-auto mb-4 mt-4">
               TOUR CASA ACCESIBLE
             </h1>
-            <div className="basis-2/5 grid place-content-center content-end py-2">
+            <div className="basis-1/3 grid place-content-center content-end py-2">
               <img
                 src={vectorCasaAccesible}
                 alt="Vector de un hombre y una mujer saludando"
@@ -292,7 +292,7 @@ export const InfografiaPasaDia = () => {
             </div>
           </div>
         </div>
-        <div className="basis-2/5 grid place-items-center">
+        <div className="basis-1/3 grid place-items-center">
           <div className="w-auto grid place-content-start">
             <div className="grid place-content-center">
               <img src={tiempoActividades} alt="Reloj" />
@@ -303,7 +303,7 @@ export const InfografiaPasaDia = () => {
             <h1 className="bg-blue-900 py-2 md:text-2xl text-xl font-bold text-white rounded-xl text-center px-3 md:mx-0 mx-auto mb-4 mt-4">
               LECCIÓN SOBRE RECICLAJE
             </h1>
-            <div className="basis-2/5 grid place-content-center content-end py-2">
+            <div className="basis-1/3 grid place-content-center content-end py-2">
               <img
                 src={vectorReciclaje}
                 alt="Vector de un hombre y una mujer saludando"
@@ -312,7 +312,7 @@ export const InfografiaPasaDia = () => {
             </div>
           </div>
         </div>
-        <div className="basis-2/5 grid place-items-center">
+        <div className="basis-1/3 grid place-items-center">
           <div className="w-auto grid place-content-start">
             <div className="grid place-content-center">
               <img src={tiempoActividades} alt="Reloj" />
@@ -361,6 +361,59 @@ export const InfografiaPasaDia = () => {
         </div>
       </section>
       {/* Final sección salida */}
+      <div className="bg-blue-900 md:p-3 md:flex hidden mt-8">
+              <ul className="text-white text-xs leading-relaxed">
+                <li>Fuentes:</li>
+                <li>
+                  <a
+                    href="https://www.freepik.es/vector-gratis/ilustracion-concepto-pasta_21118033.htm#query=ALMUERZO&position=26&from_view=search&track=sph"
+                    target="_blank"
+                  >
+                    https://www.freepik.es/vector-gratis/ilustracion-concepto-pasta_21118033.htm#query=ALMUERZO&position=26&from_view=search&track=sph
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.freepik.es/vector-gratis/autobus-escolar-ninos-diseno-plano_2325669.htm#page=2&query=BUS&position=14&from_view=search&track=sph"
+                    target="_blank"
+                  >
+                    https://www.freepik.es/vector-gratis/autobus-escolar-ninos-diseno-plano_2325669.htm#page=2&query=BUS&position=14&from_view=search&track=sph
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.freepik.es/vector-gratis/dibujado-mano-gente-diseno-plano-agitando-ilustracion_20859175.htm#query=despedida&position=0&from_view=search&track=sph"
+                    target="_blank"
+                  >
+                   https://www.freepik.es/vector-gratis/dibujado-mano-gente-diseno-plano-agitando-ilustracion_20859175.htm#query=despedida&position=0&from_view=search&track=sph
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.freepik.es/vector-gratis/ilustracion-personaje-dibujos-animados-aislado-grande-ninos-lindos-que-cultivan-huerto-jardin-fuera-casa-ilustracion-plana_12953903.htm#query=huerto&position=1&from_view=search&track=sphhttps://www.freepik.es/vector-gratis/conjunto-iconos-planos-discapacitados-discapacitados_3910281.htm#query=discapacidad%20baille&position=20&from_view=search&track=ais"
+                    target="_blank"
+                  >
+                    https://www.freepik.es/vector-gratis/ilustracion-personaje-dibujos-animados-aislado-grande-ninos-lindos-que-cultivan-huerto-jardin-fuera-casa-ilustracion-plana_12953903.htm#query=huerto&position=1&from_view=search&track=sph
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.freepik.es/vector-gratis/ilustracion-personaje-dibujos-animados-aislado-grande-ninos-lindos-que-cultivan-huerto-jardin-fuera-casa-ilustracion-plana_12953928.htm#query=huerto&position=8&from_view=search&track=sph"
+                    target="_blank"
+                  >
+                    https://www.freepik.es/vector-gratis/ilustracion-personaje-dibujos-animados-aislado-grande-ninos-lindos-que-cultivan-huerto-jardin-fuera-casa-ilustracion-plana_12953928.htm#query=huerto&position=8&from_view=search&track=sph
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.freepik.es/vector-gratis/frutas-ensaladeras-diseno-dibujado-mano_7474818.htm#query=ensalada&position=5&from_view=search&track=sph"
+                    target="_blank"
+                  >
+                    https://www.freepik.es/vector-gratis/frutas-ensaladeras-diseno-dibujado-mano_7474818.htm#query=ensalada&position=5&from_view=search&track=sph
+                  </a>
+                </li>
+              </ul>
+            </div>
     </section>
   );
 };
