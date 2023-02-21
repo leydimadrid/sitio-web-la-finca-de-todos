@@ -3,7 +3,6 @@
 @import "tailwindcss/utilities";
 @import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
 
-
 header {
   z-index: 1000;
 }
@@ -15,8 +14,6 @@ html {
 
 .video {
   z-index: -0;
-
-
 }
 
 .bienvenidos {
@@ -128,13 +125,12 @@ html {
 }
 
 .linea-azul {
-    background-color: #2f52a0;
+  background-color: #2f52a0;
 }
 
 .linea-amarilla {
   background-color: #f39200;
 }
-
 
 .equipo {
   margin: 5% 10% 0% 10%;
@@ -158,7 +154,6 @@ html {
 .fondoCardsActividades {
   background-color: rgba(47, 83, 160, 0.082);
 }
-
 
 .fondoFinDeSemana {
   background-image: url("assets/images/fondo-fin-de-semana.svg");
@@ -184,7 +179,10 @@ html {
   background-image: url("assets/images/fondo-infografia-discapacidad.svg");
 }
 
+.fondoInfografiaPasaDia {
+  background-image: url("assets/images/fondo-infografia-pasa-dia.svg");
+}
+
 .colorTextoDonaciones {
   color: #e60064;
 }
-

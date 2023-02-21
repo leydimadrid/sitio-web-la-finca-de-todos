@@ -27,7 +27,7 @@ export const InfografiaDiscapacidad = () => {
           </div>
           {/* Final Título infografía */}
 
-          {/* Inicio Texto inicial */}
+          {/* Párrafo introductorio */}
           <div className="flex justify-center px-4 ">
             <p className="text-gray-800 font-normal md:text-xl text-base max-w-4xl text-justify leading-relaxed">
               Colombia forma parte de la Convención de Naciones Unidas sobre los
@@ -36,7 +36,7 @@ export const InfografiaDiscapacidad = () => {
               participación en todos los ámbitos de la vida.
             </p>
           </div>
-          {/* Final Texto inicial */}
+          {/* Párrafo introductorio*/}
 
           <div className="flex md:justify-center justify-end mt-8">
             <div className=" md:w-2/5 w-2/4 md:mr-64 pr-6">
@@ -142,7 +142,7 @@ export const InfografiaDiscapacidad = () => {
                 </p>
                 <div className="md:px-0 flex justify-center">
                   <img
-                  className="w-80"
+                    className="w-80"
                     src={vector2}
                     alt="Personas con diferentes discapacidades"
                   />

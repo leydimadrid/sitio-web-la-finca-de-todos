@@ -4,7 +4,7 @@ import { cardstalleres } from "../database/cardstalleres";
 import asistirTalleres from "../assets/images/imagen-asistir-talleres.jpg";
 import { BotonContactenos } from "../components/BotonContactenos";
 import FontSizeChanger from "react-font-size-changer";
-import infografiaPasaDia from "../assets/images/infografia-pasa-dia.jpg";
+// import infografiaPasaDia from "../assets/images/infografia-pasa-dia.jpg";
 
 export const TalleresPedagogicos = () => {
   return (
@@ -104,7 +104,7 @@ export const TalleresPedagogicos = () => {
           </section>
         </section>
         <InfografiaPasaDia />
-        <img className="w-auto mx-auto" src={infografiaPasaDia} />
+        {/* <img className="w-auto mx-auto" src={infografiaPasaDia} /> */}
         <section className="fondoAsistirTalleres md:bg-cover bg-auto bg-no-repeat">
           <div className="flex justify-center pt-10">
             <h1 className="titulo FondoFucsiaTalleres py-4 px-2 md:text-2xl text-xl font-bold text-white rounded-lg text-center md:w-96 mx-3 leading-relaxed">
