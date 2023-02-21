@@ -132,6 +132,11 @@ html {
   background-color: #f39200;
 }
 
+.linea-discontinua {
+  border: medium none;
+  border-top: 2px dashed black
+}
+
 .equipo {
   margin: 5% 10% 0% 10%;
 }
