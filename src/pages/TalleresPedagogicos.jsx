@@ -66,19 +66,29 @@ export const TalleresPedagogicos = () => {
             </h1>
             <hr className="linea-fucsia mx-auto mt-2"></hr>
           </div>
-          <div className="flex justify-center my-auto pt-6 md:pb-10 pb-6 px-4 md:text-xl text-base font-medium">
+          <div className="grid justify-center my-auto pt-6 md:pb-10 pb-6 px-4 md:text-xl text-base font-medium">
             <p className="titulo text-gray-800 md:text-justify text-center max-w-5xl leading-relaxed">
+              Nuestros talleres son planificados por maestros con amor a la
+              enseñanza que ayudarán a todos los estudiantes, con o sin
+              discapacidad, a convertirse en adultos con conciencia. El contacto
+              con la naturaleza despierta nuevas conexiones en el cerebro
+              mientras que la variedad de temas y actividades refuerzan
+              conceptos de ingenio, autoestima, responsabilidad social y
+              cooperación.
+            </p>
+            <p className="titulo text-gray-800 max-w-5xl leading-relaxed mt-1 text-center">
               Aquí en{" "}
               <span className="titulo text-blue-900 font-semibold leading-relaxed">
                 La Finca de Todos
               </span>
-              , ¡La diversión y la educación van mano a mano!. Nuestros talleres
-              son planificados por maestros con amor a la enseñanza que ayudarán
-              a todos los estudiantes, con o sin discapacidad, a convertirse en
-              adultos con conciencia. El contacto con la naturaleza despierta
-              nuevas conexiones en el cerebro mientras que la variedad de temas
-              y actividades refuerzan conceptos de ingenio, autoestima,
-              responsabilidad social y cooperación.
+              ,{" "}
+              <span className="titulo text-blue-900 font-semibold text-2xl leading-relaxed">
+                ¡
+              </span>
+              La diversión y la educación van mano a mano
+              <span className="titulo text-blue-900 font-semibold text-2xl leading-relaxed">
+                !
+              </span>
             </p>{" "}
           </div>
         </section>
@@ -151,10 +161,8 @@ export const TalleresPedagogicos = () => {
           <div className="md:flex flex-row items-center justify-center">
             <div className="max-w-xl md:p-6 p-8">
               <p className="titulo text-center text-gray-800 md:text-xl text-base leading-relaxed">
-                is simply dummy text of the printing and typesetting. Lorem
-                Ipsum has been the industry's standard dummy text ever since the
-                1500s, when an unknown printer took of type and scrambled it to
-                make a type specimen book.
+                Nuestros talleres son aptos para las siguientes etapas de
+                desarrollo académico:
               </p>
               <div className="flex justify-center">
                 <ul>
@@ -183,9 +191,15 @@ export const TalleresPedagogicos = () => {
                 Martes a Viernes{" "}
                 <span className="titulo block leading-relaxed">9am - 4pm</span>
               </p>
+              <p className="titulo text-center text-gray-800 md:text-xl text-base leading-relaxed mt-6">
+                Transportación y almuerzo disponible
+              </p>
+              <p className="titulo text-center text-gray-800 md:text-xl text-base leading-relaxed">
+                Contáctenos para programar una consulta previa.
+              </p>
             </div>
           </div>
-          <div className="titulo text-center md:mt-6 md:text-2xl text-xl md:mb-10 mb-6">
+          <div className="titulo text-center md:mt-4 md:text-2xl text-xl md:mb-10 mb-6">
             <BotonContactenos />
           </div>
         </section>
