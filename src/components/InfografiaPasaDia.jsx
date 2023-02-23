@@ -55,7 +55,7 @@ export const InfografiaPasaDia = () => {
         <div className="basis-2/5 grid place-content-center content-end py-2">
           <img
             src={reloj}
-            alt="Reloj indicando las 9:30am"
+            alt="Vector de reloj indicando las 9:30am"
             className="mt-2 md:w-auto lg:w-auto w-64"
           />
         </div>
@@ -75,7 +75,7 @@ export const InfografiaPasaDia = () => {
         <div className="basis-2/5 grid place-items-center">
           <div className="w-auto grid place-content-start">
             <div className="grid place-content-center">
-              <img src={tiempoActividades} alt="Reloj" />
+              <img src={tiempoActividades} alt="Vector de un reloj" />
               <h1 className="md:text-xl lg:text-lg text-base text-gray-800 font-semibold">
                 15 MIN
               </h1>
@@ -112,7 +112,7 @@ export const InfografiaPasaDia = () => {
         <div className="basis-2/5 grid place-items-center">
           <div className="w-auto grid place-content-start">
             <div className="grid place-content-center">
-              <img src={tiempoActividades} alt="Reloj" />
+              <img src={tiempoActividades} alt="vector de un reloj" />
               <h1 className="md:text-xl lg:text-lg text-base text-gray-800 font-semibold">
                 40 MIN
               </h1>
@@ -157,14 +157,14 @@ export const InfografiaPasaDia = () => {
         <div className="basis-2/5 grid place-content-center content-end py-2">
           <img
             src={vectorCocina}
-            alt="Vector de un hombre y una mujer saludando"
+            alt="Vector de un recipiente con ensalada de tomate, pepino, lechuga, cebolla y zanahoria"
             className="my-2 md:w-auto lg:w-auto w-64"
           />
         </div>
         <div className="basis-2/5 grid place-items-center">
           <div className="w-auto grid place-content-start">
             <div className="grid place-content-center">
-              <img src={tiempoActividades} alt="Reloj" />
+              <img src={tiempoActividades} alt="Vector de un reloj" />
               <h1 className="md:text-xl lg:text-lg text-base text-gray-800 font-semibold">
                 1 HORA
               </h1>
@@ -206,7 +206,7 @@ export const InfografiaPasaDia = () => {
         <div className="basis-2/5 grid place-items-center">
           <div className="w-auto grid place-content-start">
             <div className="grid place-content-center">
-              <img src={tiempoActividades} alt="Reloj" />
+              <img src={tiempoActividades} alt="Vector de un reloj" />
               <h1 className="md:text-xl lg:text-lg text-base text-gray-800 font-semibold">
                 30 MIN
               </h1>
@@ -217,7 +217,7 @@ export const InfografiaPasaDia = () => {
             <div className="basis-2/5 grid place-content-center content-end py-2">
               <img
                 src={vectorAlmuerzo}
-                alt="Vector de un hombre y una mujer saludando"
+                alt="Vector de una mujer con discapacidad auditiva, almorzando saludablemente"
                 className="my-2 md:w-auto lg:w-auto w-64"
               />
             </div>
@@ -232,14 +232,14 @@ export const InfografiaPasaDia = () => {
         <div className="basis-2/5 grid place-content-center content-end py-2">
           <img
             src={vectorDescanso}
-            alt="Vector de un hombre y una mujer saludando"
+            alt="Vector de un niño afrodescendiente en un césped mirando las gallinas"
             className="my-2 md:w-auto lg:w-auto w-80"
           />
         </div>
         <div className="basis-2/5 grid place-items-center">
           <div className="w-auto grid place-content-start">
             <div className="grid place-content-center">
-              <img src={tiempoActividades} alt="Reloj" />
+              <img src={tiempoActividades} alt="Vector de un reloj" />
               <h1 className="md:text-xl lg:text-lg text-base text-gray-800 font-semibold">
                 30 MIN
               </h1>
@@ -275,7 +275,7 @@ export const InfografiaPasaDia = () => {
         <div className="basis-1/3 grid place-items-center">
           <div className="w-auto grid place-content-start">
             <div className="grid place-content-center">
-              <img src={tiempoActividades} alt="Reloj" />
+              <img src={tiempoActividades} alt="Vector de un reloj" />
               <h1 className="md:text-xl lg:text-lg text-base text-gray-800 font-semibold">
                 30 MIN
               </h1>
@@ -286,7 +286,7 @@ export const InfografiaPasaDia = () => {
             <div className="basis-1/3 grid place-content-center content-end py-2">
               <img
                 src={vectorCasaAccesible}
-                alt="Vector de un hombre y una mujer saludando"
+                alt="Vector de una casa sostenible y accesible, adicional un hombre en silla de ruedas subiendo por la rampla, hacia la casa."
                 className="my-2 md:w-auto lg:w-auto w-64"
               />
             </div>
@@ -295,7 +295,7 @@ export const InfografiaPasaDia = () => {
         <div className="basis-1/3 grid place-items-center">
           <div className="w-auto grid place-content-start">
             <div className="grid place-content-center">
-              <img src={tiempoActividades} alt="Reloj" />
+              <img src={tiempoActividades} alt="Vector de un reloj" />
               <h1 className="md:text-xl lg:text-lg text-base text-gray-800 font-semibold">
                 15 MIN
               </h1>
@@ -306,7 +306,7 @@ export const InfografiaPasaDia = () => {
             <div className="basis-1/3 grid place-content-center content-end py-2">
               <img
                 src={vectorReciclaje}
-                alt="Vector de un hombre y una mujer saludando"
+                alt="Icono de reciclaje"
                 className="my-2 md:w-auto lg:w-auto w-48"
               />
             </div>
@@ -315,7 +315,7 @@ export const InfografiaPasaDia = () => {
         <div className="basis-1/3 grid place-items-center">
           <div className="w-auto grid place-content-start">
             <div className="grid place-content-center">
-              <img src={tiempoActividades} alt="Reloj" />
+              <img src={tiempoActividades} alt="Vector de un reloj" />
               <h1 className="md:text-xl lg:text-lg text-base text-gray-800 font-semibold">
                 1 HORA
               </h1>
@@ -326,7 +326,7 @@ export const InfografiaPasaDia = () => {
             <div className="basis-2/5 grid place-content-center content-end py-2">
               <img
                 src={vectorArteReciclaje}
-                alt="Vector de un hombre y una mujer saludando"
+                alt="Vector de unas manos realizando arte con reciclaje"
                 className="my-2 md:w-auto lg:w-auto w-64"
               />
             </div>
@@ -341,7 +341,7 @@ export const InfografiaPasaDia = () => {
         <div className="basis-2/5 grid place-content-center content-end py-2">
           <img
             src={vectorSalida}
-            alt="Vector de una niña y un señor en un bus escolar"
+            alt="Vector de una niña como pasajera y un señor como conductor en un bus escolar"
             className="my-2 md:w-auto lg:w-auto w-56"
           />
         </div>

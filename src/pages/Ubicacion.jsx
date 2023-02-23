@@ -91,7 +91,7 @@ export const Ubicacion = () => {
             {" "}
             <img
               src={mapaCali}
-              alt="Hombre en silla de ruedas, subiendo a un carro accesible"
+              alt="Mapa de Cali"
             />
           </div>
           <div className="grid grid-cols-1 content-center">
@@ -105,7 +105,7 @@ export const Ubicacion = () => {
               <img
                 className="md:w-60 lg:w-60 w-56"
                 src={Logo}
-                alt="Hombre en silla de ruedas, subiendo a un carro accesible"
+                alt="Logo de La Finca De Todos"
               />
               </div>
             </div>

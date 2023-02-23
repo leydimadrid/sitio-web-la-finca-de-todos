@@ -82,7 +82,7 @@ export const InfografiaDiscapacidad = () => {
               </div>
             </div>
             <div className="md:pl-8 px-6 mt-8">
-              <img src={vector1} alt="Personas con diferentes discapacidades" />
+              <img src={vector1} alt="Vector de personas con diferentes discapacidades" />
             </div>
           </section>
           <section>
@@ -144,7 +144,7 @@ export const InfografiaDiscapacidad = () => {
                   <img
                     className="w-80"
                     src={vector2}
-                    alt="Personas con diferentes discapacidades"
+                    alt="vector de personas con diferentes discapacidades"
                   />
                 </div>
 
@@ -258,7 +258,7 @@ export const InfografiaDiscapacidad = () => {
                   </p>{" "}
                 </div>
                 <div className="mt-8 px-6 md:px-0 lg:px-0">
-                  <img src={vector3} alt="Mapa de Colombia" />
+                  <img src={vector3} alt="Mapa de Colombia señalando Antioquia, Santander, Bogotá, Valle del Cauca y Huila" />
                 </div>
               </div>
               {/* Linea discontinua oculta para MD */}
@@ -394,7 +394,7 @@ export const InfografiaDiscapacidad = () => {
               <div className="mt-8 px-10">
                 <img
                   src={vector4}
-                  alt="Escaleras, señalización y libro en braille para personas con discapacidad"
+                  alt="Vector de escaleras, señalización y libro en braille para personas con discapacidad"
                 />
               </div>
               {/* Linea discontinua oculta para MD */}
@@ -451,7 +451,7 @@ export const InfografiaDiscapacidad = () => {
               <div className="mt-8 px-8 flex justify-end mr-4">
                 <img
                   src={vector5}
-                  alt="Personas con diferentes discapacidades"
+                  alt="vector de personas con diferentes discapacidades"
                 />
               </div>
               <div className="flex justify-end">

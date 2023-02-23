@@ -5,7 +5,7 @@ export const cardstalleres = [
     titulo: "Reciclaje",
     parrafo:
       "Is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry's standard dummy.",
-    alt: "Niño reciclando",
+    alt: "Niño sonriendo mientras recicla, de fondo más niños reciclando",
   },
 
   {
@@ -14,7 +14,7 @@ export const cardstalleres = [
     titulo: "El campo",
     parrafo:
       "Is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry's standard dummy.",
-    alt: "Niña en el campo con tomates",
+    alt: "Niña sonriendo en el campo, con tomates en su mano",
   },
 
   {
@@ -23,7 +23,7 @@ export const cardstalleres = [
     titulo: "Comer sano / Cocina",
     parrafo:
       "Is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry's standard dummy.",
-    alt: "Niños con diferentes ingredientes de cocina",
+    alt: "Niños sonriendo frente a la cámara con diferentes ingredientes como tomate, pimentón en sus manos",
   },
 
   {
@@ -32,7 +32,7 @@ export const cardstalleres = [
     titulo: "Animales",
     parrafo:
       "Is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry's standard dummy.",
-    alt: "Niño con un conejo",
+    alt: "Niño sentando debajo de un árbol mirando su conejo",
   },
 
   {
@@ -41,7 +41,7 @@ export const cardstalleres = [
     titulo: "Meditación y Yoga",
     parrafo:
     "Nunca es temprano para comenzar a encontrar el equilibrio dentro de nosotros mismos. Nuestros espacios tranquilos son aptos para enfocarnos en la respiración para lograr una calma merecida en este mundo tan agitado. Contamos con instructores con experiencia.",
-    alt: "Mujer practicando yoga",
+    alt: "Mujer con discapacidad en su pierna, practicando yoga",
   },
 
   {
@@ -49,7 +49,7 @@ export const cardstalleres = [
     imagen: "talleres-actividad-fisica.jpg",
     titulo: "Actividad física",
     parrafo: "Is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry's standard dummy.",
-    alt: "Personas realizando actividad física",
+    alt: "Personas realizando actividad física, por medio de juegos",
   },
 
   {
@@ -57,7 +57,7 @@ export const cardstalleres = [
     imagen: "talleres-sostenibilidad.jpg",
     titulo: "La sostenibilidad",
     parrafo: "Is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry's standard dummy.",
-    alt: "Personas realizando actividad física",
+    alt: "Un niño afrodescendiente y una niña manipulando tierra",
   },
 
   {
@@ -65,6 +65,6 @@ export const cardstalleres = [
     imagen: "talleres-impacto-cultural.jpg",
     titulo: "Impacto cultural",
     parrafo: "Conozcamos más sobre las contribuciones de las tribus indígenas y los pueblos afrocolombianos en el desarrollo de nuestra patria multicultural.",
-    alt: "Hombre y mujer bailando cultura Colombiana",
+    alt: "Hombre y mujer con vestidos de la cultura Colombiana bailando muy felices",
   },
 ];

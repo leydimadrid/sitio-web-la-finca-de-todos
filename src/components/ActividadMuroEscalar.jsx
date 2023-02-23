@@ -21,7 +21,7 @@ export const ActividadMuroEscalar = () => {
             <img
               className="lg:w-96 w-64 lg:rounded-l-lg rounded-t-lg"
               src={imagen1}
-              alt="Hola"
+              alt="Niño subiendo por un muro de escalar"
             />
             <div className="items-center p-4 leading-normal lg:w-96 w-64 text-center">
               <h5 className="mb-2 md:text-2xl text-lg font-bold tracking-tight text-gray-800 leading-relaxed">
@@ -45,7 +45,7 @@ export const ActividadMuroEscalar = () => {
             <img
               className="lg:w-96 w-64 lg:rounded-r-lg rounded-b-lg"
               src={imagen2}
-              alt="Cualquiercosa"
+              alt="Parque adaptado para personas con discapacidad"
             />
           </div>
         </div>

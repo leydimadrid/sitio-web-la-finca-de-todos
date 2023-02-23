@@ -7,7 +7,7 @@ export const Header = () => {
       <section className="md:w-11/12 justify-between md:flex">
       <div className="cursor-pointer flex items-center">
         <a href="/inicio">
-        <img src={Logo} alt="logo la finca de todos" />
+        <img src={Logo} alt="logo La Finca De Todos" />
         </a>
       </div>
       <div className="md:flex md:items-center ">

@@ -1,7 +1,7 @@
 import ReactCardFlip from "react-card-flip";
 import { useState } from "react";
 import imagen1 from "../assets/images/actividades-casa-sostenible.jpg";
-import imagen2 from "../assets/images/actividades-casa-sostenible.jpg";
+import imagen2 from "../assets/images/actividades-casa-sostenible-2.jpg";
 
 export const ActividadCasaSostenible = () => {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -21,7 +21,7 @@ export const ActividadCasaSostenible = () => {
             <img
               className="lg:w-96 w-64 lg:rounded-l-lg rounded-t-lg"
               src={imagen1}
-              alt="Hola"
+              alt="Casa sostenible con muchas plantas hermosas"
             />
             <div className="items-center p-4 leading-normal lg:w-96 w-64 text-center">
               <h5 className="mb-2 md:text-2xl text-lg font-bold tracking-tight text-gray-800 leading-relaxed">
@@ -45,7 +45,7 @@ export const ActividadCasaSostenible = () => {
               <img
                 className="lg:w-96 w-64 lg:rounded-r-lg rounded-b-lg"
                 src={imagen2}
-                alt="Cualquiercosa"
+                alt="Persona con una cámara, tomando una fotografía a un panel solar"
               />
             </div>
           </div>

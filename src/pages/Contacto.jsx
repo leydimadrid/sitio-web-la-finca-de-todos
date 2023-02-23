@@ -60,7 +60,7 @@ export const Contacto = () => {
      {/* Fin Modificador de texto */}
       <div id="contenedor" className="flex flex-col md:flex-row lg:flex-row items-center">
         <div className="md:my-6 lg:my-6">
-          <img src={imagenContacto} />
+          <img src={imagenContacto} alt="Niño con gafas sembrando en un huerto" />
         </div>
         <div className="md:w-2/6 lg:w-2/6 w-full h-2/6 p-8">
           <h1 className="titulo text-blue-900 font-bold md:text-2xl lg:text-2xl text-xl text-center leading-relaxed">Comunícate con nosotros</h1>

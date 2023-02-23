@@ -21,7 +21,7 @@ export const ActividadSimulador = () => {
             <img
               className="lg:w-96 w-64 lg:rounded-l-lg rounded-t-lg"
               src={imagen1}
-              alt="Hola"
+              alt="Una mujer y una niña en silla de ruedas frente a un simulador de vuelo"
             />
             <div className="items-center p-4 leading-normal lg:w-96 w-64 text-center">
               <h5 className="mb-2 md:text-2xl text-lg font-bold tracking-tight text-gray-800 leading-relaxed">
@@ -49,7 +49,7 @@ export const ActividadSimulador = () => {
             <img
               className="lg:w-96 w-64 lg:rounded-r-lg rounded-b-lg"
               src={imagen2}
-              alt="Cualquiercosa"
+              alt="Tres hombres con discapacidad en silla de ruedas jugando con un simulador de vuelo"
             />
           </div>
         </div>

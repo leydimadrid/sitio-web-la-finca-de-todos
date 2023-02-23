@@ -149,7 +149,7 @@ export const TalleresPedagogicos = () => {
               <img
                 className="p-4"
                 src={asistirTalleres}
-                alt="Personas reunidas en un huerto"
+                alt="5 Personas de diferentes cuturas reunidas en un huerto, aprendiendo sobre este"
               />
             </div>
           </div>

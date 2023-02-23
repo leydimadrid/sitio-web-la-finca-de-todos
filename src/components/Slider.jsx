@@ -13,31 +13,31 @@ export const Slider = () => {
           <ul>
             <li>
               {" "}
-              <img src={img1} alt="Niña" />
+              <img src={img1} alt="Niña diciendo te amo en Lengua de Señas Colombiano" />
             </li>
             <li>
               {" "}
-              <img src={img2} alt="" />
+              <img src={img2} alt="Paisaje de montañas y un rio en Colombia " />
             </li>
             <li>
               {" "}
-              <img src={img3} alt="" />
+              <img src={img3} alt="Un par de abuelos caminando felizmente en medio de la naturaleza con su nieto tomandosen de la mano" />
             </li>
             <li>
               {" "}
-              <img src={img4} alt="" />
+              <img src={img4} alt="Niños y niñas en un césped, sonriendo para tomarsen una foto" />
             </li>
             <li>
               {" "}
-              <img src={img5} alt="" />
+              <img src={img5} alt="Abuela abrazando a su nieta y a un perro felices" />
             </li>
             <li>
               {" "}
-              <img src={img6} alt="" />
+              <img src={img6} alt="Niña afrodescendiente sonriendo con un huevo de gallina en su mano" />
             </li>
             <li>
               {" "}
-              <img src={img7} alt="" />
+              <img src={img7} alt="Niño dando de comer en su mano a una gallina" />
             </li>
           </ul>
         </div>
