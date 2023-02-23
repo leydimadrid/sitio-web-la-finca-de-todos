@@ -40,7 +40,7 @@ export const ActividadSembrados = () => {
             <div className="items-center p-4 leading-normal md:w-96 w-64 text-center">
               <p className="mb-2 font-normal md:text-xl text-base tracking-tight text-gray-800 leading-relaxed text-left">
                 Buscamos recuperar el contacto con la naturaleza de manera
-                accesible para aprender  de dónde provienen alimentos
+                accesible para aprender de dónde provienen alimentos
                 saludables, como se producen y tener la experiencia del trabajo
                 realizado por nuestros campesinos Colombianos.{" "}
               </p>

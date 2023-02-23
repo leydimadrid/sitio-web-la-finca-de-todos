@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import videofinca from "../assets/videos/video-finca-3d.mp4";
 
 export const VideoFinca = () => {

@@ -64,7 +64,7 @@ export const Ubicacion = () => {
             <p className="titulo text-gray-800 md:text-xl text-base text-center leading-relaxed">
               Si necesitas transporte accesible{" "}
               <span className="titulo font-bold block text-blue-900 leading-relaxed">
-                ¡Te recogemos! 
+                ¡Te recogemos!
               </span>
             </p>
             <p className="titulo text-center text-gray-800 md:text-xl text-base mt-6 leading-relaxed">
@@ -74,7 +74,7 @@ export const Ubicacion = () => {
               Paradas gratuitas en buseta accesible.
             </p>
             <p className="titulo text-gray-800 font-bold md:text-xl text-base text-center mt-6 leading-relaxed">
-              Las paradas serán decididas en un futuro. 
+              Las paradas serán decididas en un futuro.
             </p>
           </div>
           <div className="md:m-1">

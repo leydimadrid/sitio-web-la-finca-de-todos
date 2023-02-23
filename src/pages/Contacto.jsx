@@ -66,7 +66,7 @@ export const Contacto = () => {
           <h1 className="titulo text-blue-900 font-bold md:text-2xl lg:text-2xl text-xl text-center leading-relaxed">Comunícate con nosotros</h1>
           <Formulario/>
           <div className="flex justify-center p-4 md:mt-10">
-            <a href="https://api.whatsapp.com/send?phone=3153410641&text=%C2%A1Hola!%20La%20Finca%20De%20Todos%20" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=3153410641&text=%C2%A1Hola!%20La%20Finca%20De%20Todos%20" target="_blank" rel="noreferrer">
               <img
                 className="m-2 md:w-auto w-8 h-8"
                 src={iconowhatsapp}
@@ -75,7 +75,7 @@ export const Contacto = () => {
             </a>
             <a
               href="https://instagram.com/fincadetodos?igshid=YmMyMTA2M2Y="
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
                 className="m-2 md:w-auto w-8 h-8"
@@ -84,7 +84,7 @@ export const Contacto = () => {
               />
             </a>
 
-            <a href="https://www.facebook.com/profile.php?id=100089133646096" target="_blank">
+            <a href="https://www.facebook.com/profile.php?id=100089133646096" target="_blank" rel="noreferrer">
               <img
                 className="m-2 md:w-auto w-8 h-8"
                 src={iconofacebook}
@@ -92,7 +92,7 @@ export const Contacto = () => {
               />
             </a>
 
-            <a href="mailto:finca.todos@gmail.com" target="_blank">
+            <a href="mailto:finca.todos@gmail.com" target="_blank" rel="noreferrer">
               <img
                 className="m-2 md:w-auto w-8 h-8"
                 src={iconoemail}

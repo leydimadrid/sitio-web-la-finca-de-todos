@@ -1,13 +1,12 @@
-import { BotonDonar } from "../components/BotonDonar";
-import { Equipo } from "../components/Equipo";
-import { Slider } from "../components/Slider";
-import iconowhatsapp from "../assets/images/icono-whatsapp.svg";
-import iconoinstagram from "../assets/images/icono-instagram.svg";
-import iconofacebook from "../assets/images/icono-facebook.svg";
-import iconoemail from "../assets/images/icono-email.svg";
-import { InfografiaDiscapacidad } from "../components/InfografiaDiscapacidad";
-import FontSizeChanger from 'react-font-size-changer';
-
+import { BotonDonar } from '../components/BotonDonar'
+import { Equipo } from '../components/Equipo'
+import { Slider } from '../components/Slider'
+import iconowhatsapp from '../assets/images/icono-whatsapp.svg'
+import iconoinstagram from '../assets/images/icono-instagram.svg'
+import iconofacebook from '../assets/images/icono-facebook.svg'
+import iconoemail from '../assets/images/icono-email.svg'
+import { InfografiaDiscapacidad } from '../components/InfografiaDiscapacidad'
+import FontSizeChanger from 'react-font-size-changer'
 
 export const Nosotros = () => {
   return (
@@ -16,21 +15,21 @@ export const Nosotros = () => {
     <div className="flex justify-end">
       <div className="fixed md:m-4 lg:m-4 m-2 z-10">
         <FontSizeChanger
-          targets={["#contenedor .titulo"]}
+          targets={['#contenedor .titulo']}
           onChange={(element, newValue, oldValue) => {
-            console.log(element, newValue, oldValue);
+            console.log(element, newValue, oldValue)
           }}
           options={{
             stepSize: 2,
-            range: 3,
+            range: 3
           }}
           customButtons={{
             up: (
               <span
                 style={{
-                  fontSize: "22px",
-                  color: "white",
-                  fontFamily: "sans-serif",
+                  fontSize: '22px',
+                  color: 'white',
+                  fontFamily: 'sans-serif'
                 }}
               >
                 A<sup className="font-semibold">+</sup>
@@ -39,29 +38,29 @@ export const Nosotros = () => {
             down: (
               <span
                 style={{
-                  fontSize: "22px",
-                  color: "white",
-                  fontFamily: "sans-serif",
+                  fontSize: '22px',
+                  color: 'white',
+                  fontFamily: 'sans-serif'
                 }}
               >
                 A<sup className="font-semibold">-</sup>
               </span>
             ),
             style: {
-              backgroundColor: "#E60064",
-              color: "white",
-              WebkitBoxSizing: "border-box",
-              WebkitBorderRadius: "60px",
-              border: "none",
-              width: "40px",
+              backgroundColor: '#E60064',
+              color: 'white',
+              WebkitBoxSizing: 'border-box',
+              WebkitBorderRadius: '60px',
+              border: 'none',
+              width: '40px'
             },
-            buttonsMargin: 10,
+            buttonsMargin: 10
           }}
         />
       </div>
     </div>
      {/* Fin Modificador de texto */}
-      <div id="contenedor">
+      <section id="contenedor">
         <section className="nuestraMision md:bg-contain bg-auto bg-no-repeat md:pt-24 pt-16">
           <div>
             <h1 className="titulo font-bold md:text-2xl text-xl text-center md:pt-30 text-gray-800">
@@ -72,18 +71,18 @@ export const Nosotros = () => {
           <div className="flex justify-center my-auto pt-6 mb-2 px-4 md:text-xl lg:text-lg text-base font-medium">
             <p className="titulo text-gray-800 md:text-justify text-center md:max-w-5xl lg:max-w-3xl leading-relaxed">
               <span className="text-blue-900">
-                La Finca de Todos{" "}
-              </span>{" "}
+                La Finca de Todos{' '}
+              </span>{' '}
               es una oportunidad para vivir en un mundo equitativo y divertido,
               donde nadie queda afuera. Hacen falta espacios campestres que sean
-              completamente accesibles a todos los ciudadanos.{" "}
-              En{" "}
+              completamente accesibles a todos los ciudadanos.{' '}
+              En{' '}
                 <span className="text-blue-900">
-                  La Finca de Todos{" "}
-                </span>{" "}
+                  La Finca de Todos{' '}
+                </span>{' '}
                 no hay preocupaciones ni escaleras, aquí todos entramos por la
-                puerta principal.{" "}
-            </p>{" "}
+                puerta principal.{' '}
+            </p>{' '}
           </div>
           <p className="titulo text-center font-semibold md:text-xl text-xl text-blue-900 ">¡Te esperamos!</p>
           <Slider />
@@ -106,7 +105,7 @@ export const Nosotros = () => {
           <Equipo />
         </div>
       <div className="flex justify-center p-4 md:mt-10">
-        <a href="https://api.whatsapp.com/send?phone=3153410641&text=%C2%A1Hola!%20La%20Finca%20De%20Todos%20" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=3153410641&text=%C2%A1Hola!%20La%20Finca%20De%20Todos%20" target="_blank" rel="noreferrer">
           <img
             className="m-2 md:w-auto w-8 h-8"
             src={iconowhatsapp}
@@ -115,7 +114,7 @@ export const Nosotros = () => {
         </a>
         <a
           href="https://instagram.com/fincadetodos?igshid=YmMyMTA2M2Y="
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <img
             className="m-2 md:w-auto w-8 h-8"
@@ -124,7 +123,7 @@ export const Nosotros = () => {
           />
         </a>
 
-        <a href="https://www.facebook.com/profile.php?id=100089133646096" target="_blank">
+        <a href="https://www.facebook.com/profile.php?id=100089133646096" target="_blank" rel="noreferrer">
           <img
             className="m-2 md:w-auto w-8 h-8"
             src={iconofacebook}
@@ -132,7 +131,7 @@ export const Nosotros = () => {
           />
         </a>
 
-        <a href="mailto:finca.todos@gmail.com" target="_blank">
+        <a href="mailto:finca.todos@gmail.com" target="_blank" rel="noreferrer">
           <img
             className="m-2 md:w-auto w-8 h-8"
             src={iconoemail}
@@ -140,7 +139,7 @@ export const Nosotros = () => {
           />
         </a>
       </div>
-    </div>
+    </section>
     </>
-  );
-};
+  )
+}

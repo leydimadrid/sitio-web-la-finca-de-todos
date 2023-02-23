@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { BotonDonar } from "../components/BotonDonar";
 
 export const NavBar = () => {
-  let [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
 
   return (
     <>

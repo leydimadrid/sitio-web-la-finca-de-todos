@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export const CardsFinDeSemana = ({imagen, titulo, alt}) => {
 
   return (

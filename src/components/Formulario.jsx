@@ -46,7 +46,6 @@ export const Formulario = () => {
         }
       })
       .catch((error) => console.log(error));
-
   };
 
   return (
@@ -54,7 +53,7 @@ export const Formulario = () => {
       <form onSubmit={handleSubmit} className="w-full flex flex-col space-y-3">
         <div>
           <label
-            htmlFor=""
+            htmlFor="nombre_usuario"
             className="titulo text-gray-700 md:text-md lg:text-md text-sm font-bold leading-relaxed"
           >
             Nombre
@@ -62,9 +61,10 @@ export const Formulario = () => {
         </div>
         <div>
           <input
-            id="nombre"
+            id="nombre_usuario"
             type="text"
             name="nombre_usuario"
+            aria-required="true"
             placeholder="Ingrese su nombre"
             className="titulo leading-relaxed w-full ring-2 ring-gray-300 rounded-md outline-none focus:ring-2 focus:ring-blue-600 py-2 px-4"
             value={nombre}
@@ -74,7 +74,7 @@ export const Formulario = () => {
 
         <div>
           <label
-            htmlFor=""
+            htmlFor="contacto_usuario"
             className="titulo text-gray-700 md:text-md lg:text-md text-sm font-bold leading-relaxed"
           >
             Medio de contacto
@@ -82,8 +82,9 @@ export const Formulario = () => {
         </div>
         <div className="mt-2">
           <input
-            id="contacto"
+            id="contacto_usuario"
             name="contacto_usuario"
+            aria-required="true"
             placeholder="Ingrese su email"
             className="titulo leading-relaxed w-full ring-2 ring-gray-300 rounded-md outline-none focus:ring-2 focus:ring-blue-600 py-2 px-4"
             value={contacto}
@@ -93,7 +94,7 @@ export const Formulario = () => {
 
         <div>
           <label
-            htmlFor=""
+            htmlFor="mensaje_usuario"
             className="titulo leading-relaxed text-gray-700 md:text-md lg:text-md text-sm font-bold"
           >
             Mensaje
@@ -101,8 +102,9 @@ export const Formulario = () => {
         </div>
         <div className="mt-2">
           <textarea
-            id="mensaje"
+            id="mensaje_usuario"
             name="mensaje_usuario"
+            aria-required="true"
             className="titulo leading-relaxed w-full ring-2 ring-gray-300 rounded-md outline-none focus:ring-2 focus:ring-blue-600 py-2 px-4"
             value={mensaje}
             onChange={(e) => setMensaje(e.target.value)}
@@ -113,9 +115,7 @@ export const Formulario = () => {
           className="titulo leading-relaxed inline-block px-6 py-4 bg-blue-900 text-white font-semibold rounded-lg text-sm uppercase"
           value="Enviar mensaje"
         />
-        <div className="titulo">
-        {error && <Error />}
-        </div>
+        <div className="titulo">{error && <Error />}</div>
       </form>
     </div>
   );

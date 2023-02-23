@@ -1,4 +1,3 @@
-import infografiaPasaDia from "../assets/images/infografia-pasa-dia.jpg";
 import logo from "../assets/images/logo-la-finca-de-todos-pasa-dia.svg";
 import reloj from "../assets/images/reloj-infografia-pasa-dia.svg";
 import tiempoActividades from "../assets/images/tiempo-infografía-pasa-dia.svg";
@@ -107,7 +106,7 @@ export const InfografiaPasaDia = () => {
       </div>
       {/* Final sección centro de bienvenida */}
 
-      {/* Inicio Sección en el huerto*/}
+      {/* Inicio Sección en el huerto */}
       <section className="flex md:flex-row lg:flex-row flex-col justify-start md:mt-24 lg:mt-24 mt-10">
         <div className="basis-2/5 grid place-items-center">
           <div className="w-auto grid place-content-start">
@@ -334,7 +333,7 @@ export const InfografiaPasaDia = () => {
         </div>
       </section>
       <hr className="linea-discontinua w-full md:w-3/4 lg:w-3/4 mt-2"></hr>
-      {/* Final sección casa accesible, reciclaje y arte con reciclaje*/}
+      {/* Final sección casa accesible, reciclaje y arte con reciclaje */}
 
       {/* Inicio Sección salida */}
       <section className="flex md:flex-row lg:flex-row flex-col justify-end md:mt-24 lg:mt-24 mt-10">
@@ -367,7 +366,7 @@ export const InfografiaPasaDia = () => {
                 <li>
                   <a
                     href="https://www.freepik.es/vector-gratis/ilustracion-concepto-pasta_21118033.htm#query=ALMUERZO&position=26&from_view=search&track=sph"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     https://www.freepik.es/vector-gratis/ilustracion-concepto-pasta_21118033.htm#query=ALMUERZO&position=26&from_view=search&track=sph
                   </a>
@@ -375,7 +374,7 @@ export const InfografiaPasaDia = () => {
                 <li>
                   <a
                     href="https://www.freepik.es/vector-gratis/autobus-escolar-ninos-diseno-plano_2325669.htm#page=2&query=BUS&position=14&from_view=search&track=sph"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     https://www.freepik.es/vector-gratis/autobus-escolar-ninos-diseno-plano_2325669.htm#page=2&query=BUS&position=14&from_view=search&track=sph
                   </a>
@@ -383,7 +382,7 @@ export const InfografiaPasaDia = () => {
                 <li>
                   <a
                     href="https://www.freepik.es/vector-gratis/dibujado-mano-gente-diseno-plano-agitando-ilustracion_20859175.htm#query=despedida&position=0&from_view=search&track=sph"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                    https://www.freepik.es/vector-gratis/dibujado-mano-gente-diseno-plano-agitando-ilustracion_20859175.htm#query=despedida&position=0&from_view=search&track=sph
                   </a>
@@ -391,7 +390,7 @@ export const InfografiaPasaDia = () => {
                 <li>
                   <a
                     href="https://www.freepik.es/vector-gratis/ilustracion-personaje-dibujos-animados-aislado-grande-ninos-lindos-que-cultivan-huerto-jardin-fuera-casa-ilustracion-plana_12953903.htm#query=huerto&position=1&from_view=search&track=sphhttps://www.freepik.es/vector-gratis/conjunto-iconos-planos-discapacitados-discapacitados_3910281.htm#query=discapacidad%20baille&position=20&from_view=search&track=ais"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     https://www.freepik.es/vector-gratis/ilustracion-personaje-dibujos-animados-aislado-grande-ninos-lindos-que-cultivan-huerto-jardin-fuera-casa-ilustracion-plana_12953903.htm#query=huerto&position=1&from_view=search&track=sph
                   </a>
@@ -399,7 +398,7 @@ export const InfografiaPasaDia = () => {
                 <li>
                   <a
                     href="https://www.freepik.es/vector-gratis/ilustracion-personaje-dibujos-animados-aislado-grande-ninos-lindos-que-cultivan-huerto-jardin-fuera-casa-ilustracion-plana_12953928.htm#query=huerto&position=8&from_view=search&track=sph"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     https://www.freepik.es/vector-gratis/ilustracion-personaje-dibujos-animados-aislado-grande-ninos-lindos-que-cultivan-huerto-jardin-fuera-casa-ilustracion-plana_12953928.htm#query=huerto&position=8&from_view=search&track=sph
                   </a>
@@ -407,7 +406,7 @@ export const InfografiaPasaDia = () => {
                 <li>
                   <a
                     href="https://www.freepik.es/vector-gratis/frutas-ensaladeras-diseno-dibujado-mano_7474818.htm#query=ensalada&position=5&from_view=search&track=sph"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     https://www.freepik.es/vector-gratis/frutas-ensaladeras-diseno-dibujado-mano_7474818.htm#query=ensalada&position=5&from_view=search&track=sph
                   </a>

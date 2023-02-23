@@ -6,7 +6,7 @@ export const Inicio = () => {
   return (
     <section className="bienvenidos md:bg-cover bg-cover bg-no-repeat">
       {/* Inicio Modificador de texto  */}
-      <div className="flex justify-end">
+      <section className="flex justify-end">
         <div className="fixed md:m-4 lg:m-4 m-2 z-10">
           <FontSizeChanger
             targets={["#contenedor .titulo"]}
@@ -52,7 +52,7 @@ export const Inicio = () => {
             }}
           />
         </div>
-      </div>
+      </section>
       {/* Fin Modificador de texto */}
       <div className="grid place-items-center">
       <VideoInicio />

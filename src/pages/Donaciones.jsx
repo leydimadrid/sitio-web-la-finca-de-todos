@@ -65,7 +65,7 @@ export const Donaciones = () => {
             Tu apoyo es indispensable para crear el mundo de igualdad en el que
             queremos vivir.{" "}
             <span className="titulo colorTextoDonaciones font-bold block leading-relaxed">
-              ¡Gracias por tu donación! 
+              ¡Gracias por tu donación!
             </span>
           </p>
           <p className="titulo text-center text-gray-800 md:text-xl text-base mt-6 leading-relaxed">

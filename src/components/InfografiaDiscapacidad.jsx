@@ -36,7 +36,7 @@ export const InfografiaDiscapacidad = () => {
               participación en todos los ámbitos de la vida.
             </p>
           </div>
-          {/* Párrafo introductorio*/}
+          {/* Párrafo introductorio */}
 
           <div className="flex md:justify-center justify-end mt-8">
             <div className=" md:w-2/5 w-2/4 md:mr-64 pr-6">
@@ -477,7 +477,7 @@ export const InfografiaDiscapacidad = () => {
                 <li>
                   <a
                     href="https://www.funcionpublica.gov.co/en/web/inclusion-publica/categor%C3%ADas-de-discapacidad"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     https://www.funcionpublica.gov.co/en/web/inclusion-publica/categor%C3%ADas-de-discapacidad
                   </a>
@@ -485,7 +485,7 @@ export const InfografiaDiscapacidad = () => {
                 <li>
                   <a
                     href="https://www.funcionpublica.gov.co/en/web/inclusion-publica/qu%C3%A9-es-discapacidad-"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     https://www.funcionpublica.gov.co/en/web/inclusion-publica/qu%C3%A9-es-discapacidad-
                   </a>
@@ -493,7 +493,7 @@ export const InfografiaDiscapacidad = () => {
                 <li>
                   <a
                     href="https://www.freepik.es/vector-gratis/dia-internacional-plano-personas-discapacidad_10623554.htm#query=discapacidad&from_query=discacidad&position=1&from_view=search&track=sph"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     https://www.freepik.es/vector-gratis/dia-internacional-plano-personas-discapacidad_10623554.htm#query=discapacidad&from_query=discacidad&position=1&from_view=search&track=sph
                   </a>
@@ -501,7 +501,7 @@ export const InfografiaDiscapacidad = () => {
                 <li>
                   <a
                     href="https://www.freepik.es/vector-gratis/conjunto-iconos-planos-discapacitados-discapacitados_3910281.htm#query=discapacidad%20baille&position=20&from_view=search&track=ais"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     https://www.freepik.es/vector-gratis/conjunto-iconos-planos-discapacitados-discapacitados_3910281.htm#query=discapacidad%20baille&position=20&from_view=search&track=ais
                   </a>
@@ -509,7 +509,7 @@ export const InfografiaDiscapacidad = () => {
                 <li>
                   <a
                     href="https://www.freepik.es/vector-gratis/dia-internacional-personas-discapacidad_10753024.htm#query=personas%20con%20discapacidadad&position=26&from_view=search&track=ais"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     https://www.freepik.es/vector-gratis/dia-internacional-personas-discapacidad_10753024.htm#query=personas%20con%20discapacidadad&position=26&from_view=search&track=ais
                   </a>
