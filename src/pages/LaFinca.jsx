@@ -67,7 +67,7 @@ export const LaFinca = () => {
         <hr className="linea-verde mx-auto mt-2" tabIndex={0}></hr>
         <article className="grid place-items-center">
         <VideoFinca/>
-        <p className='text-sm md:text-md lg:text-md w-10/12 mb-2' tabIndex={0}>
+        <p className='titulo text-sm md:text-md lg:text-md w-3/4 mb-2 leading-relaxed' tabIndex={0}>
 					Video en 3D de La Finca De Todos, mostrando su estructura, espacios e información.
 				</p>
         </article>

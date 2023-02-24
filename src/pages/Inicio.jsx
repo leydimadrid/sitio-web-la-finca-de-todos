@@ -54,9 +54,10 @@ export const Inicio = () => {
 				</div>
 			</section>
 			{/* Fin Modificador de texto */}
-			<section className='grid place-items-center'>
+			<article id='contenedor'>
+			<section className='titulo grid place-items-center'>
 				<VideoInicio />
-				<p className='text-sm md:text-md lg:text-md w-10/12' tabIndex={0}>
+				<p className='text-xs md:text-md lg:text-md w-10/12 leading-relaxed' tabIndex={0}>
 					<span className='font-semibold'>
 						Video compuesto de los siguientes clips:{' '}
 					</span>
@@ -68,8 +69,7 @@ export const Inicio = () => {
 					de ruedas eléctrica, logo de La Finca De Todos.
 				</p>
 			</section>
-			<article id='contenedor' className='mt-20'>
-				<h1 className='titulo md:text-4xl text-3xl text-center text-blue-900 font-bold tracking-wide' tabIndex={0}>
+				<h1 className='titulo md:text-4xl text-3xl text-center text-blue-900 font-bold tracking-wide mt-24' tabIndex={0}>
 					BIENVENIDOS
 				</h1>
 				<div className='max-w-md my-auto mx-auto pt-6 md:pb-10 pb-6 text-center md:text-xl text-base font-medium text-gray-800'>
