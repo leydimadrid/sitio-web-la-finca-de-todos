@@ -167,19 +167,19 @@ export const TalleresPedagogicos = () => {
               <div className="flex justify-center">
                 <ul>
                   <li className="titulo font-bold md:text-2xl text-lg pt-6 text-center mb-4 m-4 leading-relaxed">
-                    6-8
+                    6 a 8
                   </li>
                   <li className="titulo font-bold md:text-2xl text-lg text-center mb-4  m-4 leading-relaxed">
-                    9-11
+                    9 a 11
                   </li>
                 </ul>
 
                 <ul>
                   <li className="titulo font-bold md:text-2xl text-lg pt-6  text-center mb-4  m-4 leading-relaxed">
-                    12-14
+                    12 a 14
                   </li>
                   <li className="titulo font-bold md:text-2xl text-lg text-center mb-4 m-4 leading-relaxed">
-                    15-17
+                    15 a 17
                   </li>
                 </ul>
               </div>
