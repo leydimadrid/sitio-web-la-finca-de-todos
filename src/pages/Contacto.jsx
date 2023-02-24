@@ -23,7 +23,7 @@ export const Contacto = () => {
           }}
           customButtons={{
             up: (
-              <span
+              <button
                 style={{
                   fontSize: "22px",
                   color: "white",
@@ -31,10 +31,10 @@ export const Contacto = () => {
                 }}
               >
                 A<sup className="font-semibold">+</sup>
-              </span>
+              </button>
             ),
             down: (
-              <span
+              <button
                 style={{
                   fontSize: "22px",
                   color: "white",
@@ -42,7 +42,7 @@ export const Contacto = () => {
                 }}
               >
                 A<sup className="font-semibold">-</sup>
-              </span>
+              </button>
             ),
             style: {
               backgroundColor: "#E60064",
@@ -60,10 +60,10 @@ export const Contacto = () => {
      {/* Fin Modificador de texto */}
       <div id="contenedor" className="flex flex-col md:flex-row lg:flex-row items-center">
         <div className="md:my-6 lg:my-6">
-          <img src={imagenContacto} alt="Niño con gafas sembrando en un huerto" />
+          <img src={imagenContacto} alt="Niño con gafas sembrando en un huerto" tabIndex={0}/>
         </div>
         <div className="md:w-2/6 lg:w-2/6 w-full h-2/6 p-8">
-          <h1 className="titulo text-blue-900 font-bold md:text-2xl lg:text-2xl text-xl text-center leading-relaxed">Comunícate con nosotros</h1>
+          <h1 className="titulo text-blue-900 font-bold md:text-2xl lg:text-2xl text-xl text-center leading-relaxed" tabIndex={0}>Comunícate con nosotros</h1>
           <Formulario/>
           <div className="flex justify-center p-4 md:mt-10">
             <a href="https://api.whatsapp.com/send?phone=3153410641&text=%C2%A1Hola!%20La%20Finca%20De%20Todos%20" target="_blank" rel="noreferrer">

@@ -17,7 +17,7 @@ export const accesibilidad = [
         id: 3,
         imagen: "bucle-auditivo.jpg",
         titulo: "Tecnología de bucle auditivo con telebobina",
-        alt: "Mujer sonriendo mientras un niño que tiene bucle auditivo le acaricia su rostro"
+        alt: "Mujer sonriendo mientras un niño con bucle auditivo le acaricia su rostro"
       }, 
 
       {

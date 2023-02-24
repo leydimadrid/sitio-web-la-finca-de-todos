@@ -6,10 +6,10 @@ export const PrincipiosSostenibilidad = ({ imagen, parrafo, alt }) => {
 			<div className='bg-white'>
 				<div className='cardSostenibilidad max-w-sm rounded shadow-lg'>
 					<div className='px-6 py-4 flex justify-center'>
-						<img className='rounded-full shadow-lg' src={imagen} alt={alt} />
+						<img className='rounded-full shadow-lg' src={imagen} alt={alt} tabIndex={0} />
 					</div>
 					<div className='px-4 py-2 text-center'>
-						<p className='font-bold text-lg text-gray-800 leading-normal'>
+						<p className='font-bold text-lg text-gray-800 leading-normal' tabIndex={0}>
 							{parrafo}
 						</p>
 					</div>

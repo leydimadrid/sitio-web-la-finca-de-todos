@@ -20,7 +20,7 @@ export const Ubicacion = () => {
             }}
             customButtons={{
               up: (
-                <span
+                <button
                   style={{
                     fontSize: "22px",
                     color: "white",
@@ -28,10 +28,10 @@ export const Ubicacion = () => {
                   }}
                 >
                   A<sup className="font-semibold">+</sup>
-                </span>
+                </button>
               ),
               down: (
-                <span
+                <button
                   style={{
                     fontSize: "22px",
                     color: "white",
@@ -39,7 +39,7 @@ export const Ubicacion = () => {
                   }}
                 >
                   A<sup className="font-semibold">-</sup>
-                </span>
+                </button>
               ),
               style: {
                 backgroundColor: "#E60064",
@@ -61,19 +61,19 @@ export const Ubicacion = () => {
       >
         <div className="md:flex flex-row items-center justify-center md:pt-20">
           <div className="max-w-xl md:p-6 p-8 md:mr-28 lg:mr-1">
-            <p className="titulo text-gray-800 md:text-xl text-base text-center leading-relaxed">
+            <p className="titulo text-gray-800 md:text-xl text-base text-center leading-relaxed" tabIndex={0}>
               Si necesitas transporte accesible{" "}
               <span className="titulo font-bold block text-blue-900 leading-relaxed">
                 ¡Te recogemos!
               </span>
             </p>
-            <p className="titulo text-center text-gray-800 md:text-xl text-base mt-6 leading-relaxed">
+            <p className="titulo text-center text-gray-800 md:text-xl text-base mt-6 leading-relaxed" tabIndex={0}>
               <span className="titulo font-bold block text-gray-800 leading-relaxed">
                 Sábado y Domingo
               </span>{" "}
               Paradas gratuitas en buseta accesible.
             </p>
-            <p className="titulo text-gray-800 font-bold md:text-xl text-base text-center mt-6 leading-relaxed">
+            <p className="titulo text-gray-800 font-bold md:text-xl text-base text-center mt-6 leading-relaxed" tabIndex={0}>
               Las paradas serán decididas en un futuro.
             </p>
           </div>
@@ -83,6 +83,7 @@ export const Ubicacion = () => {
               className="p-4"
               src={imagenUbicacion}
               alt="Hombre en silla de ruedas, subiendo a un carro accesible"
+              tabIndex={0}
             />
           </div>
         </div>
@@ -92,12 +93,13 @@ export const Ubicacion = () => {
             <img
               src={mapaCali}
               alt="Mapa de Cali"
+              tabIndex={0}
             />
           </div>
           <div className="grid grid-cols-1 content-center">
             <div>
               <div className="flex justify-center mt-4">
-              <p className="titulo text-gray-800 font-bold md:text-xl text-base text-center max-w-xs leading-relaxed">
+              <p className="titulo text-gray-800 font-bold md:text-xl text-base text-center max-w-xs leading-relaxed" tabIndex={0}>
                 Aún estamos buscando el lugar perfecto para
               </p>
               </div>
@@ -106,6 +108,7 @@ export const Ubicacion = () => {
                 className="md:w-60 lg:w-60 w-56"
                 src={Logo}
                 alt="Logo de La Finca De Todos"
+                tabIndex={0}
               />
               </div>
             </div>

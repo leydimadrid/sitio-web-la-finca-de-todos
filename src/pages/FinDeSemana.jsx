@@ -28,7 +28,7 @@ export const FinDeSemana = () => {
             }}
             customButtons={{
               up: (
-                <span
+                <button
                   style={{
                     fontSize: "22px",
                     color: "white",
@@ -36,10 +36,10 @@ export const FinDeSemana = () => {
                   }}
                 >
                   A<sup className="font-semibold">+</sup>
-                </span>
+                </button>
               ),
               down: (
-                <span
+                <button
                   style={{
                     fontSize: "22px",
                     color: "white",
@@ -47,7 +47,7 @@ export const FinDeSemana = () => {
                   }}
                 >
                   A<sup className="font-semibold">-</sup>
-                </span>
+                </button>
               ),
               style: {
                 backgroundColor: "#E60064",
@@ -67,11 +67,11 @@ export const FinDeSemana = () => {
         <div id="contenedor">
           <section>
             <div className="flex justify-center">
-              <h1 className="titulo font-bold max-w-lg md:text-2xl text-xl text-center md:pt-28 pt-4 text-gray-800 leading-relaxed">
+              <h1 className="titulo font-bold max-w-lg md:text-2xl text-xl text-center md:pt-28 pt-4 text-gray-800 leading-relaxed" tabIndex={0}>
                 Actividades fin de semana
               </h1>
             </div>
-            <hr className="linea-fucsia mx-auto mt-2"></hr>
+            <hr className="linea-fucsia mx-auto mt-2" tabIndex={0}></hr>
           </section>
            <section className="md:py-6 px-2 mt-4 flex justify-center">
             <div className="titulo flex flex-wrap lg:max-w-full justify-center cursor-pointer">

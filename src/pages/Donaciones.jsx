@@ -19,7 +19,7 @@ export const Donaciones = () => {
           }}
           customButtons={{
             up: (
-              <span
+              <button
                 style={{
                   fontSize: "22px",
                   color: "white",
@@ -27,10 +27,10 @@ export const Donaciones = () => {
                 }}
               >
                 A<sup className="font-semibold">+</sup>
-              </span>
+              </button>
             ),
             down: (
-              <span
+              <button
                 style={{
                   fontSize: "22px",
                   color: "white",
@@ -38,7 +38,7 @@ export const Donaciones = () => {
                 }}
               >
                 A<sup className="font-semibold">-</sup>
-              </span>
+              </button>
             ),
             style: {
               backgroundColor: "#E60064",
@@ -58,17 +58,17 @@ export const Donaciones = () => {
       <div className="md:flex flex-row items-center justify-center md:pt-20">
         <div className="md:m-1">
           {" "}
-          <img className="p-4" src={imagenDonaciones} alt="Niña con Síndrome de Down sonriendo" />
+          <img className="p-4" src={imagenDonaciones} alt="Niña con Síndrome de Down sonriendo" tabIndex={0} />
         </div>
         <div className="max-w-xl md:p-6 p-8 font-medium">
-          <p className="titulo text-gray-800 md:text-xl text-base text-center leading-relaxed">
+          <p className="titulo text-gray-800 md:text-xl text-base text-center leading-relaxed" tabIndex={0}>
             Tu apoyo es indispensable para crear el mundo de igualdad en el que
             queremos vivir.{" "}
             <span className="titulo colorTextoDonaciones font-bold block leading-relaxed">
               ¡Gracias por tu donación!
             </span>
           </p>
-          <p className="titulo text-center text-gray-800 md:text-xl text-base mt-6 leading-relaxed">
+          <p className="titulo text-center text-gray-800 md:text-xl text-base mt-6 leading-relaxed" tabIndex={0}>
             La Fundación La Finca de Todos es una Entidad sin Ánimo de Lucro,
             número de registro XXXX.
             <div className="titulo text-center pt-10 md:text-2xl text-xl leading-relaxed">

@@ -13,31 +13,31 @@ export const Slider = () => {
           <ul>
             <li>
               {" "}
-              <img src={img1} alt="Niña diciendo te amo en Lengua de Señas Colombiano" />
+              <img src={img1} alt="Niña diciendo te amo en Lengua de Señas Colombiano" tabIndex={0} />
             </li>
             <li>
               {" "}
-              <img src={img2} alt="Paisaje de montañas y un rio en Colombia " />
+              <img src={img2} alt="Paisaje de montañas y un rio en Colombia" tabIndex={0} />
             </li>
             <li>
               {" "}
-              <img src={img3} alt="Un par de abuelos caminando felizmente en medio de la naturaleza con su nieto tomandosen de la mano" />
+              <img src={img3} alt="Un par de abuelos caminando felizmente en medio de la naturaleza con su nieto tomandosen de la mano" tabIndex={0} />
             </li>
             <li>
               {" "}
-              <img src={img4} alt="Niños y niñas en un césped, sonriendo para tomarsen una foto" />
+              <img src={img4} alt="Niños y niñas en un césped, sonriendo para tomarsen una foto" tabIndex={0} />
             </li>
             <li>
               {" "}
-              <img src={img5} alt="Abuela abrazando a su nieta y a un perro felices" />
+              <img src={img5} alt="Abuela abrazando a su nieta y a un perro felices" tabIndex={0} />
             </li>
             <li>
               {" "}
-              <img src={img6} alt="Niña afrodescendiente sonriendo con un huevo de gallina en su mano" />
+              <img src={img6} alt="Niña afrodescendiente sonriendo con un huevo de gallina en su mano" tabIndex={0} />
             </li>
             <li>
               {" "}
-              <img src={img7} alt="Niño dando de comer en su mano a una gallina" />
+              <img src={img7} alt="Niño dando de comer en su mano a una gallina" tabIndex={0} />
             </li>
           </ul>
         </div>
