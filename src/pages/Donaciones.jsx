@@ -41,7 +41,7 @@ export const Donaciones = () => {
               </button>
             ),
             style: {
-              backgroundColor: "#E60064",
+              backgroundColor: "#2F52A0",
               color: "white",
               WebkitBoxSizing: "border-box",
               WebkitBorderRadius: "60px",
@@ -70,7 +70,7 @@ export const Donaciones = () => {
           </p>
           <p className="titulo text-center text-gray-800 md:text-xl text-base mt-6 leading-relaxed" tabIndex={0}>
             La Fundación La Finca de Todos es una Entidad sin Ánimo de Lucro,
-            número de registro XXXX.
+            número de registro 20230143627.
             <div className="titulo text-center pt-10 md:text-2xl text-xl leading-relaxed">
               <BotonAhora />
             </div>

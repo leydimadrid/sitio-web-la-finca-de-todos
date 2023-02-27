@@ -45,7 +45,7 @@ export const TalleresPedagogicos = () => {
                 </button>
               ),
               style: {
-                backgroundColor: "#E60064",
+                backgroundColor: "#2F52A0",
                 color: "white",
                 WebkitBoxSizing: "border-box",
                 WebkitBorderRadius: "60px",

@@ -44,7 +44,7 @@ export const LaFinca = () => {
               </button>
             ),
             style: {
-              backgroundColor: "#E60064",
+              backgroundColor: "#2F52A0",
               color: "white",
               WebkitBoxSizing: "border-box",
               WebkitBorderRadius: "60px",
@@ -67,7 +67,7 @@ export const LaFinca = () => {
         <hr className="linea-verde mx-auto mt-2" tabIndex={0}></hr>
         <article className="grid place-items-center">
         <VideoFinca/>
-        <p className='titulo text-sm md:text-md lg:text-md w-3/4 mb-2 leading-relaxed' tabIndex={0}>
+        <p className='titulo text-xs md:text-md lg:text-md w-10/12 mb-2 leading-relaxed text-center' tabIndex={0}>
 					Video en 3D de La Finca De Todos, mostrando su estructura, espacios e información.
 				</p>
         </article>

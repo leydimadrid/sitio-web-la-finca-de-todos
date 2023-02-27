@@ -85,7 +85,7 @@ export const Formulario = () => {
 						id='contacto_usuario'
 						name='contacto_usuario'
 						aria-required='true'
-						placeholder='Ingrese su email'
+						placeholder='Ingrese su email o télefono'
 						className='titulo leading-relaxed w-full ring-2 ring-gray-300 rounded-md outline-none focus:ring-2 focus:ring-blue-600 py-2 px-4'
 						value={contacto}
 						onChange={e => setContacto(e.target.value)}
