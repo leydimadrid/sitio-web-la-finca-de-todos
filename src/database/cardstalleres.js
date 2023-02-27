@@ -28,7 +28,7 @@ export const cardstalleres = [
 	{
 		id: 4,
 		imagen: 'talleres-cocina.jpg',
-		titulo: 'Comer sano / Cocina',
+		titulo: 'En la cocina',
 		parrafo:
 			"Is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry's standard dummy.",
 		alt: 'Niños sonriendo frente a la cámara con diferentes ingredientes como tomate, pimentón en sus manos',
@@ -46,7 +46,7 @@ export const cardstalleres = [
 	{
 		id: 6,
 		imagen: 'talleres-sostenibilidad.jpg',
-		titulo: 'La sostenibilidad',
+		titulo: 'Sostenibilidad',
 		parrafo:
 			"Is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry's standard dummy.",
 		alt: 'Un niño afrodescendiente y una niña manipulando tierra',
@@ -55,7 +55,7 @@ export const cardstalleres = [
 	{
 		id: 7,
 		imagen: 'talleres-animales.jpg',
-		titulo: 'Animales',
+		titulo: 'Animales de la finca',
 		parrafo:
 			"Is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry's standard dummy.",
 		alt: 'Niño sentando debajo de un árbol mirando su conejo',
