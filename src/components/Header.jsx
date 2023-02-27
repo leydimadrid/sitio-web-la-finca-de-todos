@@ -4,8 +4,8 @@ import { NavBar } from "../Routes/NavBar";
 export const Header = () => {
   return (
     <>
-    <header className="bg-white items-center py-4 md:px-10 px-7 shadow-md w-full top-0 left-0 md:flex place-content-center fixed">
-      <section className="md:w-11/12 justify-between md:flex">
+    <header className="bg-white items-center py-4 shadow-md w-full top-0 left-0 md:flex justify-center fixed">
+      <section className="justify-between mx-4 flex-row flex space-x-10">
       <div className="cursor-pointer flex items-center">
         <a href="/inicio">
         <img src={Logo} alt="logo La Finca De Todos" />
