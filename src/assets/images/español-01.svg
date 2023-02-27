@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000031921206746500003880000004571117141699226262_);fill:#FED944;}
+</style>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="20" cy="20" r="20"/>
+	</defs>
+	<use xlink:href="#SVGID_1_"  style="overflow:visible;fill:#D70F29;"/>
+	<clipPath id="SVGID_00000047054109365039103540000001435221004250832024_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<polygon style="clip-path:url(#SVGID_00000047054109365039103540000001435221004250832024_);fill:#FED944;" points="1.27,13.04 
+		41.76,13.04 41.76,26.96 -2.32,26.96 -2.32,13.04 	"/>
+</g>
+</svg>

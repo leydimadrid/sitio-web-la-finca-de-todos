@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import español from '../assets/images/español.svg';
 import ingles from '../assets/images/ingles.svg';
 
 export const NavBar = () => {
 	const [open, setOpen] = useState(false);
+	const [t, i18n] = useTranslation('global');
 
 	return (
 		<>
@@ -18,13 +20,13 @@ export const NavBar = () => {
 						onClick={() => setOpen(!open)}
 						className=' md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-3 rounded text-gray-800'
 					>
-						<Link to='/inicio'>Inicio</Link>
+						<Link to='/inicio'> {t("header.home")} </Link>
 					</li>
 					<li
 						onClick={() => setOpen(!open)}
 						className='md:my-0 hover:text-white duration-500 hover:bg-pink-600 py-2 px-3 rounded text-gray-800'
 					>
-						<Link to='/nosotros'>Nosotros</Link>
+						<Link to='/nosotros'>{t("header.us")}</Link>
 					</li>
 					<li
 						onClick={() => setOpen(!open)}
@@ -73,20 +75,20 @@ export const NavBar = () => {
 						<Link to='/donaciones'>Quiero donar</Link>
 					</li>
 					<div className='flex-row flex md:ml-4 lg:ml-4 space-x-1 md:mt-0 lg:mt-0  mt-2'>
-						<button className='cursor-pointer'>
-							<img
-								src={español}
-								alt='Bandera españa traducir a español'
-								className='lg:w-6 w-6 mx-1'
-							/>
-						</button>
-						<button className='cursor-pointer'>
-							<img
-								src={ingles}
-								alt='Bandera Estados Unidos traducir a inglés'
-								className='lg:w-6 w-6 mx-1'
-							/>
-						</button>
+					<button onClick={() => i18n.changeLanguage('es')} className='cursor-pointer'>
+					<img
+						src={español}
+						alt='Bandera españa, traducir a español'
+						className='lg:w-6 w-6 mx-1'
+					/>
+				</button>
+				<button onClick={() => i18n.changeLanguage('en')} className='cursor-pointer'>
+					<img
+						src={ingles}
+						alt='Bandera Estados Unidos, traducir a inglés'
+						className='lg:w-6 w-6 mx-1'
+					/>
+				</button>
 					</div>
 				</ul>
 				<div
