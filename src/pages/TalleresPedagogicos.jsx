@@ -113,7 +113,9 @@ export const TalleresPedagogicos = () => {
             </div>
           </section>
         </section>
+        <section className="titulo">
         <InfografiaPasaDia />
+        </section>
         {/* <img className="w-auto mx-auto" src={infografiaPasaDia} /> */}
         <section className="fondoAsistirTalleres md:bg-cover bg-auto bg-no-repeat">
           <div className="flex justify-center pt-10">

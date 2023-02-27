@@ -93,9 +93,9 @@ export const Nosotros = () => {
 					</p>
 					<Slider />
 				</section>
-				<div className='titulo'>
+				<section className='titulo'>
 					<InfografiaDiscapacidad />
-				</div>
+				</section>
 				<div className='titulo text-center pt-10 md:text-2xl text-xl'>
 					<BotonDonar />
 				</div>
