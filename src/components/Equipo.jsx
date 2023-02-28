@@ -36,11 +36,11 @@ export const Equipo = () => {
 								mayores de edad.
 							</li>
 							<li className='mb-2 leading-relaxed'>
-								Licenciatura en ciencias de la comunicación de la Universidad de
+								Licenciada en ciencias de la comunicación de la Universidad de
 								Illinois en Urbana-Champaign.
 							</li>
 							<li className='leading-relaxed'>
-								Licenciatura en derecho de la Universidad de Wisconsin-Madison.
+								Licenciada en derecho de la Universidad de Wisconsin-Madison.
 							</li>
 						</ul>
 					</div>
@@ -69,7 +69,7 @@ export const Equipo = () => {
 								educación especial.
 							</li>
 							<li className='mb-2 leading-relaxed'>
-								Licenciatura en Artes en Educación Primaria de National Louis
+								Licenciada en Artes en Educación Primaria de National Louis
 								University
 							</li>
 							<li className='leading-relaxed'>

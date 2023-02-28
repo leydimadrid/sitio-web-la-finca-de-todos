@@ -58,8 +58,6 @@ export const Inicio = () => {
 			</section>
 			{/* Fin Modificador de texto */}
 
-
-			
 			<article id='contenedor'>
 				<section className='titulo grid place-items-center'>
 					<VideoInicio />
@@ -68,12 +66,9 @@ export const Inicio = () => {
 						tabIndex={0}
 					>
 						<span className='font-semibold'>
-							Video compuesto de los siguientes clips:{' '}
+							{t('inicio.alttextvideohome-bold')}
 						</span>
-						Mariposa sobre una hoja, niña sonriente caminando con andador,
-						paisaje de montañas colombianas, abuelos abrazan su nieto sentados
-						en el césped, tres cabras, una madre besa a su hijo sonriente en su
-						silla de ruedas eléctrica, logo de La Finca De Todos.
+						{t('inicio.alttextvideohome')}
 					</p>
 				</section>
 				<h1
@@ -87,9 +82,9 @@ export const Inicio = () => {
 						className='titulo leading-relaxed md:px-0 lg:px-0 px-4'
 						tabIndex={0}
 					>
-						¡Este mundo es para disfrutarlo al máximo! Te invitamos a{' '}
-						<span className='text-blue-900'>La Finca de Todos </span>, un lugar
-						hecho para todos.
+						{t('inicio.openingparagraph-1')}
+						<span className='text-blue-900'>{t('reusable.logo')}</span>
+						{t('inicio.openingparagraph-2')}
 					</p>
 				</div>
 				<div className='titulo text-center md:pb-20 pb-10'>

@@ -1,10 +1,26 @@
 {
-    "header": {
-        "home": "Home",
-        "us": "Us"
+    "reusable": {
+        "logo" : " La Finca De Todos"
     },
 
+    "navbar": {
+        "home": "Home",
+        "us": "Us",
+        "thefarm": "The farm",
+        "weekend": "Weekend",
+        "pedagogicalworkshops": "Pedagogical workshops",
+        "location": "Location",
+        "contact": "Contact",
+        "Iwanttodonate": "I want to donate"
+        },
+
     "inicio": {
-        "welcome": "WELCOME"
+        "alttextvideohome-bold": "The video is composed of the following clips: ",
+        "alttextvideohome": " Butterfly on a leaf, the smiling girl walking with a walker, a Colombian mountain landscape, grandparents embracing their grandson sitting on the grass, three goats, a mother kissing her smiling son in his electric wheelchair, logo La Finca De Todos.",
+        "welcome": "WELCOME",
+        "openingparagraph-1": "This world is to enjoy it to the fullest! We invite you to,",
+        "openingparagraph-2": " a place made for everyone.",
+        "buttonthefarm": "I want to know more about the farm"
+
     }
 }

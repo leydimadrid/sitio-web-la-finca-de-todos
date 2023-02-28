@@ -1,10 +1,27 @@
 {
-    "header": {
-        "home": "Inicio",
-        "us": "Nosotros"
+    "reusable": {
+        "logo" : " La Finca De Todos"
     },
 
-    "inicio": {
-        "welcome": "BIENVENIDO"
-    }
+	"navbar": {
+		"home": "Inicio",
+		"us": "Nosotros",
+		"thefarm": "La finca",
+		"weekend": "Fin de semana",
+		"pedagogicalworkshops": "Talleres pedagógicos",
+		"location": "Ubicación",
+		"contact": "Contacto",
+		"Iwanttodonate": "Quiero donar"
+	},
+
+	"inicio": {
+		"alttextvideohome-bold": "Video compuesto de los siguientes clips:",
+		"alttextvideohome": " Mariposa sobre una hoja, niña sonriente caminando con andador, paisaje de montañas colombianas, abuelos abrazan su nieto sentados en el césped, tres cabras, una madre besa a su hijo sonriente en su silla de ruedas eléctrica, logo de La Finca De Todos.",
+		"welcome": "BIENVENIDO",
+        "openingparagraph-1": "¡Este mundo es para disfrutarlo al máximo! Te invitamos a,",
+        "openingparagraph-2": " un lugar hecho para todos.",
+        "buttonthefarm": "Quiero saber más de la finca"
+
+
+	}
 }

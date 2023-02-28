@@ -262,7 +262,7 @@ export const InfografiaDiscapacidad = () => {
 									{' '}
 									15%
 								</span>{' '}
-								de la población cerca de{' '}
+								de la población, cerca de{' '}
 								<span className=' text-blue-900 md:text-xl text-base font-bold block leading-relaxed'>
 									7.2 millones Colombianos.
 								</span>
@@ -424,7 +424,7 @@ export const InfografiaDiscapacidad = () => {
 									<li className='leading-relaxed'>
 										<span className='font-semibold'>Miradas o preguntas </span>
 										que disminuyen nuestra confianza para salir y explorar
-										nuestro propio entorno .
+										nuestro propio entorno.
 									</li>
 								</ul>
 								<div className='flex md:justify-center mt-8'>
