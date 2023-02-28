@@ -365,7 +365,7 @@ export const InfografiaPasaDia = () => {
 								<span className='font-semibold'> descanso </span>en un lugar
 								<span className='font-semibold'>
 									{' '}
-									tranquilo, explora y relajate.{' '}
+									tranquilo, explora y relájate.{' '}
 								</span>
 							</p>
 						</div>
