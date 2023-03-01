@@ -123,10 +123,25 @@
         "title-1-Fabiola": "Elementary school teacher with emphasis on teaching children with learning delays and special education",
 		"title-2-Fabiola": "Bachelor of Arts in Elementary Education from National Louis University",
 		"title-3-Fabiola": "Masters in Special Education from National Louis University"
+	},
+
+    "theFarm": {
+		"title3D" : "3D model of the farm and its buildings",
+        "altTextVideo3d": "3D video of La Finca De Todos, showing its structure. Spaces and information.",
+        "titleAccessibility": "Accessibility considerations",
+        "Cards-1": "Presence of a sign language interpreter",
+		"Cards-2": "Wide, flat paths without architectural barriers",
+        "Cards-3": "Telecoil hearing loop technology",
+		"Cards-4": "High-contrast signage and tactile tiles",
+		"Cards-5": "Sound and Braille guides for navigating the Farm",
+		"Cards-6": "Accessible restrooms with changing facilities",
+		"Cards-7": "Service animals and companion pets are welcome",
+		"Cards-8": "Free Wifi and PC to connect to the MinTIC Relay Center"
 
 
 
 
 
 	}
+
 }

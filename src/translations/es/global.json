@@ -123,6 +123,22 @@
 		"title-1-Fabiola": "Docente para niños de primaria con retrasos de aprendizaje y educación especial",
 		"title-2-Fabiola": "Licenciada en Artes en Educación Primaria de National Louis University",
 		"title-3-Fabiola": "Masters en Educación Especial de National Louis University"
+	},
+
+	"theFarm": {
+		"title3D" : "Modelo 3D de la finca y sus edificaciones",
+		"altTextVideo3d": "Video en 3D de La Finca De Todos, mostrando su estructura, espacios e información.",
+		"titleAccessibility": "Consideraciones de accesibilidad",
+		"Cards-1": "Presencia de un intérprete de lengua de señas",
+		"Cards-2": "Caminos planos y amplios sin barreras arquitectónicas",
+		"Cards-3": "Tecnología de bucle auditivo con telebobina",
+		"Cards-4": "Señalización de alto contraste y loza podotáctil",
+		"Cards-5": "Guías sonoras y en braille para navegar la finca",
+		"Cards-6": "Baños accesibles con instalaciones para el aseo personal",
+		"Cards-7": "Bienvenidos animales de servicio y mascotas de acompañamiento",
+		"Cards-8": "Wifi gratuito y PC para conectar con el Centro de Relevo de MinTIC"
+
+
 
 
 
