@@ -49,7 +49,33 @@
 		"listFour": "Multiple",
 		"listFive": "Physical",
 		"listSix": "Visual",
-		"listSeven": "Psicosocial"
+		"listSeven": "Psicosocial",
+        "15%" : "15%",
+		"paragraphWhoAreWe-8": " of the people registered stated that they were",
+		"paragraphWhoAreWe-9": " victims of the armed conflict.",
+        "HowManyOfUsAreThere" : "HOW MANY OF US ARE THERE?",
+        "paragraphHowManyOfUsAreThere-1": "The population of Colombia:",
+		"paragraphHowManyOfUsAreThere-2": " 51.5 million",
+		"paragraphHowManyOfUsAreThere-3": " people",
+        "paragraphHowManyOfUsAreThere-4": "3.134.037",
+		"paragraphHowManyOfUsAreThere-5": " people face difficulties in carrying out basic daily activities.",
+        "paragraphHowManyOfUsAreThere-6": "",
+		"paragraphHowManyOfUsAreThere-7": " 7.1%",
+		"paragraphHowManyOfUsAreThere-8": " of the country's population",
+		"paragraphHowManyOfUsAreThere-9": " considered to be living with a disability",
+        "paragraphHowManyOfUsAreThere-10": "23%",
+		"paragraphHowManyOfUsAreThere-11": " of people with disabilities are under the",
+		"paragraphHowManyOfUsAreThere-12": "  age of 27.",
+        "paragraphHowManyOfUsAreThere-13": "Due to a lack of data, it is estimated that",
+		"paragraphHowManyOfUsAreThere-14": " people with disabilities",
+		"paragraphHowManyOfUsAreThere-15": " exceed",
+		"paragraphHowManyOfUsAreThere-16": " 15%",
+		"paragraphHowManyOfUsAreThere-17": " of the population, about",
+		"paragraphHowManyOfUsAreThere-18": " 7.2 million Colombians."
+
+
+
+
 
 	}
 }

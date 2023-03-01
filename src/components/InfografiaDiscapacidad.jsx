@@ -134,11 +134,11 @@ export const InfografiaDiscapacidad = () => {
 									tabIndex={0}
 								>
 									<span className='text-blue-900 md:text-5xl lg:text-4xl text-4xl font-semibold leading-relaxed '>
-										15%{' '}
+									{t('infographics.15%')}
 									</span>
-									de las personas registradas manifestó ser{' '}
+									{t('infographics.paragraphWhoAreWe-8')}
 									<span className='font-semibold leading-relaxed'>
-										víctima del conflicto armado.
+									{t('infographics.paragraphWhoAreWe-9')}
 									</span>
 								</p>
 							</div>
@@ -163,7 +163,7 @@ export const InfografiaDiscapacidad = () => {
 								className='bg-blue-900 py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 px-3 md:mx-0 mx-auto mb-4'
 								tabIndex={0}
 							>
-								¿CUÁNTOS SOMOS?
+								{t('infographics.HowManyOfUsAreThere')}
 							</h1>{' '}
 						</div>
 						<div className='md:flex flex-row justify-center'>
@@ -179,12 +179,12 @@ export const InfografiaDiscapacidad = () => {
 									className='md:text-xl lg:text-lg  text-base mb-4 text-gray-800 leading-relaxed'
 									tabIndex={0}
 								>
-									Población de Colombia:{' '}
+									{t('infographics.paragraphHowManyOfUsAreThere-1')}
 									<span className='block '>
 										<span className='font-semibold leading-relaxed'>
-											51.5 millones
+										{t('infographics.paragraphHowManyOfUsAreThere-2')}
 										</span>{' '}
-										de personas
+										{t('infographics.paragraphHowManyOfUsAreThere-3')}
 									</span>
 								</p>
 								<div className='md:px-0 flex justify-center'>
@@ -221,10 +221,9 @@ export const InfografiaDiscapacidad = () => {
 									tabIndex={0}
 								>
 									<span className='text-blue-900 md:text-xl text-lg font-bold leading-relaxed'>
-										3.134.037{' '}
+									{t('infographics.paragraphHowManyOfUsAreThere-4')}
 									</span>
-									personas con dificultades para realizar actividades básicas
-									diarias
+									{t('infographics.paragraphHowManyOfUsAreThere-5')}
 									<p
 										className='md:max-w-md max-w-sm md:text-xl lg:text-lg text-base md:mx-0 mx-auto mt-4 leading-relaxed'
 										tabIndex={0}
@@ -232,19 +231,18 @@ export const InfografiaDiscapacidad = () => {
 										<span className=' text-blue-900 md:text-xl text-xl font-bold leading-relaxed'>
 											“{' '}
 										</span>{' '}
-										Un{' '}
+										{t('infographics.paragraphHowManyOfUsAreThere-6')}
 										<span className=' text-blue-900 md:text-2xl text-2xl font-bold leading-relaxed'>
 											{' '}
-											7.1%{' '}
+											{t('infographics.paragraphHowManyOfUsAreThere-7')}
 										</span>{' '}
-										de la población del país{' '}
+										{t('infographics.paragraphHowManyOfUsAreThere-8')}
 										<span className=' text-blue-900 md:text-xl text-xl font-bold leading-relaxed'>
-											{' '}
 											”
 										</span>
 										:
 										<span className='block'>
-											Se considera que vive con una discapacidad
+										{t('infographics.paragraphHowManyOfUsAreThere-9')}
 										</span>
 									</p>
 								</p>
@@ -264,11 +262,11 @@ export const InfografiaDiscapacidad = () => {
 									tabIndex={0}
 								>
 									<span className='text-pink-600 md:text-4xl text-4xl font-bold block leading-relaxed'>
-										23%{' '}
+									{t('infographics.paragraphHowManyOfUsAreThere-10')}
 									</span>
-									de las personas con discapacidades son menores de{' '}
+									{t('infographics.paragraphHowManyOfUsAreThere-11')}
 									<span className='font-semibold leading-relaxed'>
-										27 años.
+									{t('infographics.paragraphHowManyOfUsAreThere-12')}
 									</span>
 								</p>
 							</div>
@@ -294,18 +292,18 @@ export const InfografiaDiscapacidad = () => {
 								className='md:max-w-sm max-w-sm md:text-xl lg:text-lg text-base text-center text-gray-800 leading-relaxed p-2'
 								tabIndex={0}
 							>
-								Por falta de datos se estima que las{' '}
+								{t('infographics.paragraphHowManyOfUsAreThere-13')}
 								<span className='font-semibold leading-relaxed'>
-									personas con discapacidad
+								{t('infographics.paragraphHowManyOfUsAreThere-14')}
 								</span>{' '}
-								superan el{' '}
+								{t('infographics.paragraphHowManyOfUsAreThere-15')}
 								<span className='text-pink-600 md:text-3xl text-base font-bold leading-relaxed'>
 									{' '}
-									15%
+									{t('infographics.paragraphHowManyOfUsAreThere-16')}
 								</span>{' '}
-								de la población, cerca de{' '}
+								{t('infographics.paragraphHowManyOfUsAreThere-17')}
 								<span className=' text-blue-900 md:text-xl text-base font-bold block leading-relaxed'>
-									7.2 millones Colombianos.
+								{t('infographics.paragraphHowManyOfUsAreThere-18')}
 								</span>
 							</p>
 						</div>
