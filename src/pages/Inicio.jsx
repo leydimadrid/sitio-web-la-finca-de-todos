@@ -66,25 +66,25 @@ export const Inicio = () => {
 						tabIndex={0}
 					>
 						<span className='font-semibold'>
-							{t('inicio.alttextvideohome-bold')}
+							{t('home.altTextVideoHomeBold')}
 						</span>
-						{t('inicio.alttextvideohome')}
+						{t('home.altTextVideoHome')}
 					</p>
 				</section>
 				<h1
 					className='titulo md:text-4xl text-3xl text-center text-blue-900 font-bold tracking-wide mt-24'
 					tabIndex={0}
 				>
-					{t('inicio.welcome')}
+					{t('home.welcome')}
 				</h1>
 				<div className='max-w-md my-auto mx-auto pt-6 md:pb-10 pb-6 text-center md:text-xl text-base font-medium text-gray-800'>
 					<p
 						className='titulo leading-relaxed md:px-0 lg:px-0 px-4'
 						tabIndex={0}
 					>
-						{t('inicio.openingparagraph-1')}
+						{t('home.openingParagraph-1')}
 						<span className='text-blue-900'>{t('reusable.logo')}</span>
-						{t('inicio.openingparagraph-2')}
+						{t('home.openingParagraph-2')}
 					</p>
 				</div>
 				<div className='titulo text-center md:pb-20 pb-10'>

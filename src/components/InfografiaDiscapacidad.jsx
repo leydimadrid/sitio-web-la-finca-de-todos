@@ -12,8 +12,11 @@ import vector2 from '../assets/images/vector2-discapacidad.svg';
 import vector3 from '../assets/images/vector-3-discapacidad.svg';
 import vector4 from '../assets/images/vector-4-discapacidad.svg';
 import vector5 from '../assets/images/vector-5-discapacidad.svg';
+import { useTranslation } from 'react-i18next';
 
 export const InfografiaDiscapacidad = () => {
+	const [t] = useTranslation('global');
+
 	return (
 		<section className='fondoInfografiaDiscapacidad  md:bg-cover bg-cover'>
 			<div className='flex justify-center'>
@@ -24,7 +27,7 @@ export const InfografiaDiscapacidad = () => {
 							className='font-bold md:text-6xl text-3xl text-center md:pt-24 text-blue-900'
 							tabIndex={0}
 						>
-							DISCAPACIDAD EN COLOMBIA
+							{t('infographics.disabilityInColombia')}
 						</h1>
 						<hr
 							className='linea-amarilla h-1 md:w-3/5 md:mx-auto mx-auto mt-2'
@@ -39,10 +42,8 @@ export const InfografiaDiscapacidad = () => {
 							className='text-gray-800 font-normal md:text-xl text-base max-w-4xl text-justify leading-relaxed'
 							tabIndex={0}
 						>
-							Colombia forma parte de la Convención de Naciones Unidas sobre los
-							Derechos de las Personas con Discapacidad desde el{' '}
-							<span className='font-semibold'>2011 </span>para promover su plena
-							participación en todos los ámbitos de la vida.
+							{t('infographics.mainParagraph-1')}
+							<span className='font-semibold'>{t('infographics.mainParagraph-2')}</span>{t('infographics.mainParagraph-3')}
 						</p>
 					</div>
 					{/* Párrafo introductorio */}
@@ -64,48 +65,47 @@ export const InfografiaDiscapacidad = () => {
 								className='FondoFucsiaInfografia py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 px-3 md:mx-0 mx-auto mb-4'
 								tabIndex={0}
 							>
-								¿QUIÉNES SOMOS?
+								{t('infographics.whoAreWe')}
 							</h1>
 							<p
 								className='max-w-md md:text-xl lg:text-lg text-base mb-4 mx-auto text-gray-800 md:text-left text-center leading-relaxed p-2'
 								tabIndex={0}
 							>
-								Somos{' '}
-								<span className='font-semibold leading-relaxed'>igual</span> a
-								los demás{' '}
+								<span className='font-semibold leading-relaxed'>{t('infographics.paragraphWhoAreWe-1')}</span>
+								{t('infographics.paragraphWhoAreWe-2')}
 								<span className='font-semibold leading-relaxed'>
-									Colombianos
+								{t('infographics.paragraphWhoAreWe-3')}
 								</span>{' '}
-								con unos{' '}
+								{t('infographics.paragraphWhoAreWe-4')}
 								<span className='font-semibold leading-relaxed '>
-									retos adicionales
+								{t('infographics.paragraphWhoAreWe-5')}
 								</span>{' '}
-								que enfrentar.
+								{t('infographics.paragraphWhoAreWe-6')}
 							</p>
 							<p
 								className='md:text-xl lg:text-lg  max-w-sm text-base mb-4 mx-auto text-gray-800 md:mx-0 md:text-left text-center leading-relaxed'
 								tabIndex={0}
 							>
-								Podemos tener una discapacidad:
+								{t('infographics.paragraphWhoAreWe-7')}
 							</p>
 							<div className='flex justify-center md:mx-0 max-w-sm'>
 								<ul
 									className='ml-4 list-disc md:text-xl lg:text-lg text-base text-gray-800 px-4 leading-relaxed'
 									tabIndex={0}
 								>
-									<li>Auditiva</li>
-									<li>Intelectual</li>
-									<li>Sordoceguera</li>
-									<li>Múltiple</li>
+									<li>{t('infographics.listOne')}</li>
+									<li>{t('infographics.listTwo')}</li>
+									<li>{t('infographics.listThree')}</li>
+									<li>{t('infographics.listFour')}</li>
 								</ul>
 
 								<ul
 									className='ml-4 list-disc md:text-xl lg:text-lg text-base text-gray-800 px-4 leading-relaxed'
 									tabIndex={0}
 								>
-									<li>Física</li>
-									<li>Visual</li>
-									<li>Psicosocial</li>
+									<li>{t('infographics.listFive')}</li>
+									<li>{t('infographics.listSix')}</li>
+									<li>{t('infographics.listSeven')}</li>
 								</ul>
 							</div>
 						</div>
@@ -129,7 +129,10 @@ export const InfografiaDiscapacidad = () => {
 								</div>
 							</div>
 							<div>
-								<p className='md:max-w-md max-w-sm md:text-xl lg:text-lg  text-base md:mx-0 mx-auto text-gray-800 md:text-left text-center leading-relaxed p-2' tabIndex={0}>
+								<p
+									className='md:max-w-md max-w-sm md:text-xl lg:text-lg  text-base md:mx-0 mx-auto text-gray-800 md:text-left text-center leading-relaxed p-2'
+									tabIndex={0}
+								>
 									<span className='text-blue-900 md:text-5xl lg:text-4xl text-4xl font-semibold leading-relaxed '>
 										15%{' '}
 									</span>
@@ -142,7 +145,11 @@ export const InfografiaDiscapacidad = () => {
 
 							{/* Linea discontinua oculta para MD */}
 							<div className='w-2/4 mx-auto md:hidden flex mt-8'>
-								<img src={lineaDiscontinuaDerecha} alt='Lineas discontinuas' tabIndex={0} />
+								<img
+									src={lineaDiscontinuaDerecha}
+									alt='Lineas discontinuas'
+									tabIndex={0}
+								/>
 							</div>
 							{/* Linea discontinua oculta para MD */}
 						</div>
@@ -152,7 +159,10 @@ export const InfografiaDiscapacidad = () => {
 					{/* Inicio cuántos somos */}
 					<section className='md:flex flex-col justify-center'>
 						<div className='flex justify-center'>
-							<h1 className='bg-blue-900 py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 px-3 md:mx-0 mx-auto mb-4' tabIndex={0}>
+							<h1
+								className='bg-blue-900 py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 px-3 md:mx-0 mx-auto mb-4'
+								tabIndex={0}
+							>
 								¿CUÁNTOS SOMOS?
 							</h1>{' '}
 						</div>
@@ -161,11 +171,14 @@ export const InfografiaDiscapacidad = () => {
 								<img
 									src={lineaDiscontinua2Izquierda}
 									alt='Lineas discontinuas'
-                  tabIndex={0}
+									tabIndex={0}
 								/>
 							</div>
 							<div className='md:mx-0 mx-auto text-center'>
-								<p className='md:text-xl lg:text-lg  text-base mb-4 text-gray-800 leading-relaxed' tabIndex={0}>
+								<p
+									className='md:text-xl lg:text-lg  text-base mb-4 text-gray-800 leading-relaxed'
+									tabIndex={0}
+								>
 									Población de Colombia:{' '}
 									<span className='block '>
 										<span className='font-semibold leading-relaxed'>
@@ -179,7 +192,7 @@ export const InfografiaDiscapacidad = () => {
 										className='w-80'
 										src={vector2}
 										alt='vector de personas con diferentes discapacidades'
-                    tabIndex={0}
+										tabIndex={0}
 									/>
 								</div>
 
@@ -188,24 +201,34 @@ export const InfografiaDiscapacidad = () => {
 									<img
 										src={lineaDerechoDiscapacidad}
 										alt='Lineas discontinuas'
-                    tabIndex={0}
+										tabIndex={0}
 									/>
 								</div>
 								{/* Linea discontinua oculta para MD */}
 							</div>
 							<div className='mb-8 mx-4 md:flex hidden'>
-								<img src={lineaDiscontinua2Derecha} alt='Lineas discontinuas' tabIndex={0} />
+								<img
+									src={lineaDiscontinua2Derecha}
+									alt='Lineas discontinuas'
+									tabIndex={0}
+								/>
 							</div>
 						</div>
 						<div className='md:flex flex-row justify-center mt-4 md:space-x-64 '>
 							<div className='flex justify-center'>
-								<p className='md:max-w-xl lg:max-w-md max-w-sm md:text-xl lg:text-lg text-base text-center text-gray-800 leading-relaxed' tabIndex={0}>
+								<p
+									className='md:max-w-xl lg:max-w-md max-w-sm md:text-xl lg:text-lg text-base text-center text-gray-800 leading-relaxed'
+									tabIndex={0}
+								>
 									<span className='text-blue-900 md:text-xl text-lg font-bold leading-relaxed'>
 										3.134.037{' '}
 									</span>
 									personas con dificultades para realizar actividades básicas
 									diarias
-									<p className='md:max-w-md max-w-sm md:text-xl lg:text-lg text-base md:mx-0 mx-auto mt-4 leading-relaxed' tabIndex={0}>
+									<p
+										className='md:max-w-md max-w-sm md:text-xl lg:text-lg text-base md:mx-0 mx-auto mt-4 leading-relaxed'
+										tabIndex={0}
+									>
 										<span className=' text-blue-900 md:text-xl text-xl font-bold leading-relaxed'>
 											“{' '}
 										</span>{' '}
@@ -228,11 +251,18 @@ export const InfografiaDiscapacidad = () => {
 							</div>
 							{/* Linea discontinua oculta para MD */}
 							<div className='w-3/5 mx-auto md:hidden flex mt-8 justify-center'>
-								<img src={lineaDerechoDiscapacidad} alt='Lineas discontinuas' tabIndex={0} />
+								<img
+									src={lineaDerechoDiscapacidad}
+									alt='Lineas discontinuas'
+									tabIndex={0}
+								/>
 							</div>
 							{/* Linea discontinua oculta para MD */}
 							<div className='flex justify-center'>
-								<p className='md:max-w-xl lg:max-w-sm max-w-sm md:text-xl lg:text-lg text-base text-center text-gray-800 leading-relaxed' tabIndex={0}>
+								<p
+									className='md:max-w-xl lg:max-w-sm max-w-sm md:text-xl lg:text-lg text-base text-center text-gray-800 leading-relaxed'
+									tabIndex={0}
+								>
 									<span className='text-pink-600 md:text-4xl text-4xl font-bold block leading-relaxed'>
 										23%{' '}
 									</span>
@@ -245,14 +275,25 @@ export const InfografiaDiscapacidad = () => {
 						</div>
 						{/* Linea discontinua oculta para MD */}
 						<div className='w-3/5 mx-auto md:hidden flex mt-8 justify-center'>
-							<img src={lineaDerechoDiscapacidad} alt='Lineas discontinuas' tabIndex={0} />
+							<img
+								src={lineaDerechoDiscapacidad}
+								alt='Lineas discontinuas'
+								tabIndex={0}
+							/>
 						</div>
 						{/* Linea discontinua oculta para MD */}
 						<div className='md:flex justify-center mb-8 mx-4 hidden'>
-							<img src={lineaDerechoDiscapacidad} alt='Lineas discontinuas' tabIndex={0} />
+							<img
+								src={lineaDerechoDiscapacidad}
+								alt='Lineas discontinuas'
+								tabIndex={0}
+							/>
 						</div>
 						<div className='flex justify-center mt-4'>
-							<p className='md:max-w-sm max-w-sm md:text-xl lg:text-lg text-base text-center text-gray-800 leading-relaxed p-2' tabIndex={0}>
+							<p
+								className='md:max-w-sm max-w-sm md:text-xl lg:text-lg text-base text-center text-gray-800 leading-relaxed p-2'
+								tabIndex={0}
+							>
 								Por falta de datos se estima que las{' '}
 								<span className='font-semibold leading-relaxed'>
 									personas con discapacidad
@@ -273,7 +314,11 @@ export const InfografiaDiscapacidad = () => {
 
 					<div className='flex md:justify-center justify-end mt-8'>
 						<div className=' md:w-2/5 w-2/4 mx-auto md:mx-0 md:mr-40'>
-							<img src={lineaDiscontinua} alt='Lineas discontinuas' tabIndex={0} />
+							<img
+								src={lineaDiscontinua}
+								alt='Lineas discontinuas'
+								tabIndex={0}
+							/>
 						</div>
 					</div>
 
@@ -281,11 +326,17 @@ export const InfografiaDiscapacidad = () => {
 					<section>
 						<div className='flex flex-col justify-center mt-4 md:flex-row'>
 							<div className='md:ml-10 md:mt-0'>
-								<h1 className='FondoFucsiaInfografia py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 px-3 md:mx-0 mx-auto mb-4' tabIndex={0}>
+								<h1
+									className='FondoFucsiaInfografia py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 px-3 md:mx-0 mx-auto mb-4'
+									tabIndex={0}
+								>
 									¿DÓNDE ESTAMOS?
 								</h1>
 								<div className='max-w-xl md:text-xl lg:text-lg  mx-auto md:mx-0'>
-									<p className='md:text-xl lg:text-lg text-base mb-4 text-gray-800 md:text-left text-center leading-relaxed p-8 md:p-0 lg:p-0' tabIndex={0}>
+									<p
+										className='md:text-xl lg:text-lg text-base mb-4 text-gray-800 md:text-left text-center leading-relaxed p-8 md:p-0 lg:p-0'
+										tabIndex={0}
+									>
 										Las entidades territoriales con mayor número de personas con
 										discapacidad son{' '}
 										<span className='font-semibold leading-relaxed'>
@@ -297,21 +348,32 @@ export const InfografiaDiscapacidad = () => {
 									<img
 										src={vector3}
 										alt='Mapa de Colombia señalando Antioquia, Santander, Bogotá, Valle del Cauca y Huila'
-                    tabIndex={0}
+										tabIndex={0}
 									/>
 								</div>
 							</div>
 							{/* Linea discontinua oculta para MD */}
 							<div className='w-3/5 mx-auto md:hidden flex mt-8 justify-center'>
-								<img src={lineaDerechoDiscapacidad} alt='Lineas discontinuas' tabIndex={0} />
+								<img
+									src={lineaDerechoDiscapacidad}
+									alt='Lineas discontinuas'
+									tabIndex={0}
+								/>
 							</div>
 							{/* Linea discontinua oculta para MD */}
 							<div>
 								<div className='md:flex hidden pt-6'>
-									<img src={lineaDiscontinuaLarga} alt='Lineas discontinuas' tabIndex={0} />
+									<img
+										src={lineaDiscontinuaLarga}
+										alt='Lineas discontinuas'
+										tabIndex={0}
+									/>
 								</div>
 								<div className='md:ml-48 lg:ml-40 mt-4'>
-									<p className='md:max-w-md lg:max-w-lg max-w-sm md:text-xl lg:text-lg  text-base text-center  md:mx-0 mx-auto text-gray-800 leading-relaxed' tabIndex={0}>
+									<p
+										className='md:max-w-md lg:max-w-lg max-w-sm md:text-xl lg:text-lg  text-base text-center  md:mx-0 mx-auto text-gray-800 leading-relaxed'
+										tabIndex={0}
+									>
 										En{' '}
 										<span className='text-blue-900 md:text-xl text-lg font-bold leading-relaxed'>
 											Cali{' '}
@@ -322,7 +384,10 @@ export const InfografiaDiscapacidad = () => {
 										</span>{' '}
 										personas con discapacidad.
 									</p>
-									<p className='md:max-w-md lg:max-w-lgmax-w-sm md:text-xl text-base text-center mt-4 md:mx-0 mx-auto text-gray-800 leading-relaxed' tabIndex={0}>
+									<p
+										className='md:max-w-md lg:max-w-lgmax-w-sm md:text-xl text-base text-center mt-4 md:mx-0 mx-auto text-gray-800 leading-relaxed'
+										tabIndex={0}
+									>
 										En{' '}
 										<span className='text-pink-600 md:text-xl text-lg font-bold leading-relaxed'>
 											Valle del Cauca{' '}
@@ -338,7 +403,7 @@ export const InfografiaDiscapacidad = () => {
 											className='mx-auto mt-4'
 											src={lineaDiscontinua3}
 											alt='Lineas discontinuas'
-                      tabIndex={0}
+											tabIndex={0}
 										/>
 									</div>
 									<div className='flex md:hidden'>
@@ -346,7 +411,7 @@ export const InfografiaDiscapacidad = () => {
 											className='mx-auto mt-4'
 											src={lineaDiscontinua3OtraOpcion}
 											alt='Lineas discontinuas'
-                      tabIndex={0}
+											tabIndex={0}
 										/>
 									</div>
 								</div>
@@ -359,15 +424,25 @@ export const InfografiaDiscapacidad = () => {
 					<section>
 						<div className='flex flex-col md:flex-row justify-end mr-10'>
 							<div className='md:flex hidden mt-16'>
-								<img src={lineaDiscontinuaLarga2} alt='Lineas discontinuas' tabIndex={0} />
+								<img
+									src={lineaDiscontinuaLarga2}
+									alt='Lineas discontinuas'
+									tabIndex={0}
+								/>
 							</div>
 							<div className='mt-10 ml-6'>
 								<div className='md:flex md:justify-end  lg:flex lg:justify-end flex justify-center'>
-									<h1 className='bg-blue-900 py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 md:mx-0 mx-4 mb-4' tabIndex={0}>
+									<h1
+										className='bg-blue-900 py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 md:mx-0 mx-4 mb-4'
+										tabIndex={0}
+									>
 										¿CÓMO ESTAMOS?
 									</h1>
 								</div>
-								<p className='max-w-xl md:text-xl lg:text-lg text-base mb-4 text-gray-800 md:text-right text-center leading-relaxed' tabIndex={0}>
+								<p
+									className='max-w-xl md:text-xl lg:text-lg text-base mb-4 text-gray-800 md:text-right text-center leading-relaxed'
+									tabIndex={0}
+								>
 									<span className='font-semibold leading-relaxed'>“</span>Al
 									interactuar con diversas barreras incluyendo las
 									actitudinales, las personas con discapacidades pueden sentirse
@@ -396,18 +471,31 @@ export const InfografiaDiscapacidad = () => {
 						</div>
 						{/* Linea discontinua oculta para MD */}
 						<div className='w-3/5 mx-auto md:hidden flex justify-center'>
-							<img src={lineaDerechoDiscapacidad} alt='Lineas discontinuas' tabIndex={0}/>
+							<img
+								src={lineaDerechoDiscapacidad}
+								alt='Lineas discontinuas'
+								tabIndex={0}
+							/>
 						</div>
 						{/* Linea discontinua oculta para MD */}
 						<div className='flex flex-col justify-center md:flex-row'>
 							<div className='mt-4 mr-4'>
-								<h1 className='text-pink-600 font-bold md:text-2xl lg:text-xl text-xl md:text-left text-center leading-relaxed' tabIndex={0}>
+								<h1
+									className='text-pink-600 font-bold md:text-2xl lg:text-xl text-xl md:text-left text-center leading-relaxed'
+									tabIndex={0}
+								>
 									Enfrentamos
 								</h1>
-								<p className='md:text-xl lg:text-lg text-base text-gray-800 md:text-left text-center leading-relaxed' tabIndex={0}>
+								<p
+									className='md:text-xl lg:text-lg text-base text-gray-800 md:text-left text-center leading-relaxed'
+									tabIndex={0}
+								>
 									varios retos al salir de casa
 								</p>
-								<ul className='list-disc md:text-xl lg:text-lg text-base text-gray-800 px-10 max-w-xl mt-4 leading-relaxed sm:px-10' tabIndex={0}>
+								<ul
+									className='list-disc md:text-xl lg:text-lg text-base text-gray-800 px-10 max-w-xl mt-4 leading-relaxed sm:px-10'
+									tabIndex={0}
+								>
 									<li className='leading-relaxed'>
 										Calles o aceras irregulares, barreras arquitectónicas que{' '}
 										<span className='font-semibold'>
@@ -429,7 +517,11 @@ export const InfografiaDiscapacidad = () => {
 								</ul>
 								<div className='flex md:justify-center mt-8'>
 									<div className=' md:w-2/5 w-2/4 mx-auto md:mx-0 md:flex hidden'>
-										<img src={lineaDiscontinua} alt='Lineas discontinuas' tabIndex={0} />
+										<img
+											src={lineaDiscontinua}
+											alt='Lineas discontinuas'
+											tabIndex={0}
+										/>
 									</div>
 								</div>
 							</div>
@@ -437,18 +529,25 @@ export const InfografiaDiscapacidad = () => {
 								<img
 									src={vector4}
 									alt='Vector de escaleras, señalización y libro en braille para personas con discapacidad'
-                  tabIndex={0}
+									tabIndex={0}
 								/>
 							</div>
 							{/* Linea discontinua oculta para MD */}
 							<div className='w-3/5 mx-auto md:hidden flex justify-center mt-4'>
-								<img src={lineaDerechoDiscapacidad} alt='Lineas discontinuas' tabIndex={0} />
+								<img
+									src={lineaDerechoDiscapacidad}
+									alt='Lineas discontinuas'
+									tabIndex={0}
+								/>
 							</div>
 							{/* Linea discontinua oculta para MD */}
 						</div>
 						<div className=' flex flex-col md:flex-row'>
 							<div className='max-w-2xl mt-4 mr-10'>
-								<p className='md:text-xl lg:text-lg text-base text-gray-800 ml-10 md:text-left text-center leading-relaxed' tabIndex={0}>
+								<p
+									className='md:text-xl lg:text-lg text-base text-gray-800 ml-10 md:text-left text-center leading-relaxed'
+									tabIndex={0}
+								>
 									El{' '}
 									<span className='font-semibold leading-relaxed'>
 										Ministerio de la Igualdad
@@ -482,25 +581,32 @@ export const InfografiaDiscapacidad = () => {
 							</div>
 							{/* Linea discontinua oculta para MD */}
 							<div className='w-3/5 mx-auto md:hidden flex justify-center mt-4'>
-								<img src={lineaDerechoDiscapacidad} alt='Lineas discontinuas' tabIndex={0} />
+								<img
+									src={lineaDerechoDiscapacidad}
+									alt='Lineas discontinuas'
+									tabIndex={0}
+								/>
 							</div>
 							{/* Linea discontinua oculta para MD */}
 							<div className='md:flex hidden mt-16'>
-								<img src={lineaDiscontinuaLarga} alt='Lineas discontinuas' tabIndex={0} />
+								<img
+									src={lineaDiscontinuaLarga}
+									alt='Lineas discontinuas'
+									tabIndex={0}
+								/>
 							</div>
 						</div>
 
 						<div className='flex flex-col'>
 							<div className='mt-8 px-8 flex justify-end mr-4'>
-								<img
-									src={vector5}
-									alt='Logo La Finca De Todos'
-                  tabIndex={0}
-								/>
+								<img src={vector5} alt='Logo La Finca De Todos' tabIndex={0} />
 							</div>
 							<div className='flex justify-end'>
 								<div className='max-w-2xl mt-4 mr-10 mb-8'>
-									<p className='md:text-xl lg:text-lg text-base text-gray-800 ml-10 md:text-right text-center leading-relaxed' tabIndex={0}>
+									<p
+										className='md:text-xl lg:text-lg text-base text-gray-800 ml-10 md:text-right text-center leading-relaxed'
+										tabIndex={0}
+									>
 										<span className='text-blue-900 font-bold leading-relaxed'>
 											La Finca de Todos{' '}
 										</span>{' '}
@@ -516,7 +622,10 @@ export const InfografiaDiscapacidad = () => {
 					{/* Footer de la infografia */}
 					<section>
 						<div className='bg-blue-900 md:p-3 md:flex hidden'>
-							<ul className='text-white text-xs md:max-w-6xl max-w-xs leading-relaxed' tabIndex={0}>
+							<ul
+								className='text-white text-xs md:max-w-6xl max-w-xs leading-relaxed'
+								tabIndex={0}
+							>
 								<li>Fuentes:</li>
 								<li>
 									<a

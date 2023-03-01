@@ -1,26 +1,55 @@
 {
-    "reusable": {
-        "logo" : " La Finca De Todos"
-    },
+	"reusable": {
+		"logo": " La Finca De Todos"
+	},
 
 	"navbar": {
 		"home": "Inicio",
-		"us": "Nosotros",
-		"thefarm": "La finca",
-		"weekend": "Fin de semana",
-		"pedagogicalworkshops": "Talleres pedagógicos",
+		"aboutUs": "Nosotros",
+		"theFarm": "La finca",
+		"weekendActivities": "Fin de semana",
+		"educationalWorkshops": "Talleres pedagógicos",
 		"location": "Ubicación",
-		"contact": "Contacto",
-		"Iwanttodonate": "Quiero donar"
+		"contactUs": "Contacto",
+		"donate": "Donar"
 	},
 
-	"inicio": {
-		"alttextvideohome-bold": "Video compuesto de los siguientes clips:",
-		"alttextvideohome": " Mariposa sobre una hoja, niña sonriente caminando con andador, paisaje de montañas colombianas, abuelos abrazan su nieto sentados en el césped, tres cabras, una madre besa a su hijo sonriente en su silla de ruedas eléctrica, logo de La Finca De Todos.",
+	"home": {
+		"altTextVideoHomeBold": "Video compuesto de los siguientes clips:",
+		"altTextVideoHome": " Mariposa sobre una hoja, niña sonriente caminando con andador, paisaje de montañas colombianas, abuelos abrazan su nieto sentados en el césped, tres cabras, una madre besa a su hijo sonriente en su silla de ruedas eléctrica, logo de La Finca De Todos.",
 		"welcome": "BIENVENIDO",
-        "openingparagraph-1": "¡Este mundo es para disfrutarlo al máximo! Te invitamos a,",
-        "openingparagraph-2": " un lugar hecho para todos.",
-        "buttonthefarm": "Quiero saber más de la finca"
+		"openingParagraph-1": "¡Este mundo es para disfrutarlo al máximo! Te invitamos a,",
+		"openingParagraph-2": " un lugar hecho para todos.",
+		"buttonTheFarm": "Quiero saber más de la finca"
+	},
+
+	"aboutUs": {
+		"ourMission": "Nuestra misión",
+		"paragraphMission-1": "es una oportunidad para vivir en un mundo equitativo y divertido, donde nadie queda afuera. Hacen falta espacios campestres que sean completamente accesibles a todos los ciudadanos. En",
+		"paragraphMission-2": "no hay preocupaciones ni escaleras, aquí todos entramos por la puerta principal.",
+		"paragraphMission-3": "¡Te esperamos!"
+	},
+
+	"infographics": {
+		"disabilityInColombia": "DISCAPACIDAD EN COLOMBIA",
+		"mainParagraph-1": "Colombia forma parte de la Convención de Naciones Unidas sobre los Derechos de las Personas con Discapacidad desde el",
+		"mainParagraph-2": " 2011",
+		"mainParagraph-3": " para promover su plena participación en todos los ámbitos de la vida.",
+		"whoAreWe" : "¿QUIÉNES SOMOS?",
+		"paragraphWhoAreWe-1": "Somos igual",
+		"paragraphWhoAreWe-2": " a los demás",
+		"paragraphWhoAreWe-3": " Colombianos",
+		"paragraphWhoAreWe-4": " con unos",
+		"paragraphWhoAreWe-5": " retos adicionales",
+		"paragraphWhoAreWe-6": " que enfrentar.",
+		"paragraphWhoAreWe-7": "Podemos tener una discapacidad",
+		"listOne": "Auditiva",
+		"listTwo": "Intelectual",
+		"listThree": "Sordoceguera",
+		"listFour": "Múltiple",
+		"listFive": "Física",
+		"listSix": "Visual",
+		"listSeven": "Psicosocial"
 
 
 	}

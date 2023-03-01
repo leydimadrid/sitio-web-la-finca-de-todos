@@ -1,26 +1,55 @@
 {
-    "reusable": {
-        "logo" : " La Finca De Todos"
-    },
+	"reusable": {
+		"logo": " La Finca De Todos"
+	},
 
-    "navbar": {
-        "home": "Home",
-        "us": "Us",
-        "thefarm": "The farm",
-        "weekend": "Weekend",
-        "pedagogicalworkshops": "Pedagogical workshops",
-        "location": "Location",
-        "contact": "Contact",
-        "Iwanttodonate": "I want to donate"
-        },
+	"navbar": {
+		"home": "Home",
+		"aboutUs": "About Us",
+		"theFarm": "The farm",
+		"weekendActivities": "Weekend Activities",
+		"educationalWorkshops": "Educational Workshops",
+		"location": "Location",
+		"contactUs": "Contact Us",
+		"donate": "Donate"
+	},
 
-    "inicio": {
-        "alttextvideohome-bold": "The video is composed of the following clips: ",
-        "alttextvideohome": " Butterfly on a leaf, the smiling girl walking with a walker, a Colombian mountain landscape, grandparents embracing their grandson sitting on the grass, three goats, a mother kissing her smiling son in his electric wheelchair, logo La Finca De Todos.",
-        "welcome": "WELCOME",
-        "openingparagraph-1": "This world is to enjoy it to the fullest! We invite you to,",
-        "openingparagraph-2": " a place made for everyone.",
-        "buttonthefarm": "I want to know more about the farm"
+	"home": {
+		"altTextVideoHomeBold": "The video is composed of the following clips: ",
+		"altTextVideoHome": "Butterfly on a leaf, smiling girl using a walker, Colombian mountain landscape, grandparents embracing their grandson sitting on the grass, three goats, a mother kissing her smiling son in his electric wheelchair, logo La Finca De Todos.",
+		"welcome": "WELCOME",
+		"openingParagraph-1": "Our world is meant to be enjoyed to the fullest! You are invited to",
+		"openingParagraph-2": " – a place made for everyone.",
+		"buttonTheFarm": "Learn more about the farm"
+	},
 
-    }
+	"aboutUs": {
+		"ourMission": "Our Mission",
+		"paragraphMission-1": " is an opportunity to live in a fun and equitable world, where no one is left out. There is a need for spaces in nature that are fully accessible to all members of the community. At",
+		"paragraphMission-2": ", there are no worries and no stairs – we all enter through the front door.",
+		"paragraphMission-3": "We hope to see you soon!"
+	},
+
+	"infographics": {
+		"disabilityInColombia": "DISABILITY IN COLOMBIA",
+		"mainParagraph-1": "Colombia has been a part of the United Nations Convention on the Rights of Persons with Disabilities since",
+		"mainParagraph-2": " 2011",
+		"mainParagraph-3": "  to promote full participation in all spheres of life.",
+        "whoAreWe" : "WHO ARE WE?",
+        "paragraphWhoAreWe-1": "We are just",
+		"paragraphWhoAreWe-2": " like other ",
+		"paragraphWhoAreWe-3": " Colombians",
+		"paragraphWhoAreWe-4": " with some",
+		"paragraphWhoAreWe-5": " additional challenges",
+		"paragraphWhoAreWe-6": " to face.",
+        "paragraphWhoAreWe-7": "We may have one of more of these disabilities",
+        "listOne": "Auditory",
+		"listTwo": "Intellectual",
+		"listThree": "Deafblind",
+		"listFour": "Multiple",
+		"listFive": "Physical",
+		"listSix": "Visual",
+		"listSeven": "Psicosocial"
+
+	}
 }

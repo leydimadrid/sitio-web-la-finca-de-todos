@@ -9,7 +9,7 @@ export const principiosSostenibilidad = [
     {
         id: 2,
         imagen: "icono-industria-innovacion.svg",
-        parrafo: "Uso de materiales reciclados y sostenibles como madera de plástico reciclado y la guadua.",
+        parrafo: "Uso de materiales reciclados y sostenibles como madera de plástico reciclado y bambú guadua.",
         alt: "Icono industria innovacion e infraestructura"
       },
 

@@ -7,8 +7,11 @@ import iconofacebook from '../assets/images/icono-facebook.svg';
 import iconoemail from '../assets/images/icono-email.svg';
 import { InfografiaDiscapacidad } from '../components/InfografiaDiscapacidad';
 import FontSizeChanger from 'react-font-size-changer';
+import { useTranslation } from 'react-i18next';
 
 export const Nosotros = () => {
+	const [t] = useTranslation('global');
+
 	return (
 		<>
 			{/* Inicio Modificador de texto  */}
@@ -67,7 +70,7 @@ export const Nosotros = () => {
 							className='titulo font-bold md:text-2xl text-xl text-center md:pt-30 text-gray-800'
 							tabIndex={0}
 						>
-							Nuestra Misión
+							{t('aboutUs.ourMission')}
 						</h1>
 						<hr className='linea-fucsia mx-auto mt-2' tabIndex={0}></hr>
 					</div>
@@ -76,20 +79,17 @@ export const Nosotros = () => {
 							className='titulo text-gray-800 md:text-justify text-center md:max-w-5xl lg:max-w-3xl leading-relaxed'
 							tabIndex={0}
 						>
-							<span className='text-blue-900'>La Finca de Todos </span> es una
-							oportunidad para vivir en un mundo equitativo y divertido, donde
-							nadie queda afuera. Hacen falta espacios campestres que sean
-							completamente accesibles a todos los ciudadanos. En{' '}
-							<span className='text-blue-900'>La Finca de Todos </span> no hay
-							preocupaciones ni escaleras, aquí todos entramos por la puerta
-							principal.{' '}
+							<span className='text-blue-900'>{t('reusable.logo')}</span>{' '}
+							{t('aboutUs.paragraphMission-1')}{' '}
+							<span className='text-blue-900'>{t('reusable.logo')}</span>
+							{t('aboutUs.paragraphMission-2')}
 						</p>{' '}
 					</div>
 					<p
 						className='titulo text-center font-semibold md:text-xl text-xl text-blue-900'
 						tabIndex={0}
 					>
-						¡Te esperamos!
+						{t('aboutUs.paragraphMission-3')}
 					</p>
 					<Slider />
 				</section>
