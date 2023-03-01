@@ -43,7 +43,10 @@ export const InfografiaDiscapacidad = () => {
 							tabIndex={0}
 						>
 							{t('infographics.mainParagraph-1')}
-							<span className='font-semibold'>{t('infographics.mainParagraph-2')}</span>{t('infographics.mainParagraph-3')}
+							<span className='font-semibold'>
+								{t('infographics.mainParagraph-2')}
+							</span>
+							{t('infographics.mainParagraph-3')}
 						</p>
 					</div>
 					{/* Párrafo introductorio */}
@@ -71,14 +74,16 @@ export const InfografiaDiscapacidad = () => {
 								className='max-w-md md:text-xl lg:text-lg text-base mb-4 mx-auto text-gray-800 md:text-left text-center leading-relaxed p-2'
 								tabIndex={0}
 							>
-								<span className='font-semibold leading-relaxed'>{t('infographics.paragraphWhoAreWe-1')}</span>
+								<span className='font-semibold leading-relaxed'>
+									{t('infographics.paragraphWhoAreWe-1')}
+								</span>
 								{t('infographics.paragraphWhoAreWe-2')}
 								<span className='font-semibold leading-relaxed'>
-								{t('infographics.paragraphWhoAreWe-3')}
+									{t('infographics.paragraphWhoAreWe-3')}
 								</span>{' '}
 								{t('infographics.paragraphWhoAreWe-4')}
 								<span className='font-semibold leading-relaxed '>
-								{t('infographics.paragraphWhoAreWe-5')}
+									{t('infographics.paragraphWhoAreWe-5')}
 								</span>{' '}
 								{t('infographics.paragraphWhoAreWe-6')}
 							</p>
@@ -134,11 +139,11 @@ export const InfografiaDiscapacidad = () => {
 									tabIndex={0}
 								>
 									<span className='text-blue-900 md:text-5xl lg:text-4xl text-4xl font-semibold leading-relaxed '>
-									{t('infographics.15%')}
+										{t('infographics.15%')}
 									</span>
 									{t('infographics.paragraphWhoAreWe-8')}
 									<span className='font-semibold leading-relaxed'>
-									{t('infographics.paragraphWhoAreWe-9')}
+										{t('infographics.paragraphWhoAreWe-9')}
 									</span>
 								</p>
 							</div>
@@ -182,7 +187,7 @@ export const InfografiaDiscapacidad = () => {
 									{t('infographics.paragraphHowManyOfUsAreThere-1')}
 									<span className='block '>
 										<span className='font-semibold leading-relaxed'>
-										{t('infographics.paragraphHowManyOfUsAreThere-2')}
+											{t('infographics.paragraphHowManyOfUsAreThere-2')}
 										</span>{' '}
 										{t('infographics.paragraphHowManyOfUsAreThere-3')}
 									</span>
@@ -221,7 +226,7 @@ export const InfografiaDiscapacidad = () => {
 									tabIndex={0}
 								>
 									<span className='text-blue-900 md:text-xl text-lg font-bold leading-relaxed'>
-									{t('infographics.paragraphHowManyOfUsAreThere-4')}
+										{t('infographics.paragraphHowManyOfUsAreThere-4')}
 									</span>
 									{t('infographics.paragraphHowManyOfUsAreThere-5')}
 									<p
@@ -242,7 +247,7 @@ export const InfografiaDiscapacidad = () => {
 										</span>
 										:
 										<span className='block'>
-										{t('infographics.paragraphHowManyOfUsAreThere-9')}
+											{t('infographics.paragraphHowManyOfUsAreThere-9')}
 										</span>
 									</p>
 								</p>
@@ -262,11 +267,11 @@ export const InfografiaDiscapacidad = () => {
 									tabIndex={0}
 								>
 									<span className='text-pink-600 md:text-4xl text-4xl font-bold block leading-relaxed'>
-									{t('infographics.paragraphHowManyOfUsAreThere-10')}
+										{t('infographics.paragraphHowManyOfUsAreThere-10')}
 									</span>
 									{t('infographics.paragraphHowManyOfUsAreThere-11')}
 									<span className='font-semibold leading-relaxed'>
-									{t('infographics.paragraphHowManyOfUsAreThere-12')}
+										{t('infographics.paragraphHowManyOfUsAreThere-12')}
 									</span>
 								</p>
 							</div>
@@ -294,7 +299,7 @@ export const InfografiaDiscapacidad = () => {
 							>
 								{t('infographics.paragraphHowManyOfUsAreThere-13')}
 								<span className='font-semibold leading-relaxed'>
-								{t('infographics.paragraphHowManyOfUsAreThere-14')}
+									{t('infographics.paragraphHowManyOfUsAreThere-14')}
 								</span>{' '}
 								{t('infographics.paragraphHowManyOfUsAreThere-15')}
 								<span className='text-pink-600 md:text-3xl text-base font-bold leading-relaxed'>
@@ -303,7 +308,7 @@ export const InfografiaDiscapacidad = () => {
 								</span>{' '}
 								{t('infographics.paragraphHowManyOfUsAreThere-17')}
 								<span className=' text-blue-900 md:text-xl text-base font-bold block leading-relaxed'>
-								{t('infographics.paragraphHowManyOfUsAreThere-18')}
+									{t('infographics.paragraphHowManyOfUsAreThere-18')}
 								</span>
 							</p>
 						</div>
@@ -328,17 +333,16 @@ export const InfografiaDiscapacidad = () => {
 									className='FondoFucsiaInfografia py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 px-3 md:mx-0 mx-auto mb-4'
 									tabIndex={0}
 								>
-									¿DÓNDE ESTAMOS?
+									{t('infographics.whereAreWe')}
 								</h1>
 								<div className='max-w-xl md:text-xl lg:text-lg  mx-auto md:mx-0'>
 									<p
 										className='md:text-xl lg:text-lg text-base mb-4 text-gray-800 md:text-left text-center leading-relaxed p-8 md:p-0 lg:p-0'
 										tabIndex={0}
 									>
-										Las entidades territoriales con mayor número de personas con
-										discapacidad son{' '}
+										{t('infographics.paragraphwhereAreWe-1')}
 										<span className='font-semibold leading-relaxed'>
-											Bogotá, Antioquia, Huila, Santander y Cali.
+											{t('infographics.paragraphwhereAreWe-2')}
 										</span>
 									</p>{' '}
 								</div>
@@ -369,32 +373,32 @@ export const InfografiaDiscapacidad = () => {
 								</div>
 								<div className='md:ml-48 lg:ml-40 mt-4'>
 									<p
-										className='md:max-w-md lg:max-w-lg max-w-sm md:text-xl lg:text-lg  text-base text-center  md:mx-0 mx-auto text-gray-800 leading-relaxed'
+										className='md:max-w-md lg:max-w-lg max-w-sm md:text-xl lg:text-lg text-base text-center  md:mx-0 mx-auto text-gray-800 leading-relaxed'
 										tabIndex={0}
 									>
-										En{' '}
+										{t('infographics.paragraphwhereAreWe-3')}
 										<span className='text-blue-900 md:text-xl text-lg font-bold leading-relaxed'>
-											Cali{' '}
+											{t('infographics.paragraphwhereAreWe-4')}
 										</span>
-										se registraron{' '}
+										{t('infographics.paragraphwhereAreWe-5')}
 										<span className='text-blue-900 md:text-xl text-lg font-bold leading-relaxed'>
-											55,454{' '}
+											{t('infographics.paragraphwhereAreWe-6')}
 										</span>{' '}
-										personas con discapacidad.
+										{t('infographics.paragraphwhereAreWe-7')}
 									</p>
 									<p
-										className='md:max-w-md lg:max-w-lgmax-w-sm md:text-xl text-base text-center mt-4 md:mx-0 mx-auto text-gray-800 leading-relaxed'
+										className='md:max-w-md lg:max-w-lg max-w-sm md:text-xl lg:text-lg text-base text-center mt-4 md:mx-0 mx-auto text-gray-800 leading-relaxed'
 										tabIndex={0}
 									>
-										En{' '}
+										{t('infographics.paragraphwhereAreWe-8')}
 										<span className='text-pink-600 md:text-xl text-lg font-bold leading-relaxed'>
-											Valle del Cauca{' '}
+											{t('infographics.paragraphwhereAreWe-9')}
 										</span>
-										se registraron{' '}
+										{t('infographics.paragraphwhereAreWe-10')}
 										<span className='text-pink-600 md:text-xl text-lg font-bold leading-relaxed'>
-											49,423{' '}
+											{t('infographics.paragraphwhereAreWe-11')}
 										</span>{' '}
-										personas con discapacidad.
+										{t('infographics.paragraphwhereAreWe-12')}
 									</p>
 									<div className='md:flex hidden'>
 										<img
@@ -431,39 +435,24 @@ export const InfografiaDiscapacidad = () => {
 							<div className='mt-10 ml-6'>
 								<div className='md:flex md:justify-end  lg:flex lg:justify-end flex justify-center'>
 									<h1
-										className='bg-blue-900 py-4 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 md:mx-0 mx-4 mb-4'
+										className='bg-blue-900 py-4 px-2 md:text-2xl text-xl font-bold text-white rounded-lg text-center w-72 md:mx-0 mx-4 mb-4'
 										tabIndex={0}
 									>
-										¿CÓMO ESTAMOS?
+										{t('infographics.howAreWeDoing')}
 									</h1>
 								</div>
 								<p
 									className='max-w-xl md:text-xl lg:text-lg text-base mb-4 text-gray-800 md:text-right text-center leading-relaxed'
 									tabIndex={0}
 								>
-									<span className='font-semibold leading-relaxed'>“</span>Al
-									interactuar con diversas barreras incluyendo las
-									actitudinales, las personas con discapacidades pueden sentirse
-									impedidos de la{' '}
+									{t('infographics.paragraphhowAreWeDoing-1')}
 									<span className='font-semibold leading-relaxed'>
-										participación plena
+										{t('infographics.paragraphhowAreWeDoing-2')}
 									</span>{' '}
-									y{' '}
+									{t('infographics.paragraphhowAreWeDoing-3')}
 									<span className='font-semibold leading-relaxed'>
-										efectiva
+										{t('infographics.paragraphhowAreWeDoing-4')}
 									</span>{' '}
-									en la{' '}
-									<span className='font-semiboldleading-relaxed'>sociedad</span>
-									, en{' '}
-									<span className='font-semibold leading-relaxed'>
-										igualdad
-									</span>{' '}
-									de{' '}
-									<span className='font-semibold leading-relaxed'>
-										condiciones
-									</span>{' '}
-									con las{' '}
-									<span className='font-semibold leading-relaxed'>demás”.</span>
 								</p>{' '}
 							</div>
 						</div>
@@ -482,35 +471,35 @@ export const InfografiaDiscapacidad = () => {
 									className='text-pink-600 font-bold md:text-2xl lg:text-xl text-xl md:text-left text-center leading-relaxed'
 									tabIndex={0}
 								>
-									Enfrentamos
+									{t('infographics.paragraphhowAreWeDoing-5')}
 								</h1>
 								<p
 									className='md:text-xl lg:text-lg text-base text-gray-800 md:text-left text-center leading-relaxed'
 									tabIndex={0}
 								>
-									varios retos al salir de casa
+									{t('infographics.paragraphhowAreWeDoing-6')}
 								</p>
 								<ul
 									className='list-disc md:text-xl lg:text-lg text-base text-gray-800 px-10 max-w-xl mt-4 leading-relaxed sm:px-10'
 									tabIndex={0}
 								>
 									<li className='leading-relaxed'>
-										Calles o aceras irregulares, barreras arquitectónicas que{' '}
+										{t('infographics.paragraphhowAreWeDoing-7')}
 										<span className='font-semibold'>
-											imposibilitan nuestro acceso a espacios públicos o
-											privados.
+											{t('infographics.paragraphhowAreWeDoing-8')}
 										</span>
 									</li>
 									<li className='leading-relaxed'>
 										<span className='font-semibold'>
-											Falta de tecnología inclusiva
+											{t('infographics.paragraphhowAreWeDoing-9')}
 										</span>{' '}
-										como braille, lectores de pantalla y señales auditivas.
+										{t('infographics.paragraphhowAreWeDoing-10')}
 									</li>
 									<li className='leading-relaxed'>
-										<span className='font-semibold'>Miradas o preguntas </span>
-										que disminuyen nuestra confianza para salir y explorar
-										nuestro propio entorno.
+										<span className='font-semibold'>
+											{t('infographics.paragraphhowAreWeDoing-11')}{' '}
+										</span>
+										{t('infographics.paragraphhowAreWeDoing-12')}
 									</li>
 								</ul>
 								<div className='flex md:justify-center mt-8'>
@@ -546,35 +535,21 @@ export const InfografiaDiscapacidad = () => {
 									className='md:text-xl lg:text-lg text-base text-gray-800 ml-10 md:text-left text-center leading-relaxed'
 									tabIndex={0}
 								>
-									El{' '}
 									<span className='font-semibold leading-relaxed'>
-										Ministerio de la Igualdad
+										{t('infographics.paragraphhowAreWeDoing-13')}
 									</span>{' '}
-									se formó en el{' '}
+									{t('infographics.paragraphhowAreWeDoing-14')}
 									<span className='text-blue-900 font-bold leading-relaxed'>
-										2023
+										{t('infographics.paragraphhowAreWeDoing-15')}
 									</span>{' '}
-									para mitigar los{' '}
+									{t('infographics.paragraphhowAreWeDoing-16')}
 									<span className='font-semibold leading-relaxed'>
-										desequilibrios sociales
+										{t('infographics.paragraphhowAreWeDoing-17')}
 									</span>{' '}
-									y la{' '}
+									{t('infographics.paragraphhowAreWeDoing-18')}
 									<span className='font-semibold leading-relaxed'>
-										inequidad.
+										{t('infographics.paragraphhowAreWeDoing-19')}
 									</span>{' '}
-									La vice presidenta{' '}
-									<span className='font-semibold leading-relaxed'>
-										Francia Márquez
-									</span>{' '}
-									dijo que el{' '}
-									<span className='font-semibold leading-relaxed'>
-										Ministerio de la igualdad
-									</span>{' '}
-									será{' '}
-									<span className='font-semibold leading-relaxed'>
-										“un mecanismo para avanzar en la reducción efectiva de las
-										brechas de desigualdad e inequidad en Colombia”.
-									</span>
 								</p>
 							</div>
 							{/* Linea discontinua oculta para MD */}
@@ -606,11 +581,9 @@ export const InfografiaDiscapacidad = () => {
 										tabIndex={0}
 									>
 										<span className='text-blue-900 font-bold leading-relaxed'>
-											La Finca de Todos{' '}
+										{t('reusable.logo')}
 										</span>{' '}
-										forma parte de este llamado a la acción para la inclusión de
-										todas las personas en nuestra sociedad y crear la
-										accesibilidad para llegar a esa meta.
+										{t('infographics.paragraphhowAreWeDoing-20')}
 									</p>
 								</div>
 							</div>
@@ -624,7 +597,7 @@ export const InfografiaDiscapacidad = () => {
 								className='text-white text-xs md:max-w-6xl max-w-xs leading-relaxed'
 								tabIndex={0}
 							>
-								<li>Fuentes:</li>
+								<li>{t('reusable.sources')}</li>
 								<li>
 									<a
 										href='https://www.funcionpublica.gov.co/en/web/inclusion-publica/categor%C3%ADas-de-discapacidad'

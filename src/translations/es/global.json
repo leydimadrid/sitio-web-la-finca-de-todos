@@ -1,6 +1,8 @@
 {
 	"reusable": {
-		"logo": " La Finca De Todos"
+		"logo": " La Finca De Todos",
+		"sources": "Fuentes",
+		"donate": "Donar"
 	},
 
 	"navbar": {
@@ -35,7 +37,8 @@
 		"mainParagraph-1": "Colombia forma parte de la Convención de Naciones Unidas sobre los Derechos de las Personas con Discapacidad desde el",
 		"mainParagraph-2": " 2011",
 		"mainParagraph-3": " para promover su plena participación en todos los ámbitos de la vida.",
-		"whoAreWe" : "¿QUIÉNES SOMOS?",
+
+		"whoAreWe": "¿QUIÉNES SOMOS?",
 		"paragraphWhoAreWe-1": "Somos igual",
 		"paragraphWhoAreWe-2": " a los demás",
 		"paragraphWhoAreWe-3": " Colombianos",
@@ -50,10 +53,11 @@
 		"listFive": "Física",
 		"listSix": "Visual",
 		"listSeven": "Psicosocial",
-		"15%" : "15%",
+		"15%": "15%",
 		"paragraphWhoAreWe-8": " de las personas registradas manifestó ser",
 		"paragraphWhoAreWe-9": " víctima del conflicto armado.",
-		"HowManyOfUsAreThere" : "¿CUÁNTOS SOMOS?",
+
+		"HowManyOfUsAreThere": "¿CUÁNTOS SOMOS?",
 		"paragraphHowManyOfUsAreThere-1": "Población de Colombia:",
 		"paragraphHowManyOfUsAreThere-2": " 51.5 millones",
 		"paragraphHowManyOfUsAreThere-3": " de personas",
@@ -71,17 +75,54 @@
 		"paragraphHowManyOfUsAreThere-15": " superan el",
 		"paragraphHowManyOfUsAreThere-16": " 15%",
 		"paragraphHowManyOfUsAreThere-17": " de la población, cerca de",
-		"paragraphHowManyOfUsAreThere-18": " 7.2 millones Colombianos."
+		"paragraphHowManyOfUsAreThere-18": " 7.2 millones Colombianos.",
 
+		"whereAreWe": "¿DÓNDE ESTAMOS?",
+		"paragraphwhereAreWe-1": "Las entidades territoriales con mayor número de personas con discapacidad son",
+		"paragraphwhereAreWe-2": " Bogotá, Antioquia, Huila, Santander y Cali.",
+		"paragraphwhereAreWe-3": "En",
+		"paragraphwhereAreWe-4": " Cali",
+		"paragraphwhereAreWe-5": " se registraron",
+		"paragraphwhereAreWe-6": " 55,454",
+		"paragraphwhereAreWe-7": " personas con discapacidad.",
+		"paragraphwhereAreWe-8": "En",
+		"paragraphwhereAreWe-9": " Valle del Cauca",
+		"paragraphwhereAreWe-10": " se registraron",
+		"paragraphwhereAreWe-11": " 49,423",
+		"paragraphwhereAreWe-12": " personas con discapacidad.",
 
+		"howAreWeDoing": "¿CÓMO ESTAMOS?",
+		"paragraphhowAreWeDoing-1": "“Al interactuar con diversas barreras incluyendo las actitudinales, las personas con discapacidades pueden sentirse impedidos de la",
+		"paragraphhowAreWeDoing-2": " participación plena y efectiva",
+		"paragraphhowAreWeDoing-3": " en la sociedad, en",
+		"paragraphhowAreWeDoing-4": "  igualdad de condiciones con las demás”.",
+		"paragraphhowAreWeDoing-5": "Enfrentamos",
+		"paragraphhowAreWeDoing-6": " varios retos al salir de casa",
+		"paragraphhowAreWeDoing-7": "Calles o aceras irregulares, barreras arquitectónicas que",
+		"paragraphhowAreWeDoing-8": " imposibilitan nuestro acceso a espacios públicos o privados.",
+		"paragraphhowAreWeDoing-9": "Falta de tecnología inclusiva",
+		"paragraphhowAreWeDoing-10": " como braille, lectores de pantalla y señales auditivas.",
+		"paragraphhowAreWeDoing-11": "Miradas o preguntas",
+		"paragraphhowAreWeDoing-12": " que disminuyen nuestra confianza para salir y explorar nuestro propio entorno.",
+		"paragraphhowAreWeDoing-13": "El Ministerio de la Igualdad",
+		"paragraphhowAreWeDoing-14": " se formó en el",
+		"paragraphhowAreWeDoing-15": " 2023",
+		"paragraphhowAreWeDoing-16": " para mitigar los",
+		"paragraphhowAreWeDoing-17": " desequilibrios sociales y la inequidad.",
+		"paragraphhowAreWeDoing-18": "La vice presidenta",
+		"paragraphhowAreWeDoing-19": " Francia Márquez dijo que el Ministerio de la igualdad será “un mecanismo para avanzar en la reducción efectiva de las brechas de desigualdad e inequidad en Colombia”.",
+		"paragraphhowAreWeDoing-20": " forma parte de este llamado a la acción para la inclusión de todas las personas en nuestra sociedad y crear la accesibilidad para llegar a esa meta."
+	},
 
-
-
-
-		
-
-
-
+	"team": {
+		"team": "Equipo",
+		"projectCreator" : "Creadora del Proyecto",
+		"title-1-Lissette": "Abogada para los derechos de personas con discapacidades y mayores de edad",
+		"title-2-Lissette": "Licenciada en ciencias de la comunicación de la Universidad de Illinois en Urbana-Champaign",
+		"title-3-Lissette": "Licenciada en derecho de la Universidad de Wisconsin-Madison",
+		"title-1-Fabiola": "Docente para niños de primaria con retrasos de aprendizaje y educación especial",
+		"title-2-Fabiola": "Licenciada en Artes en Educación Primaria de National Louis University",
+		"title-3-Fabiola": "Masters en Educación Especial de National Louis University"
 
 
 

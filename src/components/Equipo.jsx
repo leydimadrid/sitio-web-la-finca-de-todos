@@ -1,7 +1,10 @@
 import equipo1 from '../assets/images/equipo1.jpg';
 import equipo2 from '../assets/images/equipo2.jpg';
+import { useTranslation } from 'react-i18next';
 
 export const Equipo = () => {
+	const [t] = useTranslation('global');
+
 	return (
 		<section className='equipo'>
 			<div id='contenedor'>
@@ -9,7 +12,7 @@ export const Equipo = () => {
 					className='font-bold md:text-2xl text-xl text-center mt-12 text-gray-800'
 					tabIndex={0}
 				>
-					Equipo
+					{t('team.team')}
 				</h1>
 				<hr className='linea-fucsia mx-auto mt-2' tabIndex={0}></hr>
 				<div className='equipo flex flex-col items-center md:flex-row md:max-w-6xl md:text-xl text-base'>
@@ -30,17 +33,15 @@ export const Equipo = () => {
 							className='ml-4 list-disc font-normal md:text-xl lg:text-lg text-base text-gray-800 leading-relaxed'
 							tabIndex={0}
 						>
-							<li className='mb-2 leading-relaxed'> Creadora del Proyecto</li>
+							<li className='mb-2 leading-relaxed'> {t('team.projectCreator')}</li>
 							<li className='mb-2 leading-relaxed'>
-								Abogada para los derechos de personas con discapacidades y
-								mayores de edad.
+							{t('team.title-1-Lissette')}
 							</li>
 							<li className='mb-2 leading-relaxed'>
-								Licenciada en ciencias de la comunicación de la Universidad de
-								Illinois en Urbana-Champaign.
+							{t('team.title-2-Lissette')}
 							</li>
 							<li className='leading-relaxed'>
-								Licenciada en derecho de la Universidad de Wisconsin-Madison.
+							{t('team.title-3-Lissette')}
 							</li>
 						</ul>
 					</div>
@@ -65,15 +66,13 @@ export const Equipo = () => {
 						>
 							<li className='mb-2 leading-relaxed'>
 								{' '}
-								Docente para niños de primaria con retrasos de aprendizaje y
-								educación especial.
+								{t('team.title-1-Fabiola')}
 							</li>
 							<li className='mb-2 leading-relaxed'>
-								Licenciada en Artes en Educación Primaria de National Louis
-								University
+							{t('team.title-2-Fabiola')}
 							</li>
 							<li className='leading-relaxed'>
-								Masters en Educación Especial de National Louis University
+							{t('team.title-3-Fabiola')}
 							</li>
 						</ul>
 					</div>
