@@ -181,5 +181,21 @@
 		"paragraph-4": "Free accessible bus stops.",
 		"paragraph-5": "Bus stops will be decided in the future.",
 		"paragraph-6": "We are still looking for the perfect place for"
+	},
+
+	"contactUs": {
+		"titleForm": "Contact Us",
+		"label-1": "Name",
+		"placeHolder-1": "Enter your name",
+		"label-2": "Means of contact",
+		"placeHolder-2": "Enter your email or phone number",
+		"label-3": "Message",
+		"buttonForm": "Send Message",
+		"error": "All fields are required",
+		"messageSent": "Message sent successfully"
+	},
+
+	"footer": {
+		"footer": " All rights reserved"
 	}
 }

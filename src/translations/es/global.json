@@ -182,5 +182,21 @@
 		"paragraph-4": "Paradas gratuitas en buseta accesible.",
 		"paragraph-5": "Las paradas serán decididas en un futuro.",
 		"paragraph-6": "Aún estamos buscando el lugar perfecto para"
+	},
+
+	"contactUs": {
+		"titleForm": "Comunícate con nosotros",
+		"label-1": "Nombre",
+		"placeHolder-1": "Ingrese su nombre",
+		"label-2": "Medio de contacto",
+		"placeHolder-2": "Ingrese su email o teléfono",
+		"label-3": "Mensaje",
+		"buttonForm": "Enviar Mensaje",
+		"error": "Todos los campos son obligatorios",
+		"messageSent": "Mensaje enviado con éxito"
+	},
+
+	"footer": {
+		"footer": "Todos los derechos reservados"
 	}
 }

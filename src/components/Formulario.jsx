@@ -2,8 +2,10 @@ import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Error from './Error';
 import Swal from 'sweetalert2';
+import { useTranslation } from 'react-i18next';
 
 export const Formulario = () => {
+	const [t] = useTranslation('global');
 	const [error, setError] = useState(false);
 
 	const [nombre, setNombre] = useState('');
@@ -56,7 +58,7 @@ export const Formulario = () => {
 						htmlFor='nombre_usuario'
 						className='titulo text-gray-700 md:text-md lg:text-md text-sm font-bold leading-relaxed'
 					>
-						Nombre
+						{t('contactUs.label-1')}
 					</label>
 				</div>
 				<div>
@@ -65,7 +67,7 @@ export const Formulario = () => {
 						type='text'
 						name='nombre_usuario'
 						aria-required='true'
-						placeholder='Ingrese su nombre'
+						placeholder={t('contactUs.placeHolder-1')}
 						className='titulo leading-relaxed w-full ring-2 ring-gray-300 rounded-md outline-none focus:ring-2 focus:ring-blue-600 py-2 px-4'
 						value={nombre}
 						onChange={e => setNombre(e.target.value)}
@@ -77,7 +79,7 @@ export const Formulario = () => {
 						htmlFor='contacto_usuario'
 						className='titulo text-gray-700 md:text-md lg:text-md text-sm font-bold leading-relaxed'
 					>
-						Medio de contacto
+						{t('contactUs.label-2')}
 					</label>
 				</div>
 				<div className='mt-2'>
@@ -85,7 +87,7 @@ export const Formulario = () => {
 						id='contacto_usuario'
 						name='contacto_usuario'
 						aria-required='true'
-						placeholder='Ingrese su email o télefono'
+						placeholder={t('contactUs.placeHolder-2')}
 						className='titulo leading-relaxed w-full ring-2 ring-gray-300 rounded-md outline-none focus:ring-2 focus:ring-blue-600 py-2 px-4'
 						value={contacto}
 						onChange={e => setContacto(e.target.value)}
@@ -97,7 +99,7 @@ export const Formulario = () => {
 						htmlFor='mensaje_usuario'
 						className='titulo leading-relaxed text-gray-700 md:text-md lg:text-md text-sm font-bold'
 					>
-						Mensaje
+						{t('contactUs.label-3')}
 					</label>
 				</div>
 				<div className='mt-2'>
@@ -113,7 +115,7 @@ export const Formulario = () => {
 				<input
 					type='submit'
 					className='titulo leading-relaxed inline-block px-6 py-4 bg-blue-900 text-white font-semibold rounded-lg text-sm uppercase'
-					value='Enviar mensaje'
+					value={t('contactUs.buttonForm')}
 				/>
 				<div className='titulo'>{error && <Error />}</div>
 			</form>
