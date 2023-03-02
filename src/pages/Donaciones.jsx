@@ -1,8 +1,10 @@
 import imagenDonaciones from "../assets/images/imagen-donaciones.jpg";
 import { BotonAhora } from "../components/BotonAhora";
 import FontSizeChanger from 'react-font-size-changer';
+import { useTranslation } from 'react-i18next';
 
 export const Donaciones = () => {
+  const [t] = useTranslation('global');
   return (
     <div>
     {/* Inicio Modificador de texto  */}
@@ -62,15 +64,13 @@ export const Donaciones = () => {
         </div>
         <div className="max-w-xl md:p-6 p-8 font-medium">
           <p className="titulo text-gray-800 md:text-xl text-base text-center leading-relaxed" tabIndex={0}>
-            Tu apoyo es indispensable para crear el mundo de igualdad en el que
-            queremos vivir.{" "}
+          {t('donate.paragraph-1')}
             <span className="titulo colorTextoDonaciones font-bold block leading-relaxed">
-              ¡Gracias por tu donación!
+            {t('donate.paragraph-2')}
             </span>
           </p>
           <p className="titulo text-center text-gray-800 md:text-xl text-base mt-6 leading-relaxed" tabIndex={0}>
-            La Fundación La Finca de Todos es una Entidad sin Ánimo de Lucro,
-            número de registro 20230143627.
+          {t('donate.paragraph-3')}
             <div className="titulo text-center pt-10 md:text-2xl text-xl leading-relaxed">
               <BotonAhora />
             </div>

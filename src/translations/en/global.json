@@ -197,5 +197,12 @@
 
 	"footer": {
 		"footer": " All rights reserved"
+	},
+
+	"donate": {
+		"paragraph-1": "Your support is indispensable to creating the world of equality in which we want to live.",
+		"paragraph-2": "Thank you for your donation!",
+		"paragraph-3": "La Finca de Todos Foundation is a non-profit organization, registration number 20230143627.",
+		"paragraph-4": "Donate now"
 	}
 }

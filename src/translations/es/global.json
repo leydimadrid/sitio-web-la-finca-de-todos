@@ -28,7 +28,7 @@
 	"aboutUs": {
 		"ourMission": "Nuestra misión",
 		"paragraphMission-1": "es una oportunidad para vivir en un mundo equitativo y divertido, donde nadie queda afuera. Hacen falta espacios campestres que sean completamente accesibles a todos los ciudadanos. En",
-		"paragraphMission-2": "no hay preocupaciones ni escaleras, aquí todos entramos por la puerta principal.",
+		"paragraphMission-2": " no hay preocupaciones ni escaleras, aquí todos entramos por la puerta principal.",
 		"paragraphMission-3": "¡Te esperamos!"
 	},
 
@@ -198,5 +198,12 @@
 
 	"footer": {
 		"footer": "Todos los derechos reservados"
+	},
+
+	"donate": {
+		"paragraph-1": "Tu apoyo es indispensable para crear el mundo de igualdad en el que queremos vivir.",
+		"paragraph-2": "¡Gracias por tu donación!",
+		"paragraph-3": "La Fundación La Finca de Todos es una Entidad sin ánimo de Lucro, número de registro 20230143627.",
+		"paragraph-4": "Donar ahora"
 	}
 }
