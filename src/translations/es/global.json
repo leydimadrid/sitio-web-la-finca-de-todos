@@ -116,7 +116,7 @@
 
 	"team": {
 		"team": "Equipo",
-		"projectCreator" : "Creadora del Proyecto",
+		"projectCreator": "Creadora del Proyecto",
 		"title-1-Lissette": "Abogada para los derechos de personas con discapacidades y mayores de edad",
 		"title-2-Lissette": "Licenciada en ciencias de la comunicación de la Universidad de Illinois en Urbana-Champaign",
 		"title-3-Lissette": "Licenciada en derecho de la Universidad de Wisconsin-Madison",
@@ -126,7 +126,7 @@
 	},
 
 	"theFarm": {
-		"title3D" : "Modelo 3D de la finca y sus edificaciones",
+		"title3D": "Modelo 3D de la finca y sus edificaciones",
 		"altTextVideo3d": "Video en 3D de La Finca De Todos, mostrando su estructura, espacios e información.",
 		"titleAccessibility": "Consideraciones de accesibilidad",
 		"Cards-1": "Presencia de un intérprete de lengua de señas",
@@ -150,37 +150,37 @@
 
 	"weekend": {
 		"weekendActivities": "Actividades fin de semana",
-		"Cards-1" : "Mariposario",
+		"Cards-1": "Mariposario",
 		"paragraphCards-1": "Observa un espectáculo de colores en un espacio accesible dedicado a la cría y conservación de mariposas.",
-		"Cards-2" : "Sembrados en materas elevadas y accesibles",
+		"Cards-2": "Sembrados en materas elevadas y accesibles",
 		"paragraphCards-2": "Buscamos recuperar el contacto con la naturaleza de manera accesible para tener la experiencia de sembrar, cuidar y cosechar los alimentos.",
-		"Cards-3" : "Invernadero accesible e inteligente",
+		"Cards-3": "Invernadero accesible e inteligente",
 		"paragraphCards-3": "En nuestro invernadero accesible puedes ver tecnología implementada para el menor uso de energía, softwares de control de ambiente, y sistema de riego inteligente.",
-		"Cards-4" : "Simulador de vuelo",
+		"Cards-4": "Simulador de vuelo",
 		"paragraphCards-4": "Una cabina adaptable que permite el uso accesible de “Microsoft Flight Simulator”, una herramienta utilizada por pilotos reales y entusiastas de la aviación para experimentar volar alrededor del mundo.",
 		"paragraphCards-4-1": "Foto de House of Wheels, Menash Cohen",
-		"Cards-5" : "Camino y jardín sensorial",
+		"Cards-5": "Camino y jardín sensorial",
 		"paragraphCards-5": "Siente con tus manos o tus pies las texturas del campo, huele la esencia de las hierbas aromáticas y explora un espacio lleno de sorpresas para tus sentidos.",
-		"Cards-6" : "Animales en la granja",
+		"Cards-6": "Animales en la granja",
 		"paragraphCards-6": "Aquí podemos interactuar con los animales de la finca en un entorno completamente accesible para tener la experiencia de ordeñar una cabra, alimentar las gallinas o recoger huevos de los nidos cómodamente.",
-		"Cards-7" : "Jardin Zen",
+		"Cards-7": "Jardin Zen",
 		"paragraphCards-7": "Un lugar para meditar, sentir calma y recargar la energía positiva en un espacio tranquilo y accesible. Diseñado a base de los principios zen y la cultura japonesa, este espacio favorece la serenidad y la meditación.",
-		"Cards-8" : "Casa sostenible y accesible",
+		"Cards-8": "Casa sostenible y accesible",
 		"paragraphCards-8": "Explora una casa 100% accesible y hecha con principios de mayor sostenibilidad. Aprende cómo reciclamos el agua de lluvia, de qué están hechas las paredes y como prendemos el wifi con tecnología para ayudar a nuestro planeta.",
-		"Cards-9" : "Parque inclusivo y muro de escalar",
+		"Cards-9": "Parque inclusivo y muro de escalar",
 		"paragraphCards-9": "La zona de juegos inclusivos está diseñada para que visitantes de todas las capacidades jueguen juntos. Súbete al muro y alcanza nuevas alturas: contamos con equipo de escalar adaptado para garantizar tu seguridad.",
-		"Cards-10" : "Cafetería",
-		"paragraphCards-10": "Prueba una variedad de delicias preparadas por artesanos locales y aquí mismo en La Finca de Todos. Fresco y hecho con amor, todos los ingredientes fueron cosechados por manos Colombianas."
+		"Cards-10": "Cafetería",
+		"paragraphCards-10": "Prueba una variedad de delicias preparadas por artesanos locales y aquí mismo en La Finca de Todos. Fresco y hecho con amor, todos los ingredientes fueron cosechados por manos Colombianas.",
+		"Cards-11": "Hora de cuentos en Lengua de Señas Colombiano",
+		"paragraphCards-11": "Únete todos los fines de semana a nuestra Hora de cuentos en Lengua de Señas Colombiana (LSC). Descubre este hermoso idioma y ayuda a tu hijo con el desarrollo del lenguaje. Presentada por una persona sorda o un intérprete, acompañado en voz alta."
+	},
 
-
-
-
-
-
-
-
-
-
-
+	"location": {
+		"paragraph-1": "Si necesitas transporte accesible",
+		"paragraph-2": "¡Te recogemos!",
+		"paragraph-3": "Sábado y Domingo",
+		"paragraph-4": "Paradas gratuitas en buseta accesible.",
+		"paragraph-5": "Las paradas serán decididas en un futuro.",
+		"paragraph-6": "Aún estamos buscando el lugar perfecto para"
 	}
 }

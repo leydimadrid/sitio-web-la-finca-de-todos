@@ -116,22 +116,22 @@
 
 	"team": {
 		"team": "Team",
-        "projectCreator" : "Project Creator",
-        "title-1-Lissette": "Attorney defending the rights of persons with disabilities and the elderly",
-        "title-2-Lissette": "Bachelors of Science in Communications from the University of Illinois at Urbana-Champaign",
-        "title-3-Lissette": "Juris Doctor from the University of Wisconsin-Madison",
-        "title-1-Fabiola": "Elementary school teacher with emphasis on teaching children with learning delays and special education",
+		"projectCreator": "Project Creator",
+		"title-1-Lissette": "Attorney defending the rights of persons with disabilities and the elderly",
+		"title-2-Lissette": "Bachelors of Science in Communications from the University of Illinois at Urbana-Champaign",
+		"title-3-Lissette": "Juris Doctor from the University of Wisconsin-Madison",
+		"title-1-Fabiola": "Elementary school teacher with emphasis on teaching children with learning delays and special education",
 		"title-2-Fabiola": "Bachelor of Arts in Elementary Education from National Louis University",
 		"title-3-Fabiola": "Masters in Special Education from National Louis University"
 	},
 
-    "theFarm": {
-		"title3D" : "3D model of the farm and its buildings",
-        "altTextVideo3d": "3D video of La Finca De Todos, showing its structure. Spaces and information.",
-        "titleAccessibility": "Accessibility considerations",
-        "Cards-1": "Presence of a sign language interpreter",
+	"theFarm": {
+		"title3D": "3D model of the farm and its buildings",
+		"altTextVideo3d": "3D video of La Finca De Todos, showing its structure. Spaces and information.",
+		"titleAccessibility": "Accessibility considerations",
+		"Cards-1": "Presence of a sign language interpreter",
 		"Cards-2": "Wide, flat paths without architectural barriers",
-        "Cards-3": "Telecoil hearing loop technology",
+		"Cards-3": "Telecoil hearing loop technology",
 		"Cards-4": "High-contrast signage and tactile tiles",
 		"Cards-5": "Sound and Braille guides for navigating the Farm",
 		"Cards-6": "Accessible restrooms with changing facilities",
@@ -149,41 +149,37 @@
 	},
 	"weekend": {
 		"weekendActivities": "Weekend activities",
-		"Cards-1" : "Butterfly Farm",
+		"Cards-1": "Butterfly Farm",
 		"paragraphCards-1": "Observe a spectable of colors in an accessible space dedicated to the breeding and conservation of butterflies.",
-		"Cards-2" : "Accessible and elevated garden beds",
+		"Cards-2": "Accessible and elevated garden beds",
 		"paragraphCards-2": "We seek to recover contact with nature in an accessible way so we can have the experience of planting, caring for, and harvesting food.",
-		"Cards-3" : "Accessible greenhouse with smart technology",
+		"Cards-3": "Accessible greenhouse with smart technology",
 		"paragraphCards-3": "In our accessible greenhouse, you can see smart technology implemented for lower energy use, environmental control software, and an intelligent irrigation system.",
-		"Cards-4" : "Flight Simulator",
+		"Cards-4": "Flight Simulator",
 		"paragraphCards-4": "An adaptable cockpit that allows accessible use of Microsoft Flight Simulator, a tool used by real pilots and aviation enthusiasts to experience flying around the world.",
 		"paragraphCards-4-1": "Photo by  House of Wheels, Menash Cohen",
-		"Cards-5" : "Path and sensory garden",
+		"Cards-5": "Path and sensory garden",
 		"paragraphCards-5": "Feel with your hands or feet the textures of the countryside, smell the essence of aromatic herbs, and explore a space full of surprises for your senses.",
-		"Cards-6" : "Animals on the farm",
+		"Cards-6": "Animals on the farm",
 		"paragraphCards-6": "Here we can interact with the animals of the farm in a fully accessible environment to have the experience of milking a goat, feeding the chickens, or collecting eggs from the nests comfortably.",
-		"Cards-7" : "Zen Garden",
+		"Cards-7": "Zen Garden",
 		"paragraphCards-7": "A place to meditate, feel calm, and recharge positive energy in a quiet and accessible space. Design based on Zen principles and Japanese culture, this space favors serenity and meditation.",
-		"Cards-8" : "Sustainable and accessible house",
+		"Cards-8": "Sustainable and accessible house",
 		"paragraphCards-8": "Explore a home that is 100% accessible and constructed on principles of sustainability. Learn how we recycle rainwater, what the walls are made of, and how we turn on the wifi with technology to help our planet.",
-		"Cards-9" : "Inclusive park and climbing wall",
+		"Cards-9": "Inclusive park and climbing wall",
 		"paragraphCards-9": "The inclusive play area is designed for visitors of all abilities to play together. Climb the wall and reach new heights: we have adapted climbing equipment to ensure your safety.",
-		"Cards-10" : "Cafeteria",
-		"paragraphCards-10": "Taste a variety of delicacies prepared by local artisans and right here at La Finca de Todos. Freshly made with love, all ingredients were harvested here in Colombia."
+		"Cards-10": "Cafeteria",
+		"paragraphCards-10": "Taste a variety of delicacies prepared by local artisans and right here at La Finca de Todos. Freshly made with love, all ingredients were harvested here in Colombia.",
+		"Cards-11": "Colombian Sign Language Story Time",
+		"paragraphCards-11": "Join our Colombian Sign Language (CSL) Story Hour every weekend. Discover this beautiful language and help your child with language development. Presented by a Deaf  person or an interpreter, accompanied out loud."
+	},
 
-
-
-
-
-
-
-
-
-
-
-
-
+	"location": {
+		"paragraph-1": "If you need accessible transportation,",
+		"paragraph-2": "we'll pick you up!",
+		"paragraph-3": "Saturday and Sunday",
+		"paragraph-4": "Free accessible bus stops.",
+		"paragraph-5": "Bus stops will be decided in the future.",
+		"paragraph-6": "We are still looking for the perfect place for"
 	}
-
-
 }

@@ -2,8 +2,10 @@ import imagenUbicacion from "../assets/images/imagen-ubicacion.jpg";
 import mapaCali from "../assets/images/ubicacion-mapa-cali.jpg";
 import FontSizeChanger from "react-font-size-changer";
 import Logo from "../assets/images/logo.svg";
+import { useTranslation } from 'react-i18next';
 
 export const Ubicacion = () => {
+  const [t] = useTranslation('global');
   return (
     <div>
       {/* Inicio Modificador de texto  */}
@@ -62,19 +64,19 @@ export const Ubicacion = () => {
         <div className="md:flex flex-row items-center justify-center md:pt-20">
           <div className="max-w-xl md:p-6 p-8 md:mr-28 lg:mr-1">
             <p className="titulo text-gray-800 md:text-xl text-base text-center leading-relaxed" tabIndex={0}>
-              Si necesitas transporte accesible{" "}
+            {t('location.paragraph-1')}
               <span className="titulo font-bold block text-blue-900 leading-relaxed">
-                ¡Te recogemos!
+              {t('location.paragraph-2')}
               </span>
             </p>
             <p className="titulo text-center text-gray-800 md:text-xl text-base mt-6 leading-relaxed" tabIndex={0}>
               <span className="titulo font-bold block text-gray-800 leading-relaxed">
-                Sábado y Domingo
+              {t('location.paragraph-3')}
               </span>{" "}
-              Paradas gratuitas en buseta accesible.
+              {t('location.paragraph-4')}
             </p>
             <p className="titulo text-gray-800 font-bold md:text-xl text-base text-center mt-6 leading-relaxed" tabIndex={0}>
-              Las paradas serán decididas en un futuro.
+            {t('location.paragraph-5')}
             </p>
           </div>
           <div className="md:m-1">
@@ -100,7 +102,7 @@ export const Ubicacion = () => {
             <div>
               <div className="flex justify-center mt-4">
               <p className="titulo text-gray-800 font-bold md:text-xl text-base text-center max-w-xs leading-relaxed" tabIndex={0}>
-                Aún estamos buscando el lugar perfecto para
+              {t('location.paragraph-6')}
               </p>
               </div>
               <div className="flex justify-center mt-4">
