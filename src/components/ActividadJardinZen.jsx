@@ -2,8 +2,10 @@ import ReactCardFlip from "react-card-flip";
 import { useState } from "react";
 import imagen1 from "../assets/images/actividades-jardin-zen.jpg";
 import imagen2 from "../assets/images/actividades-jardin-zen-2.jpg";
+import { useTranslation } from 'react-i18next';
 
 export const ActividadJardinZen = () => {
+  const [t] = useTranslation('global');
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleClick = () => {
@@ -26,7 +28,7 @@ export const ActividadJardinZen = () => {
             />
             <div className="items-center p-4 leading-normal lg:w-96 w-64 text-center">
               <h5 className="mb-2 md:text-2xl text-lg font-bold tracking-tight text-gray-800 leading-relaxed" tabIndex={0}>
-                Jardin Zen
+              {t('weekend.Cards-7')}
               </h5>
             </div>
           </button>
@@ -40,10 +42,7 @@ export const ActividadJardinZen = () => {
             >
               <div className="items-center p-4 leading-normal md:w-96 w-64 text-center">
                 <p className="mb-2 font-normal md:text-xl text-base tracking-tight text-gray-800 leading-relaxed text-left" tabIndex={0}>
-                  Un lugar para meditar, sentir calma y recargar la energía
-                  positiva en un espacio tranquilo y accesible. Diseñado a base
-                  de los principios zen y la cultura japonesa, este espacio
-                  favorece la serenidad y la meditación.
+                {t('weekend.paragraphCards-7')}
                 </p>
               </div>
               <img

@@ -1,6 +1,8 @@
 import imagen from "../assets/images/icono-accion-por-el-clima.svg"
+import { useTranslation } from 'react-i18next';
 
 export const SostenibilidadAccionClima = () => {
+	const [t] = useTranslation('global');
 	return (
 		<section className='mt-6 max-w-sm p-4'>
 			<div className='bg-white'>
@@ -10,7 +12,7 @@ export const SostenibilidadAccionClima = () => {
 					</div>
 					<div className='px-4 py-2 text-center'>
 						<p className='font-bold text-lg text-gray-800 leading-normal' tabIndex={0}>
-                        Reciclaje de aguas de lluvia para uso en el riego de siembras, la limpieza y los inodoros.
+                        {t('theFarm.Cards-objectives-3')}
 						</p>
 					</div>
 				</div>

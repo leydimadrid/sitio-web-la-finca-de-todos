@@ -2,8 +2,10 @@ import ReactCardFlip from 'react-card-flip';
 import { useState } from 'react';
 import imagen1 from '../assets/images/actividades-animales.jpg';
 import imagen2 from '../assets/images/actividades-animales-2.jpg';
+import { useTranslation } from 'react-i18next';
 
 export const ActividadAnimales = () => {
+	const [t] = useTranslation('global');
 	const [isFlipped, setIsFlipped] = useState(false);
 
 	const handleClick = () => {
@@ -29,7 +31,7 @@ export const ActividadAnimales = () => {
 								className='mb-2 md:text-2xl text-lg font-bold tracking-tight text-gray-800 leading-relaxed'
 								tabIndex={0}
 							>
-								Animales en la granja
+								{t('weekend.Cards-6')}
 							</h5>
 						</div>
 					</button>
@@ -46,10 +48,7 @@ export const ActividadAnimales = () => {
 								className='mb-2 font-normal md:text-xl text-base tracking-tight text-gray-800 leading-relaxed text-left'
 								tabIndex={0}
 							>
-								Aquí podemos interactuar con los animales de la finca en un
-								entorno completamente accesible para tener la experiencia de
-								ordeñar una cabra, alimentar las gallinas o recoger huevos de
-								los nidos cómodamente.
+								{t('weekend.paragraphCards-6')}
 							</p>
 						</div>
 						<img

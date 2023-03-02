@@ -2,8 +2,10 @@ import ReactCardFlip from 'react-card-flip';
 import { useState } from 'react';
 import imagen1 from '../assets/images/actividades-muro-de-escalar.jpg';
 import imagen2 from '../assets/images/actividades-muro-de-escalar-2.jpg';
+import { useTranslation } from 'react-i18next';
 
 export const ActividadMuroEscalar = () => {
+	const [t] = useTranslation('global');
 	const [isFlipped, setIsFlipped] = useState(false);
 
 	const handleClick = () => {
@@ -29,7 +31,7 @@ export const ActividadMuroEscalar = () => {
 								className='mb-2 md:text-2xl text-lg font-bold tracking-tight text-gray-800 leading-relaxed'
 								tabIndex={0}
 							>
-								Parque adaptado y muro de escalar
+								{t('weekend.Cards-9')}
 							</h5>
 						</div>
 					</button>
@@ -46,10 +48,7 @@ export const ActividadMuroEscalar = () => {
 								className='mb-2 font-normal md:text-xl text-base tracking-tight text-gray-800 leading-relaxed text-left'
 								tabIndex={0}
 							>
-								La zona de juegos inclusivos está diseñada para que visitantes
-								de todas las capacidades jueguen juntos. Súbete al muro y
-								alcanza nuevas alturas: contamos con equipo de escalar adaptado
-								para garantizar tu seguridad.
+								{t('weekend.paragraphCards-9')}
 							</p>
 						</div>
 						<img

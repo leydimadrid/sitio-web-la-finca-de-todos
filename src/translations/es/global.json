@@ -136,7 +136,45 @@
 		"Cards-5": "Guías sonoras y en braille para navegar la finca",
 		"Cards-6": "Baños accesibles con instalaciones para el aseo personal",
 		"Cards-7": "Bienvenidos animales de servicio y mascotas de acompañamiento",
-		"Cards-8": "Wifi gratuito y PC para conectar con el Centro de Relevo de MinTIC"
+		"Cards-8": "Wifi gratuito y PC para conectar con el Centro de Relevo de MinTIC",
+		"titleONU-1": "Objetivos de Desarrollo Sostenible",
+		"titleONU-2": "de acuerdo con la Organización de las Naciones Unidas (ONU)",
+		"Cards-objectives-1": "Construcción que respeta al terreno existente para promover y proteger la biodiversidad.",
+		"Cards-objectives-2": "Uso de materiales reciclados y sostenibles como madera de plástico reciclado y bambú guadua.",
+		"Cards-objectives-3": "Reciclaje de aguas de lluvia para uso en el riego de siembras, la limpieza y los inodoros.",
+		"Cards-objectives-4": "Tecnología de energía renovable para garantizar el mayor uso de energía sostenible.",
+		"Cards-objectives-5": "Creación de empleos para personas con discapacidades promoviendo el crecimiento económico inclusivo y sostenible.",
+		"Cards-objectives-6": "Proporcionamos programas educacionales de alta calidad con énfasis en la inclusión.",
+		"Cards-objectives-7": "Sistemas agrícolas sostenibles para la producción de alimentos consumidos en la finca."
+	},
+
+	"weekend": {
+		"weekendActivities": "Actividades fin de semana",
+		"Cards-1" : "Mariposario",
+		"paragraphCards-1": "Observa un espectáculo de colores en un espacio accesible dedicado a la cría y conservación de mariposas.",
+		"Cards-2" : "Sembrados en materas elevadas y accesibles",
+		"paragraphCards-2": "Buscamos recuperar el contacto con la naturaleza de manera accesible para tener la experiencia de sembrar, cuidar y cosechar los alimentos.",
+		"Cards-3" : "Invernadero accesible e inteligente",
+		"paragraphCards-3": "En nuestro invernadero accesible puedes ver tecnología implementada para el menor uso de energía, softwares de control de ambiente, y sistema de riego inteligente.",
+		"Cards-4" : "Simulador de vuelo",
+		"paragraphCards-4": "Una cabina adaptable que permite el uso accesible de “Microsoft Flight Simulator”, una herramienta utilizada por pilotos reales y entusiastas de la aviación para experimentar volar alrededor del mundo.",
+		"paragraphCards-4-1": "Foto de House of Wheels, Menash Cohen",
+		"Cards-5" : "Camino y jardín sensorial",
+		"paragraphCards-5": "Siente con tus manos o tus pies las texturas del campo, huele la esencia de las hierbas aromáticas y explora un espacio lleno de sorpresas para tus sentidos.",
+		"Cards-6" : "Animales en la granja",
+		"paragraphCards-6": "Aquí podemos interactuar con los animales de la finca en un entorno completamente accesible para tener la experiencia de ordeñar una cabra, alimentar las gallinas o recoger huevos de los nidos cómodamente.",
+		"Cards-7" : "Jardin Zen",
+		"paragraphCards-7": "Un lugar para meditar, sentir calma y recargar la energía positiva en un espacio tranquilo y accesible. Diseñado a base de los principios zen y la cultura japonesa, este espacio favorece la serenidad y la meditación.",
+		"Cards-8" : "Casa sostenible y accesible",
+		"paragraphCards-8": "Explora una casa 100% accesible y hecha con principios de mayor sostenibilidad. Aprende cómo reciclamos el agua de lluvia, de qué están hechas las paredes y como prendemos el wifi con tecnología para ayudar a nuestro planeta.",
+		"Cards-9" : "Parque inclusivo y muro de escalar",
+		"paragraphCards-9": "La zona de juegos inclusivos está diseñada para que visitantes de todas las capacidades jueguen juntos. Súbete al muro y alcanza nuevas alturas: contamos con equipo de escalar adaptado para garantizar tu seguridad.",
+		"Cards-10" : "Cafetería",
+		"paragraphCards-10": "Prueba una variedad de delicias preparadas por artesanos locales y aquí mismo en La Finca de Todos. Fresco y hecho con amor, todos los ingredientes fueron cosechados por manos Colombianas."
+
+
+
+
 
 
 

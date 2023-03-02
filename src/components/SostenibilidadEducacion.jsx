@@ -1,7 +1,7 @@
-import imagen from '../assets/images/icono-vida-ecosistemas-terrestres.svg';
+import imagen from '../assets/images/icono-educacion-calidad.svg';
 import { useTranslation } from 'react-i18next';
 
-export const SostenibilidadEcosistemas = () => {
+export const SostenibilidadEducacion = () => {
 	const [t] = useTranslation('global');
 	return (
 		<section className='mt-6 max-w-sm p-4'>
@@ -11,7 +11,7 @@ export const SostenibilidadEcosistemas = () => {
 						<img
 							className='rounded-full shadow-lg'
 							src={imagen}
-							alt='Icono vida de ecosistemas terrestres'
+							alt='Icono educacion de calidad'
 							tabIndex={0}
 						/>
 					</div>
@@ -20,7 +20,7 @@ export const SostenibilidadEcosistemas = () => {
 							className='font-bold text-lg text-gray-800 leading-normal'
 							tabIndex={0}
 						>
-							{t('theFarm.Cards-objectives-1')}
+							{t('theFarm.Cards-objectives-6')}
 						</p>
 					</div>
 				</div>

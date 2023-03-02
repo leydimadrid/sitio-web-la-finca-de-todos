@@ -1,5 +1,3 @@
-import { PrincipiosSostenibilidad } from '../components/PrincipiosSostenibilidad';
-import { principiosSostenibilidad } from '../database/principiosSostenibilidad';
 import { VideoFinca } from '../components/VideoFinca';
 import FontSizeChanger from 'react-font-size-changer';
 import { useTranslation } from 'react-i18next';
@@ -16,7 +14,7 @@ import { SostenibilidadIndustriaInnovacion } from '../components/SostenibilidadI
 import { SostenibilidadAccionClima } from '../components/SostenibilidadAccionClima';
 import { SostenibilidadEnergiaAsequible } from '../components/SostenibilidadEnergiaAsequible';
 import { SostenibilidadReduccionDesigualdades } from '../components/SostenibilidadReduccionDesigualdades';
-import { SostenibilidadEducacionCalidad } from '../components/SostenibilidadEducacionCalidad';
+import { SostenibilidadEducacion } from '../components/SostenibilidadEducacion';
 import { SostenibilidadConsumoResponsable } from '../components/SostenibilidadConsumoResponsable';
 
 export const LaFinca = () => {
@@ -126,9 +124,9 @@ export const LaFinca = () => {
 							className='titulo flex flex-col md:max-w-xl max-w-sm font-bold md:text-xl text-xl text-center mt-10 text-gray-800 leading-relaxed'
 							tabIndex={0}
 						>
-							Objetivos de Desarrollo Sostenible
+							{t('theFarm.titleONU-1')}
 							<span className='titulo text-gray-800 md:text-base text-base leading-relaxed'>
-								de acuerdo con la Organización de las Naciones Unidas (ONU)
+								{t('theFarm.titleONU-2')}
 							</span>
 						</h1>
 					</div>
@@ -140,17 +138,8 @@ export const LaFinca = () => {
 							<SostenibilidadAccionClima />
 							<SostenibilidadEnergiaAsequible />
 							<SostenibilidadReduccionDesigualdades />
-							<SostenibilidadEducacionCalidad/>
-							<SostenibilidadConsumoResponsable/>
-						
-							{principiosSostenibilidad.map(item => (
-								<PrincipiosSostenibilidad
-									key={item.id}
-									imagen={item.imagen}
-									parrafo={item.parrafo}
-									alt={item.alt}
-								/>
-							))}
+							<SostenibilidadEducacion />
+							<SostenibilidadConsumoResponsable />
 						</div>
 					</section>
 				</section>

@@ -1,6 +1,8 @@
 import imagen from "../assets/images/icono-produccion-consumo-responsable.svg"
+import { useTranslation } from 'react-i18next';
 
 export const SostenibilidadConsumoResponsable = () => {
+	const [t] = useTranslation('global');
 	return (
 		<section className='mt-6 max-w-sm p-4'>
 			<div className='bg-white'>
@@ -10,7 +12,7 @@ export const SostenibilidadConsumoResponsable = () => {
 					</div>
 					<div className='px-4 py-2 text-center'>
 						<p className='font-bold text-lg text-gray-800 leading-normal' tabIndex={0}>
-                        Sistemas agrícolas sostenibles para la producción de alimentos consumidos en la finca.
+                        {t('theFarm.Cards-objectives-7')}
 						</p>
 					</div>
 				</div>

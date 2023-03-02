@@ -10,8 +10,10 @@ import { ActividadJardinZen } from "../components/ActividadJardinZen";
 import { ActividadCasaSostenible } from "../components/ActividadCasaSostenible";
 import { ActividadMuroEscalar } from "../components/ActividadMuroEscalar";
 import { ActividadCafeteria } from "../components/ActividadCafeteria";
+import { useTranslation } from 'react-i18next';
 
 export const FinDeSemana = () => {
+  const [t] = useTranslation('global');
   return (
     <>
       {/* Inicio Modificador de texto  */}
@@ -68,7 +70,7 @@ export const FinDeSemana = () => {
           <section>
             <div className="flex justify-center">
               <h1 className="titulo font-bold max-w-lg md:text-2xl text-xl text-center md:pt-28 pt-4 text-gray-800 leading-relaxed" tabIndex={0}>
-                Actividades fin de semana
+              {t('weekend.weekendActivities')}
               </h1>
             </div>
             <hr className="linea-fucsia mx-auto mt-2" tabIndex={0}></hr>

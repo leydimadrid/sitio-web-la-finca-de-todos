@@ -1,6 +1,8 @@
 import imagen from '../assets/images/icono-reduccion-desigualdades.svg';
+import { useTranslation } from 'react-i18next';
 
 export const SostenibilidadReduccionDesigualdades = () => {
+	const [t] = useTranslation('global');
 	return (
 		<section className='mt-6 max-w-sm p-4'>
 			<div className='bg-white'>
@@ -18,8 +20,7 @@ export const SostenibilidadReduccionDesigualdades = () => {
 							className='font-bold text-lg text-gray-800 leading-normal'
 							tabIndex={0}
 						>
-							Creación de empleos para personas con discapacidades promoviendo
-							el crecimiento económico inclusivo y sostenible.
+							{t('theFarm.Cards-objectives-5')}
 						</p>
 					</div>
 				</div>

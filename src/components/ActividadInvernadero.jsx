@@ -2,8 +2,10 @@ import ReactCardFlip from 'react-card-flip';
 import { useState } from 'react';
 import imagen1 from '../assets/images/actividades-invernadero.jpg';
 import imagen2 from '../assets/images/actividades-invernadero-2.jpg';
+import { useTranslation } from 'react-i18next';
 
 export const ActividadInvernadero = () => {
+	const [t] = useTranslation('global');
 	const [isFlipped, setIsFlipped] = useState(false);
 
 	const handleClick = () => {
@@ -29,7 +31,7 @@ export const ActividadInvernadero = () => {
 								className='mb-2 md:text-2xl text-lg font-bold tracking-tight text-gray-800 leading-relaxed'
 								tabIndex={0}
 							>
-								Invernadero accesible e inteligente
+								{t('weekend.Cards-3')}
 							</h5>
 						</div>
 					</button>
@@ -46,9 +48,7 @@ export const ActividadInvernadero = () => {
 								className='mb-2 font-normal md:text-xl text-base tracking-tight text-gray-800 leading-relaxed text-left'
 								tabIndex={0}
 							>
-								En nuestro invernadero accesible puedes ver tecnología
-								implementada para el menor uso de energía, softwares de control
-								de ambiente, y sistema de riego inteligente.
+								{t('weekend.paragraphCards-3')}
 							</p>
 						</div>
 						<img

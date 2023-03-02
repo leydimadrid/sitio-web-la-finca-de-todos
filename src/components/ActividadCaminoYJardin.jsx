@@ -2,8 +2,10 @@ import ReactCardFlip from "react-card-flip";
 import { useState } from "react";
 import imagen1 from "../assets/images/actividades-camino-sensorial.jpg";
 import imagen2 from "../assets/images/actividades-camino-sensorial-2.jpg";
+import { useTranslation } from 'react-i18next';
 
 export const ActividadCaminoYJardin = () => {
+  const [t] = useTranslation('global');
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleClick = () => {
@@ -26,7 +28,7 @@ export const ActividadCaminoYJardin = () => {
             />
             <div className="items-center p-4 leading-normal lg:w-96 w-64 text-center">
               <h5 className="mb-2 md:text-2xl text-lg font-bold tracking-tight text-gray-800 leading-relaxed" tabIndex={0}>
-                Camino y jardín sensorial
+              {t('weekend.Cards-5')}
               </h5>
             </div>
           </button>
@@ -40,9 +42,7 @@ export const ActividadCaminoYJardin = () => {
             >
               <div className="items-center p-4 leading-normal md:w-96 w-64 text-center">
                 <p className="mb-2 font-normal md:text-xl text-base tracking-tight text-gray-800 leading-relaxed text-left" tabIndex={0}>
-                  Siente con tus manos o tus pies las texturas del campo, huele
-                  la esencia de las hierbas aromáticas y explora un espacio
-                  lleno de sorpresas para tus sentidos.
+                {t('weekend.paragraphCards-5')}
                 </p>
               </div>
               <img
