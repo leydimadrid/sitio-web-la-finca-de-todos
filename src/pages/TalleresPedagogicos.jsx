@@ -1,10 +1,16 @@
-import { CardsTalleres } from '../components/CardsTalleres';
 import { InfografiaPasaDia } from '../components/InfografiaPasaDia';
-import { cardstalleres } from '../database/cardstalleres';
 import asistirTalleres from '../assets/images/imagen-asistir-talleres.jpg';
 import { BotonContactenos } from '../components/BotonContactenos';
 import FontSizeChanger from 'react-font-size-changer';
 import { useTranslation } from 'react-i18next';
+import { TalleresElCampo } from '../components/TalleresElCampo';
+import { TalleresReciclaje } from '../components/TalleresReciclaje';
+import { TalleresImpactoCultural } from '../components/TalleresImpactoCultural';
+import { TalleresCocina } from '../components/TalleresCocina';
+import { TalleresMeditacionYoga } from '../components/TalleresMeditacionYoga';
+import { TalleresSostenibilidad } from '../components/TalleresSostenibilidad';
+import { TalleresAnimalesFinca } from '../components/TalleresAnimalesFinca';
+import { TalleresActividadFisica } from '../components/TalleresActividadFisica';
 // import infografiaPasaDia from "../assets/images/infografia-pasa-dia.jpg";
 
 export const TalleresPedagogicos = () => {
@@ -102,15 +108,14 @@ export const TalleresPedagogicos = () => {
 					</div>
 					<section className='md:py-6 px-4 mt-4 md:mb-4 mb-10'>
 						<div className='titulo flex flex-wrap place-content-center'>
-							{cardstalleres.map(item => (
-								<CardsTalleres
-									key={item.id}
-									imagen={item.imagen}
-									titulo={item.titulo}
-									parrafo={item.parrafo}
-									alt={item.alt}
-								/>
-							))}
+							<TalleresElCampo/>
+							<TalleresReciclaje/>
+							<TalleresImpactoCultural/>
+							<TalleresCocina/>
+							<TalleresMeditacionYoga/>
+							<TalleresSostenibilidad/>
+							<TalleresAnimalesFinca/>
+							<TalleresActividadFisica/>
 						</div>
 					</section>
 				</section>
