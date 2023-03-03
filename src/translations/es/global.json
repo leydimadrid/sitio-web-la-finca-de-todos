@@ -2,7 +2,8 @@
 	"reusable": {
 		"logo": " La Finca De Todos",
 		"sources": "Fuentes",
-		"donate": "Donar"
+		"donate": "Donar",
+		"to": "a"
 	},
 
 	"navbar": {
@@ -219,14 +220,14 @@
 		"titleMain-1": "Pasadía para niños de",
 		"titleMain-2": "4to de primaria",
 		"paragraphMainPassDay": "Un pequeño encuentro con el descanso y la diversión.",
-		"home" : "INICIO",
+		"home": "INICIO",
 		"paragraphHome": "Llegada a ",
-		"welcomeCenter" : "CENTRO DE BIENVENIDA",
-		"paragraphWelcomeCenter-1" : "Introducción",
-		"paragraphWelcomeCenter-2" : "Información de",
-		"paragraphWelcomeCenter-3" : " la finca y su propósito",
-		"paragraphWelcomeCenter-4" : "Cronograma",
-		"paragraphWelcomeCenter-5" : "  de actividades",
+		"welcomeCenter": "CENTRO DE BIENVENIDA",
+		"paragraphWelcomeCenter-1": "Introducción",
+		"paragraphWelcomeCenter-2": "Información de",
+		"paragraphWelcomeCenter-3": " la finca y su propósito",
+		"paragraphWelcomeCenter-4": "Cronograma",
+		"paragraphWelcomeCenter-5": "  de actividades",
 		"inTheOrchard": "EN EL HUERTO",
 		"paragraphInTheOrchard-1": "Oler y sentir",
 		"paragraphInTheOrchard-2": " las texturas del campo",
@@ -247,22 +248,27 @@
 		"paragraphRest-2": " visita las instalaciones con",
 		"paragraphRest-3": " guías/maestras,",
 		"paragraphRest-4": " o si prefieres toma un descanso en un",
-		"paragraphRest-5": " lugar tranquilo, explora y relájate."
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		"paragraphRest-5": " lugar tranquilo, explora y relájate.",
+		"houseTour": "TOUR CASA ACCESIBLE + SOSTENIBLE",
+		"recyclingLesson": "LECCIÓN SOBRE RECICLAJE",
+		"recyclingArt": "ARTE CON RECICLAJE",
+		"departure": "SALIDA"
+	},
+	"titleWorkshop": { 
+		"titleWorkshop":"¿Cómo asistir a los talleres?",
+		"workshopInformation": "Para colegios y escuelas",
+		"paragraphWorkshopInformation": "Cuéntanos sobre el currículum de tus clases y podemos integrarlo a nuestros talleres para enriquecer los conceptos que están aprendiendo tus estudiantes. Nuestra misión es ofrecer un día de esparcimiento y aprendizaje, tanto a los estudiantes como a los docentes que nos visiten.",
+		"workshopInformation-1": "Para particulares",
+		"paragraphWorkshopInformation-1": "De martes a viernes contamos con programación interactiva y educacional, a la cual estás cordialmente invitado. Contáctenos para programar tu próxima experiencia. Estamos dispuestos para hacer modificaciones y ajustes de acuerdo con las necesidades de nuestros visitantes.",
+		"titleCourses": "Cursos",
+		"paragraphCourses": "Nuestros talleres son aptos para las siguientes etapas de desarrollo académico:",
+		"schedules": "Horarios",
+		"tuesdayTofriday": "Martes a Viernes",
+		"transportation": "Transportación y almuerzo disponible",
+		"contactUs": "Contáctenos para programar una consulta previa.",
+		"buttoncontactUs": "Contáctenos"
 	}
+
+		
+	
 }

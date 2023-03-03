@@ -2,7 +2,9 @@
 	"reusable": {
 		"logo": " La Finca De Todos",
 		"sources": "Sources",
-		"donate": "Donate"
+		"donate": "Donate",
+		"to": "to"
+
 	},
 
 	"navbar": {
@@ -218,14 +220,14 @@
 		"titleMain-1": "Day camp for children in",
 		"titleMain-2": "4th grade",
 		"paragraphMainPassDay": "A day of fun and relaxation",
-		"home" : "HOME",
+		"home": "HOME",
 		"paragraphHome": "Arrival at ",
-		"welcomeCenter" : "WELCOME CENTER",
-		"paragraphWelcomeCenter-1" : "Introduction",
-		"paragraphWelcomeCenter-2" : "Information about",
-		"paragraphWelcomeCenter-3" : " the farm and its purpose",
-		"paragraphWelcomeCenter-4" : "Activity",
-		"paragraphWelcomeCenter-5" : " Itinerary",
+		"welcomeCenter": "WELCOME CENTER",
+		"paragraphWelcomeCenter-1": "Introduction",
+		"paragraphWelcomeCenter-2": "Information about",
+		"paragraphWelcomeCenter-3": " the farm and its purpose",
+		"paragraphWelcomeCenter-4": "Activity",
+		"paragraphWelcomeCenter-5": " Itinerary",
 		"inTheOrchard": "IN THE ORCHARD",
 		"paragraphInTheOrchard-1": "Smell and feel",
 		"paragraphInTheOrchard-2": "  the textures of the countryside",
@@ -246,22 +248,30 @@
 		"paragraphRest-2": " visit the facilities with",
 		"paragraphRest-3": " guides/teachers,",
 		"paragraphRest-4": " or if you prefer, take a break in a ",
-		"paragraphRest-5": " quiet place, explore, and relax."
+		"paragraphRest-5": " quiet place, explore, and relax.",
+		"houseTour": "ACCESSIBLE + SUSTAINABLE HOUSE TOUR",
+		"recyclingLesson": "RECYCLING LESSON",
+		"recyclingArt": "RECYCLING ART",
+		"departure": "DEPARTURE"
+	},
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		"titleWorkshop": {
+		"titleWorkshop": "How to attend the workshops?",
+		"workshopInformation": "For scholastic institutions",
+		"paragraphWorkshopInformation": "Tell us about your classroom curriculum and we can integrate it into our workshops to enrich the concepts your students are already learning. Our mission is to provide a day of recreation and learning for both students and visiting teachers.",
+		"workshopInformation-1": "For individuals",
+		"paragraphWorkshopInformation-1": "Tuesday through Friday we have interactive and educational programming, to which you are cordially invited. Contact us to schedule your next experience. We are open to modifying and adjusting our programming according to the needs of our visitors.",
+		"titleCourses": "Courses",
+		"paragraphCourses": "Our workshops are suitable for the following stages of academic development:",
+		"schedules": "Schedules",
+		"tuesdayTofriday": "Tuesday to Friday",
+		"transportation": "Transportation and lunch are available",
+		"contactUs": "Contact us to schedule a consultation.",
+		"buttoncontactUs": "Contact us"
 
 	}
+
+
+
+	
 }
