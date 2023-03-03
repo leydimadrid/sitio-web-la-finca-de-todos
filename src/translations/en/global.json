@@ -219,7 +219,47 @@
 		"titleMain-2": "4th grade",
 		"paragraphMainPassDay": "A day of fun and relaxation",
 		"home" : "HOME",
-		"paragraphHome": "Arrival at "
+		"paragraphHome": "Arrival at ",
+		"welcomeCenter" : "WELCOME CENTER",
+		"paragraphWelcomeCenter-1" : "Introduction",
+		"paragraphWelcomeCenter-2" : "Information about",
+		"paragraphWelcomeCenter-3" : " the farm and its purpose",
+		"paragraphWelcomeCenter-4" : "Activity",
+		"paragraphWelcomeCenter-5" : " Itinerary",
+		"inTheOrchard": "IN THE ORCHARD",
+		"paragraphInTheOrchard-1": "Smell and feel",
+		"paragraphInTheOrchard-2": "  the textures of the countryside",
+		"paragraphInTheOrchard-3": "How do we feed",
+		"paragraphInTheOrchard-4": " the crops?",
+		"paragraphInTheOrchard-5": "Picking crops ready",
+		"paragraphInTheOrchard-6": " for harvest",
+		"inTheKitchen": "IN THE KITCHEN",
+		"paragraphInTheOrchardKitchen-1": "Why should we",
+		"paragraphInTheOrchardKitchen-2": " eat healthy foods?",
+		"paragraphInTheOrchardKitchen-3": "Let's learn more",
+		"paragraphInTheOrchardKitchen-4": " about “healthy-licious” foods",
+		"paragraphInTheOrchardKitchen-5": "Preparation of",
+		"paragraphInTheOrchardKitchen-6": " green or fruit salads plus dressings",
+		"lunch": "LUNCH",
+		"rest": "REST",
+		"paragraphRest-1": "Enjoy the space,",
+		"paragraphRest-2": " visit the facilities with",
+		"paragraphRest-3": " guides/teachers,",
+		"paragraphRest-4": " or if you prefer, take a break in a ",
+		"paragraphRest-5": " quiet place, explore, and relax."
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

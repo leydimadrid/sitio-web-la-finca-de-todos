@@ -30,7 +30,9 @@ export const InfografiaPasaDia = () => {
 					className='block font-bold md:text-6xl text-3xl text-center text-pink-600'
 					tabIndex={0}
 				>
-				<span className='text-blue-900'>{t('infographicsPassDay.titleMain-2')}</span>
+					<span className='text-blue-900'>
+						{t('infographicsPassDay.titleMain-2')}
+					</span>
 				</h1>
 			</div>
 			{/* Final Título infografía */}
@@ -67,7 +69,7 @@ export const InfografiaPasaDia = () => {
 					>
 						{t('infographicsPassDay.paragraphHome')}
 						<span className='text-blue-900 font-semibold'>
-						{t('reusable.logo')}
+							{t('reusable.logo')}
 						</span>
 					</p>
 					<img
@@ -121,7 +123,7 @@ export const InfografiaPasaDia = () => {
 							className='FondoFucsiaInfografia py-2 md:text-2xl text-xl font-bold text-white rounded-xl text-center px-3 md:mx-0 mx-auto mb-4 mt-4'
 							tabIndex={0}
 						>
-							CENTRO DE BIENVENIDA
+							{t('infographicsPassDay.welcomeCenter')}
 						</h1>
 						<div>
 							<ul
@@ -130,15 +132,21 @@ export const InfografiaPasaDia = () => {
 							>
 								<li className='mb-2 leading-relaxed'>
 									{' '}
-									<span className='font-semibold'>Introducción</span>
+									<span className='font-semibold'>
+										{t('infographicsPassDay.paragraphWelcomeCenter-1')}
+									</span>
 								</li>
 								<li className='mb-2 leading-relaxed'>
-									Información de la <span className='font-semibold'>finca</span>{' '}
-									y su <span className='font-semibold'>propósito</span>
+									{t('infographicsPassDay.paragraphWelcomeCenter-2')}{' '}
+									<span className='font-semibold'>
+										{t('infographicsPassDay.paragraphWelcomeCenter-3')}
+									</span>
 								</li>
 								<li className='leading-relaxed'>
-									<span className='font-semibold'>Cronograma</span> de
-									actividades
+									<span className='font-semibold'>
+										{t('infographicsPassDay.paragraphWelcomeCenter-4')}
+									</span>{' '}
+									{t('infographicsPassDay.paragraphWelcomeCenter-5')}
 								</li>
 							</ul>
 						</div>
@@ -174,7 +182,7 @@ export const InfografiaPasaDia = () => {
 							className='bg-blue-900 py-2 md:text-2xl text-xl font-bold text-white rounded-xl text-center px-3 md:mx-0 mx-auto mb-4 mt-4'
 							tabIndex={0}
 						>
-							EN EL HUERTO
+							{t('infographicsPassDay.inTheOrchard')}
 						</h1>
 						<div>
 							<ul
@@ -183,19 +191,23 @@ export const InfografiaPasaDia = () => {
 							>
 								<li className='mb-2 leading-relaxed'>
 									{' '}
-									<span className='font-semibold'>Oler</span> y
-									<span className='font-semibold'> sentir</span> las
-									<span className='font-semibold'> texturas del campo</span>
+									<span className='font-semibold'>
+										{t('infographicsPassDay.paragraphInTheOrchard-1')}
+									</span>
+									{t('infographicsPassDay.paragraphInTheOrchard-2')}
 								</li>
 								<li className='mb-2 leading-relaxed'>
-									¿Cómo
-									<span className='font-semibold'> nutrimos</span> el
-									<span className='font-semibold'> campo?</span>
+									<span className='font-semibold'>
+										{' '}
+										{t('infographicsPassDay.paragraphInTheOrchard-3')}
+									</span>
+									{t('infographicsPassDay.paragraphInTheOrchard-4')}
 								</li>
 								<li className='mb-2 leading-relaxed'>
-									<span className='font-semibold'>Recoger</span> los
-									<span className='font-semibold'> sembrados</span> en
-									<span className='font-semibold'> cosecha</span>
+									<span className='font-semibold'>
+										{t('infographicsPassDay.paragraphInTheOrchard-5')}
+									</span>{' '}
+									{t('infographicsPassDay.paragraphInTheOrchard-6')}
 								</li>
 							</ul>
 						</div>
@@ -245,7 +257,7 @@ export const InfografiaPasaDia = () => {
 							className='FondoFucsiaInfografia py-2 md:text-2xl text-xl font-bold text-white rounded-xl text-center px-3 md:mx-0 mx-auto mb-4 mt-4'
 							tabIndex={0}
 						>
-							EN LA COCINA
+							{t('infographicsPassDay.inTheKitchen')}
 						</h1>
 						<div>
 							<ul
@@ -253,21 +265,22 @@ export const InfografiaPasaDia = () => {
 								tabIndex={0}
 							>
 								<li className='mb-2 leading-relaxed'>
-									{' '}
-									¿Por qué
-									<span className='font-semibold'> debemos</span> comer
-									<span className='font-semibold'> saludable</span>?
+									{t('infographicsPassDay.paragraphInTheOrchardKitchen-1')}{' '}
+									<span className='font-semibold'>
+										{t('infographicsPassDay.paragraphInTheOrchardKitchen-2')}
+									</span>
 								</li>
 								<li className='mb-2 leading-relaxed'>
-									<span className='font-semibold'>Conozcamos</span> más sobre
-									los
-									<span className='font-semibold'> alimentos "deli-sanos"</span>
+									<span className='font-semibold'>
+										{t('infographicsPassDay.paragraphInTheOrchardKitchen-3')}
+									</span>
+									{t('infographicsPassDay.paragraphInTheOrchardKitchen-4')}
 								</li>
 								<li className='mb-2 leading-relaxed'>
-									<span className='font-semibold'>Preparación</span> de
-									<span className='font-semibold'> ensaladas verdes</span> o con
-									<span className='font-semibold'> frutas</span> más
-									<span className='font-semibold'> aderezos</span>
+									{t('infographicsPassDay.paragraphInTheOrchardKitchen-5')}
+									<span className='font-semibold'>
+										{t('infographicsPassDay.paragraphInTheOrchardKitchen-6')}
+									</span>
 								</li>
 							</ul>
 						</div>
@@ -303,7 +316,7 @@ export const InfografiaPasaDia = () => {
 							className='bg-blue-900 py-2 md:text-2xl text-xl font-bold text-white rounded-xl text-center px-3 md:mx-0 mx-auto mb-4 mt-4'
 							tabIndex={0}
 						>
-							ALMUERZO
+							{t('infographicsPassDay.lunch')}
 						</h1>
 						<div className='basis-2/5 grid place-content-center content-end py-2'>
 							<img
@@ -351,7 +364,7 @@ export const InfografiaPasaDia = () => {
 							className='FondoFucsiaInfografia py-2 md:text-2xl text-xl font-bold text-white rounded-xl text-center px-3 md:mx-0 mx-auto mb-4 mt-4'
 							tabIndex={0}
 						>
-							DESCANSO
+							{t('infographicsPassDay.rest')}
 						</h1>
 						<div className='max-w-md'>
 							<p
@@ -359,16 +372,16 @@ export const InfografiaPasaDia = () => {
 								tabIndex={0}
 							>
 								{' '}
-								<span className='font-semibold'>Disfruta</span> del espacio,{' '}
-								<span className='font-semibold'> visita</span> las instalaciones
-								con
-								<span className='font-semibold'> guías/maestras, </span>o si
-								prefieres toma un
-								<span className='font-semibold'> descanso </span>en un lugar
+								<span className='font-semibold'>
+									{t('infographicsPassDay.paragraphRest-1')}
+								</span>
+								{t('infographicsPassDay.paragraphRest-2')}
 								<span className='font-semibold'>
 									{' '}
-									tranquilo, explora y relájate.{' '}
+									{t('infographicsPassDay.paragraphRest-3')}{' '}
 								</span>
+								{t('infographicsPassDay.paragraphRest-4')}
+								<span className='font-semibold'> {t('infographicsPassDay.paragraphRest-5')}</span>
 							</p>
 						</div>
 					</div>

@@ -220,6 +220,49 @@
 		"titleMain-2": "4to de primaria",
 		"paragraphMainPassDay": "Un pequeño encuentro con el descanso y la diversión.",
 		"home" : "INICIO",
-		"paragraphHome": "Llegada a "
+		"paragraphHome": "Llegada a ",
+		"welcomeCenter" : "CENTRO DE BIENVENIDA",
+		"paragraphWelcomeCenter-1" : "Introducción",
+		"paragraphWelcomeCenter-2" : "Información de",
+		"paragraphWelcomeCenter-3" : " la finca y su propósito",
+		"paragraphWelcomeCenter-4" : "Cronograma",
+		"paragraphWelcomeCenter-5" : "  de actividades",
+		"inTheOrchard": "EN EL HUERTO",
+		"paragraphInTheOrchard-1": "Oler y sentir",
+		"paragraphInTheOrchard-2": " las texturas del campo",
+		"paragraphInTheOrchard-3": "¿Cómo nutrimos",
+		"paragraphInTheOrchard-4": " el campo?",
+		"paragraphInTheOrchard-5": "Recoger los sembrados",
+		"paragraphInTheOrchard-6": " en cosecha",
+		"inTheKitchen": "EN LA COCINA",
+		"paragraphInTheOrchardKitchen-1": "¿Por qué debemos",
+		"paragraphInTheOrchardKitchen-2": " comer saludable?",
+		"paragraphInTheOrchardKitchen-3": "Conozcamos más",
+		"paragraphInTheOrchardKitchen-4": " sobre los alimentos “deli-sanos”",
+		"paragraphInTheOrchardKitchen-5": "Preparación de",
+		"paragraphInTheOrchardKitchen-6": " ensaladas verdes o con frutas más aderezos",
+		"lunch": "ALMUERZO",
+		"rest": "DESCANSO",
+		"paragraphRest-1": "Disfruta del espacio,",
+		"paragraphRest-2": " visita las instalaciones con",
+		"paragraphRest-3": " guías/maestras,",
+		"paragraphRest-4": " o si prefieres toma un descanso en un",
+		"paragraphRest-5": " lugar tranquilo, explora y relájate."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	}
 }
