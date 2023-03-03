@@ -211,8 +211,15 @@
 		"ourObjective": "Nuestro Objetivo",
 		"paragraphMain": "Nuestros talleres son planificados por maestros con amor a la enseñanza que ayudarán a todos los estudiantes, con o sin discapacidad, a convertirse en adultos con conciencia. El contacto con la naturaleza despierta nuevas conexiones en el cerebro mientras que la variedad de temas y actividades refuerzan conceptos de ingenio, autoestima, responsabilidad social y cooperación.",
 		"paragraphMain-1": "Aquí en",
-		"paragraphMain-2": ", ¡La diversión y la educación van mano a mano!"
+		"paragraphMain-2": ", ¡La diversión y la educación van mano a mano!",
+		"workshops": "Categorías de talleres"
+	},
 
-
+	"infographicsPassDay": {
+		"titleMain-1": "Pasadía para niños de",
+		"titleMain-2": "4to de primaria",
+		"paragraphMainPassDay": "Un pequeño encuentro con el descanso y la diversión.",
+		"home" : "INICIO",
+		"paragraphHome": "Llegada a "
 	}
 }

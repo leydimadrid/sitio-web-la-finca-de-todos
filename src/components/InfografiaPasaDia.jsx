@@ -12,8 +12,10 @@ import vectorReciclaje from '../assets/images/vector-reciclaje-infografia-pasa-d
 import vectorArteReciclaje from '../assets/images/vector-arte-reciclaje-infografia-pasa-dia.svg';
 import vectorSalida from '../assets/images/vector-salida-infografia-pasa-dia.svg';
 import vectorRelojSalida from '../assets/images/vector-reloj-salida-infografia-pasa-dia.svg';
+import { useTranslation } from 'react-i18next';
 
 export const InfografiaPasaDia = () => {
+	const [t] = useTranslation('global');
 	return (
 		<section className='fondoInfografiaPasaDia  md:bg-cover bg-cover'>
 			{/* Inicio Título infografía */}
@@ -22,13 +24,13 @@ export const InfografiaPasaDia = () => {
 					className='font-bold md:text-6xl text-3xl text-center md:pt-24 text-pink-600'
 					tabIndex={0}
 				>
-					Pasadía para niños
+					{t('infographicsPassDay.titleMain-1')}
 				</h1>
 				<h1
 					className='block font-bold md:text-6xl text-3xl text-center text-pink-600'
 					tabIndex={0}
 				>
-					de <span className='text-blue-900'>4to de primaria</span>
+				<span className='text-blue-900'>{t('infographicsPassDay.titleMain-2')}</span>
 				</h1>
 			</div>
 			{/* Final Título infografía */}
@@ -39,7 +41,7 @@ export const InfografiaPasaDia = () => {
 					className='text-gray-800 font-normal lg:text-xl text-sm max-w-4xl text-justify leading-relaxed'
 					tabIndex={0}
 				>
-					Un pequeño encuentro con el descanso y la diversión.
+					{t('infographicsPassDay.paragraphMainPassDay')}
 				</p>
 			</div>
 			{/* Final párrafo introductorio */}
@@ -57,15 +59,15 @@ export const InfografiaPasaDia = () => {
 						className='FondoFucsiaInfografia py-2 md:text-2xl text-xl font-bold text-white rounded-xl text-center w-72 px-3 md:mx-0 mx-auto mb-4'
 						tabIndex={0}
 					>
-						INICIO
+						{t('infographicsPassDay.home')}
 					</h1>
 					<p
 						className='md:text-xl lg:text-lg text-base text-gray-800 leading-relaxed'
 						tabIndex={0}
 					>
-						Llegada a{' '}
+						{t('infographicsPassDay.paragraphHome')}
 						<span className='text-blue-900 font-semibold'>
-							La Finca de Todos{' '}
+						{t('reusable.logo')}
 						</span>
 					</p>
 					<img

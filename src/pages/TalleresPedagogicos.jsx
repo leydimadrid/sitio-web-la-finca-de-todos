@@ -84,7 +84,7 @@ export const TalleresPedagogicos = () => {
         <section className="fondoTalleres md:bg-cover bg-cover bg-no-repeat">
           <div>
             <h1 className="titulo font-bold md:text-2xl text-xl text-center pt-10 text-gray-800 leading-relaxed" tabIndex={0}>
-              Categorías de talleres
+            {t('educationalWorkshops.workshops')}
             </h1>
             <hr className="linea-azul-titulo mx-auto mt-2"></hr>
           </div>
