@@ -204,5 +204,14 @@
 		"paragraph-2": "Thank you for your donation!",
 		"paragraph-3": "La Finca de Todos Foundation is a non-profit organization, registration number 20230143627.",
 		"paragraph-4": "Donate now"
+	},
+
+	"educationalWorkshops": {
+		"ourObjective": "Our Objective",
+		"paragraphMain": "Our workshops are planned by teachers with a love of teaching who will help all students, with or without disabilities, become conscientious adults. Contact with nature awakens new connections in the brain while the variety of topics and activities reinforce concepts of resourcefulness, self-esteem, social responsibility, and cooperation.",
+		"paragraphMain-1": "Here at",
+		"paragraphMain-2": ", learning and fun go hand in hand!"
+
+
 	}
 }

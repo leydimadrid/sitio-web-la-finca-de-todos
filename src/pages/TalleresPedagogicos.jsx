@@ -4,9 +4,11 @@ import { cardstalleres } from "../database/cardstalleres";
 import asistirTalleres from "../assets/images/imagen-asistir-talleres.jpg";
 import { BotonContactenos } from "../components/BotonContactenos";
 import FontSizeChanger from "react-font-size-changer";
+import { useTranslation } from 'react-i18next';
 // import infografiaPasaDia from "../assets/images/infografia-pasa-dia.jpg";
 
 export const TalleresPedagogicos = () => {
+  const [t] = useTranslation('global');
   return (
     <div>
       {/* Inicio Modificador de texto  */}
@@ -62,33 +64,20 @@ export const TalleresPedagogicos = () => {
         <section className="bg-white">
           <div>
             <h1 className="titulo font-bold md:text-2xl text-xl text-center md:pt-28 pt-4 text-gray-800 leading-relaxed" tabIndex={0}>
-              Idea/Misión
+            {t('educationalWorkshops.ourObjective')}
             </h1>
             <hr className="linea-fucsia mx-auto mt-2" tabIndex={0}></hr>
           </div>
           <div className="grid justify-center my-auto pt-6 md:pb-10 pb-6 px-4 md:text-xl text-base font-medium">
             <p className="titulo text-gray-800 md:text-justify text-center max-w-5xl leading-relaxed" tabIndex={0}>
-              Nuestros talleres son planificados por maestros con amor a la
-              enseñanza que ayudarán a todos los estudiantes, con o sin
-              discapacidad, a convertirse en adultos con conciencia. El contacto
-              con la naturaleza despierta nuevas conexiones en el cerebro
-              mientras que la variedad de temas y actividades refuerzan
-              conceptos de ingenio, autoestima, responsabilidad social y
-              cooperación.
+            {t('educationalWorkshops.paragraphMain')}
             </p>
             <p className="titulo text-gray-800 max-w-5xl leading-relaxed mt-1 text-center" tabIndex={0}>
-              Aquí en{" "}
+            {t('educationalWorkshops.paragraphMain-1')}
               <span className="titulo text-blue-900 font-semibold leading-relaxed">
-                La Finca de Todos
+              {t('reusable.logo')}
               </span>
-              ,{" "}
-              <span className="titulo text-blue-900 font-semibold text-2xl leading-relaxed">
-                ¡
-              </span>
-              La diversión y la educación van mano a mano
-              <span className="titulo text-blue-900 font-semibold text-2xl leading-relaxed">
-                !
-              </span>
+              {t('educationalWorkshops.paragraphMain-2')}
             </p>{" "}
           </div>
         </section>
