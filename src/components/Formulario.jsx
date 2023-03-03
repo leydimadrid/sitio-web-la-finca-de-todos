@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Error from './Error';
-import Swal from 'sweetalert2';
+import MensajeEnviado from '../components/MensajeEnviado';
 import { useTranslation } from 'react-i18next';
 
 export const Formulario = () => {
 	const [t] = useTranslation('global');
 	const [error, setError] = useState(false);
+	const [enviado, setEnviado] = useState(false);
 
 	const [nombre, setNombre] = useState('');
 	const [contacto, setContacto] = useState('');
@@ -34,17 +35,8 @@ export const Formulario = () => {
 				'hOByMRfajx3LnyXzm'
 			)
 			.then(response => {
-				console.log(response);
 				if (response.status === 200) {
-					Swal.fire({
-						position: 'item-center',
-						icon: 'success',
-						color: 'gray',
-						title: 'Mensaje enviado con éxito 😀',
-						font: 'Montserrat',
-						showConfirmButton: false,
-						timer: 1500,
-					});
+					setEnviado(true);
 				}
 			})
 			.catch(error => console.log(error));
@@ -118,6 +110,7 @@ export const Formulario = () => {
 					value={t('contactUs.buttonForm')}
 				/>
 				<div className='titulo'>{error && <Error />}</div>
+				<div className='titulo'>{enviado && <MensajeEnviado />}</div>
 			</form>
 		</div>
 	);
