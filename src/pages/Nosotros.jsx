@@ -79,9 +79,9 @@ export const Nosotros = () => {
 							className='titulo text-gray-800 md:text-justify text-center md:max-w-5xl lg:max-w-3xl leading-relaxed'
 							tabIndex={0}
 						>
-							<span className='text-blue-900'>{t('reusable.logo')}</span>{' '}
+							<span className='text-blue-900 font-semibold'>{t('reusable.logo')}</span>{' '}
 							{t('aboutUs.paragraphMission-1')}{' '}
-							<span className='text-blue-900'>{t('reusable.logo')}</span>
+							<span className='text-blue-900 font-semibold'>{t('reusable.logo')}</span>
 							{t('aboutUs.paragraphMission-2')}
 						</p>{' '}
 					</div>

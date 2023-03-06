@@ -77,7 +77,7 @@ export const TalleresPedagogicos = () => {
 						</h1>
 						<hr className='linea-fucsia mx-auto mt-2' tabIndex={0}></hr>
 					</div>
-					<div className='grid justify-center my-auto pt-6 md:pb-10 pb-6 px-4 md:text-xl text-base font-medium'>
+					<div className='grid justify-center my-auto pt-6 md:pb-10 pb-6 px-4 md:text-xl lg:text-lg text-base font-medium'>
 						<p
 							className='titulo text-gray-800 md:text-justify text-center max-w-5xl leading-relaxed'
 							tabIndex={0}
