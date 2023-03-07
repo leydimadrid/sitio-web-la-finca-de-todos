@@ -111,6 +111,7 @@ export const InfografiaDiscapacidad = () => {
 									<li>{t('infographics.listFive')}</li>
 									<li>{t('infographics.listSix')}</li>
 									<li>{t('infographics.listSeven')}</li>
+									<li>{t('infographics.listEight')}</li>
 								</ul>
 							</div>
 						</div>

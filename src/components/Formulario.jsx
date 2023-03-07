@@ -29,10 +29,10 @@ export const Formulario = () => {
 
 		emailjs
 			.sendForm(
-				'service_35mx0t7',
-				'template_y63tqvl',
+				'service_luwp9yi',
+				'template_a0zddvh',
 				e.target,
-				'hOByMRfajx3LnyXzm'
+				'5_xBJS1EdNiru4OGt'
 			)
 			.then(response => {
 				if (response.status === 200) {
