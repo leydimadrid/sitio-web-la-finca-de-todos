@@ -3,9 +3,9 @@ import { useTranslation } from 'react-i18next';
 export const CardsLenguaDeSeñas = () => {
 	const [t] = useTranslation('global');
 	return (
-		<section className='flex justify-center mt-4'>
-			<div className='max-w-4xl bg-white mb-10 shadow-lg rounded-lg mx-4'>
-				<div className='fondoCardsActividades  items-center leading-normal text-center rounded-lg md:p-10 p-5'>
+		<section className='flex justify-center mt-4 mx-4'>
+			<div className='md:max-w-4xl lg:max-w-4xl max-w-xs bg-white mb-10 shadow-lg rounded-lg'>
+				<div className='fondoCardsActividades items-center leading-normal text-center rounded-lg md:p-10 p-5'>
 					<h5 className='mb-4 md:text-xl text-base font-bold tracking-tight text-gray-800 leading-relaxed' tabIndex={0}>
 					{t('weekend.Cards-11')}
 					</h5>
@@ -15,9 +15,9 @@ export const CardsLenguaDeSeñas = () => {
 						</p>
 					</div>
 					<div className='flex justify-center'>
-						<div className=' shadow-md max-w-3xl'>
+						<div className=' shadow-md'>
 							<iframe
-								className='rounded-lg'
+								className='md:rounded-lg lg:rounded-lg rounded-b-lg md:max-w-3xl lg:max-w-3xl max-w-xs'
 								width='768'
 								height='432'
 								src='https://www.youtube.com/embed/IfS_n2oxOVE'

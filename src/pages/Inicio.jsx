@@ -7,7 +7,9 @@ export const Inicio = () => {
 	const [t] = useTranslation('global');
 
 	return (
-		<main className='bienvenidos md:bg-cover lg:bg-cover bg-no-repeat'>
+		<main
+			className='bienvenidos md:bg-cover lg:bg-cover bg-no-repeat' id='bienvenidos'
+		>
 			{/* Inicio Modificador de texto  */}
 			<section className='flex justify-end'>
 				<div className='fixed md:m-4 lg:m-4 m-2 z-10'>
