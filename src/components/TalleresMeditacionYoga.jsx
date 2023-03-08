@@ -15,18 +15,17 @@ export const TalleresMeditacionYoga = () => {
 						</h5>
 						<div className='font-normal md:text-xl text-base text-gray-800'>
 							<p className='leading-relaxed' tabIndex={0}>
-								Nunca es temprano para comenzar a encontrar el equilibrio dentro
-								de nosotros mismos. Nuestros espacios tranquilos son aptos para
-								enfocarnos en la respiración para lograr una calma merecida en
-								este mundo tan agitado. Contamos con instructores con
-								experiencia.
+								Enfoquémonos en la respiración con movimientos suaves para
+								desarrollar fuerza y equilibrio con el yoga y lograr calma
+								interior con la meditación, aprovechando los espacios tranquilos
+								de La Finca.
 							</p>
 						</div>
 					</div>
 					<img
 						className='md:w-auto w-full rounded-b-lg md:rounded-r-lg'
 						src={imagen}
-						alt='Mujer con discapacidad en su pierna, practicando yoga'
+						alt='Niña con prótesis en su pierna, practicando yoga'
 						tabIndex={0}
 					/>
 				</div>

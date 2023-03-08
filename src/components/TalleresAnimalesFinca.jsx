@@ -15,15 +15,16 @@ export const TalleresAnimalesFinca = () => {
 						</h5>
 						<div className='font-normal md:text-xl text-base text-gray-800'>
 							<p className='leading-relaxed' tabIndex={0}>
-								Is simply dummy text of the printing and typesetting. Lorem
-								Ipsum has been the industrys standard dummy.
+								Vivamos en armonía con las criaturas que habitan la tierra junto
+								a nosotros. En La Finca, aprendemos sobre sus ciclos de vida, su
+								medioambiente y cómo podemos protegerlos.
 							</p>
 						</div>
 					</div>
 					<img
 						className='md:w-auto w-full rounded-b-lg md:rounded-r-lg'
 						src={imagen}
-						alt='Niño sentando debajo de un árbol mirando su conejo'
+						alt='Niño sentado debajo de un árbol mirando un conejo'
 						tabIndex={0}
 					/>
 				</div>

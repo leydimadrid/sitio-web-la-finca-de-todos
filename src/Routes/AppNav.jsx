@@ -11,7 +11,7 @@ import { Contacto } from "../pages/Contacto";
 export const AppNav = () => {
 
   return (  
-      <Routes>
+    <Routes>
         <Route path="/*" element={<Inicio/>} />
         <Route path="/nosotros" element={<Nosotros/>} />
         <Route path="/lafinca" element={<LaFinca/>} />
