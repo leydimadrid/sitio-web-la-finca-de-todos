@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import español from '../assets/images/español.svg';
 import ingles from '../assets/images/ingles.svg';
+import GoToTop from '../components/GoToTop';
 
 export const NavBar = () => {
 	const [open, setOpen] = useState(false);
@@ -95,6 +96,7 @@ export const NavBar = () => {
 				</button>
 					</li>
 				</ul>
+				<GoToTop/>
 				<div
 					onClick={() => setOpen(!open)}
 					className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'

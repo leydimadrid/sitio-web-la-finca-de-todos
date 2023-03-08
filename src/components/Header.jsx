@@ -6,11 +6,8 @@ export const Header = () => {
     <>
     <header className="bg-white items-center py-4 shadow-md w-full top-0 left-0 md:flex justify-center fixed">
       <section className="justify-between mx-4 flex-row flex space-x-10">
-      <div className="cursor-pointer flex items-center">
-        <a href="#bienvenidos">
-        <img src={Logo} alt="logo La Finca De Todos" width={100} height={40} />
-        </a>
-        
+      <div className="flex items-center">
+        <img src={Logo} alt="logo La Finca De Todos" width={100} height={40} />      
       </div>
       
       <div className="md:flex md:items-center ">
