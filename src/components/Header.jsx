@@ -8,7 +8,7 @@ export const Header = () => {
       <section className="justify-between mx-4 flex-row flex space-x-10">
       <div className="cursor-pointer flex items-center">
         <a href="/inicio">
-        <img src={Logo} alt="logo La Finca De Todos" />
+        <img src={Logo} alt="logo La Finca De Todos" width={100} height={40} />
         </a>
         
       </div>
