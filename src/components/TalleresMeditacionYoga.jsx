@@ -1,7 +1,9 @@
 /* eslint-disable react/prop-types */
 import imagen from '../assets/images/talleres-meditacion-y-yoga.jpg';
+import { useTranslation } from 'react-i18next';
 
 export const TalleresMeditacionYoga = () => {
+	const [t] = useTranslation('global');
 	return (
 		<section className='p-4'>
 			<div className='bg-white '>
@@ -11,14 +13,11 @@ export const TalleresMeditacionYoga = () => {
 							className='mb-2 md:text-2xl text-lg font-bold tracking-tight text-blue-900 leading-relaxed'
 							tabIndex={0}
 						>
-							Meditación y Yoga
+							{t('educationalWorkshops.workshops-5')}
 						</h5>
 						<div className='font-normal md:text-xl text-base text-gray-800'>
 							<p className='leading-relaxed' tabIndex={0}>
-								Enfoquémonos en la respiración con movimientos suaves para
-								desarrollar fuerza y equilibrio con el yoga y lograr calma
-								interior con la meditación, aprovechando los espacios tranquilos
-								de La Finca.
+							{t('educationalWorkshops.paragraphWorkshops-5')}
 							</p>
 						</div>
 					</div>

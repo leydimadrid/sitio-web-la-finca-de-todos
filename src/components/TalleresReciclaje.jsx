@@ -1,7 +1,9 @@
 /* eslint-disable react/prop-types */
 import imagen from '../assets/images/talleres-reciclaje.jpg';
+import { useTranslation } from 'react-i18next';
 
 export const TalleresReciclaje = () => {
+	const [t] = useTranslation('global');
 	return (
 		<section className='p-4'>
 			<div className='bg-white '>
@@ -11,14 +13,11 @@ export const TalleresReciclaje = () => {
 							className='mb-2 md:text-2xl text-lg font-bold tracking-tight text-blue-900 leading-relaxed'
 							tabIndex={0}
 						>
-							Reciclaje
+							{t('educationalWorkshops.workshops-2')}
 						</h5>
 						<div className='font-normal md:text-xl text-base text-gray-800'>
 							<p className='leading-relaxed' tabIndex={0}>
-								Volvámonos en “recicl-amores” con actividades divertidas para
-								aprender cómo reciclar correctamente y porque es tan importante
-								participar en este proceso mientras inculcamos respeto al
-								trabajo de los recicladores.
+							{t('educationalWorkshops.paragraphWorkshops-2')}
 							</p>
 						</div>
 					</div>

@@ -1,7 +1,9 @@
 /* eslint-disable react/prop-types */
 import imagen from '../assets/images/talleres-animales.jpg';
+import { useTranslation } from 'react-i18next';
 
 export const TalleresAnimalesFinca = () => {
+	const [t] = useTranslation('global');
 	return (
 		<section className='p-4'>
 			<div className='bg-white '>
@@ -11,13 +13,11 @@ export const TalleresAnimalesFinca = () => {
 							className='mb-2 md:text-2xl text-lg font-bold tracking-tight text-blue-900 leading-relaxed'
 							tabIndex={0}
 						>
-							Animales de la finca
+							{t('educationalWorkshops.workshops-7')}
 						</h5>
 						<div className='font-normal md:text-xl text-base text-gray-800'>
 							<p className='leading-relaxed' tabIndex={0}>
-								Vivamos en armonía con las criaturas que habitan la tierra junto
-								a nosotros. En La Finca, aprendemos sobre sus ciclos de vida, su
-								medioambiente y cómo podemos protegerlos.
+							{t('educationalWorkshops.paragraphWorkshops-7')}
 							</p>
 						</div>
 					</div>

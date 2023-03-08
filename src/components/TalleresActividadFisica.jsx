@@ -1,7 +1,9 @@
 /* eslint-disable react/prop-types */
 import imagen from '../assets/images/talleres-actividad-fisica.jpg';
+import { useTranslation } from 'react-i18next';
 
 export const TalleresActividadFisica = () => {
+	const [t] = useTranslation('global');
 	return (
 		<section className='p-4'>
 			<div className='bg-white '>
@@ -11,13 +13,11 @@ export const TalleresActividadFisica = () => {
 							className='mb-2 md:text-2xl text-lg font-bold tracking-tight text-blue-900 leading-relaxed'
 							tabIndex={0}
 						>
-							Actividad física
+							{t('educationalWorkshops.workshops-8')}
 						</h5>
 						<div className='font-normal md:text-xl text-base text-gray-800'>
 							<p className='leading-relaxed' tabIndex={0}>
-								Con una variedad de actividades en equipo y logros individuales,
-								¡mucha diversión te espera en La Finca! El énfasis está en la
-								amistad, no en el puntaje final.
+							{t('educationalWorkshops.paragraphWorkshops-8')}
 							</p>
 						</div>
 					</div>

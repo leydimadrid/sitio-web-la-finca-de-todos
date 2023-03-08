@@ -1,7 +1,9 @@
 /* eslint-disable react/prop-types */
 import imagen from '../assets/images/talleres-el-campo.jpg';
+import { useTranslation } from 'react-i18next';
 
 export const TalleresElCampo = () => {
+	const [t] = useTranslation('global');
 	return (
 		<section className='p-4'>
 			<div className='bg-white '>
@@ -11,14 +13,11 @@ export const TalleresElCampo = () => {
 							className='mb-2 md:text-2xl text-lg font-bold tracking-tight text-blue-900 leading-relaxed'
 							tabIndex={0}
 						>
-							El campo
+							{t('educationalWorkshops.workshops-1')}
 						</h5>
 						<div className='font-normal md:text-xl text-base text-gray-800'>
 							<p className='leading-relaxed' tabIndex={0}>
-								Aprendamos cómo llegan a nuestra mesa los productos que
-								consumimos. Con las manos en la tierra podemos apreciar el
-								trabajo de nuestros campesinos y sumergirnos en la experiencia
-								de La Finca.{' '}
+							{t('educationalWorkshops.paragraphWorkshops-1')}
 							</p>
 						</div>
 					</div>
