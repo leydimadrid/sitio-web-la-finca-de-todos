@@ -368,7 +368,7 @@ export const InfografiaPasaDia = () => {
 						</h1>
 						<div className='max-w-md'>
 							<p
-								className='font-normal md:text-xl lg:text-lg text-base text-gray-800 leading-relaxed md:text-right lg:text-right text-center'
+								className='font-normal md:text-xl lg:text-lg text-base text-gray-800 leading-relaxed md:text-right lg:text-right text-center mx-2'
 								tabIndex={0}
 							>
 								{' '}

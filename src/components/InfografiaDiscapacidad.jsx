@@ -88,7 +88,7 @@ export const InfografiaDiscapacidad = () => {
 								{t('infographics.paragraphWhoAreWe-6')}
 							</p>
 							<p
-								className='md:text-xl lg:text-lg  max-w-sm text-base mb-4 mx-auto text-gray-800 md:mx-0 md:text-left text-center leading-relaxed'
+								className='md:text-xl lg:text-lg  max-w-sm text-base mb-4 mx-auto text-gray-800 md:mx-0 md:text-left text-center leading-relaxed p-2'
 								tabIndex={0}
 							>
 								{t('infographics.paragraphWhoAreWe-7')}
@@ -223,7 +223,7 @@ export const InfografiaDiscapacidad = () => {
 						<div className='md:flex flex-row justify-center mt-4 md:space-x-64 '>
 							<div className='flex justify-center'>
 								<p
-									className='md:max-w-xl lg:max-w-md max-w-sm md:text-xl lg:text-lg text-base text-center text-gray-800 leading-relaxed'
+									className='md:max-w-xl lg:max-w-md max-w-sm md:text-xl lg:text-lg text-base text-center text-gray-800 leading-relaxed mx-4'
 									tabIndex={0}
 								>
 									<span className='text-blue-900 md:text-xl text-lg font-bold leading-relaxed'>
@@ -264,7 +264,7 @@ export const InfografiaDiscapacidad = () => {
 							{/* Linea discontinua oculta para MD */}
 							<div className='flex justify-center'>
 								<p
-									className='md:max-w-xl lg:max-w-sm max-w-sm md:text-xl lg:text-lg text-base text-center text-gray-800 leading-relaxed'
+									className='md:max-w-xl lg:max-w-sm max-w-sm md:text-xl lg:text-lg text-base text-center text-gray-800 leading-relaxed mx-4'
 									tabIndex={0}
 								>
 									<span className='text-pink-600 md:text-4xl text-4xl font-bold block leading-relaxed'>
@@ -374,7 +374,7 @@ export const InfografiaDiscapacidad = () => {
 								</div>
 								<div className='md:ml-48 lg:ml-40 mt-4'>
 									<p
-										className='md:max-w-md lg:max-w-lg max-w-sm md:text-xl lg:text-lg text-base text-center  md:mx-0 mx-auto text-gray-800 leading-relaxed'
+										className='md:max-w-md lg:max-w-lg max-w-sm md:text-xl lg:text-lg text-base text-center  md:mx-0 mx-4 text-gray-800 leading-relaxed'
 										tabIndex={0}
 									>
 										{t('infographics.paragraphwhereAreWe-3')}
