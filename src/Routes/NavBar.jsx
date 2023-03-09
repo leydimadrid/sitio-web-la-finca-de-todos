@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import español from '../assets/images/español.svg';
-import ingles from '../assets/images/ingles.svg';
 import GoToTop from '../components/GoToTop';
 
 export const NavBar = () => {
@@ -77,22 +75,10 @@ export const NavBar = () => {
 					</li>
 					<li className='flex-row flex md:ml-4 lg:ml-4 space-x-1 md:mt-0 lg:mt-0  mt-2'>
 					<button onClick={() => i18n.changeLanguage('es')} className='cursor-pointer'>
-					<img
-						src={español}
-						alt='Bandera españa, traducir a español'
-						className='mx-1'
-						width={24}
-						height={24}
-					/>
+					ESP
 				</button>
 				<button onClick={() => i18n.changeLanguage('en')} className='cursor-pointer'>
-					<img
-						src={ingles}
-						alt='Bandera Estados Unidos, traducir a inglés'
-						className='mx-1'
-						width={24}
-						height={24}
-					/>
+					ENG
 				</button>
 					</li>
 				</ul>
