@@ -9,7 +9,6 @@ export const Header = () => {
       <div className="flex items-center">
         <img src={Logo} alt="logo La Finca De Todos" width={100} height={40} />      
       </div>
-      
       <div className="md:flex md:items-center ">
       <NavBar />
       </div>

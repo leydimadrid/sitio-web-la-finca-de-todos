@@ -78,7 +78,7 @@ export const LaFinca = () => {
 				>
 					<div className='flex justify-center'>
 						<h1
-							className='titulo md:max-w-lg max-w-sm font-bold md:text-2xl text-xl text-center md:pt-24 pt-4 text-gray-800 leading-relaxed'
+							className='titulo md:max-w-lg max-w-sm font-bold md:text-2xl text-xl text-center md:pt-24 pt-16 text-gray-800 leading-relaxed'
 							tabIndex={0}
 						>
 							{t('theFarm.title3D')}

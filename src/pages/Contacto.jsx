@@ -62,7 +62,7 @@ export const Contacto = () => {
 			{/* Fin Modificador de texto */}
 			<div
 				id='contenedor'
-				className='flex flex-col md:flex-row lg:flex-row items-center'
+				className='flex flex-col md:flex-row lg:flex-row items-center md:pt-0 lg:pt-0 pt-16'
 			>
 				<div className='md:my-6 lg:my-6'>
 					<img

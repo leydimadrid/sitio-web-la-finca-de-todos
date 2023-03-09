@@ -70,7 +70,7 @@ export const TalleresPedagogicos = () => {
 				<section className='bg-white'>
 					<div>
 						<h1
-							className='titulo font-bold md:text-2xl text-xl text-center md:pt-28 pt-4 text-gray-800 leading-relaxed'
+							className='titulo font-bold md:text-2xl text-xl text-center md:pt-28 pt-16 text-gray-800 leading-relaxed'
 							tabIndex={0}
 						>
 							{t('educationalWorkshops.ourObjective')}
