@@ -11,7 +11,7 @@ export const NavBar = () => {
 		<>
 			<nav>
 				<ul
-					className={`bg-white py-4 px-4 md:p-0 md:flex md:items-center md:text-xs sm:text-sm lg:text-xs xl:text-sm 2xl:text-lg w-full absolute md:static font-medium md:pb-0 left-0  md:w-auto md:pl-0 ${
+					className={`bg-white py-4 px-4 md:p-0 md:flex md:items-center md:text-xs sm:text-sm lg:text-xs xl:text-sm 2xl:text-lg text-sm w-full absolute md:static font-medium md:pb-0 left-0  md:w-auto md:pl-0 ${
 						open ? 'top-20' : 'top-[-490px]'
 					}`}
 				>

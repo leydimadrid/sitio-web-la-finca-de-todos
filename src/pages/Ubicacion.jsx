@@ -3,7 +3,6 @@ import mapaCali from '../assets/images/ubicacion-mapa-cali.jpg';
 import FontSizeChanger from 'react-font-size-changer';
 import Logo from '../assets/images/logo.svg';
 import { useTranslation } from 'react-i18next';
-import { Traductor } from '../components/Traductor';
 
 export const Ubicacion = () => {
 	const [t] = useTranslation('global');
@@ -12,7 +11,6 @@ export const Ubicacion = () => {
 			{/* Inicio Modificador de texto  */}
 			<div className='flex justify-end'>
 				<div className='fixed md:m-4 lg:m-4 m-2 z-10'>
-					<Traductor />
 					<FontSizeChanger
 						targets={['#contenedor .titulo']}
 						onChange={(element, newValue, oldValue) => {

@@ -21,11 +21,11 @@ export const Slider = () => {
             </li>
             <li>
               {" "}
-              <img src={img3} alt="Un par de abuelos caminando felizmente en medio de la naturaleza con su nieto tomandosen de la mano" tabIndex={0} />
+              <img src={img3} alt="Un par de abuelos caminando felizmente en medio de la naturaleza con su nieto tomados de la mano" tabIndex={0} />
             </li>
             <li>
               {" "}
-              <img src={img4} alt="Niños y niñas en un césped, sonriendo para tomarsen una foto" tabIndex={0} />
+              <img src={img4} alt="Niños y niñas en un césped, sonriendo para tomarse una foto" tabIndex={0} />
             </li>
             <li>
               {" "}
@@ -33,7 +33,7 @@ export const Slider = () => {
             </li>
             <li>
               {" "}
-              <img src={img6} alt="Niña afrodescendiente sonriendo con un huevo de gallina en su mano" tabIndex={0} />
+              <img src={img6} alt="Niña sonriente con un huevo de gallina en su mano" tabIndex={0} />
             </li>
             <li>
               {" "}
