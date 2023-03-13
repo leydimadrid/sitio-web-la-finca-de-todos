@@ -9,7 +9,7 @@ export const AccesibilidadBucleAuditivo = () => {
 				<img
 					className='w-full'
 					src={imagen}
-					alt='Mujer sonriendo mientras un niño con bucle auditivo le acaricia su rostro'
+					alt={t('TheFarmAccessibilityAltText.cards-3')}
 					tabIndex={0}
 				/>
 				<div className='px-2 py-4 text-center'>

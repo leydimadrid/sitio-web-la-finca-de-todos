@@ -9,7 +9,7 @@ export const AccesibilidadCaminosPLanos = () => {
 				<img
 					className='w-full'
 					src={imagen}
-					alt='Hombre en silla de ruedas en caminos planos'
+					alt={t('TheFarmAccessibilityAltText.cards-2')}
 					tabIndex={0}
 				/>
 				<div className='px-2 py-4 text-center'>

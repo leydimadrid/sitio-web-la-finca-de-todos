@@ -88,7 +88,7 @@ export const Contacto = () => {
 							<img
 								className='m-2 md:w-auto w-8 h-8'
 								src={iconowhatsapp}
-								alt='Icono whatsapp'
+								alt={t('reusable.iconWhatsapp')}
 							/>
 						</a>
 						<a
@@ -99,7 +99,7 @@ export const Contacto = () => {
 							<img
 								className='m-2 md:w-auto w-8 h-8'
 								src={iconoinstagram}
-								alt='Icono Instagram'
+								alt={t('reusable.iconInstagram')}
 							/>
 						</a>
 
@@ -111,7 +111,7 @@ export const Contacto = () => {
 							<img
 								className='m-2 md:w-auto w-8 h-8'
 								src={iconofacebook}
-								alt='Icono Facebook'
+								alt={t('reusable.iconFacebook')}
 							/>
 						</a>
 
@@ -123,7 +123,7 @@ export const Contacto = () => {
 							<img
 								className='m-2 md:w-auto w-8 h-8'
 								src={iconoemail}
-								alt='Icono Email'
+								alt={t('reusable.iconEmail')}
 							/>
 						</a>
 					</div>

@@ -9,7 +9,7 @@ export const AccesibilidadLenguaDeSeñas = () => {
 				<img
 					className='w-full'
 					src={imagen}
-					alt='Manos en lengua de señas Colombiano'
+					alt={t('TheFarmAccessibilityAltText.card-1')}
 					tabIndex={0}
 				/>
 				<div className='px-2 py-4 text-center'>

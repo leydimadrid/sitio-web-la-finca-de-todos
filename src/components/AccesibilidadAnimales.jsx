@@ -9,7 +9,7 @@ export const AccesibilidadAnimales = () => {
 				<img
 					className='w-full'
 					src={imagen}
-					alt='Niña abrazando su mascota en un jardín, mientras posan para una foto'
+					alt={t('TheFarmAccessibilityAltText.cards-7')}
 					tabIndex={0}
 				/>
 				<div className='px-2 py-4 text-center'>

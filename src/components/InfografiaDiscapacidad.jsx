@@ -55,7 +55,7 @@ export const InfografiaDiscapacidad = () => {
 						<div className=' md:w-2/5 w-2/4 md:mr-64 pr-6'>
 							<img
 								src={lineaDiscontinua}
-								alt='Lineas discontinuas'
+								alt={t('reusable.dashedlines')}
 								tabIndex={0}
 							/>
 						</div>
@@ -118,7 +118,7 @@ export const InfografiaDiscapacidad = () => {
 						<div className='md:pl-8 px-6 mt-8'>
 							<img
 								src={vector1}
-								alt='Vector de personas con diferentes discapacidades'
+								alt={t('reusable.vectorDisability')}
 								tabIndex={0}
 							/>
 						</div>
@@ -129,7 +129,7 @@ export const InfografiaDiscapacidad = () => {
 								<div className='md:w-auto w-2/4 md:ml-44 ml-28 md:flex hidden'>
 									<img
 										src={lineaDiscontinuaDerecha}
-										alt='Lineas discontinuas'
+										alt={t('reusable.dashedlines')}
 										tabIndex={0}
 									/>
 								</div>
@@ -153,7 +153,7 @@ export const InfografiaDiscapacidad = () => {
 							<div className='w-2/4 mx-auto md:hidden flex mt-8'>
 								<img
 									src={lineaDiscontinuaDerecha}
-									alt='Lineas discontinuas'
+									alt={t('reusable.dashedlines')}
 									tabIndex={0}
 								/>
 							</div>
@@ -176,7 +176,7 @@ export const InfografiaDiscapacidad = () => {
 							<div className='md:w-auto w-2/6 mb-8 mx-6 md:flex hidden'>
 								<img
 									src={lineaDiscontinua2Izquierda}
-									alt='Lineas discontinuas'
+									alt={t('reusable.dashedlines')}
 									tabIndex={0}
 								/>
 							</div>
@@ -197,7 +197,7 @@ export const InfografiaDiscapacidad = () => {
 									<img
 										className='w-80'
 										src={vector2}
-										alt='vector de personas con diferentes discapacidades'
+										alt={t('reusable.vectorDisability')}
 										tabIndex={0}
 									/>
 								</div>
@@ -206,7 +206,7 @@ export const InfografiaDiscapacidad = () => {
 								<div className='w-3/5 mx-auto md:hidden flex mt-8 justify-center'>
 									<img
 										src={lineaDerechoDiscapacidad}
-										alt='Lineas discontinuas'
+										alt={t('reusable.dashedlines')}
 										tabIndex={0}
 									/>
 								</div>
@@ -215,7 +215,7 @@ export const InfografiaDiscapacidad = () => {
 							<div className='mb-8 mx-4 md:flex hidden'>
 								<img
 									src={lineaDiscontinua2Derecha}
-									alt='Lineas discontinuas'
+									alt={t('reusable.dashedlines')}
 									tabIndex={0}
 								/>
 							</div>
@@ -257,7 +257,7 @@ export const InfografiaDiscapacidad = () => {
 							<div className='w-3/5 mx-auto md:hidden flex mt-8 justify-center'>
 								<img
 									src={lineaDerechoDiscapacidad}
-									alt='Lineas discontinuas'
+									alt={t('reusable.dashedlines')}
 									tabIndex={0}
 								/>
 							</div>
@@ -281,7 +281,7 @@ export const InfografiaDiscapacidad = () => {
 						<div className='w-3/5 mx-auto md:hidden flex mt-8 justify-center'>
 							<img
 								src={lineaDerechoDiscapacidad}
-								alt='Lineas discontinuas'
+								alt={t('reusable.dashedlines')}
 								tabIndex={0}
 							/>
 						</div>
@@ -289,7 +289,7 @@ export const InfografiaDiscapacidad = () => {
 						<div className='md:flex justify-center mb-8 mx-4 hidden'>
 							<img
 								src={lineaDerechoDiscapacidad}
-								alt='Lineas discontinuas'
+								alt={t('reusable.dashedlines')}
 								tabIndex={0}
 							/>
 						</div>
@@ -320,7 +320,7 @@ export const InfografiaDiscapacidad = () => {
 						<div className=' md:w-2/5 w-2/4 mx-auto md:mx-0 md:mr-40'>
 							<img
 								src={lineaDiscontinua}
-								alt='Lineas discontinuas'
+								alt={t('reusable.dashedlines')}
 								tabIndex={0}
 							/>
 						</div>
@@ -350,7 +350,7 @@ export const InfografiaDiscapacidad = () => {
 								<div className='mt-8 px-6 md:px-0 lg:px-0'>
 									<img
 										src={vector3}
-										alt='Mapa de Colombia señalando Antioquia, Santander, Bogotá, Valle del Cauca y Huila'
+										alt={t('infographicsDisabilityAltText.map')}
 										tabIndex={0}
 									/>
 								</div>
@@ -359,7 +359,7 @@ export const InfografiaDiscapacidad = () => {
 							<div className='w-3/5 mx-auto md:hidden flex mt-8 justify-center'>
 								<img
 									src={lineaDerechoDiscapacidad}
-									alt='Lineas discontinuas'
+									alt={t('reusable.dashedlines')}
 									tabIndex={0}
 								/>
 							</div>
@@ -368,7 +368,7 @@ export const InfografiaDiscapacidad = () => {
 								<div className='md:flex hidden pt-6'>
 									<img
 										src={lineaDiscontinuaLarga}
-										alt='Lineas discontinuas'
+										alt={t('reusable.dashedlines')}
 										tabIndex={0}
 									/>
 								</div>
@@ -405,7 +405,7 @@ export const InfografiaDiscapacidad = () => {
 										<img
 											className='mx-auto mt-4'
 											src={lineaDiscontinua3}
-											alt='Lineas discontinuas'
+											alt={t('reusable.dashedlines')}
 											tabIndex={0}
 										/>
 									</div>
@@ -413,7 +413,7 @@ export const InfografiaDiscapacidad = () => {
 										<img
 											className='mx-auto mt-4'
 											src={lineaDiscontinua3OtraOpcion}
-											alt='Lineas discontinuas'
+											alt={t('reusable.dashedlines')}
 											tabIndex={0}
 										/>
 									</div>
@@ -429,7 +429,7 @@ export const InfografiaDiscapacidad = () => {
 							<div className='md:flex hidden mt-16'>
 								<img
 									src={lineaDiscontinuaLarga2}
-									alt='Lineas discontinuas'
+									alt={t('reusable.dashedlines')}
 									tabIndex={0}
 								/>
 							</div>
@@ -461,7 +461,7 @@ export const InfografiaDiscapacidad = () => {
 						<div className='w-3/5 mx-auto md:hidden flex justify-center'>
 							<img
 								src={lineaDerechoDiscapacidad}
-								alt='Lineas discontinuas'
+								alt={t('reusable.dashedlines')}
 								tabIndex={0}
 							/>
 						</div>
@@ -507,7 +507,7 @@ export const InfografiaDiscapacidad = () => {
 									<div className=' md:w-2/5 w-2/4 mx-auto md:mx-0 md:flex hidden'>
 										<img
 											src={lineaDiscontinua}
-											alt='Lineas discontinuas'
+											alt={t('reusable.dashedlines')}
 											tabIndex={0}
 										/>
 									</div>
@@ -516,7 +516,7 @@ export const InfografiaDiscapacidad = () => {
 							<div className='mt-8 px-10'>
 								<img
 									src={vector4}
-									alt='Vector de escaleras, señalización y libro en braille para personas con discapacidad'
+									alt={t('infographicsDisabilityAltText.vectorStairsSignageBraille')}
 									tabIndex={0}
 								/>
 							</div>
@@ -524,7 +524,7 @@ export const InfografiaDiscapacidad = () => {
 							<div className='w-3/5 mx-auto md:hidden flex justify-center mt-4'>
 								<img
 									src={lineaDerechoDiscapacidad}
-									alt='Lineas discontinuas'
+									alt={t('reusable.dashedlines')}
 									tabIndex={0}
 								/>
 							</div>
@@ -557,7 +557,7 @@ export const InfografiaDiscapacidad = () => {
 							<div className='w-3/5 mx-auto md:hidden flex justify-center mt-4'>
 								<img
 									src={lineaDerechoDiscapacidad}
-									alt='Lineas discontinuas'
+									alt={t('reusable.dashedlines')}
 									tabIndex={0}
 								/>
 							</div>
@@ -565,7 +565,7 @@ export const InfografiaDiscapacidad = () => {
 							<div className='md:flex hidden mt-16'>
 								<img
 									src={lineaDiscontinuaLarga}
-									alt='Lineas discontinuas'
+									alt={t('reusable.dashedlines')}
 									tabIndex={0}
 								/>
 							</div>
@@ -573,7 +573,7 @@ export const InfografiaDiscapacidad = () => {
 
 						<div className='flex flex-col'>
 							<div className='mt-8 px-8 flex justify-end mr-4'>
-								<img src={vector5} alt='Logo La Finca De Todos' tabIndex={0} />
+								<img src={vector5} alt={t('reusable.logo')} tabIndex={0} />
 							</div>
 							<div className='flex justify-end'>
 								<div className='max-w-2xl mt-4 mr-10 mb-8'>
@@ -582,7 +582,7 @@ export const InfografiaDiscapacidad = () => {
 										tabIndex={0}
 									>
 										<span className='text-blue-900 font-bold leading-relaxed'>
-										{t('reusable.logo')}
+											{t('reusable.logo')}
 										</span>{' '}
 										{t('infographics.paragraphhowAreWeDoing-20')}
 									</p>

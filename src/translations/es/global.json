@@ -3,7 +3,15 @@
 		"logo": " La Finca De Todos",
 		"sources": "Fuentes",
 		"donate": "Donar",
-		"to": "a"
+		"to": "a",
+		"dashedlines": "Líneas discontinuas",
+		"vectorDisability": "Vector de personas con diferentes discapacidades",
+		"LissetteOrtegon": "Fotografía Lissette Ortegon",
+		"FabiolaVelez": "Fotografía Fabiola Velez",
+		"iconWhatsapp": "Icono Whatsapp",
+		"iconInstagram": "Icono Instagram",
+		"iconFacebook": "Icono Facebook",
+		"iconEmail": "Icono Email"
 	},
 
 	"navbar": {
@@ -231,13 +239,6 @@
 		"paragraphWorkshops-7": "Vivamos en armonía con las criaturas que habitan la tierra junto a nosotros. En La Finca, aprendemos sobre sus ciclos de vida, su medioambiente y cómo podemos protegerlos.",
 		"workshops-8": "Actividad física",
 		"paragraphWorkshops-8": "Con una variedad de actividades en equipo y logros individuales, ¡mucha diversión te espera en La Finca! El énfasis está en la amistad, no en el puntaje final."
-
-
-
-
-
-		
-
 	},
 
 	"infographicsPassDay": {
@@ -278,8 +279,8 @@
 		"recyclingArt": "ARTE CON RECICLAJE",
 		"departure": "SALIDA"
 	},
-	"titleWorkshop": { 
-		"titleWorkshop":"¿Cómo asistir a los talleres?",
+	"titleWorkshop": {
+		"titleWorkshop": "¿Cómo asistir a los talleres?",
 		"workshopInformation": "Para colegios y escuelas",
 		"paragraphWorkshopInformation": "Cuéntanos sobre el currículum de tus clases y podemos integrarlo a nuestros talleres para enriquecer los conceptos que están aprendiendo tus estudiantes. Nuestra misión es ofrecer un día de esparcimiento y aprendizaje, tanto a los estudiantes como a los docentes que nos visiten.",
 		"workshopInformation-1": "Para particulares",
@@ -291,8 +292,31 @@
 		"transportation": "Transportación y almuerzo disponible",
 		"contactUs": "Contáctenos para programar una consulta previa.",
 		"buttoncontactUs": "Contáctenos"
-	}
+	},
 
-		
-	
+	"aboutUsSliderAltText": {
+		"img-1": "Niña diciendo te amo en Lengua de Señas Colombiano",
+		"img-2": "Paisaje de montañas y el Lago Calima en Colombia",
+		"img-3": "Un par de abuelos caminando felizmente en medio de la naturaleza con su nieto tomados de la mano",
+		"img-4": "Niños y niñas en un césped, sonriendo para tomarse una foto",
+		"img-5": "Abuela abrazando a su nieta y a un perro felizmente",
+		"img-6": "Niña sonriente con un huevo de gallina en su mano",
+		"img-7": "Niño dando de comer en su mano a una gallina"
+	},
+
+	"infographicsDisabilityAltText": {
+		"map": "Mapa de Colombia señalando Antioquia, Santander, Bogotá, Valle del Cauca y Huila",
+		"vectorStairsSignageBraille": "Vector de escaleras, señalización y libro en braille para personas con discapacidad"
+	},
+
+	"TheFarmAccessibilityAltText": {
+		"card-1": "Manos en lengua de señas Colombiano",
+		"cards-2": "Hombre en silla de ruedas en caminos planos",
+		"cards-3": "Mujer sonriendo mientras un niño con implante coclear le acaricia su rostro",
+		"cards-4": "Pies en pavimento podotáctil para personas con discapacidad visual",
+		"cards-5": "Manos tocando unas guías braille",
+		"cards-6": "Una niña con discapacidad usando un baño adaptado con asistencia de una mujer joven.",
+		"cards-7": "Niña abrazando su mascota en un jardín, mientras posan para una foto",
+		"cards-8": "Hombre en silla de ruedas sonriendo, enfrente de un computador"
+	}
 }

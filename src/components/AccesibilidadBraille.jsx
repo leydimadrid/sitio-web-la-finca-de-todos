@@ -9,7 +9,7 @@ export const AccesibilidadBraille = () => {
 				<img
 					className='w-full'
 					src={imagen}
-					alt='Manos tocando unas guías braille'
+					alt={t('TheFarmAccessibilityAltText.cards-5')}
 					tabIndex={0}
 				/>
 				<div className='px-2 py-4 text-center'>

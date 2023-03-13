@@ -9,7 +9,7 @@ export const AccesibilidadMinTic = () => {
 				<img
 					className='w-full'
 					src={imagen}
-					alt='Hombre en silla de ruedas sonriendo, enfrente de un computador'
+					alt={t('TheFarmAccessibilityAltText.cards-8')}
 					tabIndex={0}
 				/>
 				<div className='px-2 py-4 text-center'>

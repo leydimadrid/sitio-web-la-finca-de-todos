@@ -19,7 +19,7 @@ export const Equipo = () => {
 					<img
 						className='object-cover w-full h-auto md:h-auto md:w-auto rounded-md md:mr-14 shadow-md'
 						src={equipo1}
-						alt='foto Lissette Ortegon'
+						alt={t('reusable.LissetteOrtegon')}
 						tabIndex={0}
 					/>
 					<div className='flex flex-col p-4 leading-normal'>
@@ -50,7 +50,7 @@ export const Equipo = () => {
 					<img
 						className='object-cover w-full h-auto md:h-auto md:w-auto rounded-md md:mr-14 shadow-md'
 						src={equipo2}
-						alt='foto Fabiola Velez'
+						alt={t('reusable.FabiolaVelez')}
 						tabIndex={0}
 					/>
 					<div className='flex flex-col p-4 leading-normal'>

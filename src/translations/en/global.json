@@ -3,8 +3,15 @@
 		"logo": " La Finca De Todos",
 		"sources": "Sources",
 		"donate": "Donate",
-		"to": "to"
-
+		"to": "to",
+		"dashedlines": "Dashed lines",
+		"vectorDisability": "Vector of people with different disabilities",
+		"LissetteOrtegon": "Photograph of Lissette Ortegon",
+		"FabiolaVelez": "Photograph of Fabiola Velez",
+		"iconWhatsapp": "Icon Whatsapp",
+		"iconInstagram": "Icon Instagram",
+		"iconFacebook": "Icon Facebook",
+		"iconEmail": "Icon Email"
 	},
 
 	"navbar": {
@@ -231,12 +238,6 @@
 		"paragraphWorkshops-7": "Let's live in harmony with the creatures that inhabit the earth alongside us. At La Finca, we learn about their life cycles, their environment, and how we can protect them.",
 		"workshops-8": "Physical activity",
 		"paragraphWorkshops-8": "With a variety of team activities and individual achievements, lots of fun awaits you at La Finca! The emphasis is on friendship, not the final score."
-
-
-
-
-
-
 	},
 
 	"infographicsPassDay": {
@@ -278,7 +279,7 @@
 		"departure": "DEPARTURE"
 	},
 
-		"titleWorkshop": {
+	"titleWorkshop": {
 		"titleWorkshop": "How to attend the workshops?",
 		"workshopInformation": "For scholastic institutions",
 		"paragraphWorkshopInformation": "Tell us about your classroom curriculum and we can integrate it into our workshops to enrich the concepts your students are already learning. Our mission is to provide a day of recreation and learning for both students and visiting teachers.",
@@ -291,10 +292,31 @@
 		"transportation": "Transportation and lunch are available",
 		"contactUs": "Contact us to schedule a consultation.",
 		"buttoncontactUs": "Contact us"
+	},
 
+	"aboutUsSliderAltText": {
+		"img-1": "Girl Saying I Love You in Colombian Sign Language",
+		"img-2": "The landscape of mountains and the Calima Lake  in Colombia",
+		"img-3": "A pair of grandparents walking happily in the middle of nature with their grandson holding hands",
+		"img-4": "Boys and girls on a lawn, smiling to have their picture taken",
+		"img-5": "Grandmother hugging her granddaughter and a happy dog",
+		"img-6": "Smiling girl with a chicken egg in her hand",
+		"img-7": "Boy hand-feeding a hen"
+	},
+
+	"infographicsDisabilityAltText": {
+		"map": "Map of Colombia showing Antioquia, Santander, Bogota, Valle del Cauca and Huila",
+		"vectorStairsSignageBraille": "Vector of stairs, signage, and braille book for people with disabilities"
+	},
+
+	"TheFarmAccessibilityAltText": {
+		"card-1": "Hands in Colombian Sign Language",
+		"cards-2": "Man using a wheelchair on flat roads",
+		"cards-3": "Woman smiling as child with cochlear implant caresses her face",
+		"cards-4": "Feet on tactile pavement for people with visual disabilities",
+		"cards-5": "Hands touching braille guides",
+		"cards-6": "Girl with disabilities using an adaptive bathroom with the assistance of a young woman",
+		"cards-7": "Girl hugging her pet in a garden, while posing for a photo",
+		"cards-8": "Man in a wheelchair smiling, in front of a computer"
 	}
-
-
-
-	
 }
