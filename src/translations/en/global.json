@@ -377,5 +377,22 @@
 		"vector-9": "Vector of hands making art with recycling",
 		"vector-10": "Vector of a girl as a passenger and a man as a driver on a school bus",
 		"vector-11": "The clock indicates 3:30 pm"
+	},
+
+	"coursesAltText": {
+		"img-1": "Five people from different cultures gathered in a vegetable garden, learning about this"
+	},
+
+	"locationAltText": {
+		"img-1": "Man in a wheelchair, getting into an accessible carriage",
+		"img-2": "Map of Cali"
+	},
+
+	"contactAltText": {
+		"img-1": "Child sowing in an orchard"
+	},
+
+	"donateAltText": {
+		"img-1": "Girl with Down Syndrome smiling"
 	}
 }

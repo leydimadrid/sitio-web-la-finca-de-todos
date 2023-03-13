@@ -111,6 +111,7 @@ export const InfografiaPasaDia = () => {
 								src={tiempoActividades}
 								alt={t('reusable.watch')}
 								tabIndex={0}
+								className="mx-auto"
 							/>
 							<h1
 								className='md:text-xl lg:text-lg text-base text-gray-800 font-semibold'
@@ -170,6 +171,7 @@ export const InfografiaPasaDia = () => {
 								src={tiempoActividades}
 								alt={t('reusable.watch')}
 								tabIndex={0}
+								className="mx-auto"
 							/>
 							<h1
 								className='md:text-xl lg:text-lg text-base text-gray-800 font-semibold'
@@ -245,6 +247,7 @@ export const InfografiaPasaDia = () => {
 								src={tiempoActividades}
 								alt={t('reusable.watch')}
 								tabIndex={0}
+								className="mx-auto"
 							/>
 							<h1
 								className='md:text-xl lg:text-lg text-base text-gray-800 font-semibold'
@@ -304,6 +307,7 @@ export const InfografiaPasaDia = () => {
 								src={tiempoActividades}
 								alt={t('reusable.watch')}
 								tabIndex={0}
+								className="mx-auto"
 							/>
 							<h1
 								className='md:text-xl lg:text-lg text-base text-gray-800 font-semibold'
@@ -352,6 +356,7 @@ export const InfografiaPasaDia = () => {
 								src={tiempoActividades}
 								alt={t('reusable.watch')}
 								tabIndex={0}
+								className="mx-auto"
 							/>
 							<h1
 								className='md:text-xl lg:text-lg text-base text-gray-800 font-semibold'
@@ -404,6 +409,7 @@ export const InfografiaPasaDia = () => {
 								src={tiempoActividades}
 								alt={t('reusable.watch')}
 								tabIndex={0}
+								className="mx-auto"
 							/>
 							<h1
 								className='md:text-xl lg:text-lg text-base text-gray-800 font-semibold'
@@ -435,6 +441,7 @@ export const InfografiaPasaDia = () => {
 								src={tiempoActividades}
 								alt={t('reusable.watch')}
 								tabIndex={0}
+								className="mx-auto"
 							/>
 							<h1
 								className='md:text-xl lg:text-lg text-base text-gray-800 font-semibold'
@@ -466,6 +473,7 @@ export const InfografiaPasaDia = () => {
 								src={tiempoActividades}
 								alt={t('reusable.watch')}
 								tabIndex={0}
+								className="mx-auto"
 							/>
 							<h1
 								className='md:text-xl lg:text-lg text-base text-gray-800 font-semibold'

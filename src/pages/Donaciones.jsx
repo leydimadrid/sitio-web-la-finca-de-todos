@@ -60,7 +60,7 @@ export const Donaciones = () => {
       <div className="md:flex flex-row items-center justify-center md:pt-20">
         <div className="md:m-1">
           {" "}
-          <img className="p-4" src={imagenDonaciones} alt="Niña con Síndrome de Down sonriendo" tabIndex={0} />
+          <img className="p-4" src={imagenDonaciones} alt={t('donateAltText.img-1')} tabIndex={0} />
         </div>
         <div className="max-w-xl md:p-6 p-8 font-medium">
           <p className="titulo text-gray-800 md:text-xl text-base text-center leading-relaxed" tabIndex={0}>

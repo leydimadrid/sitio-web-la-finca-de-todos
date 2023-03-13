@@ -95,7 +95,7 @@ export const Ubicacion = () => {
 						<img
 							className='p-4'
 							src={imagenUbicacion}
-							alt='Hombre en silla de ruedas, subiendo a un carro accesible'
+							alt={t('locationAltText.img-1')}
 							tabIndex={0}
 						/>
 					</div>
@@ -103,7 +103,7 @@ export const Ubicacion = () => {
 				<div className='flex flex-col md:flex-row  justify-center lg:flex-row lg:space-x-10 md:space-x-15 xl:space-x-40 m-4'>
 					<div className='shadow-lg'>
 						{' '}
-						<img src={mapaCali} alt='Mapa de Cali' tabIndex={0} />
+						<img src={mapaCali} alt={t('locationAltText.img-2')} tabIndex={0} />
 					</div>
 					<div className='grid grid-cols-1 content-center'>
 						<div>
@@ -119,7 +119,7 @@ export const Ubicacion = () => {
 								<img
 									className='md:w-60 lg:w-60 w-56'
 									src={Logo}
-									alt='Logo de La Finca De Todos'
+									alt={t('reusable.logo')}
 									tabIndex={0}
 								/>
 							</div>

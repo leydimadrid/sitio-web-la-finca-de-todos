@@ -377,5 +377,22 @@
 		"vector-9": "Vector de unas manos realizando arte con reciclaje",
 		"vector-10": "Vector de una niña como pasajera y un señor como conductor en un bus escolar",
 		"vector-11": "Reloj indicando las 3:30pm"
+	},
+
+	"coursesAltText": {
+		"img-1": "5 Personas de diferentes culturas reunidas en un huerto, aprendiendo sobre este"
+	},
+
+	"locationAltText": {
+		"img-1": "Hombre en silla de ruedas, subiendo a un carro accesible",
+		"img-2": "Mapa de Cali"
+	},
+
+	"contactAltText": {
+		"img-1": "Niño sembrando en un huerto"
+	},
+
+	"donateAltText": {
+		"img-1": "Niña con Síndrome de Down sonriendo"
 	}
 }

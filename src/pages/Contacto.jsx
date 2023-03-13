@@ -67,7 +67,7 @@ export const Contacto = () => {
 				<div className='md:my-6 lg:my-6'>
 					<img
 						src={imagenContacto}
-						alt='Niño con gafas sembrando en un huerto'
+						alt={t('contactAltText.img-1')}
 						tabIndex={0}
 					/>
 				</div>
