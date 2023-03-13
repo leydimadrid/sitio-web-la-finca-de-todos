@@ -11,7 +11,7 @@ export const SostenibilidadEcosistemas = () => {
 						<img
 							className='rounded-full shadow-lg'
 							src={imagen}
-							alt='Icono vida de ecosistemas terrestres'
+							alt={t('TheFarmObjectivesAlText.card-1')}
 							tabIndex={0}
 						/>
 					</div>

@@ -23,7 +23,7 @@ export const ActividadMuroEscalar = () => {
 						<img
 							className='lg:w-96 w-64 lg:rounded-l-lg rounded-t-lg'
 							src={imagen1}
-							alt='Niño subiendo por un muro de escalar'
+							alt={t('activities.card-9-img-1')}
 							tabIndex={0}
 						/>
 						<div className='items-center p-4 leading-normal lg:w-96 w-64 text-center'>
@@ -54,7 +54,7 @@ export const ActividadMuroEscalar = () => {
 						<img
 							className='lg:w-96 w-64 lg:rounded-r-lg rounded-b-lg'
 							src={imagen2}
-							alt='Parque adaptado para personas con discapacidad'
+							alt={t('activities.card-9-img-2')}
 							tabIndex={0}
 						/>
 					</button>

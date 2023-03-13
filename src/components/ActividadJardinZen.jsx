@@ -23,7 +23,7 @@ export const ActividadJardinZen = () => {
             <img
               className="lg:w-96 w-64 lg:rounded-l-lg rounded-t-lg"
               src={imagen1}
-              alt="Fotografía de una casa desde adentro y al fondo se observa un jardín con piedras grandes"
+              alt={t('activities.card-7-img-1')}
               tabIndex={0}
             />
             <div className="items-center p-4 leading-normal lg:w-96 w-64 text-center">
@@ -48,7 +48,7 @@ export const ActividadJardinZen = () => {
               <img
                 className="lg:w-96 w-64 lg:rounded-r-lg rounded-b-lg"
                 src={imagen2}
-                alt="Piedras grandes en medio de arena, un lugar para relajarte"
+                alt={t('activities.card-7-img-2')}
                 tabIndex={0}
               />
             </button>

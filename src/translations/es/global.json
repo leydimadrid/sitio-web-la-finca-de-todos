@@ -11,7 +11,8 @@
 		"iconWhatsapp": "Icono Whatsapp",
 		"iconInstagram": "Icono Instagram",
 		"iconFacebook": "Icono Facebook",
-		"iconEmail": "Icono Email"
+		"iconEmail": "Icono Email",
+		"watch": "Reloj"
 	},
 
 	"navbar": {
@@ -318,5 +319,63 @@
 		"cards-6": "Una niña con discapacidad usando un baño adaptado con asistencia de una mujer joven.",
 		"cards-7": "Niña abrazando su mascota en un jardín, mientras posan para una foto",
 		"cards-8": "Hombre en silla de ruedas sonriendo, enfrente de un computador"
+	},
+
+	"TheFarmObjectivesAlText": {
+		"card-1": "Icono vida de ecosistemas terrestres",
+		"card-2": "Icono industria innovación e infraestructura",
+		"card-3": "Icono acción por el clima",
+		"card-4": "Icono energía asequible y no contaminante",
+		"card-5": "Icono reducción de las desigualdades",
+		"card-6": "Icono educación de calidad",
+		"card-7": "Icono producción y consumos responsables"
+	},
+
+	"activities": {
+		"card-1-img-1": "Reproducción de mariposas",
+		"card-1-img-2": "Una mujer con una mariposa en su mano a la altura del ojo",
+		"card-2-img-1": "Hombre en silla de ruedas sembrando",
+		"card-2-img-2": "Joven en un jardín organizando las plantas o flores",
+		"card-3-img-1": "Una mujer y un joven con Síndrome de Down en un invernadero",
+		"card-3-img-2": "Sembrado de tomates",
+		"card-4-img-1": "Una mujer y una niña en silla de ruedas frente a un simulador de vuelo",
+		"card-4-img-2": "Tres hombres con discapacidad en silla de ruedas jugando con un simulador de vuelo",
+		"card-5-img-1": "Pies en un camino sensorial",
+		"card-5-img-2": "Mujer tocando plantas en un huerto",
+		"card-6-img-1": "Una mujer abrazando a una niña mientras sostiene una gallina",
+		"card-6-img-2": "Cabra tomando leche de un tetero",
+		"card-7-img-1": "Fotografía de un cuarto desde adentro y al fondo se observa un jardín zen con piedras grandes",
+		"card-7-img-2": "Piedras grandes en medio de arena, un lugar para relajarte",
+		"card-8-img-1": "Casa sostenible con muchas plantas hermosas",
+		"card-8-img-2": "Persona con una cámara, tomando una fotografía a un panel solar",
+		"card-9-img-1": "Niño subiendo por un muro de escalar",
+		"card-9-img-2": "Parque adaptado para personas con discapacidad",
+		"card-10-img-1": "Vaso de jugo de Lulo",
+		"card-10-img-2": "Tres Empanadas de carne y al fondo un recipiente con ají"
+	},
+
+	"workshopsAltText": {
+		"card-1": "Niña sonriente en el campo, con tomates en su mano",
+		"card-2": "Niño sonriendo mientras recicla, de fondo más niños reciclando",
+		"card-3": "Mujer indígena colombiana tejiendo",
+		"card-4": "Niños sonriendo frente a la cámara con diferentes ingredientes como tomate, pimentón en sus manos",
+		"card-5": "Niña con prótesis en su pierna, practicando yoga",
+		"card-6": "Un niño y una niña manipulando la tierra",
+		"card-7": "Niño sentado debajo de un árbol mirando un conejo",
+		"card-8": "Adolescentes realizando actividad física, por medio de juegos"
+	},
+
+	"infographicsDayPassesAltText": {
+		"vector-1": "Vector de reloj indicando las 9:30am",
+		"vector-2": "Vector de un hombre y una mujer saludando",
+		"vector-3": "Vector de un niño y una niña en el huerto regando las plantas",
+		"vector-4": "Vector de un recipiente con ensalada de tomate, pepino, lechuga, cebolla y zanahoria",
+		"vector-5": "Vector de una mujer con discapacidad auditiva, almorzando saludablemente",
+		"vector-6": "Vector de un niño en un césped mirando las gallinas",
+		"vector-7": "Vector de una casa sostenible y accesible y un hombre en silla de ruedas subiendo por la rampa, hacia la casa",
+		"vector-8": "Icono de reciclaje",
+		"vector-9": "Vector de unas manos realizando arte con reciclaje",
+		"vector-10": "Vector de una niña como pasajera y un señor como conductor en un bus escolar",
+		"vector-11": "Reloj indicando las 3:30pm"
 	}
 }

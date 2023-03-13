@@ -24,7 +24,7 @@ export const TalleresActividadFisica = () => {
 					<img
 						className='md:w-auto w-full rounded-b-lg md:rounded-r-lg'
 						src={imagen}
-						alt='Adolescentes realizando actividad física, por medio de juegos'
+						alt={t('workshopsAltText.card-8')}
 						tabIndex={0}
 					/>
 				</div>

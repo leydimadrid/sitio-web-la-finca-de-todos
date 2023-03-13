@@ -11,7 +11,8 @@
 		"iconWhatsapp": "Icon Whatsapp",
 		"iconInstagram": "Icon Instagram",
 		"iconFacebook": "Icon Facebook",
-		"iconEmail": "Icon Email"
+		"iconEmail": "Icon Email",
+		"watch": "Watch"
 	},
 
 	"navbar": {
@@ -318,5 +319,63 @@
 		"cards-6": "Girl with disabilities using an adaptive bathroom with the assistance of a young woman",
 		"cards-7": "Girl hugging her pet in a garden, while posing for a photo",
 		"cards-8": "Man in a wheelchair smiling, in front of a computer"
+	},
+
+	"TheFarmObjectivesAlText": {
+		"card-1": "Life of terrestrial ecosystems icon",
+		"card-2": "Industry innovation and infrastructure icon",
+		"card-3": "Climate action icon",
+		"card-4": "Affordable and non-polluting energy icon",
+		"card-5": "Reduction of inequalities icon",
+		"card-6": "Quality education icon",
+		"card-7": "Responsible production and consumption icon"
+	},
+
+	"activities": {
+		"card-1-img-1": "Butterfly reproduction",
+		"card-1-img-2": "A woman with a butterfly in her hand at eye level",
+		"card-2-img-1": "Man in wheelchair sowing in raised garden beds",
+		"card-2-img-2": "The young person in a garden arranging plants or flowers",
+		"card-3-img-1": "A woman and a young man with Down Syndrome in a greenhouse",
+		"card-3-img-2": "Tomato plants",
+		"card-4-img-1": "A woman and girl in a wheelchair in front of a flight simulator",
+		"card-4-img-2": "Three disabled men in wheelchairs playing with a flight simulator",
+		"card-5-img-1": "Feet on a sensory path",
+		"card-5-img-2": "Woman touching plants in an orchard",
+		"card-6-img-1": "A woman hugging a girl while holding a chicken",
+		"card-6-img-2": "Goat drinking milk from a teat",
+		"card-7-img-1": "Photograph of a room from the inside and in the background a zen garden with large stones",
+		"card-7-img-2": "Large rocks in the middle of sand, a place to relax",
+		"card-8-img-1": "Sustainable house with many beautiful plants",
+		"card-8-img-2": "The person with a camera takes a picture of a solar panel",
+		"card-9-img-1": "Child climbing a climbing wall",
+		"card-9-img-2": "Park adapted for people with disabilities",
+		"card-10-img-1": "Glass of Lulo juice",
+		"card-10-img-2": "Three meat Empanadas and at the bottom a container with chili peppers"
+	},
+
+	"workshopsAltText": {
+		"card-1": "Smiling girl in the field, holding tomatoes in her hand",
+		"card-2": "Child smiling while recycling, more children recycling in the background",
+		"card-3": "Indigenous Colombian woman weaving",
+		"card-4": "Children smiling in front of the camera with different ingredients such as tomato, and paprika in their hands",
+		"card-5": "Girl with a prosthetic leg, practicing yoga",
+		"card-6": "A boy and a girl using a bin of dirt",
+		"card-7": "A child sitting under a tree looking at a rabbit",
+		"card-8": "Adolescents perform physical activity through games"
+	},
+
+	"infographicsDayPassesAltText": {
+		"vector-1": "Clock vector indicating 9:30 am",
+		"vector-2": "Vector of a man and a woman greeting each other",
+		"vector-3": "Vector of a boy and a girl in the garden watering plants",
+		"vector-4": "Vector of a bowl with tomato, cucumber, lettuce, onion, and carrot salad",
+		"vector-5": "Vector of a hearing impaired woman eating a healthy lunch",
+		"vector-6": "Vector of a child on a lawn looking at the chickens",
+		"vector-7": "Vector of a sustainable and accessible house and a man in a wheelchair going up the ramp, toward the house",
+		"vector-8": "Recycling icon",
+		"vector-9": "Vector of hands making art with recycling",
+		"vector-10": "Vector of a girl as a passenger and a man as a driver on a school bus",
+		"vector-11": "The clock indicates 3:30 pm"
 	}
 }

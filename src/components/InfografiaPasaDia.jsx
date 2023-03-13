@@ -74,7 +74,7 @@ export const InfografiaPasaDia = () => {
 					</p>
 					<img
 						src={logo}
-						alt='Logo La Finca De Todos'
+						alt={t('reusable.logo')}
 						className='mt-2'
 						tabIndex={0}
 					/>
@@ -82,7 +82,7 @@ export const InfografiaPasaDia = () => {
 				<div className='basis-2/5 grid place-content-center content-end py-2'>
 					<img
 						src={reloj}
-						alt='Vector de reloj indicando las 9:30am'
+						alt={t('infographicsDayPassesAltText.vector-1')}
 						className='mt-2 md:w-auto lg:w-auto w-64'
 						tabIndex={0}
 					/>
@@ -99,7 +99,7 @@ export const InfografiaPasaDia = () => {
 				<div className='basis-2/5 grid place-content-center content-end py-2'>
 					<img
 						src={vectorBienvenida}
-						alt='Vector de un hombre y una mujer saludando'
+						alt={t('infographicsDayPassesAltText.vector-2')}
 						className='my-2 md:w-auto lg:w-auto w-64'
 						tabIndex={0}
 					/>
@@ -109,7 +109,7 @@ export const InfografiaPasaDia = () => {
 						<div className='grid place-content-center'>
 							<img
 								src={tiempoActividades}
-								alt='Vector de un reloj'
+								alt={t('reusable.watch')}
 								tabIndex={0}
 							/>
 							<h1
@@ -168,7 +168,7 @@ export const InfografiaPasaDia = () => {
 						<div className='grid place-content-center'>
 							<img
 								src={tiempoActividades}
-								alt='vector de un reloj'
+								alt={t('reusable.watch')}
 								tabIndex={0}
 							/>
 							<h1
@@ -216,7 +216,7 @@ export const InfografiaPasaDia = () => {
 				<div className='basis-2/5 grid place-content-center content-end py-2'>
 					<img
 						src={vectorHuerto}
-						alt='Vector de un niño y una niña en el huerto regando las plantas'
+						alt={t('infographicsDayPassesAltText.vector-3')}
 						className='my-2 md:w-auto lg:w-auto w-80'
 						tabIndex={0}
 					/>
@@ -233,7 +233,7 @@ export const InfografiaPasaDia = () => {
 				<div className='basis-2/5 grid place-content-center content-end py-2'>
 					<img
 						src={vectorCocina}
-						alt='Vector de un recipiente con ensalada de tomate, pepino, lechuga, cebolla y zanahoria'
+						alt={t('infographicsDayPassesAltText.vector-4')}
 						className='my-2 md:w-auto lg:w-auto w-64'
 						tabIndex={0}
 					/>
@@ -243,7 +243,7 @@ export const InfografiaPasaDia = () => {
 						<div className='grid place-content-center'>
 							<img
 								src={tiempoActividades}
-								alt='Vector de un reloj'
+								alt={t('reusable.watch')}
 								tabIndex={0}
 							/>
 							<h1
@@ -302,7 +302,7 @@ export const InfografiaPasaDia = () => {
 						<div className='grid place-content-center'>
 							<img
 								src={tiempoActividades}
-								alt='Vector de un reloj'
+								alt={t('reusable.watch')}
 								tabIndex={0}
 							/>
 							<h1
@@ -321,7 +321,7 @@ export const InfografiaPasaDia = () => {
 						<div className='basis-2/5 grid place-content-center content-end py-2'>
 							<img
 								src={vectorAlmuerzo}
-								alt='Vector de una mujer con discapacidad auditiva, almorzando saludablemente'
+								alt={t('infographicsDayPassesAltText.vector-5')}
 								className='my-2 md:w-auto lg:w-auto w-64'
 								tabIndex={0}
 							/>
@@ -340,7 +340,7 @@ export const InfografiaPasaDia = () => {
 				<div className='basis-2/5 grid place-content-center content-end py-2'>
 					<img
 						src={vectorDescanso}
-						alt='Vector de un niño afrodescendiente en un césped mirando las gallinas'
+						alt={t('infographicsDayPassesAltText.vector-6')}
 						className='my-2 md:w-auto lg:w-auto w-80'
 						tabIndex={0}
 					/>
@@ -350,7 +350,7 @@ export const InfografiaPasaDia = () => {
 						<div className='grid place-content-center'>
 							<img
 								src={tiempoActividades}
-								alt='Vector de un reloj'
+								alt={t('reusable.watch')}
 								tabIndex={0}
 							/>
 							<h1
@@ -402,7 +402,7 @@ export const InfografiaPasaDia = () => {
 						<div className='grid place-content-center'>
 							<img
 								src={tiempoActividades}
-								alt='Vector de un reloj'
+								alt={t('reusable.watch')}
 								tabIndex={0}
 							/>
 							<h1
@@ -421,7 +421,7 @@ export const InfografiaPasaDia = () => {
 						<div className='basis-1/3 grid place-content-center content-end py-2'>
 							<img
 								src={vectorCasaAccesible}
-								alt='Vector de una casa sostenible y accesible, adicional un hombre en silla de ruedas subiendo por la rampla, hacia la casa.'
+								alt={t('infographicsDayPassesAltText.vector-7')}
 								className='my-2 md:w-auto lg:w-auto w-64'
 								tabIndex={0}
 							/>
@@ -433,7 +433,7 @@ export const InfografiaPasaDia = () => {
 						<div className='grid place-content-center'>
 							<img
 								src={tiempoActividades}
-								alt='Vector de un reloj'
+								alt={t('reusable.watch')}
 								tabIndex={0}
 							/>
 							<h1
@@ -452,7 +452,7 @@ export const InfografiaPasaDia = () => {
 						<div className='basis-1/3 grid place-content-center content-end py-2'>
 							<img
 								src={vectorReciclaje}
-								alt='Icono de reciclaje'
+								alt={t('infographicsDayPassesAltText.vector-8')}
 								className='my-2 md:w-auto lg:w-auto w-48'
 								tabIndex={0}
 							/>
@@ -464,7 +464,7 @@ export const InfografiaPasaDia = () => {
 						<div className='grid place-content-center'>
 							<img
 								src={tiempoActividades}
-								alt='Vector de un reloj'
+								alt={t('reusable.watch')}
 								tabIndex={0}
 							/>
 							<h1
@@ -483,7 +483,7 @@ export const InfografiaPasaDia = () => {
 						<div className='basis-2/5 grid place-content-center content-end py-2'>
 							<img
 								src={vectorArteReciclaje}
-								alt='Vector de unas manos realizando arte con reciclaje'
+								alt={t('infographicsDayPassesAltText.vector-9')}
 								className='my-2 md:w-auto lg:w-auto w-64'
 								tabIndex={0}
 							/>
@@ -502,7 +502,7 @@ export const InfografiaPasaDia = () => {
 				<div className='basis-2/5 grid place-content-center content-end py-2'>
 					<img
 						src={vectorSalida}
-						alt='Vector de una niña como pasajera y un señor como conductor en un bus escolar'
+						alt={t('infographicsDayPassesAltText.vector-10')}
 						className='my-2 md:w-auto lg:w-auto w-56'
 						tabIndex={0}
 					/>
@@ -518,7 +518,7 @@ export const InfografiaPasaDia = () => {
 						<div className='basis-2/5 grid place-content-center content-end py-2'>
 							<img
 								src={vectorRelojSalida}
-								alt='Reloj indicando las 3:30pm'
+								alt={t('infographicsDayPassesAltText.vector-11')}
 								className='mt-2 md:w-auto lg:w-auto w-64'
 								tabIndex={0}
 							/>

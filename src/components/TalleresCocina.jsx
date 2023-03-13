@@ -24,7 +24,7 @@ export const TalleresCocina = () => {
 					<img
 						className='md:w-auto w-full rounded-b-lg md:rounded-r-lg'
 						src={imagen}
-						alt='Niños sonriendo frente a la cámara con diferentes ingredientes como tomate, pimentón en sus manos'
+						alt={t('workshopsAltText.card-4')}
 						tabIndex={0}
 					/>
 				</div>

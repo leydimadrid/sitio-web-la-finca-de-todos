@@ -23,7 +23,7 @@ export const ActividadCasaSostenible = () => {
 						<img
 							className='lg:w-96 w-64 lg:rounded-l-lg rounded-t-lg'
 							src={imagen1}
-							alt='Casa sostenible con muchas plantas hermosas'
+							alt={t('activities.card-8-img-1')}
 							tabIndex={0}
 						/>
 						<div className='items-center p-4 leading-normal lg:w-96 w-64 text-center'>
@@ -54,7 +54,7 @@ export const ActividadCasaSostenible = () => {
 						<img
 							className='lg:w-96 w-64 lg:rounded-r-lg rounded-b-lg'
 							src={imagen2}
-							alt='Persona con una cámara, tomando una fotografía a un panel solar'
+							alt={t('activities.card-8-img-2')}
 							tabIndex={0}
 						/>
 					</button>

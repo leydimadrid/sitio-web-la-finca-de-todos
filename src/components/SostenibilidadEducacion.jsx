@@ -11,7 +11,7 @@ export const SostenibilidadEducacion = () => {
 						<img
 							className='rounded-full shadow-lg'
 							src={imagen}
-							alt='Icono educacion de calidad'
+							alt={t('TheFarmObjectivesAlText.card-6')}
 							tabIndex={0}
 						/>
 					</div>

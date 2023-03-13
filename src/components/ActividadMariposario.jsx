@@ -23,7 +23,7 @@ export const ActividadMariposario = () => {
             <img
               className="lg:w-96 w-64 lg:rounded-l-lg rounded-t-lg"
               src={imagen1}
-              alt="Reproducción de mariposas"
+              alt={t('activities.card-1-img-1')}
               tabIndex={0}
             />
             <div className="items-center p-4 leading-normal lg:w-96 w-64 text-center">
@@ -48,7 +48,7 @@ export const ActividadMariposario = () => {
             <img
               className="lg:w-96 w-64 lg:rounded-r-lg rounded-b-lg"
               src={imagen2}
-              alt="Una mujer con una mariposa en su mano a la altura del ojo"
+              alt={t('activities.card-1-img-2')}
               tabIndex={0}
             />
           </button>

@@ -24,7 +24,7 @@ export const TalleresImpactoCultural = () => {
 					<img
 						className='md:w-auto w-full rounded-b-lg md:rounded-r-lg'
 						src={imagen}
-						alt='Mujer indígena colombiana tejiendo'
+						alt={t('workshopsAltText.card-3')}
 						tabIndex={0}
 					/>
 				</div>

@@ -24,7 +24,7 @@ export const TalleresSostenibilidad = () => {
 					<img
 						className='md:w-auto w-full rounded-b-lg md:rounded-r-lg'
 						src={imagen}
-						alt='Un niño y una niña manipulando la tierra'
+						alt={t('workshopsAltText.card-6')}
 						tabIndex={0}
 					/>
 				</div>

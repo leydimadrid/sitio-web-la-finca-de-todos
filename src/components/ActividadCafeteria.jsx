@@ -23,7 +23,7 @@ export const ActividadCafeteria = () => {
             <img
               className="lg:w-96 w-64 lg:rounded-l-lg rounded-t-lg"
               src={imagen1}
-              alt="Vaso de jugo de Lulo"
+              alt={t('activities.card-10-img-1')}
               tabIndex={0}
             />
             <div className="items-center p-4 leading-normal lg:w-96 w-64 text-center">
@@ -48,7 +48,7 @@ export const ActividadCafeteria = () => {
               <img
                 className="lg:w-96 w-64 lg:rounded-r-lg rounded-b-lg"
                 src={imagen2}
-                alt="3 Empanadas de carne y al fondo un recipiente con ají"
+                alt={t('activities.card-10-img-2')}
                 tabIndex={0}
               />
             </button>

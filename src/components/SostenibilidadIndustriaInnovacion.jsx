@@ -11,7 +11,7 @@ export const SostenibilidadIndustriaInnovacion = () => {
 						<img
 							className='rounded-full shadow-lg'
 							src={imagen}
-							alt='Icono industria innovacion e infraestructura'
+							alt={t('TheFarmObjectivesAlText.card-2')}
 							tabIndex={0}
 						/>
 					</div>

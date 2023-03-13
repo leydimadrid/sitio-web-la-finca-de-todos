@@ -24,7 +24,7 @@ export const TalleresReciclaje = () => {
 					<img
 						className='md:w-auto w-full rounded-b-lg md:rounded-r-lg'
 						src={imagen}
-						alt='Niño sonriendo mientras recicla, de fondo más niños reciclando'
+						alt={t('workshopsAltText.card-2')}
 						tabIndex={0}
 					/>
 				</div>

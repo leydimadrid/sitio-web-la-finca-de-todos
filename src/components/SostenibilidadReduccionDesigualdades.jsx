@@ -11,7 +11,7 @@ export const SostenibilidadReduccionDesigualdades = () => {
 						<img
 							className='rounded-full shadow-lg'
 							src={imagen}
-							alt='Icono reduccion de las desigualdades'
+							alt={t('TheFarmObjectivesAlText.card-5')}
 							tabIndex={0}
 						/>
 					</div>

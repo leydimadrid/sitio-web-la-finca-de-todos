@@ -24,7 +24,7 @@ export const TalleresElCampo = () => {
 					<img
 						className='md:w-auto w-full rounded-b-lg md:rounded-r-lg'
 						src={imagen}
-						alt='Niña sonriendo en el campo, con tomates en su mano'
+						alt={t('workshopsAltText.card-1')}
 						tabIndex={0}
 					/>
 				</div>

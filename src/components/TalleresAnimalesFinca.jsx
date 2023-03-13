@@ -24,7 +24,7 @@ export const TalleresAnimalesFinca = () => {
 					<img
 						className='md:w-auto w-full rounded-b-lg md:rounded-r-lg'
 						src={imagen}
-						alt='Niño sentado debajo de un árbol mirando un conejo'
+						alt={t('workshopsAltText.card-7')}
 						tabIndex={0}
 					/>
 				</div>

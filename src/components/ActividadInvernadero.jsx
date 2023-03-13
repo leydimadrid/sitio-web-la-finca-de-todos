@@ -23,7 +23,7 @@ export const ActividadInvernadero = () => {
 						<img
 							className='lg:w-96 w-64 lg:rounded-l-lg rounded-t-lg'
 							src={imagen1}
-							alt='Una mujer y un joven con Sindrome de Down en un invernadero'
+							alt={t('activities.card-3-img-1')}
 							tabIndex={0}
 						/>
 						<div className='items-center p-4 leading-normal lg:w-96 w-64 text-center'>
@@ -54,7 +54,7 @@ export const ActividadInvernadero = () => {
 						<img
 							className='lg:w-96 w-64 lg:rounded-r-lg rounded-b-lg'
 							src={imagen2}
-							alt='Sembrado de tomates'
+							alt={t('activities.card-3-img-2')}
 							tabIndex={0}
 						/>
 					</button>

@@ -24,7 +24,7 @@ export const TalleresMeditacionYoga = () => {
 					<img
 						className='md:w-auto w-full rounded-b-lg md:rounded-r-lg'
 						src={imagen}
-						alt='Niña con prótesis en su pierna, practicando yoga'
+						alt={t('workshopsAltText.card-5')}
 						tabIndex={0}
 					/>
 				</div>
