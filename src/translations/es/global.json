@@ -1,6 +1,6 @@
 {
 	"reusable": {
-		"logo": " La Finca De Todos",
+		"logo": " La Finca de Todos",
 		"sources": "Fuentes",
 		"donate": "Donar",
 		"to": "a",
@@ -30,9 +30,9 @@
 		"altTextVideoHomeBold": "Video compuesto de los siguientes clips:",
 		"altTextVideoHome": " Mariposa sobre una hoja, niña sonriente caminando con andador, paisaje de montañas colombianas, abuelos abrazan su nieto sentados en el césped, tres cabras, una madre besa a su hijo sonriente en su silla de ruedas eléctrica, logo de La Finca De Todos.",
 		"welcome": "BIENVENIDO",
-		"openingParagraph-1": "¡Este mundo es para disfrutarlo al máximo! Te invitamos a,",
-		"openingParagraph-2": " un lugar hecho para todos.",
-		"buttonTheFarm": "Quiero saber más de la finca"
+		"openingParagraph-1": "¡Este mundo es para disfrutarlo al máximo! Te invitamos a",
+		"openingParagraph-2": ", un lugar hecho para todos.",
+		"buttonTheFarm": "Quiero saber más de La Finca"
 	},
 
 	"aboutUs": {
@@ -144,7 +144,7 @@
 		"Cards-2": "Caminos planos y amplios sin barreras arquitectónicas",
 		"Cards-3": "Tecnología de bucle auditivo con telebobina",
 		"Cards-4": "Señalización de alto contraste y loza podotáctil",
-		"Cards-5": "Guías sonoras y en braille para navegar la finca",
+		"Cards-5": "Guías sonoras y en braille para navegar La Finca",
 		"Cards-6": "Baños accesibles con instalaciones para el aseo personal",
 		"Cards-7": "Bienvenidos animales de servicio y mascotas de acompañamiento",
 		"Cards-8": "Wifi gratuito y PC para conectar con el Centro de Relevo de MinTIC",
@@ -156,7 +156,7 @@
 		"Cards-objectives-4": "Tecnología de energía renovable para garantizar el mayor uso de energía sostenible.",
 		"Cards-objectives-5": "Creación de empleos para personas con discapacidades promoviendo el crecimiento económico inclusivo y sostenible.",
 		"Cards-objectives-6": "Proporcionamos programas educacionales de alta calidad con énfasis en la inclusión.",
-		"Cards-objectives-7": "Sistemas agrícolas sostenibles para la producción de alimentos consumidos en la finca."
+		"Cards-objectives-7": "Sistemas agrícolas sostenibles para la producción de alimentos consumidos en La Finca."
 	},
 
 	"weekend": {
@@ -173,7 +173,7 @@
 		"Cards-5": "Camino y jardín sensorial",
 		"paragraphCards-5": "Siente con tus manos o tus pies las texturas del campo, huele la esencia de las hierbas aromáticas y explora un espacio lleno de sorpresas para tus sentidos.",
 		"Cards-6": "Animales en la granja",
-		"paragraphCards-6": "Aquí podemos interactuar con los animales de la finca en un entorno completamente accesible para tener la experiencia de ordeñar una cabra, alimentar las gallinas o recoger huevos de los nidos cómodamente.",
+		"paragraphCards-6": "Aquí podemos interactuar con los animales de La Finca en un entorno completamente accesible para tener la experiencia de ordeñar una cabra, alimentar las gallinas o recoger huevos de los nidos cómodamente.",
 		"Cards-7": "Jardin Zen",
 		"paragraphCards-7": "Un lugar para meditar, sentir calma y recargar la energía positiva en un espacio tranquilo y accesible. Diseñado a base de los principios zen y la cultura japonesa, este espacio favorece la serenidad y la meditación.",
 		"Cards-8": "Casa sostenible y accesible",
@@ -236,7 +236,7 @@
 		"paragraphWorkshops-5": "Enfoquémonos en la respiración con movimientos suaves para desarrollar fuerza y equilibrio con el yoga y lograr calma interior con la meditación, aprovechando los espacios tranquilos de La Finca.",
 		"workshops-6": "Sostenibilidad",
 		"paragraphWorkshops-6": "Cultivemos conciencia ambiental para entender el desarrollo sostenible. Presentamos formas innovadoras de preservar los recursos naturales para inspirar nuevas ideas en la lucha contra la pérdida de biodiversidad.",
-		"workshops-7": "Animales de la finca",
+		"workshops-7": "Animales de La Finca",
 		"paragraphWorkshops-7": "Vivamos en armonía con las criaturas que habitan la tierra junto a nosotros. En La Finca, aprendemos sobre sus ciclos de vida, su medioambiente y cómo podemos protegerlos.",
 		"workshops-8": "Actividad física",
 		"paragraphWorkshops-8": "Con una variedad de actividades en equipo y logros individuales, ¡mucha diversión te espera en La Finca! El énfasis está en la amistad, no en el puntaje final."
@@ -251,7 +251,7 @@
 		"welcomeCenter": "CENTRO DE BIENVENIDA",
 		"paragraphWelcomeCenter-1": "Introducción",
 		"paragraphWelcomeCenter-2": "Información de",
-		"paragraphWelcomeCenter-3": " la finca y su propósito",
+		"paragraphWelcomeCenter-3": " La Finca y su propósito",
 		"paragraphWelcomeCenter-4": "Cronograma",
 		"paragraphWelcomeCenter-5": "  de actividades",
 		"inTheOrchard": "EN EL HUERTO",

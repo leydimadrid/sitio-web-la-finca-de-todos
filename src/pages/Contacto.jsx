@@ -81,7 +81,7 @@ export const Contacto = () => {
 					<Formulario />
 					<div className='flex justify-center p-4 md:mt-10'>
 						<a
-							href='https://api.whatsapp.com/send?phone=3153410641&text=%C2%A1Hola!%20La%20Finca%20De%20Todos%20'
+							href='https://api.whatsapp.com/send?phone=573153410641&text=%C2%A1Hola!%20La%20Finca%20de%20Todos%20'
 							target='_blank'
 							rel='noreferrer'
 						>
