@@ -28,11 +28,11 @@
 
 	"home": {
 		"altTextVideoHomeBold": "The video is composed of the following clips: ",
-		"altTextVideoHome": "Butterfly on a leaf, smiling girl using a walker, Colombian mountain landscape, grandparents embracing their grandson sitting on the grass, three goats, a mother kissing her smiling son in his electric wheelchair, logo La Finca De Todos.",
+		"altTextVideoHome": "Butterfly on a leaf, smiling girl using a walker, Colombian mountain landscape, grandparents embracing their grandson sitting on the grass, three goats, a mother kissing her smiling son in his electric wheelchair, logo La Finca de Todos.",
 		"welcome": "WELCOME",
 		"openingParagraph-1": "Our world is meant to be enjoyed to the fullest! You are invited to",
 		"openingParagraph-2": " – a place made for everyone.",
-		"buttonTheFarm": "Learn more about the farm"
+		"buttonTheFarm": "Learn more about La Finca"
 	},
 
 	"aboutUs": {
@@ -137,8 +137,8 @@
 	},
 
 	"theFarm": {
-		"title3D": "3D model of the farm and its buildings",
-		"altTextVideo3d": "3D video of La Finca De Todos, showing its structure. Spaces and information.",
+		"title3D": "3D model of La Finca and its buildings",
+		"altTextVideo3d": "3D video of La Finca de Todos, showing its structure. Spaces and information.",
 		"titleAccessibility": "Accessibility considerations",
 		"Cards-1": "Presence of a sign language interpreter",
 		"Cards-2": "Wide, flat paths without architectural barriers",
@@ -156,7 +156,7 @@
 		"Cards-objectives-4": "Renewable energy technology ensures the highest use of sustainable energy.",
 		"Cards-objectives-5": "Creating jobs for people with disabilities by promoting inclusive and sustainable economic growth.",
 		"Cards-objectives-6": "We provide high-quality educational programs with an emphasis on inclusion.",
-		"Cards-objectives-7": "Sustainable agricultural systems for the production of food consumed on the farm."
+		"Cards-objectives-7": "Sustainable agricultural systems for the production of food consumed on La Finca."
 	},
 	"weekend": {
 		"weekendActivities": "Weekend activities",
@@ -172,7 +172,7 @@
 		"Cards-5": "Sensory path and garden",
 		"paragraphCards-5": "Feel with your hands or feet the textures of the countryside, smell the essence of aromatic herbs, and explore a space full of surprises for your senses.",
 		"Cards-6": "Animals on the farm",
-		"paragraphCards-6": "Here we can interact with the animals of the farm in a fully accessible environment to have the experience of milking a goat, feeding the chickens, or collecting eggs from the nests comfortably.",
+		"paragraphCards-6": "Here we can interact with the animals of La Finca in a fully accessible environment to have the experience of milking a goat, feeding the chickens, or collecting eggs from the nests comfortably.",
 		"Cards-7": "Zen Garden",
 		"paragraphCards-7": "A place to meditate, feel calm, and recharge positive energy in a quiet and accessible space. Design based on Zen principles and Japanese culture, this space favors serenity and meditation.",
 		"Cards-8": "Sustainable and accessible house",
@@ -250,7 +250,7 @@
 		"welcomeCenter": "WELCOME CENTER",
 		"paragraphWelcomeCenter-1": "Introduction",
 		"paragraphWelcomeCenter-2": "Information about",
-		"paragraphWelcomeCenter-3": " the farm and its purpose",
+		"paragraphWelcomeCenter-3": " La Finca and its purpose",
 		"paragraphWelcomeCenter-4": "Activity",
 		"paragraphWelcomeCenter-5": " Itinerary",
 		"inTheOrchard": "IN THE ORCHARD",
