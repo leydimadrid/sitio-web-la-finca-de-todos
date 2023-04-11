@@ -4,7 +4,7 @@ import FontSizeChanger from 'react-font-size-changer';
 export const OpcionDonaciones = () => {
 	// const [t] = useTranslation('global');
 	return (
-		<div className='fondoOpcionDonaciones md:bg-cover bg-cover bg-no-repeat'>
+		<div className='fondoOpcionDonaciones md:bg-cover bg-cover bg-no-repeat h-screen'>
 			{/* Inicio Modificador de texto  */}
 			<div className='flex justify-end'>
 				<div className='fixed md:m-4 lg:m-4 m-2 z-10'>
@@ -54,65 +54,65 @@ export const OpcionDonaciones = () => {
 				</div>
 			</div>
 			{/* Fin Modificador de texto */}
-			<section
-				id='contenedor'
-			>
-				<div className='md:flex flex-row items-center justify-center md:pt-20 m-24'>
-					<div className='max-w-xl md:p-6 p-8 font-medium'>
-						<h1
-							className='titulo font-bold md:text-2xl text-lg text-center mb-4 leading-relaxed text-blue-900'
-							tabIndex={0}
-						>
-							¿En qué se van a invertir los recursos?
-						</h1>
-						<p
-							className='titulo text-gray-800 md:text-xl text-base text-justify leading-relaxed'
-							tabIndex={0}
-						>
-							is simply dummy text of the printing is simply dummy, is simply
-							dummy text of the printing is simply dummy.
-						</p>
-						<div className='mt-20 flex flex-col justify-center'>
+			<div className='flex flex-col justify-center h-screen pt-20'>
+				<section id='contenedor'>
+					<div className='md:flex flex-row items-center justify-center lg:space-x-6'>
+						<div className='max-w-xl md:p-6 px-8 font-medium'>
 							<h1
 								className='titulo font-bold md:text-2xl text-lg text-center mb-4 leading-relaxed text-blue-900'
 								tabIndex={0}
 							>
-								¿Cómo quieres hacer tu donación?
+								¿En qué se van a invertir los recursos?
 							</h1>
-							<div>
-								<p
-									className='titulo text-gray-800 md:text-xl text-base text-center leading-relaxed'
-									tabIndex={0}
-								>
-									Desde Colombia
-								</p>
-								<div className='text-center mt-3'>
-									<button className='bg-gray-900 text-white w-36 py-2 px-8 rounded-lg'>
-										Wompi
-									</button>
-								</div>
-							</div>
-                            <div className='mt-6'>
 							<p
-								className='titulo text-gray-800 md:text-xl text-base text-center leading-relaxed'
+								className='titulo text-gray-800 md:text-xl text-base text-justify leading-relaxed'
 								tabIndex={0}
 							>
-								Desde el Exterior
+								is simply dummy text of the printing is simply dummy, is simply
+								dummy text of the printing is simply dummy.
 							</p>
-							<div className='text-center mt-3'>
-								<button className='bg-gray-900 text-white w-36 py-2 px-8 rounded-lg'>
-									Paypal
-								</button>
+							<div className='mt-20 flex flex-col justify-center'>
+								<h1
+									className='titulo font-bold md:text-2xl text-lg text-center mb-4 leading-relaxed text-blue-900'
+									tabIndex={0}
+								>
+									¿Cómo quieres hacer tu donación?
+								</h1>
+								<div>
+									<p
+										className='titulo text-gray-800 md:text-xl text-base text-center leading-relaxed'
+										tabIndex={0}
+									>
+										Desde Colombia
+									</p>
+									<div className='text-center mt-3'>
+										<button className='bg-gray-900 text-white w-36 py-2 px-8 rounded-lg'>
+											Wompi
+										</button>
+									</div>
+								</div>
+								<div className='mt-6'>
+									<p
+										className='titulo text-gray-800 md:text-xl text-base text-center leading-relaxed'
+										tabIndex={0}
+									>
+										Desde el Exterior
+									</p>
+									<div className='text-center mt-3'>
+										<button className='bg-gray-900 text-white w-36 py-2 px-8 rounded-lg'>
+											Paypal
+										</button>
+									</div>
+								</div>
 							</div>
-                            </div>
+						</div>
+						<div className=' bg-blue-900 md:w-96 mx-auto lg:w-96 w-80 md:h-80 lg:h-80 h-64 flex flex-col justify-center items-center rounded-lg p-6 mt-6'>
+							<p className='titulo text-white text-6xl font-bold'>Gracias</p>
+							<p className='titulo text-white text-4xl'>por tu ayuda</p>
 						</div>
 					</div>
-					<div className='cajitaGracias md:m-1 bg-blue-900 w-96 h-80 flex flex-col justify-center items-center rounded-lg'>
-						<p className=' text-white text-6xl font-bold'>Gracias</p>
-						<p className=' text-white text-4xl'>por tu ayuda</p>
-					</div>
-				</div>
-			</section>
+				</section>
+			</div>
 		</div>
 	);
 };
