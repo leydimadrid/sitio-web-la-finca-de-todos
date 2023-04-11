@@ -5,7 +5,7 @@ export const BotonAhora = () => {
 	const [t] = useTranslation('global');
 	return (
 		<Link
-			to='/donaciones'
+			to='/opciondonaciones'
 			className='botonDonar text-white font-semibold hover:text-white py-2 px-4 border-2 rounded-xl inline-flex items-center ml-4 drop-shadow-lg'
 		>
 			{t('donate.paragraph-4')}

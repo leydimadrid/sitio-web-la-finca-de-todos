@@ -1,6 +1,6 @@
 import { Footer } from "./components/footer";
 import { Header } from "./components/Header";
-import { AppNav } from "./routes/AppNav";
+import { AppNav } from "./Routes/AppNav";
 
 function App() {
   return (

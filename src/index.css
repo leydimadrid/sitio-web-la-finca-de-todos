@@ -180,6 +180,10 @@ html {
   background-image: url("assets/images/fondo-ubicacion.svg");
 }
 
+.fondoOpcionDonaciones {
+  background-image: url("assets/images/fondo-opcion-donaciones.svg");
+}
+
 .fondoInfografiaDiscapacidad {
   background-image: url("assets/images/fondo-infografia-discapacidad.svg");
 }
@@ -191,3 +195,8 @@ html {
 .colorTextoDonaciones {
   color: #e60064;
 }
+
+/* .cajitaGracias {
+  width: 611px;
+  height: 511px;
+} */

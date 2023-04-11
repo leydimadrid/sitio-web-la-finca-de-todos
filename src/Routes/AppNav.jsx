@@ -7,18 +7,20 @@ import { TalleresPedagogicos } from '../pages/TalleresPedagogicos';
 import { Ubicacion } from '../pages/Ubicacion';
 import { Donaciones } from '../pages/Donaciones';
 import { Contacto } from '../pages/Contacto';
+import { OpcionDonaciones } from '../pages/OpcionDonaciones';
 
 export const AppNav = () => {
 	return (
 		<Routes>
-      <Route path='/' element={<Navigate to="/inicio"/>} />
-			<Route path='/inicio'element={<Inicio />} />
+			<Route path='/' element={<Navigate to='/inicio' />} />
+			<Route path='/inicio' element={<Inicio />} />
 			<Route path='/nosotros' element={<Nosotros />} />
 			<Route path='/lafinca' element={<LaFinca />} />
 			<Route path='/findesemana' element={<FinDeSemana />} />
 			<Route path='/talleres' element={<TalleresPedagogicos />} />
 			<Route path='/ubicacion' element={<Ubicacion />} />
 			<Route path='/donaciones' element={<Donaciones />} />
+			<Route path='/opciondonaciones' element={<OpcionDonaciones />} />
 			<Route path='/contacto' element={<Contacto />} />
 		</Routes>
 	);
