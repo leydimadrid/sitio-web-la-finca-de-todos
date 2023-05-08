@@ -180,6 +180,14 @@ html {
   background-image: url("assets/images/fondo-ubicacion.svg");
 }
 
+.fondoDonaciones {
+  background-image: url("assets/images/fondo-donaciones.svg");
+}
+
+.fondoCardDonaciones {
+  background-image: url("assets/images/fondo-card-donaciones.svg");
+}
+
 .fondoOpcionDonaciones {
   background-image: url("assets/images/fondo-opcion-donaciones.svg");
 }
