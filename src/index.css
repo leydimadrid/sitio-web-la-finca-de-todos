@@ -184,6 +184,10 @@ html {
   background-image: url("assets/images/fondo-donaciones.svg");
 }
 
+.fondoDonaciones2 {
+  background-image: url("assets/images/fondo-donaciones-2.svg");
+}
+
 .fondoCardDonaciones {
   background-image: url("assets/images/fondo-card-donaciones.svg");
 }
