@@ -7,7 +7,8 @@ export const BotonDonar = () => {
 	return (
 		<div className='video'>
 				<Link
-					to='/donaciones'
+				// /donaciones
+					to='#' 
 					className='botonDonar text-white font-semibold hover:text-white py-2 px-4 border-2 rounded-xl inline-flex items-center md:ml-4 lg:ml-4 drop-shadow-lg'
 				>
 					{t('reusable.donate')}

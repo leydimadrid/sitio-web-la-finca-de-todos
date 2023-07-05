@@ -5,9 +5,8 @@ import { LaFinca } from '../pages/LaFinca';
 import { FinDeSemana } from '../pages/FinDeSemana';
 import { TalleresPedagogicos } from '../pages/TalleresPedagogicos';
 import { Ubicacion } from '../pages/Ubicacion';
-import { Donaciones } from '../pages/Donaciones';
+// import { Donaciones } from '../pages/Donaciones';
 import { Contacto } from '../pages/Contacto';
-import { OpcionDonaciones } from '../pages/OpcionDonaciones';
 
 export const AppNav = () => {
 	return (
@@ -19,8 +18,7 @@ export const AppNav = () => {
 			<Route path='/findesemana' element={<FinDeSemana />} />
 			<Route path='/talleres' element={<TalleresPedagogicos />} />
 			<Route path='/ubicacion' element={<Ubicacion />} />
-			<Route path='/donaciones' element={<Donaciones />} />
-			<Route path='/opciondonaciones' element={<OpcionDonaciones />} />
+			{/* <Route path='/donaciones' element={<Donaciones />} /> */}
 			<Route path='/contacto' element={<Contacto />} />
 		</Routes>
 	);

@@ -97,8 +97,7 @@ export const Donaciones = () => {
 								<span className='text-blue-900 font-semibold'>
 									{t('reusable.logo')}
 								</span>{' '}
-								es una Entidad sin ánimo de Lucro, número de registro
-								20230143627.
+								es una Entidad sin ánimo de Lucro, NIT 901707795-0.
 							</p>
 						</div>
 					</div>
