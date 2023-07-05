@@ -138,7 +138,7 @@ export const Donaciones = () => {
 							<p className='text-center md:text-lg text-md'>
 								<span className='block'>Banco: Bancolombia </span>
 								<span className='block'>Tipo: Cuenta de Ahorros </span>
-								<span className='block'>Nº de cuenta: XXXXXXX</span>
+								<span className='block'>Nº de cuenta: 829-000128-13</span>
 								<span>Código Banco: (SWIFT/BIC): COLOCOBM</span>
 							</p>
 						</div>
