@@ -47,7 +47,6 @@
 		"mainParagraph-1": "Colombia forma parte de la Convención de Naciones Unidas sobre los Derechos de las Personas con Discapacidad desde el",
 		"mainParagraph-2": " 2011",
 		"mainParagraph-3": " para promover su plena participación en todos los ámbitos de la vida.",
-
 		"whoAreWe": "¿QUIÉNES SOMOS?",
 		"paragraphWhoAreWe-1": "Somos igual",
 		"paragraphWhoAreWe-2": " a los demás",
@@ -67,7 +66,6 @@
 		"15%": "15%",
 		"paragraphWhoAreWe-8": " de las personas registradas manifestó ser",
 		"paragraphWhoAreWe-9": " víctima del conflicto armado.",
-
 		"HowManyOfUsAreThere": "¿CUÁNTOS SOMOS?",
 		"paragraphHowManyOfUsAreThere-1": "Población de Colombia:",
 		"paragraphHowManyOfUsAreThere-2": " 51.5 millones",
@@ -87,7 +85,6 @@
 		"paragraphHowManyOfUsAreThere-16": " 15%",
 		"paragraphHowManyOfUsAreThere-17": " de la población, cerca de",
 		"paragraphHowManyOfUsAreThere-18": " 7.2 millones Colombianos.",
-
 		"whereAreWe": "¿DÓNDE ESTAMOS?",
 		"paragraphwhereAreWe-1": "Las entidades territoriales con mayor número de personas con discapacidad son",
 		"paragraphwhereAreWe-2": " Bogotá, Antioquia, Huila, Santander y Cali.",
@@ -101,7 +98,6 @@
 		"paragraphwhereAreWe-10": " se registraron",
 		"paragraphwhereAreWe-11": " 49,423",
 		"paragraphwhereAreWe-12": " personas con discapacidad.",
-
 		"howAreWeDoing": "¿CÓMO ESTAMOS?",
 		"paragraphhowAreWeDoing-1": "“Al interactuar con diversas barreras incluyendo las actitudinales, las personas con discapacidades pueden sentirse impedidos de la",
 		"paragraphhowAreWeDoing-2": " participación plena y efectiva",
@@ -230,12 +226,6 @@
 		"paragraph-option-3-4": "Código Banco: (SWIFT/BIC): COLOCOBM",
 		"paragraph-5": "*Solicita tu recibo deducible de impuestos e información para otras formas de donar al correo finca.todos@gmail.com",
 		"paragraph-6": "¡Gracias por tu donación!"
-
-
-
-
-
-
 	},
 
 	"educationalWorkshops": {
@@ -300,6 +290,7 @@
 		"recyclingArt": "ARTE CON RECICLAJE",
 		"departure": "SALIDA"
 	},
+
 	"titleWorkshop": {
 		"titleWorkshop": "¿Cómo asistir a los talleres?",
 		"workshopInformation": "Para colegios y escuelas",
@@ -413,6 +404,8 @@
 	},
 
 	"donateAltText": {
-		"img-1": "Niña con Síndrome de Down sonriendo"
+		"img-1": "Niña con Síndrome de Down sonriendo",
+		"img-2": "Logo Bancolombia",
+		"img-3": "Niño en un gallinero con una gallina en sus manos"
 	}
 }

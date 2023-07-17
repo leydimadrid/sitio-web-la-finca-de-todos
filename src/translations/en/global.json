@@ -47,7 +47,6 @@
 		"mainParagraph-1": "Colombia has been a part of the United Nations Convention on the Rights of Persons with Disabilities since",
 		"mainParagraph-2": " 2011",
 		"mainParagraph-3": "  to promote full participation in all spheres of life.",
-
 		"whoAreWe": "WHO ARE WE?",
 		"paragraphWhoAreWe-1": "We are just",
 		"paragraphWhoAreWe-2": " like other ",
@@ -67,7 +66,6 @@
 		"15%": "15%",
 		"paragraphWhoAreWe-8": " of the people registered stated that they were",
 		"paragraphWhoAreWe-9": " victims of the armed conflict.",
-
 		"HowManyOfUsAreThere": "HOW MANY OF US ARE THERE?",
 		"paragraphHowManyOfUsAreThere-1": "The population of Colombia:",
 		"paragraphHowManyOfUsAreThere-2": " 51.5 million",
@@ -87,7 +85,6 @@
 		"paragraphHowManyOfUsAreThere-16": " 15%",
 		"paragraphHowManyOfUsAreThere-17": " of the population, about",
 		"paragraphHowManyOfUsAreThere-18": " 7.2 million Colombians.",
-
 		"whereAreWe": "WHERE ARE WE?",
 		"paragraphwhereAreWe-1": "The territories with the highest number of people with disabilities are",
 		"paragraphwhereAreWe-2": " Bogotá, Antioquia, Huila, Santander, and Cali.",
@@ -101,7 +98,6 @@
 		"paragraphwhereAreWe-10": "",
 		"paragraphwhereAreWe-11": " 49,423",
 		"paragraphwhereAreWe-12": " persons registered as having a disability.",
-
 		"howAreWeDoing": "HOW ARE WE DOING?",
 		"paragraphhowAreWeDoing-1": "“Confronting various barriers including attitudinal barriers, people with disabilities may feel prevented from",
 		"paragraphhowAreWeDoing-2": " full and effective participation",
@@ -158,6 +154,7 @@
 		"Cards-objectives-6": "We provide high-quality educational programs with an emphasis on inclusion.",
 		"Cards-objectives-7": "Sustainable agricultural systems for the production of food consumed on La Finca."
 	},
+
 	"weekend": {
 		"weekendActivities": "Weekend activities",
 		"Cards-1": "Butterfly Farm",
@@ -218,18 +215,17 @@
 		"paragraph-2-1-2": "With your one-time or monthly contribution, you are helping to carry out our mission.",
 		"paragraph-3": "Foundation",
 		"paragraph-3-1": " is a non-profit organization, NIT 901707795-0.",
-		"paragraph-4": "¿Cómo quieres hacer tu donación?",
-		"paragraph-option-1": "Donaciones desde Colombia",
-		"paragraph-option-2": "Donaciones desde el resto del mundo",
-		"paragraph-option-2-1": "*En la plataforma PayPal podrá realizar donaciones mensuales",
-		"paragraph-option-3": "Consignación o transferencia",
-		"paragraph-option-3-1": "Banco: Bancolombia",
-		"paragraph-option-3-2": "Tipo: Cuenta de Ahorros",
-		"paragraph-option-3-3": "Nº de cuenta: 829-000128-13",
-		"paragraph-option-3-4": "Código Banco: (SWIFT/BIC): COLOCOBM",
+		"paragraph-4": "How do you want to make your donation?",
+		"paragraph-option-1": "Donations from Colombia",
+		"paragraph-option-2": "Donations from the rest of the world",
+		"paragraph-option-2-1": "*On the PayPal platform, you will be able to make monthly donations",
+		"paragraph-option-3": "Consignment or transfer",
+		"paragraph-option-3-1": "Bank: Bancolombia",
+		"paragraph-option-3-2": "Type: Savings Account",
+		"paragraph-option-3-3": "Account number: 829-000128-13",
+		"paragraph-option-3-4": "Bank Code: (SWIFT/BIC): COLOCOBM",
 		"paragraph-5": "Request your tax-deductible receipt or information about other options to donate by email finca.todos@gmail.com",
 		"paragraph-6": "Thank you for your donation!"
-
 	},
 
 	"educationalWorkshops": {
@@ -408,6 +404,8 @@
 	},
 
 	"donateAltText": {
-		"img-1": "Girl with Down Syndrome smiling"
+		"img-1": "Girl with Down Syndrome smiling",
+		"img-2": "Bancolombia logo",
+		"img-3": "Child in a chicken coop with a hen in his hands"
 	}
 }

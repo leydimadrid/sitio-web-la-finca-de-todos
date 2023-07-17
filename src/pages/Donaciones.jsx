@@ -129,7 +129,7 @@ export const Donaciones = () => {
 							<img
 								className='mx-auto py-2'
 								src={logoBancolombia}
-								alt='Logo Bancolombia'
+								alt={t('donateAltText.img-2')}
 								tabIndex={0}
 							/>
 							<p className='text-center md:text-lg text-md'>
