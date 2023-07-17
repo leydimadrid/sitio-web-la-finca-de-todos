@@ -68,10 +68,10 @@ export const Donaciones = () => {
 					/>
 					<div className='md:bg-white lg:bg-white md:max-w-3xl lg:max-w-3xl max-w-xl h-36 md:absolute lg:absolute md:py-24 md:px-16 lg:py-24 lg:px-16  flex flex-col justify-center items-center rounded-l-lg'>
 						<p className='titulo font-bold md:text-4xl text-lg text-center leading-relaxed text-blue-900 md:mb-1'>
-							Tu apoyo es indispensable{' '}
+						{t('donate.paragraph-1')}
 						</p>
 						<p className='titulo font-normal md:text-3xl text-md md:max-w-xl lg:max-w-xl max-w-xs text-center leading-relaxed text-blue-900'>
-							para crear el mundo de igualdad en el que queremos vivir.
+						{t('donate.paragraph-1-1')}
 						</p>
 					</div>
 				</section>
@@ -79,25 +79,22 @@ export const Donaciones = () => {
 					<div className='flex md:flex-row flex-col max-w-full md:space-x-11 lg:space-x-6 xl:space-x-11 2xl:space-x-40'>
 						<div className='fondoCardDonaciones bg-no-repeat md:max-w-2xl bg-blue-900 md:py-14 py-8 px-6 rounded-lg shadow-lg text-white'>
 							<p className='titulo max-w-xs md:text-3xl text-lg font-bold mb-6'>
-								Dona hoy y sé parte de la historia!{' '}
+							{t('donate.paragraph-2')}
 							</p>
 							<p className='titulo md:text-lg text-md leading-relaxed max-w-lg text-left'>
-								El 100% de tu aporte se destinará para construir el primer
-								espacio en la naturaleza totalmente accesible para personas con
-								discapacidades en Colombia.
+							{t('donate.paragraph-2-1')}
 								<p className='titulo md:text-lg text-md leading-relaxed max-w-lg text-left'>
-									Con tu contribución única o mensual estas ayudando a llevar a
-									cabo nuestra misión.
+								{t('donate.paragraph-2-1-2')}
 								</p>
 							</p>
 						</div>
 						<div className='flex justify-center items-center mt-6 mb-6'>
 							<p className='titulo md:text-lg text-md leading-relaxed max-w-md text-center'>
-								La Fundación{' '}
+							{t('donate.paragraph-3')}
 								<span className='text-blue-900 font-semibold'>
 									{t('reusable.logo')}
 								</span>{' '}
-								es una Entidad sin ánimo de Lucro, NIT 901707795-0.
+								{t('donate.paragraph-3-1')}
 							</p>
 						</div>
 					</div>
@@ -108,26 +105,26 @@ export const Donaciones = () => {
 							className='titulo md:text-2xl text-xl font-bold text-blue-900 rounded-lg text-center leading-relaxed px-10'
 							tabIndex={0}
 						>
-							¿Cómo quieres hacer tu donación?
+							{t('donate.paragraph-4')}
 						</h1>
 					</div>
 					<div className='flex md:flex-row flex-col justify-center md:space-x-6 md:space-y-0 space-y-6 mx-4 items-center '>
 						<div className='bg-white border-2 border-gray-300 rounded-lg py-24 px-10 max-w-sm text-center'>
 							<h1 className='titulo md:text-xl text-lg text-blue-900 font-semibold'>
-								Donaciones desde Colombia
+							{t('donate.paragraph-option-1')}
 							</h1>
 						</div>
 						<div className='bg-white border-2 border-gray-300 rounded-lg py-24 px-10 max-w-md text-center'>
 							<h1 className='titulo md:text-xl text-lg text-blue-900 font-semibold'>
-								Donaciones desde el resto del mundo
+							{t('donate.paragraph-option-2')}
 							</h1>
 							<p>
-								*En la plataforma PayPal podrá realizar donaciones mensuales{' '}
+							{t('donate.paragraph-option-2-1')}
 							</p>
 						</div>
 						<div className='bg-white border-2 border-gray-300 rounded-lg py-24 px-10 max-w-md'>
 							<h1 className='titulo md:text-xl text-lg text-blue-900 font-semibold text-center'>
-								Consignación o transferencia
+							{t('donate.paragraph-option-3')}
 							</h1>
 							<img
 								className='mx-auto py-2'
@@ -136,17 +133,16 @@ export const Donaciones = () => {
 								tabIndex={0}
 							/>
 							<p className='text-center md:text-lg text-md'>
-								<span className='block'>Banco: Bancolombia </span>
-								<span className='block'>Tipo: Cuenta de Ahorros </span>
-								<span className='block'>Nº de cuenta: 829-000128-13</span>
-								<span>Código Banco: (SWIFT/BIC): COLOCOBM</span>
+								<span className='block'>{t('donate.paragraph-option-3-1')} </span>
+								<span className='block'>{t('donate.paragraph-option-3-2')} </span>
+								<span className='block'>{t('donate.paragraph-option-3-3')}</span>
+								<span>{t('donate.paragraph-option-3-4')}</span>
 							</p>
 						</div>
 					</div>
 					<div className='titulo flex justify-center pt-5 md:text-lg text-sm leading-relaxed mx-4 text-center'>
 						<p>
-							*Solicita tu recibo deducible de impuestos e información para
-							otras formas de donar al correo finca.todos@gmail.com
+						{t('donate.paragraph-5')}
 						</p>{' '}
 					</div>
 				</section>
@@ -167,7 +163,7 @@ export const Donaciones = () => {
 										className='colorTextoDonaciones titulo font-bold md:text-5xl lg:text-4xl text-2xl text-center max-w-xs leading-relaxed'
 										tabIndex={0}
 									>
-										¡Gracias por tu donación!
+										{t('donate.paragraph-6')}
 									</p>
 								</div>
 								<div className='flex justify-center mt-4'></div>

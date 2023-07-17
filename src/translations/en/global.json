@@ -211,10 +211,25 @@
 	},
 
 	"donate": {
-		"paragraph-1": "Your support is indispensable to creating the world of equality in which we want to live.",
-		"paragraph-2": "Thank you for your donation!",
-		"paragraph-3": "La Finca de Todos Foundation is a non-profit organization, NIT 901707795-0.",
-		"paragraph-4": "Donate now"
+		"paragraph-1": "Your support is indispensable",
+		"paragraph-1-1": " to creating the world of equality in which we want to live.",
+		"paragraph-2": "Donate today and be part of history!",
+		"paragraph-2-1": "100% of your contribution will go to building the first fully accessible space in nature for people with disabilities in Colombia.",
+		"paragraph-2-1-2": "With your one-time or monthly contribution, you are helping to carry out our mission.",
+		"paragraph-3": "Foundation",
+		"paragraph-3-1": " is a non-profit organization, NIT 901707795-0.",
+		"paragraph-4": "¿Cómo quieres hacer tu donación?",
+		"paragraph-option-1": "Donaciones desde Colombia",
+		"paragraph-option-2": "Donaciones desde el resto del mundo",
+		"paragraph-option-2-1": "*En la plataforma PayPal podrá realizar donaciones mensuales",
+		"paragraph-option-3": "Consignación o transferencia",
+		"paragraph-option-3-1": "Banco: Bancolombia",
+		"paragraph-option-3-2": "Tipo: Cuenta de Ahorros",
+		"paragraph-option-3-3": "Nº de cuenta: 829-000128-13",
+		"paragraph-option-3-4": "Código Banco: (SWIFT/BIC): COLOCOBM",
+		"paragraph-5": "Request your tax-deductible receipt or information about other options to donate by email finca.todos@gmail.com",
+		"paragraph-6": "Thank you for your donation!"
+
 	},
 
 	"educationalWorkshops": {
