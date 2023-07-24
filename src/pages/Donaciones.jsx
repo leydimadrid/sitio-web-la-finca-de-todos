@@ -3,6 +3,7 @@ import imagenDonaciones2 from '../assets/images/imagenDonaciones2.jpg';
 import logoBancolombia from '../assets/images/Logo_Bancolombia.png';
 import FontSizeChanger from 'react-font-size-changer';
 import { useTranslation } from 'react-i18next';
+import tarjetaspaypal from '../assets/images/tarjetas-paypal.png';
 
 export const Donaciones = () => {
 	const [t] = useTranslation('global');
@@ -68,10 +69,10 @@ export const Donaciones = () => {
 					/>
 					<div className='md:bg-white lg:bg-white md:max-w-3xl lg:max-w-3xl max-w-xl h-36 md:absolute lg:absolute md:py-24 md:px-16 lg:py-24 lg:px-16  flex flex-col justify-center items-center rounded-l-lg'>
 						<p className='titulo font-bold md:text-4xl text-lg text-center leading-relaxed text-blue-900 md:mb-1'>
-						{t('donate.paragraph-1')}
+							{t('donate.paragraph-1')}
 						</p>
 						<p className='titulo font-normal md:text-3xl text-md md:max-w-xl lg:max-w-xl max-w-xs text-center leading-relaxed text-blue-900'>
-						{t('donate.paragraph-1-1')}
+							{t('donate.paragraph-1-1')}
 						</p>
 					</div>
 				</section>
@@ -79,18 +80,18 @@ export const Donaciones = () => {
 					<div className='flex md:flex-row flex-col max-w-full md:space-x-11 lg:space-x-6 xl:space-x-11 2xl:space-x-40'>
 						<div className='fondoCardDonaciones bg-no-repeat md:max-w-2xl bg-blue-900 md:py-14 py-8 px-6 rounded-lg shadow-lg text-white'>
 							<p className='titulo max-w-xs md:text-3xl text-lg font-bold mb-6'>
-							{t('donate.paragraph-2')}
+								{t('donate.paragraph-2')}
 							</p>
 							<p className='titulo md:text-lg text-md leading-relaxed max-w-lg text-left'>
-							{t('donate.paragraph-2-1')}
+								{t('donate.paragraph-2-1')}
 								<p className='titulo md:text-lg text-md leading-relaxed max-w-lg text-left'>
-								{t('donate.paragraph-2-1-2')}
+									{t('donate.paragraph-2-1-2')}
 								</p>
 							</p>
 						</div>
 						<div className='flex justify-center items-center mt-6 mb-6'>
 							<p className='titulo md:text-lg text-md leading-relaxed max-w-md text-center'>
-							{t('donate.paragraph-3')}
+								{t('donate.paragraph-3')}
 								<span className='text-blue-900 font-semibold'>
 									{t('reusable.logo')}
 								</span>{' '}
@@ -111,20 +112,59 @@ export const Donaciones = () => {
 					<div className='flex md:flex-row flex-col justify-center md:space-x-6 md:space-y-0 space-y-6 mx-4 items-center '>
 						<div className='bg-white border-2 border-gray-300 rounded-lg py-24 px-10 max-w-sm text-center'>
 							<h1 className='titulo md:text-xl text-lg text-blue-900 font-semibold'>
-							{t('donate.paragraph-option-1')}
+								{t('donate.paragraph-option-1')}
 							</h1>
 						</div>
 						<div className='bg-white border-2 border-gray-300 rounded-lg py-24 px-10 max-w-md text-center'>
 							<h1 className='titulo md:text-xl text-lg text-blue-900 font-semibold'>
-							{t('donate.paragraph-option-2')}
+								{t('donate.paragraph-option-2')}
 							</h1>
-							<p>
-							{t('donate.paragraph-option-2-1')}
-							</p>
+							<form
+								action='https://www.paypal.com/donate'
+								method='post'
+								target='_blank'
+							>
+								<input
+									type='hidden'
+									name='hosted_button_id'
+									value='ZZTDU4JGK9L84'
+								/>
+								<input
+									type='image'
+									src='https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif'
+									border='0'
+									name='submit'
+									title='PayPal - The safer, easier way to pay online!'
+									alt='Donate with PayPal button'
+									width='200px'
+								/>
+								<img
+									alt=''
+									border='0'
+									src='https://www.paypal.com/en_CO/i/scr/pixel.gif'
+									width='1'
+									height='1'
+								/>
+							</form>
+							<div className='flex justify-center'>
+								<a
+									href='https://www.paypal.com/donate/?hosted_button_id=5HNW3SQ27PUQJ'
+									target='_blank'
+									rel='noreferrer'
+								>
+									<button className='boton-paypal'>Donar</button>
+									<img
+										src={tarjetaspaypal}
+										alt={t('reusable.paypalCards')}
+										className='mt-2'
+									/>
+								</a>
+							</div>
+							<p>{t('donate.paragraph-option-2-1')}</p>
 						</div>
 						<div className='bg-white border-2 border-gray-300 rounded-lg py-24 px-10 max-w-md'>
 							<h1 className='titulo md:text-xl text-lg text-blue-900 font-semibold text-center'>
-							{t('donate.paragraph-option-3')}
+								{t('donate.paragraph-option-3')}
 							</h1>
 							<img
 								className='mx-auto py-2'
@@ -133,17 +173,21 @@ export const Donaciones = () => {
 								tabIndex={0}
 							/>
 							<p className='text-center md:text-lg text-md'>
-								<span className='block'>{t('donate.paragraph-option-3-1')} </span>
-								<span className='block'>{t('donate.paragraph-option-3-2')} </span>
-								<span className='block'>{t('donate.paragraph-option-3-3')}</span>
+								<span className='block'>
+									{t('donate.paragraph-option-3-1')}{' '}
+								</span>
+								<span className='block'>
+									{t('donate.paragraph-option-3-2')}{' '}
+								</span>
+								<span className='block'>
+									{t('donate.paragraph-option-3-3')}
+								</span>
 								<span>{t('donate.paragraph-option-3-4')}</span>
 							</p>
 						</div>
 					</div>
 					<div className='titulo flex justify-center pt-5 md:text-lg text-sm leading-relaxed mx-4 text-center'>
-						<p>
-						{t('donate.paragraph-5')}
-						</p>{' '}
+						<p>{t('donate.paragraph-5')}</p>{' '}
 					</div>
 				</section>
 				<section className='fondoDonaciones2 bg-cover bg-no-repeat flex justify-center'>
@@ -152,7 +196,7 @@ export const Donaciones = () => {
 							{' '}
 							<img
 								src={imagenDonaciones2}
-								alt='Imagen donaciones sin definir'
+								alt={t('donateAltText.img-3')}
 								tabIndex={0}
 							/>
 						</div>
