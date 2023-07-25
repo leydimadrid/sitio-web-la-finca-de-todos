@@ -119,34 +119,7 @@ export const Donaciones = () => {
 							<h1 className='titulo md:text-xl text-lg text-blue-900 font-semibold'>
 								{t('donate.paragraph-option-2')}
 							</h1>
-							<form
-								action='https://www.paypal.com/donate'
-								method='post'
-								target='_blank'
-							>
-								<input
-									type='hidden'
-									name='hosted_button_id'
-									value='ZZTDU4JGK9L84'
-								/>
-								<input
-									type='image'
-									src='https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif'
-									border='0'
-									name='submit'
-									title='PayPal - The safer, easier way to pay online!'
-									alt='Donate with PayPal button'
-									width='200px'
-								/>
-								<img
-									alt=''
-									border='0'
-									src='https://www.paypal.com/en_CO/i/scr/pixel.gif'
-									width='1'
-									height='1'
-								/>
-							</form>
-							<div className='flex justify-center'>
+							<div className='flex justify-center mt-4 mb-4'>
 								<a
 									href='https://www.paypal.com/donate/?hosted_button_id=5HNW3SQ27PUQJ'
 									target='_blank'
