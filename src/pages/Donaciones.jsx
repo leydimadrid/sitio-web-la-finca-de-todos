@@ -1,6 +1,7 @@
 import imagenDonaciones from '../assets/images/imagen-donaciones.jpg';
 import imagenDonaciones2 from '../assets/images/imagenDonaciones2.jpg';
 import logoBancolombia from '../assets/images/Logo_Bancolombia.png';
+import logoPaypal from '../assets/images/logo-paypal.png';
 import FontSizeChanger from 'react-font-size-changer';
 import { useTranslation } from 'react-i18next';
 import tarjetaspaypal from '../assets/images/tarjetas-paypal.png';
@@ -101,75 +102,97 @@ export const Donaciones = () => {
 						</div>
 					</div>
 				</section>
-				<section className='bg-gray-100 py-10 '>
-					<div className='flex justify-center'>
-						<h1
-							className='titulo md:text-2xl text-xl font-bold text-blue-900 rounded-lg text-center leading-relaxed px-10 mb-8'
-							tabIndex={0}
-						>
-							{t('donate.paragraph-4')}
-						</h1>
-					</div>
-					<div className='flex md:flex-row flex-col justify-center md:space-x-6 md:space-y-0 space-y-6 mx-4 items-center '>
-						<div className='bg-white border-2 border-gray-300 rounded-lg py-8 px-10 max-w-md text-center'>
-							<h1 className='titulo md:text-xl text-lg text-blue-900 font-semibold'>
-								{t('donate.paragraph-option-2')}
-							</h1>
-							<div className='flex justify-center mt-8 mb-4'>
-								<a
-									href='https://www.paypal.com/donate/?hosted_button_id=5HNW3SQ27PUQJ'
-									target='_blank'
-									rel='noreferrer'
-								>
-									<button className='boton-paypal'>{t('reusable.donatePaypal')}</button>
-									<img
-										src={tarjetaspaypal}
-										alt={t('reusable.paypalCards')}
-										className='mt-2'
-									/>
-								</a>
-							</div>
-							<p>{t('donate.paragraph-option-2-1')}</p>
-						</div>
-						<div className='flex bg-white border-2 border-gray-300 rounded-lg py-8 px-10 max-w-1xl space-x-10'>
-							<div className='flex items-center'>
+				<section className='bg-gray-100 py-10 justify-center'>
+					<h1
+						className='titulo md:text-2xl text-xl font-bold text-blue-900 rounded-lg text-center leading-relaxed px-10 mb-8 flex justify-center'
+						tabIndex={0}
+					>
+						{t('donate.paragraph-4')}
+					</h1>
+					<div className='flex flex-col justify-center md:space-x-10'>
+						{/* Card Consignación  */}
+						<div className=' bg-white rounded-lg py-8 px-6 max-w-4xl shadow-md'>
+							<div className='flex md:flex-row flex-col items-center space-x-14 justify-center'>
 								<div>
-									<h1 className='titulo md:text-xl text-lg text-blue-900 font-semibold text-center'>
+									<h1 className='titulo md:text-xl text-lg text-blue-900 font-semibold text-center mb-2'>
 										{t('donate.paragraph-option-3')}
 									</h1>
 									<img
-										className='mx-auto py-2 object-cover w-44'
+										className='mx-auto py-2 object-cover w-44 mb-2'
 										src={logoBancolombia}
 										alt={t('donateAltText.img-2')}
 										tabIndex={0}
 									/>
 									<p className='text-center md:text-lg text-md'>
-										<span className='block'>
+										<span className='block mb-2'>
 											{t('donate.paragraph-option-3-1')}{' '}
 										</span>
-										<span className='block'>
+										<span className='block mb-2'>
 											{t('donate.paragraph-option-3-2')}{' '}
 										</span>
-										<span className='block'>
+										<span className='block mb-2'>
 											{t('donate.paragraph-option-3-3')}
 										</span>
 										<span>{t('donate.paragraph-option-3-4')}</span>
 									</p>
 								</div>
+								<div className='flex flex-col justify-center'>
+									<p className='text-center titulo md:text-xl text-lg text-blue-900 font-semibold'>
+										¡Dona aquí!
+									</p>
+									<p className='titulo'>Usando el código QR de Bancolombia</p>
+									<img
+										src={codigoQR}
+										alt='codigo QR Bancolombia'
+										className='rounded-md w-56 mx-auto mt-4'
+										tabIndex={0}
+									/>
+								</div>
 							</div>
-							<div className='flex flex-col justify-center'>
-								<p className='text-center titulo md:text-xl text-lg text-blue-900 font-semibold'>
-									¡Dona aquí!
+
+							<div>
+								<p className='titulo max-w-1xl mt-6'>
+									El código SWIFT es necesario para hacer transferencias desde
+									Bancos fuera de Colombia, corresponde al código internacional
+									del Banco (Bancolombia).
 								</p>
-								<p className='titulo'>Usando el código QR de Bancolombia</p>
-								<img
-									src={codigoQR}
-									alt='codigo QR Bancolombia'
-									className='rounded-md w-56 mx-auto mt-4'
-									tabIndex={0}
-								/>
 							</div>
 						</div>
+						{/* Fin Card Consignación  */}
+						{/* Card PayPal  */}
+						<div className='bg-white rounded-lg py-8 px-6 max-w-md text-center flex flex-col justify-around items-center shadow-md'>
+							<div>
+								<h1 className='titulo md:text-xl text-lg text-blue-900 font-semibold'>
+									{t('donate.paragraph-option-2')}
+								</h1>
+								<img
+									className='mx-auto py-2 object-cover w-36 mb-2'
+									src={logoPaypal}
+									alt='Logo PayPal'
+									tabIndex={0}
+								/>
+								<div className='flex justify-center mt-6 mb-4'>
+									<a
+										href='https://www.paypal.com/donate/?hosted_button_id=5HNW3SQ27PUQJ'
+										target='_blank'
+										rel='noreferrer'
+									>
+										<button className='boton-paypal'>
+											{t('reusable.donatePaypal')}
+										</button>
+										<img
+											src={tarjetaspaypal}
+											alt={t('reusable.paypalCards')}
+											className='mt-2'
+										/>
+									</a>
+								</div>
+							</div>
+							<div>
+								<p>{t('donate.paragraph-option-2-1')}</p>
+							</div>
+						</div>
+						{/* Fin Card PayPal  */}
 					</div>
 					<div className='titulo flex justify-center pt-5 md:text-lg text-sm leading-relaxed mx-4 text-center'>
 						<p>{t('donate.paragraph-5')}</p>{' '}
