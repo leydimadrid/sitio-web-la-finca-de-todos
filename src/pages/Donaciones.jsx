@@ -109,7 +109,7 @@ export const Donaciones = () => {
 					>
 						{t('donate.paragraph-4')}
 					</h1>
-					<div className='flex flex-col justify-center md:space-x-10'>
+					<div className='flex flex-col md:flex-row justify-center space-x-10'>
 						{/* Card Consignación  */}
 						<div className=' bg-white rounded-lg py-8 px-6 max-w-4xl shadow-md'>
 							<div className='flex md:flex-row flex-col items-center space-x-14 justify-center'>
