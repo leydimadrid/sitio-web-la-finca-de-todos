@@ -64,7 +64,7 @@ export const Donaciones = () => {
 				<section className='flex md:flex-row lg:flex-row flex-col items-center justify-center md:my-6 lg:my-6 my-0'>
 					{' '}
 					<img
-						className='w-auto h-auto m-4 md:mb-0 lg:mb-0'
+						className='w-auto h-auto m-4 md:mb-0 lg:mb-0 rounded-lg'
 						src={imagenDonaciones}
 						alt={t('donateAltText.img-1')}
 						tabIndex={0}
@@ -129,12 +129,12 @@ export const Donaciones = () => {
 								</div>
 								<div className='flex flex-col justify-center'>
 									<p className='text-center titulo md:text-xl text-lg text-blue-900 font-semibold mt-2' tabIndex={0}>
-										¡Dona aquí!
+									{t('donate.paragraph-option-4-1')}
 									</p>
-									<p className='titulo text-center mt-2 md:text-lg text-base' tabIndex={0}>Usando el código QR de Bancolombia</p>
+									<p className='titulo text-center mt-2 md:text-lg text-base' tabIndex={0}>{t('donate.paragraph-option-4-2')}</p>
 									<img
 										src={codigoQR}
-										alt='codigo QR Bancolombia'
+										alt={t('donateAltText.img-3')}
 										className='rounded-md w-56 mx-auto mt-4'
 										tabIndex={0}
 									/>
@@ -143,9 +143,7 @@ export const Donaciones = () => {
 
 							<div>
 								<p className='titulo max-w-1xl mt-6' tabIndex={0}>
-									El código SWIFT es necesario para hacer transferencias desde
-									Bancos fuera de Colombia, corresponde al código internacional
-									del Banco (Bancolombia).
+								{t('donate.paragraph-option-5')}
 								</p>
 							</div>
 						</div>
@@ -159,7 +157,7 @@ export const Donaciones = () => {
 								<img
 									className='mx-auto py-2 object-cover md:w-36 lg:w-36 w-32 mb-2'
 									src={logoPaypal}
-									alt='Logo PayPal'
+									alt={t('donateAltText.img-4')}
 									tabIndex={0}
 								/>
 								<div className='flex justify-center mt-6 mb-4'>

@@ -162,7 +162,7 @@ export const TalleresPedagogicos = () => {
 						<div>
 							{' '}
 							<img
-								className='p-4'
+								className='rounded-lg'
 								src={asistirTalleres}
 								alt={t('coursesAltText.img-1')}
 								tabIndex={0}

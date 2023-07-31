@@ -22,7 +22,7 @@ export const TalleresSostenibilidad = () => {
 						</div>
 					</div>
 					<img
-						className='md:w-auto w-full rounded-b-lg md:rounded-r-lg'
+						className='md:w-auto w-full rounded-lg md:rounded-lg'
 						src={imagen}
 						alt={t('workshopsAltText.card-6')}
 						tabIndex={0}

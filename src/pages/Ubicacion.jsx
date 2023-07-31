@@ -93,7 +93,7 @@ export const Ubicacion = () => {
 					<div className='md:m-1'>
 						{' '}
 						<img
-							className='p-4'
+							className='rounded-lg'
 							src={imagenUbicacion}
 							alt={t('locationAltText.img-1')}
 							tabIndex={0}
@@ -103,7 +103,7 @@ export const Ubicacion = () => {
 				<div className='flex flex-col md:flex-row  justify-center lg:flex-row lg:space-x-10 md:space-x-15 xl:space-x-40 m-4'>
 					<div className='shadow-lg'>
 						{' '}
-						<img src={mapaCali} alt={t('locationAltText.img-2')} tabIndex={0} />
+						<img src={mapaCali} alt={t('locationAltText.img-2')} tabIndex={0} className='rounded-lg' />
 					</div>
 					<div className='grid grid-cols-1 content-center'>
 						<div>

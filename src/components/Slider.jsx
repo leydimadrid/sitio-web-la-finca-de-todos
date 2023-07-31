@@ -11,35 +11,35 @@ export const Slider = () => {
   const [t] = useTranslation('global');
   return (
     <section className="flex justify-center">
-    <div className="slider pt-1 mt-10 md:w-3/5 md:h-3/5 m-4">
+    <div className="slider pt-1 mt-10 md:w-3/5 md:h-3/5 m-4 rounded-lg" >
           <ul>
             <li>
               {" "}
-              <img src={img1} alt={t('aboutUsSliderAltText.img-1')} tabIndex={0} />
+              <img src={img1} alt={t('aboutUsSliderAltText.img-1')} tabIndex={0} className="rounded-lg"/>
             </li>
             <li>
               {" "}
-              <img src={img2} alt={t('aboutUsSliderAltText.img-2')} tabIndex={0} />
+              <img src={img2} alt={t('aboutUsSliderAltText.img-2')} tabIndex={0} className="rounded-lg"/>
             </li>
             <li>
               {" "}
-              <img src={img3} alt={t('aboutUsSliderAltText.img-3')} tabIndex={0} />
+              <img src={img3} alt={t('aboutUsSliderAltText.img-3')} tabIndex={0} className="rounded-lg"/>
             </li>
             <li>
               {" "}
-              <img src={img4} alt={t('aboutUsSliderAltText.img-4')} tabIndex={0} />
+              <img src={img4} alt={t('aboutUsSliderAltText.img-4')} tabIndex={0} className="rounded-lg"/>
             </li>
             <li>
               {" "}
-              <img src={img5} alt={t('aboutUsSliderAltText.img-5')} tabIndex={0} />
+              <img src={img5} alt={t('aboutUsSliderAltText.img-5')} tabIndex={0} className="rounded-lg"/>
             </li>
             <li>
               {" "}
-              <img src={img6} alt={t('aboutUsSliderAltText.img-6')} tabIndex={0} />
+              <img src={img6} alt={t('aboutUsSliderAltText.img-6')} tabIndex={0} className="rounded-lg"/>
             </li>
             <li>
               {" "}
-              <img src={img7} alt={t('aboutUsSliderAltText.img-7')} tabIndex={0} />
+              <img src={img7} alt={t('aboutUsSliderAltText.img-7')} tabIndex={0} className="rounded-lg"/>
             </li>
           </ul>
         </div>

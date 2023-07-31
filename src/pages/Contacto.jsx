@@ -69,6 +69,7 @@ export const Contacto = () => {
 						src={imagenContacto}
 						alt={t('contactAltText.img-1')}
 						tabIndex={0}
+						className='rounded-r-lg'
 					/>
 				</div>
 				<div className='md:w-2/6 lg:w-2/6 w-full h-2/6 p-8'>
