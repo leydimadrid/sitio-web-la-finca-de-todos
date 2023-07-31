@@ -13,7 +13,7 @@ export const Donaciones = () => {
 		<div>
 			{/* Inicio Modificador de texto  */}
 			<div className='flex justify-end'>
-				<div className='fixed md:m-4 lg:m-4 m-2 z-10'>
+				<div className='fixed md:m-4 lg:m-4 m-2 z-10 lg:mt-12 xl:m-4'>
 					<FontSizeChanger
 						targets={['#contenedor .titulo']}
 						onChange={(element, newValue, oldValue) => {
@@ -61,7 +61,7 @@ export const Donaciones = () => {
 			</div>
 			{/* Fin Modificador de texto */}
 			<section id='contenedor'>
-				<section className='flex md:flex-row lg:flex-row flex-col items-center justify-center md:my-6 lg:my-6 my-0'>
+				<section className='flex md:flex-col lg:flex-col xl:flex-row flex-col items-center justify-center md:my-6 lg:mt-10 my-0 gap-y-6 gap-x-10 mx-4'>
 					{' '}
 					<img
 						className='w-auto h-auto m-4 md:mb-0 lg:mb-0 rounded-lg'
@@ -69,20 +69,26 @@ export const Donaciones = () => {
 						alt={t('donateAltText.img-1')}
 						tabIndex={0}
 					/>
-					<div className='fondoDonaciones bg-cover bg-no-repeat md:py-36 md:px-24 px-6 justify-center flex md:flex-col flex-col max-w-full'>
-						<div className='fondoCardDonaciones bg-no-repeat md:max-w-2xl bg-blue-900 md:py-14 py-8 px-6 rounded-lg shadow-lg text-white' tabIndex={0}>
-							<p className='titulo max-w-xs md:text-3xl text-lg font-bold mb-6' tabIndex={0}>
+					<div className='fondoDonaciones bg-cover bg-no-repeat justify-center flex md:flex-col flex-col max-w-full'>
+						<div
+							className='fondoCardDonaciones bg-no-repeat md:max-w-2xl bg-blue-900 md:py-14 py-8 px-6 rounded-lg shadow-lg text-white'
+							tabIndex={0}
+						>
+							<p className='titulo max-w-xs md:text-3xl text-lg font-bold mb-6'>
 								{t('donate.paragraph-2')}
 							</p>
-							<p className='titulo md:text-lg text-md leading-relaxed max-w-lg text-left' tabIndex={0}>
+							<p className='titulo md:text-lg text-md leading-relaxed max-w-lg text-left'>
 								{t('donate.paragraph-2-1')}
-								<p className='titulo md:text-lg text-md leading-relaxed max-w-lg text-left' tabIndex={0}>
+								<p className='titulo md:text-lg text-md leading-relaxed max-w-lg text-left'>
 									{t('donate.paragraph-2-1-2')}
 								</p>
 							</p>
 						</div>
 						<div className='flex justify-center items-center mt-6 mb-6'>
-							<p className='titulo md:text-lg text-md leading-relaxed max-w-md text-center' tabIndex={0}>
+							<p
+								className='titulo md:text-lg text-md leading-relaxed max-w-md text-center'
+								tabIndex={0}
+							>
 								{t('donate.paragraph-3')}
 								<span className='text-blue-900 font-semibold'>
 									{t('reusable.logo')}
@@ -100,12 +106,15 @@ export const Donaciones = () => {
 					>
 						{t('donate.paragraph-4')}
 					</h1>
-					<div className='flex flex-col md:flex-row justify-center gap-y-6 gap-x-10'>
+					<div className='flex flex-col md:flex-row justify-center gap-y-6 gap-x-10 md:mx-6 lg:mx-6 mx-0'>
 						{/* Card Consignación  */}
 						<div className=' bg-white rounded-lg py-8 px-6 md:max-w-4xl lg:max-w-4xl mx-6 md:mx-0 lg:mx-0 shadow-md'>
 							<div className='flex md:flex-row flex-col items-center gap-x-12 justify-center'>
 								<div>
-									<h1 className='titulo md:text-xl text-lg text-blue-900 font-semibold text-center mb-2' tabIndex={0}>
+									<h1
+										className='titulo md:text-xl text-lg text-blue-900 font-semibold text-center mb-2'
+										tabIndex={0}
+									>
 										{t('donate.paragraph-option-3')}
 									</h1>
 									<img
@@ -115,23 +124,27 @@ export const Donaciones = () => {
 										tabIndex={0}
 									/>
 									<p className='text-center md:text-lg text-base' tabIndex={0}>
-										<span className='block mb-2' tabIndex={0}>
+										<span className='block mb-2'>
 											{t('donate.paragraph-option-3-1')}{' '}
 										</span>
-										<span className='block mb-2' tabIndex={0}>
+										<span className='block mb-2'>
 											{t('donate.paragraph-option-3-2')}{' '}
 										</span>
-										<span className='block mb-2' tabIndex={0}>
+										<span className='block mb-2'>
 											{t('donate.paragraph-option-3-3')}
 										</span>
-										<span tabIndex={0}>{t('donate.paragraph-option-3-4')}</span>
+										<span>{t('donate.paragraph-option-3-4')}</span>
 									</p>
 								</div>
 								<div className='flex flex-col justify-center'>
-									<p className='text-center titulo md:text-xl text-lg text-blue-900 font-semibold mt-2' tabIndex={0}>
-									{t('donate.paragraph-option-4-1')}
-									</p>
-									<p className='titulo text-center mt-2 md:text-lg text-base' tabIndex={0}>{t('donate.paragraph-option-4-2')}</p>
+									<div tabIndex={0}>
+										<p className='text-center titulo md:text-xl text-lg text-blue-900 font-semibold mt-2'>
+											{t('donate.paragraph-option-4-1')}
+										</p>
+										<p className='titulo text-center mt-2 md:text-lg text-base'>
+											{t('donate.paragraph-option-4-2')}
+										</p>
+									</div>
 									<img
 										src={codigoQR}
 										alt={t('donateAltText.img-3')}
@@ -143,23 +156,24 @@ export const Donaciones = () => {
 
 							<div>
 								<p className='titulo max-w-1xl mt-6' tabIndex={0}>
-								{t('donate.paragraph-option-5')}
+									{t('donate.paragraph-option-5')}
 								</p>
 							</div>
 						</div>
 						{/* Fin Card Consignación  */}
 						{/* Card PayPal  */}
-						<div className='bg-white rounded-lg py-8 px-6 max-w-md text-center flex flex-col justify-around items-center shadow-md md:mx-0 lg:mx-0 mx-6 '>
+						<div className='bg-white rounded-lg py-8 px-6 md:max-w-md text-center flex flex-col justify-around items-center shadow-md md:mx-0 lg:mx-0 mx-6 '>
 							<div>
-								<h1 className='titulo md:text-xl text-lg text-blue-900 font-semibold' tabIndex={0}>
-									{t('donate.paragraph-option-2')}
-								</h1>
-								<img
-									className='mx-auto py-2 object-cover md:w-36 lg:w-36 w-32 mb-2'
-									src={logoPaypal}
-									alt={t('donateAltText.img-4')}
-									tabIndex={0}
-								/>
+								<div tabIndex={0}>
+									<h1 className='titulo md:text-xl text-lg text-blue-900 font-semibold'>
+										{t('donate.paragraph-option-2')}
+									</h1>
+									<img
+										className='mx-auto py-2 object-cover md:w-36 lg:w-36 w-32 mb-2'
+										src={logoPaypal}
+										alt={t('donateAltText.img-4')}
+									/>
+								</div>
 								<div className='flex justify-center mt-6 mb-4'>
 									<a
 										href='https://www.paypal.com/donate/?hosted_button_id=5HNW3SQ27PUQJ'
@@ -185,34 +199,28 @@ export const Donaciones = () => {
 						{/* Fin Card PayPal  */}
 					</div>
 					<div className='titulo flex justify-center pt-5 md:text-lg text-sm leading-relaxed mx-4 text-center'>
-						<p>{t('donate.paragraph-5')}</p>{' '}
+						<p tabIndex={0}>{t('donate.paragraph-5')}</p>{' '}
 					</div>
 				</section>
 				<section className='fondoDonaciones2 bg-cover bg-no-repeat'>
-					<div className='flex flex-col md:flex-row justify-center lg:flex-row py-10 px-4 md:space-x-40 lg:space-x-6'>
+					<div className='flex flex-col md:flex-row lg:flex-col xl:flex-row justify-center py-10 px-4 md:space-x-40 lg:space-x-6'>
 						{' '}
 						<img
 							src={imagenDonaciones2}
-							alt={t('donateAltText.img-3')}
+							alt={t('donateAltText.img-5')}
 							tabIndex={0}
-							className="rounded-lg"
+							className='rounded-lg'
 						/>
 						<div className='grid grid-cols-1 content-center'>
-							<div className='flex flex-col'>
+							<div className='flex flex-col mt-2' tabIndex={0}>
 								<div className='flex justify-center mb-4 mt-4'>
-									<p
-										className='colorTextoDonaciones titulo font-bold md:text-5xl lg:text-4xl text-2xl text-center'
-										tabIndex={0}
-									>
+									<p className='colorTextoDonaciones titulo font-bold md:text-5xl lg:text-4xl text-2xl text-center'>
 										{t('donate.paragraph-6')}
 									</p>
 								</div>
 								<div className='flex justify-center'>
-									{/* <p className='titulo font-bold md:text-3xl text-lg text-center leading-relaxed md:mb-1'>
+									<p className='titulo font-normal md:text-2xl text-md md:max-w-xl lg:max-w-xl max-w-xs text-center leading-relaxed'>
 										{t('donate.paragraph-1')}
-									</p> */}
-									<p className='titulo font-normal md:text-2xl text-md md:max-w-xl lg:max-w-xl max-w-xs text-center leading-relaxed' tabIndex={0}>
-										{t('donate.paragraph-1')} {t('donate.paragraph-1-1')}
 									</p>
 								</div>
 							</div>
