@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import imagen from '../assets/images/talleres-el-campo.jpg';
+import imagen from '../assets/images/talleres-el-campo.webp';
 import { useTranslation } from 'react-i18next';
 
 export const TalleresElCampo = () => {

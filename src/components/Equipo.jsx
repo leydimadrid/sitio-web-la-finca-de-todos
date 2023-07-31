@@ -1,5 +1,5 @@
-import equipo1 from '../assets/images/equipo1.jpg';
-import equipo2 from '../assets/images/equipo2.jpg';
+import equipo1 from '../assets/images/equipo1.webp';
+import equipo2 from '../assets/images/equipo2.webp';
 import { useTranslation } from 'react-i18next';
 
 export const Equipo = () => {

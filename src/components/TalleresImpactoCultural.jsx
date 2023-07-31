@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import imagen from '../assets/images/talleres-impacto-cultural.jpg';
+import imagen from '../assets/images/talleres-impacto-cultural.webp';
 import { useTranslation } from 'react-i18next';
 
 export const TalleresImpactoCultural = () => {

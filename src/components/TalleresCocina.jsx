@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import imagen from '../assets/images/talleres-cocina.jpg';
+import imagen from '../assets/images/talleres-cocina.webp';
 import { useTranslation } from 'react-i18next';
 
 export const TalleresCocina = () => {

@@ -1,5 +1,5 @@
-import imagenUbicacion from '../assets/images/imagen-ubicacion.jpg';
-import mapaCali from '../assets/images/ubicacion-mapa-cali.jpg';
+import imagenUbicacion from '../assets/images/imagen-ubicacion.webp';
+import mapaCali from '../assets/images/ubicacion-mapa-cali.webp';
 import FontSizeChanger from 'react-font-size-changer';
 import Logo from '../assets/images/logo.svg';
 import { useTranslation } from 'react-i18next';

@@ -1,5 +1,5 @@
 import { InfografiaPasaDia } from '../components/InfografiaPasaDia';
-import asistirTalleres from '../assets/images/imagen-asistir-talleres.jpg';
+import asistirTalleres from '../assets/images/imagen-asistir-talleres.webp';
 import { BotonContactenos } from '../components/BotonContactenos';
 import FontSizeChanger from 'react-font-size-changer';
 import { useTranslation } from 'react-i18next';

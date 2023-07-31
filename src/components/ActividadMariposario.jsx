@@ -1,7 +1,7 @@
 import ReactCardFlip from "react-card-flip";
 import { useState } from "react";
-import imagen1 from "../assets/images/actividades-mariposario.jpg";
-import imagen2 from "../assets/images/actividades-mariposario-2.jpg";
+import imagen1 from "../assets/images/actividades-mariposario.webp";
+import imagen2 from "../assets/images/actividades-mariposario-2.webp";
 import { useTranslation } from 'react-i18next';
 
 export const ActividadMariposario = () => {

@@ -1,4 +1,4 @@
-import imagen from '../assets/images/bienvenidos-animales.jpg';
+import imagen from '../assets/images/bienvenidos-animales.webp';
 import { useTranslation } from 'react-i18next';
 
 export const AccesibilidadAnimales = () => {

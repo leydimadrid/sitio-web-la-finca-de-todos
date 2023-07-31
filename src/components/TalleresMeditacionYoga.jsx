@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import imagen from '../assets/images/talleres-meditacion-y-yoga.jpg';
+import imagen from '../assets/images/talleres-meditacion-y-yoga.webp';
 import { useTranslation } from 'react-i18next';
 
 export const TalleresMeditacionYoga = () => {

@@ -1,4 +1,4 @@
-import imagen from '../assets/images/senalizacion-clara.jpg';
+import imagen from '../assets/images/senalizacion-clara.webp';
 import { useTranslation } from 'react-i18next';
 
 export const AccesibilidadSeñalizacion = () => {

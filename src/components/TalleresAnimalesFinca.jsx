@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import imagen from '../assets/images/talleres-animales.jpg';
+import imagen from '../assets/images/talleres-animales.webp';
 import { useTranslation } from 'react-i18next';
 
 export const TalleresAnimalesFinca = () => {

@@ -1,7 +1,7 @@
 import ReactCardFlip from 'react-card-flip';
 import { useState } from 'react';
-import imagen1 from '../assets/images/actividades-invernadero.jpg';
-import imagen2 from '../assets/images/actividades-invernadero-2.jpg';
+import imagen1 from '../assets/images/actividades-invernadero.webp';
+import imagen2 from '../assets/images/actividades-invernadero-2.webp';
 import { useTranslation } from 'react-i18next';
 
 export const ActividadInvernadero = () => {

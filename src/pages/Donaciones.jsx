@@ -1,11 +1,11 @@
-import imagenDonaciones from '../assets/images/imagen-donaciones.jpg';
-import imagenDonaciones2 from '../assets/images/imagenDonaciones2.jpg';
-import logoBancolombia from '../assets/images/Logo_Bancolombia.png';
-import logoPaypal from '../assets/images/logo-paypal.png';
+import imagenDonaciones from '../assets/images/imagen-donaciones.webp';
+import imagenDonaciones2 from '../assets/images/imagenDonaciones2.webp';
+import logoBancolombia from '../assets/images/Logo_Bancolombia.webp';
+import logoPaypal from '../assets/images/logo-paypal.webp';
 import FontSizeChanger from 'react-font-size-changer';
 import { useTranslation } from 'react-i18next';
-import tarjetaspaypal from '../assets/images/tarjetas-paypal.png';
-import codigoQR from '../assets/images/codigo-qr.jpeg';
+import tarjetaspaypal from '../assets/images/tarjetas-paypal.webp';
+import codigoQR from '../assets/images/codigo-qr.webp';
 
 export const Donaciones = () => {
 	const [t] = useTranslation('global');

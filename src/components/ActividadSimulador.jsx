@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import ReactCardFlip from 'react-card-flip';
 import { useState } from 'react';
-import imagen1 from '../assets/images/actividades-simulador.jpg';
-import imagen2 from '../assets/images/actividades-simulador-2.jpg';
+import imagen1 from '../assets/images/actividades-simulador.webp';
+import imagen2 from '../assets/images/actividades-simulador-2.webp';
 import { useTranslation } from 'react-i18next';
 
 export const ActividadSimulador = () => {

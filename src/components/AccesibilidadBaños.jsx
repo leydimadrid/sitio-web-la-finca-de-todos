@@ -1,4 +1,4 @@
-import imagen from '../assets/images/baños.jpg';
+import imagen from '../assets/images/baños.webp';
 import { useTranslation } from 'react-i18next';
 
 export const AccesibilidadBaños = () => {

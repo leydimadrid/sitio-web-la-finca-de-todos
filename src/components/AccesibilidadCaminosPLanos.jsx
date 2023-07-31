@@ -1,4 +1,4 @@
-import imagen from '../assets/images/caminos-planos.jpg';
+import imagen from '../assets/images/caminos-planos.webp';
 import { useTranslation } from 'react-i18next';
 
 export const AccesibilidadCaminosPLanos = () => {

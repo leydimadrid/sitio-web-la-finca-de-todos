@@ -1,4 +1,4 @@
-import imagen from '../assets/images/lengua-de-senas.jpg';
+import imagen from '../assets/images/lengua-de-senas.webp';
 import { useTranslation } from 'react-i18next';
 
 export const AccesibilidadLenguaDeSeñas = () => {

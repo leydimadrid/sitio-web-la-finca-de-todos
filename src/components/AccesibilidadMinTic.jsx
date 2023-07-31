@@ -1,4 +1,4 @@
-import imagen from '../assets/images/wifi-mintic.jpg';
+import imagen from '../assets/images/wifi-mintic.webp';
 import { useTranslation } from 'react-i18next';
 
 export const AccesibilidadMinTic = () => {

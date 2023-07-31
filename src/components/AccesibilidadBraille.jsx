@@ -1,4 +1,4 @@
-import imagen from '../assets/images/braille.jpg';
+import imagen from '../assets/images/braille.webp';
 import { useTranslation } from 'react-i18next';
 
 export const AccesibilidadBraille = () => {

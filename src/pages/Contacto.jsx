@@ -1,4 +1,4 @@
-import imagenContacto from '../assets/images/imagen-contacto.jpg';
+import imagenContacto from '../assets/images/imagen-contacto.webp';
 import iconowhatsapp from '../assets/images/icono-whatsapp.svg';
 import iconoinstagram from '../assets/images/icono-instagram.svg';
 import iconofacebook from '../assets/images/icono-facebook.svg';

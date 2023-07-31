@@ -1,4 +1,4 @@
-import imagen from '../assets/images/bucle-auditivo.jpg';
+import imagen from '../assets/images/bucle-auditivo.webp';
 import { useTranslation } from 'react-i18next';
 
 export const AccesibilidadBucleAuditivo = () => {

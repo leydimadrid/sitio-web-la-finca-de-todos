@@ -3,6 +3,10 @@
 @import "tailwindcss/utilities";
 @import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
 
+
+body {
+  font-display: swap;
+}
 header {
   z-index: 1000;
 }

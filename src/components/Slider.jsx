@@ -1,10 +1,10 @@
-import img1 from "../assets/images/img1.jpg";
-import img2 from "../assets/images/img2.jpg";
-import img3 from "../assets/images/img3.jpg";
-import img4 from "../assets/images/img4.jpg";
-import img5 from "../assets/images/img5.jpg";
-import img6 from "../assets/images/img6.jpg";
-import img7 from "../assets/images/img7.jpg";
+import img1 from "../assets/images/slider-img1.webp";
+import img2 from "../assets/images/slider-img2.webp";
+import img3 from "../assets/images/slider-img3.webp";
+import img4 from "../assets/images/slider-img4.webp";
+import img5 from "../assets/images/slider-img5.webp";
+import img6 from "../assets/images/slider-img6.webp";
+import img7 from "../assets/images/slider-img7.webp";
 import { useTranslation } from 'react-i18next';
 
 export const Slider = () => {
