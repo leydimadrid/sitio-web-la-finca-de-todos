@@ -79,21 +79,21 @@ export const Donaciones = () => {
 							</p>
 							<p className='titulo md:text-lg text-md leading-relaxed max-w-lg text-left'>
 								{t('donate.paragraph-2-1')}
-								<p className='titulo md:text-lg text-md leading-relaxed max-w-lg text-left'>
-									{t('donate.paragraph-2-1-2')}
-								</p>
+							</p>
+							<p className='titulo md:text-lg text-md leading-relaxed max-w-lg text-left'>
+								{t('donate.paragraph-2-1-2')}
 							</p>
 						</div>
-						<div className='flex justify-center items-center mt-6 mb-6'>
+						<div className='flex justify-center mt-6 mb-6'>
 							<p
-								className='titulo md:text-lg text-md leading-relaxed md:max-w-lg lg:max-w-lg text-center break-normal'
+								className='titulo md:text-lg text-md leading-relaxed md:max-w-lg lg:max-w-lg text-center '
 								tabIndex={0}
 							>
 								{t('donate.paragraph-3')}
 								<span className='text-blue-900 font-semibold'>
 									{t('reusable.logo')}
 								</span>{' '}
-								{t('donate.paragraph-3-1')}
+								<p>{t('donate.paragraph-3-1')}</p>
 							</p>
 						</div>
 					</div>
@@ -123,7 +123,7 @@ export const Donaciones = () => {
 										alt={t('donateAltText.img-2')}
 										tabIndex={0}
 									/>
-									<p className='text-center md:text-lg text-base' tabIndex={0}>
+									<p className='titulo text-center md:text-lg text-base' tabIndex={0}>
 										<span className='block mb-2'>
 											{t('donate.paragraph-option-3-1')}{' '}
 										</span>
@@ -180,7 +180,7 @@ export const Donaciones = () => {
 										target='_blank'
 										rel='noreferrer'
 									>
-										<button className='boton-paypal' tabIndex={0}>
+										<button className='titulo boton-paypal' tabIndex={0}>
 											{t('reusable.donatePaypal')}
 										</button>
 										<img
@@ -193,7 +193,7 @@ export const Donaciones = () => {
 								</div>
 							</div>
 							<div>
-								<p tabIndex={0}>{t('donate.paragraph-option-2-1')}</p>
+								<p className="titulo" tabIndex={0}>{t('donate.paragraph-option-2-1')}</p>
 							</div>
 						</div>
 						{/* Fin Card PayPal  */}
