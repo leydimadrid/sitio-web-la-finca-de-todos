@@ -123,7 +123,10 @@ export const Donaciones = () => {
 										alt={t('donateAltText.img-2')}
 										tabIndex={0}
 									/>
-									<p className='titulo text-center md:text-lg text-base' tabIndex={0}>
+									<p
+										className='titulo text-center md:text-lg text-base'
+										tabIndex={0}
+									>
 										<span className='block mb-2'>
 											{t('donate.paragraph-option-3-1')}{' '}
 										</span>
@@ -193,13 +196,25 @@ export const Donaciones = () => {
 								</div>
 							</div>
 							<div>
-								<p className="titulo" tabIndex={0}>{t('donate.paragraph-option-2-1')}</p>
+								<p className='titulo' tabIndex={0}>
+									{t('donate.paragraph-option-2-1')}
+								</p>
 							</div>
 						</div>
 						{/* Fin Card PayPal  */}
 					</div>
 					<div className='titulo flex justify-center pt-5 md:text-lg text-sm leading-relaxed mx-4 text-center'>
-						<p tabIndex={0}>{t('donate.paragraph-5')}</p>{' '}
+						<p tabIndex={0}>
+							{t('donate.paragraph-5')}
+							<a
+								href='mailto:finca.todos@gmail.com'
+								target='_blank'
+								rel='noreferrer'
+								className="text-blue-900 font-medium underline"
+							>
+								finca.todos@gmail.com
+							</a>
+						</p>{' '}
 					</div>
 				</section>
 				<section className='fondoDonaciones2 bg-cover bg-no-repeat'>
