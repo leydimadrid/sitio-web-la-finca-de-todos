@@ -15,7 +15,6 @@
 		"watch": "Watch",
 		"paypalCards": "PayPal cards",
 		"donatePaypal": "Donate"
-
 	},
 
 	"navbar": {
@@ -211,10 +210,10 @@
 	},
 
 	"donate": {
-		"paragraph-1": "Your support is indispensable to creating the world of equality in which we want to live.",
-		"paragraph-2": "Donate today and be part of history!",
-		"paragraph-2-1": "100% of your contribution will go to building the first fully accessible space in nature for people with disabilities in Colombia.",
-		"paragraph-2-1-2": "With your one-time or monthly contribution, you are helping to carry out our mission.",
+		"paragraph-1": "Your support is indispensable to creating an inclusive world we all want to live in.",
+		"paragraph-2": "Donate today and be a part of history!",
+		"paragraph-2-1": "100% of your donation will go toward building the first fully accessible space in nature for people with disabilities in Colombia.",
+		"paragraph-2-1-2": "With your one-time or monthly contribution,  you are helping us carry out  our mission.",
 		"paragraph-3": "Foundation",
 		"paragraph-3-1": " is a non-profit organization, NIT 901707795 ",
 		"paragraph-4": "How do you want to make your donation?",
@@ -228,7 +227,7 @@
 		"paragraph-option-4-1": "Donate here",
 		"paragraph-option-4-2": "Using Bancolombia's QR code",
 		"paragraph-option-5": "The SWIFT code is necessary to make transfers from banks outside Colombia, it corresponds to the international code of the bank (Bancolombia).",
-		"paragraph-5": "Request your tax-deductible receipt or information about other options to donate by email finca.todos@gmail.com",
+		"paragraph-5": "Request your tax-deductible receipt or information about other options to donate by email at finca.todos@gmail.com",
 		"paragraph-6": "Thank you for your donation!"
 	},
 

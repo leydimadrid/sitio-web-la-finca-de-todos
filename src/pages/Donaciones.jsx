@@ -86,7 +86,7 @@ export const Donaciones = () => {
 						</div>
 						<div className='flex justify-center items-center mt-6 mb-6'>
 							<p
-								className='titulo md:text-lg text-md leading-relaxed max-w-md text-center'
+								className='titulo md:text-lg text-md leading-relaxed md:max-w-lg lg:max-w-lg text-center break-normal'
 								tabIndex={0}
 							>
 								{t('donate.paragraph-3')}
